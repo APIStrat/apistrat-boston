@@ -42,8 +42,6 @@ title: APIStrat Boston 2016
 <div id="tile_speakers" class="container widget">
 
   <h2>Speakers</h2>
-  <!--<a href="/speakers/" class="btn btn-primary btn-header pull-right hidden-xs">View all speakers</a>-->
-  <h3>Here are the first keynotes announced -- many more to come, so say tuned!</h3>
   <div class="speakers">
     <div class="carousel-inner">
        <div class="item active">
@@ -67,23 +65,10 @@ title: APIStrat Boston 2016
 
   </div>
 
-  <!--
-  <div class="text-center visible-xs">
-   <a href="/speakers/" class="btn btn-primary btn-header">View all speakers</a>
-  </div>
-  -->
-
 </div>
 
 <!-- SPONSORS -->
 <div id="tile_sponsors" class="container widget">
-
-  <!--
-  <h2>Sponsors</h2>
-  <a href="#" class="btn btn-primary btn-header pull-right hidden-xs">Sponsors</a>
-  <h3>Thank you to our kind sponsors!</h3>
-  <br/>
-  -->
 
   <h3 class="sponsor"><span>Sponsors</span></h3>
   <div class="sponsors sponsors-lg">
@@ -118,75 +103,29 @@ title: APIStrat Boston 2016
 
   </div>
 
-  <!--<div class="text-center visible-xs">
-    <a href="" class="btn btn-primary btn-header">Sponsors</a>
-  </div>-->
-
 </div>
 
-<!-- LATEST NEWS -->
+<!-- Tweets -->
 <div class="container widget">
-<h2>Latest APIStrat News</h2>
-<a href="/blog/" class="btn btn-primary btn-header pull-right hidden-xs">View all posts</a>
-<h3></h3>
-<div class="articles carousel slide" data-ride="carousel" data-interval="false" id="articles-carousel">
 
-    <!-- Wrapper for slides -->
-	  <div class="carousel-inner">
-	     <div class="item active">
-
-         {% for post in site.posts limit:3 %}
-	        <article>
-	           <div class="image">
-	              <a href="{{ post.url }}" class="text-fit">
-                  <span class="date">
-    		            <span class="month">{{ post.date | date:"%m" }}</span>
-    		            <span class="day">{{ post.date | date:"%d" }}</span>
-    		            <span class="year">{{ post.date | date:"%Y" }}</span>
-    			      	</span>
-  	              <img width="238" height="236" src="{{ post.image }}" class="attachment-tyler-blog-home wp-post-image" alt="{{ post.title }}" />	                       </a>
-	            </div>
-	            <div class="post-content">
-	               <a href="{{ post.url }}" class="text-fit">
-	                  <strong class="heading">{{ post.title }}</strong>
-	                  <span class="perex">
-                      {{ post.content | split:'<!--break-->' |  first | strip_html  }}
-      						    {% if post.content contains '<!--break-->' %}
-      						       <a href="{{ post.url }}">read more >></a>
-      						    {% endif %}
-                    </span>
-	                </a>
-	            </div>
-	          </article>
-            {% endfor %}
-
-	        </div>
-	      </div>
-      </div>
-	  </div>
-	</div>
-
-  <!-- Tweets -->
-  <div class="container widget">
-
-    <h2>Tweets About Previous @APIStrat Events</h2>
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr>
-          <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Thanks <a href="https://twitter.com/apistrat">@apistrat</a> <a href="https://twitter.com/APIdaysGlobal">@APIdaysGlobal</a> <a href="https://twitter.com/APIdaysGlobal">@APIdaysGlobal</a> <a href="https://twitter.com/kinlane">@kinlane</a> for a great conference. Looking forward to a next edition</p>&mdash; Menno Abbink (@mennoabbink) <a href="https://twitter.com/mennoabbink/status/592409958530056193">April 26, 2015</a></blockquote></td>
-          <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Another thing that <a href="https://twitter.com/apistrat">@apistrat</a> and <a href="https://twitter.com/APIDaysBerlin">@APIDaysBerlin</a> got right at this weeks conference was having womens sizes for T-Shirts, thanks for that!</p>&mdash; Mandy Waite (@tekgrrl) <a href="https://twitter.com/tekgrrl/status/592396238793900032">April 26, 2015</a></blockquote></td>
-        </tr>
-        <tr>
-          <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Another tremendous conference put on by <a href="https://twitter.com/kinlane">@kinlane</a> and Steve. Thank you guys for an amazing <a href="https://twitter.com/apistrat">@apistrat</a> 2014 <a href="https://twitter.com/hashtag/chicago?src=hash">#chicago</a></p>&mdash; Mike Stowe (@mikegstowe) <a href="https://twitter.com/mikegstowe/status/515639979742359552">September 26, 2014</a></blockquote></td>
-          <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Back in London after an awesome <a href="https://twitter.com/apistrat">@apistrat</a>. Congrats and thank you to <a href="https://twitter.com/njyx">@njyx</a>, <a href="https://twitter.com/kinlane">@kinlane</a>, the <a href="https://twitter.com/3scale">@3scale</a> team and everyone who joined! <a href="https://twitter.com/hashtag/apistratAMS?src=hash">#apistratAMS</a></p>&mdash; Romain Huet (@romainhuet) <a href="https://twitter.com/romainhuet/status/450321112304730113">March 30, 2014</a></blockquote></td>
-        </tr>
-        <tr>
-          <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Great week at <a href="https://twitter.com/apistrat">@apistrat</a>, learned a lot and met very interesting people ! Thank you all :)</p>&mdash; Antoine Jackson (@willjcksn) <a href="https://twitter.com/willjcksn/status/449650529111904256">March 28, 2014</a></blockquote></td>
-          <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr"><a href="https://twitter.com/apistrat">@apistrat</a> <a href="https://twitter.com/kinlane">@kinlane</a> it was an awesome conference, so glad to attend! Thank you!</p>&mdash; Christina Green (@gueritaverde) <a href="https://twitter.com/gueritaverde/status/305081239407312896">February 22, 2013</a></blockquote></td>
-        </tr>
-        <tr>
-          <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Just back to SF! Had amazing days with smart people and awesome APIs at <a href="https://twitter.com/apistrat">@apistrat</a> - Thank you <a href="https://twitter.com/kinlane">@kinlane</a> &amp; <a href="https://twitter.com/njyx">@njyx</a> to make it happen.</p>&mdash; Augusto Marietti (@sinzone) <a href="https://twitter.com/sinzone/status/306248717726519296">February 26, 2013</a></blockquote></td>
-          <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Indeed, great content and speakers. RT <a href="https://twitter.com/gueritaverde">@gueritaverde</a>: <a href="https://twitter.com/apistrat">@apistrat</a> <a href="https://twitter.com/kinlane">@kinlane</a> it was an awesome conference, so glad to attend! Thank you!&quot;</p>&mdash; Dave Goldberg (@davidgoldberg) <a href="https://twitter.com/davidgoldberg/status/305285437428203520">February 23, 2013</a></blockquote></td>
-        </tr>
-      </table>
-      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
+  <h2>Tweets About Previous @APIStrat Events</h2>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Thanks <a href="https://twitter.com/apistrat">@apistrat</a> <a href="https://twitter.com/APIdaysGlobal">@APIdaysGlobal</a> <a href="https://twitter.com/APIdaysGlobal">@APIdaysGlobal</a> <a href="https://twitter.com/kinlane">@kinlane</a> for a great conference. Looking forward to a next edition</p>&mdash; Menno Abbink (@mennoabbink) <a href="https://twitter.com/mennoabbink/status/592409958530056193">April 26, 2015</a></blockquote></td>
+        <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Another thing that <a href="https://twitter.com/apistrat">@apistrat</a> and <a href="https://twitter.com/APIDaysBerlin">@APIDaysBerlin</a> got right at this weeks conference was having womens sizes for T-Shirts, thanks for that!</p>&mdash; Mandy Waite (@tekgrrl) <a href="https://twitter.com/tekgrrl/status/592396238793900032">April 26, 2015</a></blockquote></td>
+      </tr>
+      <tr>
+        <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Another tremendous conference put on by <a href="https://twitter.com/kinlane">@kinlane</a> and Steve. Thank you guys for an amazing <a href="https://twitter.com/apistrat">@apistrat</a> 2014 <a href="https://twitter.com/hashtag/chicago?src=hash">#chicago</a></p>&mdash; Mike Stowe (@mikegstowe) <a href="https://twitter.com/mikegstowe/status/515639979742359552">September 26, 2014</a></blockquote></td>
+        <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Back in London after an awesome <a href="https://twitter.com/apistrat">@apistrat</a>. Congrats and thank you to <a href="https://twitter.com/njyx">@njyx</a>, <a href="https://twitter.com/kinlane">@kinlane</a>, the <a href="https://twitter.com/3scale">@3scale</a> team and everyone who joined! <a href="https://twitter.com/hashtag/apistratAMS?src=hash">#apistratAMS</a></p>&mdash; Romain Huet (@romainhuet) <a href="https://twitter.com/romainhuet/status/450321112304730113">March 30, 2014</a></blockquote></td>
+      </tr>
+      <tr>
+        <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Great week at <a href="https://twitter.com/apistrat">@apistrat</a>, learned a lot and met very interesting people ! Thank you all :)</p>&mdash; Antoine Jackson (@willjcksn) <a href="https://twitter.com/willjcksn/status/449650529111904256">March 28, 2014</a></blockquote></td>
+        <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr"><a href="https://twitter.com/apistrat">@apistrat</a> <a href="https://twitter.com/kinlane">@kinlane</a> it was an awesome conference, so glad to attend! Thank you!</p>&mdash; Christina Green (@gueritaverde) <a href="https://twitter.com/gueritaverde/status/305081239407312896">February 22, 2013</a></blockquote></td>
+      </tr>
+      <tr>
+        <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Just back to SF! Had amazing days with smart people and awesome APIs at <a href="https://twitter.com/apistrat">@apistrat</a> - Thank you <a href="https://twitter.com/kinlane">@kinlane</a> &amp; <a href="https://twitter.com/njyx">@njyx</a> to make it happen.</p>&mdash; Augusto Marietti (@sinzone) <a href="https://twitter.com/sinzone/status/306248717726519296">February 26, 2013</a></blockquote></td>
+        <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Indeed, great content and speakers. RT <a href="https://twitter.com/gueritaverde">@gueritaverde</a>: <a href="https://twitter.com/apistrat">@apistrat</a> <a href="https://twitter.com/kinlane">@kinlane</a> it was an awesome conference, so glad to attend! Thank you!&quot;</p>&mdash; Dave Goldberg (@davidgoldberg) <a href="https://twitter.com/davidgoldberg/status/305285437428203520">February 23, 2013</a></blockquote></td>
+      </tr>
+    </table>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
