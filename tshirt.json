@@ -1,0 +1,72 @@
+---
+layout: none
+---
+
+var apistrat_austin = '[
+  {% for data in site.sponsors limit:1000 %}
+  {
+    "sponsor": "{{ data.name }}"
+  }{% if forloop.last %}{% else %},{% endif %}
+  {% endfor %}
+]';
+
+var apistrat_austin = '[
+  {% for data in site.allspeakers limit:1000 %}
+  {
+    "speaker": "{{ data.name }}"
+  }{% if forloop.last %}{% else %},{% endif %}
+  {% endfor %}
+]';
+
+var apistrat_austin = '[
+  {% for data in site.allspeakers limit:1000 %}
+  {
+    "speaker": "{{ data.name }}"
+  }{% if forloop.last %}{% else %},{% endif %}
+  {% endfor %}
+]';
+
+var apidays_apistrat_berlin = '[
+  {
+    "session": "API Design"
+  },
+  {
+    "session": "Internet of Things"
+  },
+  {
+    "session": "Marketing"
+  },
+  {
+    "session": "API Definitions"
+  },
+  {
+    "session": "API Monitoring"
+  },
+  {
+    "session": "Internal Innovation"
+  },
+  {
+    "session": "Hypermedia"
+  },
+  {
+    "session": "Developer Experience"
+  },
+  {
+    "session": "API Consumption"
+  },
+  {
+    "session": "Microservices"
+  },
+  {
+    "session": "API Business Models"
+  },
+  {
+    "session": "Post HTTP"
+  },
+  {
+    "session": "API Discovery"
+  },
+  {
+    "session": "Diversity"
+  }
+]';

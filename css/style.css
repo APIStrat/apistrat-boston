@@ -1,0 +1,18 @@
+/*
+Theme Name: Tyler
+Theme URI: http://www.eventmanagerblog.com/store
+Author:  Event Manager Shop
+Author URI: http://www.eventmanagerblog.com/store
+Description: Tyler is a WordPress Theme by Event Manager Shop. Designed by Fabio Cannillo, developed by Simone Bolognini (http://www.simonebolognini.it) and Mario Peshev (http://devwp.eu/) 
+Version: 1.6.1
+*/
+.articles.articles3 article {
+    width: 33%;
+}
+
+.articles.vertical article:nth-child(2n-1) {
+    clear : none;
+}
+.articles.vertical article:nth-child(3n-2) {
+    clear: both;
+}

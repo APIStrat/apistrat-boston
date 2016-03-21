@@ -1,0 +1,54 @@
+header.sticky {
+    position: relative;
+}
+
+header  ul  li {
+    display: block;
+    float: left;
+}
+header ul ul li {
+    float: none;
+}
+
+
+
+.landing h1 {
+    margin-bottom: 0;
+}
+.landing .lead {
+    margin: 0;
+}
+
+.landing .box {
+    padding: 10px 0;
+    height: auto;
+    text-align: center;
+}
+
+.speakers .speaker, .sessions .session {
+    display: block;
+    width: 30%;
+    float: left;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators li {
+    display: block;
+    float: left;
+}
+
+.location .explore .scrollable {
+    height: 350px;
+    overflow: auto;
+    text-align: left;
+}
+
+.sessions.list .day-floating.fixed {
+    position: relative;
+    top: 0; left:0; right: 0;
+}
+.sessions.list .day-floating.fixed.absolute {
+    position: relative;
+}

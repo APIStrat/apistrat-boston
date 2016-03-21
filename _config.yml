@@ -1,0 +1,672 @@
+title:        APIStrat Boston 2016
+url:          http://boston2016.apistrat.com
+version:      1.1.1
+author:
+  name:       'Kin Lane'
+  email:      'info@apievangelist.com'
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
+
+permalink: /:categories/:year/:month/:day/:title
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+paginate: 50
+paginate_path: "/blog/page:num"
+
+production_url : http://boston2016.apistrat.com
+
+BASE_PATH : http://boston2016.apistrat.com
+
+categories_path : /categories.html
+tags_path : /tags.html
+
+featured_speakers:
+  - name: Kin Lane
+    company: API Evangelist
+    company_url: http://apievangelist.com
+    image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+    description: Kin Lane is a unique blend of information technology, data, programming, product development, business development, sales and marketing--also known as an evangelist.  He spends his days studying the business and  and politics of APIs, sharing insights on his blog, apievangelist.com.
+    slug: kin-lane
+    twitter: kinlane
+
+sponsors:
+  - name: 3Scale
+    link: http://www.3scale.net/
+    logo: http://apidaysberlin2016.apistrat.com/wp-content/uploads/2014/11/3scale-logo-new.png
+
+goldsponsors:
+  - name: 3Scale
+    link: http://www.3scale.net/
+    logo: http://apidaysberlin2016.apistrat.com/wp-content/uploads/2014/11/3scale-logo-new.png
+  - name: IBM
+    link: http://ibm.com
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/sponsors/ibm-logo.png
+
+silversponsors:
+
+bronzesponsors:
+
+organizers:
+  - name: 3Scale
+    link: http://www.3scale.net/
+    logo: http://apidaysberlin2016.apistrat.com/wp-content/uploads/2014/11/3scale-logo-new.png
+  - name: API Evangelist
+    link: http://apievangelist.com/
+    logo: http://apidaysberlin2016.apistrat.com/wp-content/uploads/2014/11/api-evangelist-logo1.png
+
+committee:
+  - name: Steve Willmott
+    company: 3Scale
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/steve-willmott.png
+    slug: steve-wilmott
+    twitter: njyx
+  - name: Kin Lane
+    company: API Evangelist
+    image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+    slug: kin-lane
+    twitter: kinlane
+  - name: Lorinda Brandon
+    company: Capital One
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/lorinda-brandon.jpg
+    slug: lorinda-brandon
+    twitter: lindybrandon
+  - name: Leah Bannon
+    company: Tech Lady Hackathons
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/leah-bannon.jpg
+    slug: leah-bannon
+    twitter: leahbannon
+  - name: Adam Duvander
+    company: CenturyLink Cloud
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/adam-duvander.jpg
+    slug: adam-duvander
+    twitter: adamd
+  - name: Kristen Womack
+    company: LeadPages
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/kristen-womack.jpg
+    slug: kristen-womack
+    twitter: kristen_womack
+  - name: Joyce Stack
+    company: Mendeley <br />(Session Chair)
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/joyce-stack.jpg
+    slug: joyce-stack
+    twitter: mendeleystack
+  - name: Tony Blank
+    company: SendGrid
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/tony-blank.png
+    slug: tony-blank
+    twitter: thetonyblank
+  - name: Manfred Bortenschlager
+    company: 3Scale
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/manfred-bortenschlager.jpg
+    slug: manfred-bortenschlager
+    twitter: manfredbo
+  - name: Kirsten Hunter
+    company: Akamai Technologies
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/kirsten-hunter.jpg
+    slug: kirsten-hunter
+    twitter: synedra
+  - name: Chris Metcalf
+    company: Socrata
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/chris-metcalf.jpeg
+    slug: chris-metcalf
+    twitter: chrismetcalf
+  - name: Shelby Switzer
+    company: Healthify
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/shelby-switzer.jpeg
+    slug: shelby-switzer
+    twitter: switzerly
+  - name: Seth Lachner
+    company: Client Resources, Inc.
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/seth-lachner.jpg
+    slug: seth-lachner
+    twitter: slestac
+  - name: Brandee Shin
+    company: Capital One
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/brandee-shin.jpg
+    slug: brandee-shin
+    twitter: brandee_shin
+  - name: Caroline Lewko
+    company: WIP / WIP Factory
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/caroline-lewko.jpg
+    slug: caroline-lewko
+    twitter: carolinewip
+  - name: Keith Casey
+    company: Clarify.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/keith-casey.jpg
+    slug: keith-casey
+    twitter: caseysoftware
+
+dayone:
+  - time: 12:00 pm - 5:00 pm
+    title: Registration
+    location: Break Area
+    speakers:
+  - time: 1:30 pm - 3:00 pm
+    title: Workshop Title
+    abstract: Workshop Abstract
+    registration: http://boston2016.apistrat.com/workshops/slug.html
+    location: Breakout One
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+  - time: 1:30 pm - 3:00 pm
+    title: Workshop Title
+    abstract: Workshop Abstract
+    registration: http://boston2016.apistrat.com/workshops/slug.html
+    location: Breakout Two
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+  - time: 3:00 pm - 3:30 pm
+    title: Coffee Break
+    location: Break Area
+    speakers:
+  - time: 3:30 pm - 5:00 pm
+    title: Workshop Title
+    abstract: Workshop Abstract
+    registration: http://boston2016.apistrat.com/workshops/focus-on-api-workflow-workshop.html
+    location: Breakout One
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+  - time: 3:30 pm - 5:00 pm
+    title: Workshop Title
+    abstract: Workshop Abstract
+    registration: http://boston2016.apistrat.com/workshops/crash-course-practical-api-management-workshop.html
+    location: Breakout Two
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+  - time: 3:30 pm - 5:00 pm
+    title: Workshop Title
+    abstract: Workshop Abstract
+    registration: http://boston2016.apistrat.com/workshops/simple-api-supervision.html
+    location: Breakout Three
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+  - time: 5:30 pm - 7:00 pm
+    title: Birds of a Feather
+    location: Loaction of Birds of a Feather
+    speakers:
+  - time: 7:30 pm - 9:00 pm
+    title: Speakers Dinner
+    location: Location of Speakers Dinner
+    speakers:
+  - time: 9:30 pm - 12:00 am
+    title: Meetup Bar
+    location: Location of Meetup Bar
+    speakers:
+
+daytwo:
+  - time: 8:15 am - 9:00 am
+    title: Registration and Coffee
+    location: Break Area
+    speakers:
+  - time: 9:00 am - 9:15 am
+    title: Opening Remarks
+    location: Main Stage
+    speakers:
+      - name: Steve Willmott
+        company: 3Scale
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/steve-willmott.png
+        slug: steve-wilmott
+      - name: Kin Lane
+        company: API Evangelist
+        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        slug: kin-lane
+      - name: Lorinda Brandon
+        company: Capital One
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/lorinda-brandon.jpg
+        slug: lorinda-brandon
+  - time: 9:15 am - 9:40 am
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 9:40 am - 10:05 am
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 10:05 am - 10:30 am
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 10:30 am - 11:00 am
+    title: Coffee Break
+    location: Break Area
+    speakers:
+  - time: 11:00 am - 12:30 pm
+    title: Session Title
+    location: Breakout One
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 11:00 am - 12:30 pm
+    title: Session Title
+    location: Breakout Two
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 11:00 am - 12:30 pm
+    title: Session Title
+    location: Breakout Three
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 12:30 pm - 1:30 pm
+    title: Lunch
+    location: Break Area
+    speakers:
+  - time: 1:30 pm - 3:00 pm
+    title: Session Title
+    location: Breakout One
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 1:30 pm - 3:00 pm
+    title: Session Title
+    location: Breakout Two
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 1:30 pm - 3:00 pm
+    title: Session Title
+    location: Breakout Three
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 3:00 pm - 3:05 pm
+    title: Switchover Time
+    location: Break Area
+    speakers:
+  - time: 3:05 pm - 4:35 pm
+    title: Session Title
+    location: Breakout One
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 3:05 pm - 4:35 pm
+    title: Session Title
+    location: Breakout Two
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 3:05 pm - 4:35 pm
+    title: Session Title
+    location: Breakout Three
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 4:35 pm - 5:00 pm
+    title: Coffee Break
+    location: Break Area
+    speakers:
+  - time: 5:00 pm - 5:25 pm
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 5:25 pm - 5:50 pm
+    title: Session Title
+    location: Main Stage
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 5:50 pm - 6:20 pm
+    title: Diversity Panel
+    location: Main Stage
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 6:20 pm - 6:30 pm
+    title: Closing Remarks
+    location: Main Stage
+    speakers:
+      - name: Steve Willmott
+        company: 3Scale
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/steve-willmott.png
+        slug: steve-wilmott
+      - name: Kin Lane
+        company: API Evangelist
+        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        slug: kin-lane
+      - name: Mark Boyd
+        company: Conference Chair
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/mark-boyd.png
+        slug: mark-boyd
+  - time: 6:45 pm - 7:45 pm
+    title: Drinks Reception
+    location: Break Area
+    speakers:
+  - time: 9:30 pm - 12:00 am
+    title: Meetup Bar
+    location: Valhalla (710 Red River St - <a href="https://www.facebook.com/valhallatavern">facebook.com/valhallatavern)
+    speakers:
+
+daythree:
+  - time: 8:15 am - 9:00 am
+    title: Registration and Coffee
+    location: Break Area
+    speakers:
+  - time: 9:00 am - 9:05 am
+    title: Opening Remarks
+    location: Main Stage
+    speakers:
+      - name: Steve Willmott
+        company: 3Scale
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/steve-willmott.png
+        slug: steve-wilmott
+      - name: Kin Lane
+        company: API Evangelist
+        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        slug: kin-lane
+      - name: Mark Boyd
+        company: Conference Chair
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/mark-boyd.png
+        slug: mark-boyd
+  - time: 9:05 am - 9:30 am
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 9:30 am - 9:55 am
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 9:55 am - 10:20 am
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 10:20 am - 10:50 am
+    title: Session Title
+    location: Main Stage
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 10:50 am - 11:15 am
+    title: Coffee Break
+    location: Break Area
+    speakers:
+  - time: 11:15 am - 12:45 pm
+    title: Session Title
+    location: Breakout One
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 11:15 am - 12:45 pm
+    title: Session Title
+    location: Breakout Two
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 11:15 am - 12:45 pm
+    title: Session Title
+    location: Breakout Three
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 12:45 pm - 2:00 pm
+    title: Lunch
+    location: Break Area
+    speakers:
+  - time: 2:00 pm - 3:30 pm
+    title: Session Title
+    location: Breakout One
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 2:00 pm - 3:30 pm
+    title: Session Title
+    location: Breakout Two
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 2:00 pm - 3:30 pm
+    title: API Clinic - Bring Your API Questions!
+    location: Breakout Three
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 3:30 pm - 3:45 pm
+    title: Coffee Break
+    location: Break Area
+    speakers:
+  - time: 3:45 pm - 4:10 pm
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 4:10 pm - 4:40 pm
+    title: Fireside Chat
+    location: Main Stage
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 4:40 pm - 5:10 pm
+    title: Panel
+    location: Main Stage
+    speakers:
+      - name: Speaker Name
+        company: Speaker Company
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        slug: speaker-name
+        detail: The detail page for the speaker
+        title: The title of talk
+        abstract: The abstract for the talk.
+        twitter: @twitterhandle
+  - time: 5:10 pm - 5:20 pm
+    title: Closing Remarks
+    location: Main Stage
+    speakers:
+      - name: Steve Willmott
+        company: 3Scale
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/steve-willmott.png
+        slug: steve-wilmott
+      - name: Kin Lane
+        company: API Evangelist
+        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        slug: kin-lane
+      - name: Lorinda Brandon
+        company: Capital One
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/lorinda-brandon.jpg
+        slug: lorinda-brandon
+
+allspeakers:
+      - name: Steve Willmott
+        company: 3Scale
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/steve-willmott.png
+        slug: steve-wilmott
+      - name: Kin Lane
+        company: API Evangelist
+        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        slug: kin-lane
+      - name: Lorinda Brandon
+        company: Capital One
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/lorinda-brandon.jpg
+        slug: lorinda-brandon

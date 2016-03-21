@@ -1,0 +1,28 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<event>
+  <sponsors>
+    {% for data in site.sponsors limit:1000 %}<sponsor>{{ data.name }}</sponsor>{% endfor %}
+  </sponsors>
+  <speakers>
+    {% for data in site.allspeakers limit:1000 %}<speaker>{{ data.name }}</speaker>{% endfor %}
+  </speakers>
+  <sessions>
+    <session>API Design</session>
+    <session>Internet of Things</session>
+    <session>Marketing</session>
+    <session>API Definitions</session>
+    <session>API Monitoring</session>
+    <session>Internal Innovation</session>
+    <session>Hypermedia</session>
+    <session>Developer Experience</session>
+    <session>API Consumption</session>
+    <session>Microservices</session>
+    <session>API Business Models</session>
+    <session>Post HTTP</session>
+    <session>API Discovery</session>
+    <session>Diversity</session>
+  </sessions>
+</event>

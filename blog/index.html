@@ -1,0 +1,55 @@
+---
+layout: default
+title: APIStrat Austin - Blog
+---
+
+<p><a href="http://design.apievangelist.com/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="25" align="right" style="padding: 25px;" /></a></p>
+
+<div class="heading">
+	<div class="container">
+		<h1>Blog</h1>
+	</div>
+</div>
+
+<div class="container">
+  <div style="padding-bottom: 2em">
+		<p></p>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-lg-12">
+			<div class="articles articles3 vertical">
+
+			{% for post in paginator.posts %}
+
+				<article>
+					<div class="image">
+						<a href="{{ post.url }}" rel="bookmark">
+			    		<span class="date">
+		            <span class="month">{{ post.date | date:"%m" }}</span>
+		            <span class="day">{{ post.date | date:"%d" }}</span>
+		            <span class="year">{{ post.date | date:"%Y" }}</span>
+			      	</span>
+				    	<img width="340" src="{{ post.image }}" class="attachment-post-thumbnail wp-post-image" alt="{{ post.title }}" />
+						</a>
+				  </div>
+					<div class="post-content">
+				  	<div class="text-fit">
+							<strong class="heading">
+				    		<a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+				    	</strong>
+							<div class="perex">
+								{{ post.content | split:'<!--break-->' |  first | strip_html  }}
+						    {% if post.content contains '<!--break-->' %}
+						       <a href="{{ post.url }}">read more</a>
+						    {% endif %}
+				    	</div>
+						</div>
+					</div>
+				</article>
+
+			{% endfor %}
+
+			</div>
+		</div>
+	</div>
+</div>

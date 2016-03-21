@@ -1,0 +1,122 @@
+---
+layout: page
+title: APIStrat Austin 2015 - Schedule
+---
+<div class="heading">
+    <div class="container">
+        <h1>Schedule</h1>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="schedule">
+
+        <div class="sessions list">
+
+            <div class="followWrap" style="height: 60px;">
+                <div class="day-floating">
+                    <span>November 18th, 2015 (Workshop Day)</span>
+                </div>
+            </div>
+
+            {% for entry in site.dayone %}
+              <div class="session">
+
+                  <span class="time">{{ entry.time }}</span>
+
+                  <div class="session-inner">
+
+                      <a class="title" href="#" onclick="return false;"><span>{{ entry.title }}</span></a>
+                      {% if entry.location == 'Breakout One' or entry.location == 'Breakout Two' or entry.location == 'Breakout Three' %}
+                        <a class="title" href="{{ entry.registration }}" style="color:#FF0000;">(REGISTER FOR WORKSHOP!)</a>
+                      {% endif %}
+                      <span class="location">{{ entry.abstract }}</span><br />
+                      <span class="location">{{ entry.location }}</span>
+
+                      <span class="speakers-thumbs">
+                      {% for speaker in entry.speakers %}
+                          <a class="speaker" href="#" onclick="return false;">
+                            <img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="{{ speaker.image }}" width="60">
+                            <span class="name">
+                              {{ speaker.name }}<br />{{ speaker.company }}
+                            </span>
+                          </a>
+                      {% endfor %}
+                      </span>
+
+                      <!--<a class="more" href="">More info <i class="icon-angle-right"></i></a>-->
+
+                  </div>
+              </div>
+            {% endfor %}
+
+            <div class="followWrap" style="height: 60px;">
+                <div class="day-floating">
+                    <span>November 19th, 2015</span>
+                </div>
+            </div>
+
+            {% for entry in site.daytwo %}
+              <div class="session">
+
+                  <span class="time">{{ entry.time }}</span>
+
+                  <div class="session-inner">
+
+                      <a class="title" {% if entry.detail == 'none' %} href="#"onclick="return false;"{% else %}href="{{ entry.detail }}"{% endif %}><span>{{ entry.title }}</span></a>
+                      <span class="location">{{ entry.location }}</span>
+
+                      <span class="speakers-thumbs">
+                      {% for speaker in entry.speakers %}
+                          <a class="speaker" {% if speaker.detail != 'none' %}href="{{ speaker.detail }}"{% else %}href="#" onclick="return false;"{% endif %}>
+                            <img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="{{ speaker.image }}" width="60">
+                            <span class="name">
+                              {{ speaker.name }}<br />{{ speaker.company }}
+                            </span>
+                          </a>
+                      {% endfor %}
+                      </span>
+
+                      <!--<a class="more" href="">More info <i class="icon-angle-right"></i></a>-->
+
+                  </div>
+              </div>
+            {% endfor %}
+
+            <div class="followWrap" style="height: 60px;">
+                <div class="day-floating">
+                    <span>November 20th, 2015</span>
+                </div>
+            </div>
+
+            {% for entry in site.daythree %}
+              <div class="session">
+
+                  <span class="time">{{ entry.time }}</span>
+
+                  <div class="session-inner">
+
+                      <a class="title" {% if entry.detail != 'none' %}href="{{ entry.detail }}"{% else %}href="#" onclick="return false;"{% endif %}><span>{{ entry.title }}</span></a>
+                      <span class="location">{{ entry.location }}</span>
+
+                      <span class="speakers-thumbs">
+                      {% for speaker in entry.speakers %}
+                          <a class="speaker" {% if speaker.detail != 'none' %}href="{{ speaker.detail }}"{% else %}href="#" onclick="return false;"{% endif %}>
+                            <img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="{{ speaker.image }}" width="60">
+                            <span class="name">
+                              {{ speaker.name }}<br />{{ speaker.company }}
+                            </span>
+                          </a>
+                      {% endfor %}
+                      </span>
+
+                      <!--<a class="more" href="">More info <i class="icon-angle-right"></i></a>-->
+
+                  </div>
+              </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</div>

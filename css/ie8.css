@@ -1,0 +1,14 @@
+[class^="icon-"],
+[class*=" icon-"] {
+    background-image: url("../images/icons.png") !important;
+}
+
+.connect .links a:hover:before, .mediabox a.post:hover:before {
+    display: none;
+}
+.mediabox .carousel-indicators {
+    bottom: -20px;
+}
+.commentlist .comment .comment-content:after {
+    display: none;
+}

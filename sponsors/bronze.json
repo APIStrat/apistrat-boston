@@ -1,0 +1,13 @@
+---
+layout: none
+---
+[
+  {% for sponsors in site.bronzesponsors limit:500 %}
+    {
+    "type": "bronze",
+    "name": "{{ sponsors.name }}",
+    "link": "{{ sponsors.link }}",
+    "logo": "{{ sponsors.logo }}"
+    }{% if forloop.last %}{% else %},{% endif %}
+  {% endfor %}
+]

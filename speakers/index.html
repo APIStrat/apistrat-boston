@@ -1,0 +1,26 @@
+---
+layout: page
+title: APIStrat Austin 2015 - Speakers
+---
+<div class="heading">
+  <div class="container">
+    <h1>Speaker</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div class="speakers">
+
+    {% for speaker in site.allspeakers %}
+      <div class="speaker">
+        <a href="#" class="speaker-inner">
+          <span class="photo">
+            <img width="154" height="212" src="{{ speaker.image }}"  alt="{{ speaker.slug }}" title="{{ speaker.name }} {{ speaker.company }}" />
+          </span>
+          <span class="name">{{ speaker.name }}<br />{{ speaker.company }}</span>
+        </a>
+      </div>
+    {% endfor %}
+
+  </div>
+</div>

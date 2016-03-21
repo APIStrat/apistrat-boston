@@ -1,0 +1,13 @@
+---
+layout: none
+---
+[
+  {% for speakers in site.allspeakers limit:500 %}
+    {
+    "name": "{{ speakers.name }}",
+    "company": "{{ speakers.company }}",
+    "image": "{{ speakers.image }}",
+    "slug": "{{ speakers.slug }}"
+    }{% if forloop.last %}{% else %},{% endif %}
+  {% endfor %}
+]

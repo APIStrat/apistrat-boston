@@ -1,0 +1,69 @@
+---
+layout: page
+title: APIStrat Austin 2015 - Sponsors
+---
+<div class="heading">
+    <div class="container">
+        <h1>Sponsors</h1>
+    </div>
+</div>
+
+<div class="container">
+
+  <!-- SPONSORS -->
+  <div id="tile_sponsors" class="container widget">
+
+    <h3>Thank you to our kind sponsors!</h3>
+    <br/>
+
+    <h3 class="sponsor"><span>Gold Sponsors</span></h3>
+    <div class="sponsors sponsors-lg">
+
+      <div class="item active">
+
+        {% for oranizer in site.goldsponsors %}
+            <div class="sponsor">
+              <a href="{{ oranizer.link }}" title="{{ oranizer.name }}" target="_blank">
+                <img align="center" src="{{ oranizer.logo }}" alt="{{ oranizer.name }}" />
+              </a>
+            </div>
+        {% endfor %}
+
+      </div>
+    </div>
+
+    <h3 class="sponsor"><span>Silver Sponsors</span></h3>
+    <div class="sponsors sponsors-md">
+
+      <div class="item active">
+
+        {% for oranizer in site.silversponsors %}
+            <div class="sponsor">
+              <a href="{{ oranizer.link }}" title="{{ oranizer.name }}" target="_blank">
+                <img align="center" src="{{ oranizer.logo }}" alt="{{ oranizer.name }}" />
+              </a>
+            </div>
+        {% endfor %}
+
+      </div>
+    </div>
+
+    <h3 class="sponsor"><span>Bronze Sponsors</span></h3>
+    <div class="sponsors sponsors-sm">
+
+      <div class="item active">
+
+        {% for oranizer in site.bronzesponsors %}
+            <div class="sponsor">
+              <a href="{{ oranizer.link }}" title="{{ oranizer.name }}" target="_blank">
+                <img align="center" src="{{ oranizer.logo }}" alt="{{ oranizer.name }}" />
+              </a>
+            </div>
+        {% endfor %}
+
+      </div>
+    </div>
+
+  </div>
+
+</div>

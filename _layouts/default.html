@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-US">
+
+  {% include head.html %}
+
+  <body class="home blog">
+    <header class="nav transition">
+      <a href="/" id="logo">
+        <img src="https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/apistrat-boston-logo.png" alt="APIStrat Boston 2016" title="APIStrat Boston 2016" width="210" />
+      </a>
+            <nav class="navbar" role="navigation">
+                <!-- mobile navigation -->
+                <div class="navbar-header visible-sm visible-xs">
+                    <button type="button" class="btn btn-primary navbar-toggle" data-toggle="collapse" data-target="#tyler-navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="icon-header"></i>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse text-fit" id="tyler-navigation">
+                    <div class="menu-menu-1-container">
+                      <ul id="menu-primary" class="transition">
+                        <li id="menu-item-61" class="menu-item{% if page.title == 'APIStrat Boston 2016' %} current-menu-item{% endif %}"><a href="/">Home</a></li>
+                        <li id="menu-item-75" class="menu-item{% if page.title == 'APIStrat Boston 2016 - Call For Papers' %} current-menu-item{% endif %}"><a href="/call-for-papers/">Call For Papers</a></li>
+                        <li id="menu-item-75" class="menu-item{% if page.title == 'APIStrat Boston 2016 - Committee' %} current-menu-item{% endif %}"><a href="/committee/">Committee</a></li>
+                        <li id="menu-item-75" class="menu-item{% if page.title == 'APIStrat Boston 2016 - Blog' %} current-menu-item{% endif %}"><a href="/blog/">Blog</a></li>
+                        <li id="menu-item-228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-228"><a href="/all-events/">Past Events</a></li>
+                        <li id="menu-item-95" class="menu-item{% if page.title == 'APIStrat Boston 2016 - Contact' %} current-menu-item{% endif %}"><a href="/contact/">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- LANDING - BIG PICTURE -->
+
+      {{ content }}
+
+      <footer>
+          <div class="container">
+              <div class="row row-sm">
+                  <div class="col col-md-4">
+                    <div>
+                      <h4>Event co-organized by</h4>
+                      <div class="textwidget">
+                        <a href="http://apievangelist.com"><img src="https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/api-evangelist-wh-300.png" width="250" style="padding: 10px;"></a>
+                        <a href="http://3scale.net"><img src="https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/3scale-2016-white-200.png" width="200" style="padding: 10px;"></a>
+                      </div>
+      		          </div>
+                  </div>
+                <div class="col col-md-4">
+                  <div>
+                    <h4>CONNECT</h4>
+                    <div class="menu-footer-container">
+                      <ul id="menu-footer" class="menu">
+                        <li id="menu-item-88" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-88"><a href="/contact/">Contact</a></li>
+                        <li id="menu-item-89" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-89"><a href="/blog/">Blog</a></li>
+                        <li id="menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-90"><a href="https://twitter.com/apistrat">Twitter</a></li>
+                        <li id="menu-item-91" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-91"><a href="https://www.youtube.com/user/apistrat/videos">Youtube</a></li>
+                        <li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a href="/code-of-conduct/">Code of Conduct</a></li>
+                        <li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a href="/api/">API</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </footer>
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-34629501-1', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+
+      <script type="text/javascript">
+
+        function deploySwagger()
+        	{
+
+      	  var url = "http://boston2016.apistrat.com/oadf.json";
+
+      	  window.swaggerUi = new SwaggerUi({
+      	    url: url,
+      	    dom_id: "swagger-ui-container",
+      	    supportedSubmitMethods: ['get', 'post', 'put', 'delete', 'patch'],
+      	    onComplete: function(swaggerApi, swaggerUi){
+      	      $('pre code').each(function(i, e) {
+      	        hljs.highlightBlock(e)
+      	      });
+      	    },
+      	    onFailure: function(data) {
+      	      log("Unable to Load SwaggerUI");
+      	    },
+      	    docExpansion: "list",
+      	    sorter : "alpha"
+      	  });
+
+      	  window.swaggerUi.load();
+        }
+
+      if(document.getElementById("swagger-ui-container"))
+      	{
+      	 setTimeout(deploySwagger, 1000);
+      	}
+
+    </script>
+
+</body>
+</html>

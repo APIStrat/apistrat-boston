@@ -1,0 +1,39 @@
+---
+layout: page
+title: APIStrat Austin 2015 - Schedule - Session Details
+slug: jennifer-rondeau
+---
+<div class="heading">
+    <div class="container">
+        <h1>Schedule - Session Details</h1>
+    </div>
+</div>
+
+<div class="container">
+  {% for entry in site.daytwo %}
+    {% for speaker in entry.speakers %}
+      {% if speaker.slug == page.slug %}
+        <h2>{{ speaker.title }}</h2>
+        <img alt="{{ speaker.name }} {{ speaker.company }}" src="{{ speaker.image }}" width="120" align="left" style="padding: 15px;">
+        <p><strong>{{ speaker.name }}</strong>{% if speaker.twitter != 'none' %} (<a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>){% endif %} of <a href="{{ speaker.url }}"><strong>{{ speaker.company }}</strong></a></p>
+        <p>{{ speaker.abstract }}</p>
+        {% if speaker.bio != 'none' %}
+        <p><strong>About{{ speaker.name }}</strong><br />{{ speaker.bio }}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  {% for entry in site.daythree %}
+    {% for speaker in entry.speakers %}
+      {% if speaker.slug == page.slug %}
+        <h2>{{ speaker.title }}</h2>
+        <img alt="{{ speaker.name }} {{ speaker.company }}" src="{{ speaker.image }}" width="120" align="left" style="padding: 15px;">
+        <p><strong>{{ speaker.name }}</strong>{% if speaker.twitter != 'none' %} (<a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>){% endif %} of <a href="{{ speaker.url }}"><strong>{{ speaker.company }}</strong></a></p>
+        <p>{{ speaker.abstract }}</p>
+        {% if speaker.bio != 'none' %}
+        <p><strong>About{{ speaker.name }}</strong><br />{{ speaker.bio }}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
