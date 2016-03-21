@@ -22,13 +22,21 @@ categories_path : /categories.html
 tags_path : /tags.html
 
 featured_speakers:
+  - name: Steve Willmott
+    company: 3Scale
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
+    slug: steve-wilmott
+    twitter: njyx
   - name: Kin Lane
     company: API Evangelist
-    company_url: http://apievangelist.com
     image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
-    description: Kin Lane is a unique blend of information technology, data, programming, product development, business development, sales and marketing--also known as an evangelist.  He spends his days studying the business and  and politics of APIs, sharing insights on his blog, apievangelist.com.
     slug: kin-lane
     twitter: kinlane
+  - name: Lorinda Brandon
+    company: Capital One
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
+    slug: lorinda-brandon
+    twitter: lindybrandon
 
 sponsors:
   - name: 3Scale
@@ -58,7 +66,7 @@ organizers:
 committee:
   - name: Steve Willmott
     company: 3Scale
-    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/steve-willmott.png
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
     slug: steve-wilmott
     twitter: njyx
   - name: Kin Lane
@@ -68,7 +76,7 @@ committee:
     twitter: kinlane
   - name: Lorinda Brandon
     company: Capital One
-    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/lorinda-brandon.jpg
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
     slug: lorinda-brandon
     twitter: lindybrandon
   - name: Leah Bannon
@@ -150,7 +158,7 @@ dayone:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
   - time: 1:30 pm - 3:00 pm
     title: Workshop Title
@@ -160,7 +168,7 @@ dayone:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
   - time: 3:00 pm - 3:30 pm
     title: Coffee Break
@@ -174,7 +182,7 @@ dayone:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
   - time: 3:30 pm - 5:00 pm
     title: Workshop Title
@@ -184,7 +192,7 @@ dayone:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
   - time: 3:30 pm - 5:00 pm
     title: Workshop Title
@@ -194,7 +202,7 @@ dayone:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
   - time: 5:30 pm - 7:00 pm
     title: Birds of a Feather
@@ -220,7 +228,7 @@ daytwo:
     speakers:
       - name: Steve Willmott
         company: 3Scale
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/steve-willmott.png
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
         slug: steve-wilmott
       - name: Kin Lane
         company: API Evangelist
@@ -228,7 +236,7 @@ daytwo:
         slug: kin-lane
       - name: Lorinda Brandon
         company: Capital One
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/lorinda-brandon.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
         slug: lorinda-brandon
   - time: 9:15 am - 9:40 am
     title: Keynote
@@ -236,7 +244,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -248,7 +256,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -260,7 +268,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -276,7 +284,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -288,7 +296,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -300,7 +308,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -316,7 +324,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -328,7 +336,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -340,7 +348,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -356,7 +364,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -368,7 +376,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -380,7 +388,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -396,7 +404,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -408,7 +416,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -420,7 +428,7 @@ daytwo:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -432,7 +440,7 @@ daytwo:
     speakers:
       - name: Steve Willmott
         company: 3Scale
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/steve-willmott.png
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
         slug: steve-wilmott
       - name: Kin Lane
         company: API Evangelist
@@ -440,7 +448,7 @@ daytwo:
         slug: kin-lane
       - name: Mark Boyd
         company: Conference Chair
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/mark-boyd.png
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-boyd.png
         slug: mark-boyd
   - time: 6:45 pm - 7:45 pm
     title: Drinks Reception
@@ -462,7 +470,7 @@ daythree:
     speakers:
       - name: Steve Willmott
         company: 3Scale
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/steve-willmott.png
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
         slug: steve-wilmott
       - name: Kin Lane
         company: API Evangelist
@@ -470,7 +478,7 @@ daythree:
         slug: kin-lane
       - name: Mark Boyd
         company: Conference Chair
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/mark-boyd.png
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-boyd.png
         slug: mark-boyd
   - time: 9:05 am - 9:30 am
     title: Keynote
@@ -478,7 +486,7 @@ daythree:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -490,7 +498,7 @@ daythree:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -502,7 +510,7 @@ daythree:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -514,7 +522,7 @@ daythree:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -530,7 +538,7 @@ daythree:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -542,7 +550,7 @@ daythree:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -554,7 +562,7 @@ daythree:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -570,7 +578,7 @@ daythree:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -582,7 +590,7 @@ daythree:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -594,7 +602,7 @@ daythree:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -610,7 +618,7 @@ daythree:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -622,7 +630,7 @@ daythree:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -634,7 +642,7 @@ daythree:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/slug.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: speaker-name
         detail: The detail page for the speaker
         title: The title of talk
@@ -646,7 +654,7 @@ daythree:
     speakers:
       - name: Steve Willmott
         company: 3Scale
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/steve-willmott.png
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
         slug: steve-wilmott
       - name: Kin Lane
         company: API Evangelist
@@ -654,13 +662,13 @@ daythree:
         slug: kin-lane
       - name: Lorinda Brandon
         company: Capital One
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/lorinda-brandon.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
         slug: lorinda-brandon
 
 allspeakers:
       - name: Steve Willmott
         company: 3Scale
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/steve-willmott.png
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
         slug: steve-wilmott
       - name: Kin Lane
         company: API Evangelist
@@ -668,5 +676,5 @@ allspeakers:
         slug: kin-lane
       - name: Lorinda Brandon
         company: Capital One
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/speakers/lorinda-brandon.jpg
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
         slug: lorinda-brandon
