@@ -81,44 +81,12 @@ title: APIStrat Boston 2016
   <h3>Thank you to our kind sponsors!</h3>
   <br/>
 
-  <h3 class="sponsor"><span>Gold Sponsors</span></h3>
+  <h3 class="sponsor"><span>Sponsors</span></h3>
   <div class="sponsors sponsors-lg">
 
     <div class="item active">
 
-      {% for oranizer in site.goldsponsors %}
-          <div class="sponsor">
-            <a href="{{ oranizer.link }}" title="{{ oranizer.name }}" target="_blank">
-              <img align="center" src="{{ oranizer.logo }}" alt="{{ oranizer.name }}" />
-            </a>
-          </div>
-      {% endfor %}
-
-    </div>
-  </div>
-
-  <h3 class="sponsor"><span>Silver Sponsors</span></h3>
-  <div class="sponsors sponsors-md">
-
-    <div class="item active">
-
-      {% for oranizer in site.silversponsors %}
-          <div class="sponsor">
-            <a href="{{ oranizer.link }}" title="{{ oranizer.name }}" target="_blank">
-              <img align="center" src="{{ oranizer.logo }}" alt="{{ oranizer.name }}" />
-            </a>
-          </div>
-      {% endfor %}
-
-    </div>
-  </div>
-
-  <h3 class="sponsor"><span>Bronze Sponsors</span></h3>
-  <div class="sponsors sponsors-sm">
-
-    <div class="item active">
-
-      {% for oranizer in site.bronzesponsors %}
+      {% for oranizer in site.sponsors %}
           <div class="sponsor">
             <a href="{{ oranizer.link }}" title="{{ oranizer.name }}" target="_blank">
               <img align="center" src="{{ oranizer.logo }}" alt="{{ oranizer.name }}" />

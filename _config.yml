@@ -41,12 +41,12 @@ featured_speakers:
 sponsors:
   - name: 3Scale
     link: http://www.3scale.net/
-    logo: http://apidaysberlin2016.apistrat.com/wp-content/uploads/2014/11/3scale-logo-new.png
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/3scale-logo-new.png
 
 goldsponsors:
   - name: 3Scale
     link: http://www.3scale.net/
-    logo: http://apidaysberlin2016.apistrat.com/wp-content/uploads/2014/11/3scale-logo-new.png
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/3scale-logo-new.png
   - name: IBM
     link: http://ibm.com
     logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston/sponsors/ibm-logo.png
@@ -58,7 +58,7 @@ bronzesponsors:
 organizers:
   - name: 3Scale
     link: http://www.3scale.net/
-    logo: http://apidaysberlin2016.apistrat.com/wp-content/uploads/2014/11/3scale-logo-new.png
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/3scale-logo-new.png
   - name: API Evangelist
     link: http://apievangelist.com/
     logo: http://apidaysberlin2016.apistrat.com/wp-content/uploads/2014/11/api-evangelist-logo1.png
