@@ -727,10 +727,10 @@ h2 + .btn-header {
     font-size: 16px; font-weight: 500;
 }
 .landing .box .title {
-    font-size: 36px; font-weight: 300;
+    font-size: 24px; font-weight: 300;
 }
 .landing .box .desc {
-    font-size: 20px; font-weight: 500;
+    font-size: 16px; font-weight: 500;
 }
 
 /*
