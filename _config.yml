@@ -27,16 +27,16 @@ featured_speakers:
     image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
     slug: steve-wilmott
     twitter: njyx
+  - name: Lorinda Brandon
+    company: Capital One
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
+    slug: lorinda-brandon
+    twitter: lindybrandon    
   - name: Kin Lane
     company: API Evangelist
     image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
     slug: kin-lane
     twitter: kinlane
-  - name: Lorinda Brandon
-    company: Capital One
-    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
-    slug: lorinda-brandon
-    twitter: lindybrandon
 
 sponsors:
   - name: 3Scale
