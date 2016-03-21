@@ -31,7 +31,7 @@ featured_speakers:
     company: Capital One
     image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
     slug: lorinda-brandon
-    twitter: lindybrandon    
+    twitter: lindybrandon
   - name: Kin Lane
     company: API Evangelist
     image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
@@ -141,6 +141,11 @@ committee:
     image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/keith-casey.jpg
     slug: keith-casey
     twitter: caseysoftware
+  - name: Mark O'Neill
+    company: Gartner
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/mark_oneill-cropped-white-bg.jpg
+    slug: mark-oneill
+    twitter: themarkoneill    
 
 dayone:
   - time: 12:00 pm - 5:00 pm
