@@ -241,7 +241,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 9:40 am - 10:05 am
     title: Keynote
     location: Main Stage
@@ -253,7 +253,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 10:05 am - 10:30 am
     title: Keynote
     location: Main Stage
@@ -265,7 +265,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 10:30 am - 11:00 am
     title: Coffee Break
     location: Break Area
@@ -281,7 +281,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 11:00 am - 12:30 pm
     title: Session Title
     location: Breakout Two
@@ -293,7 +293,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 11:00 am - 12:30 pm
     title: Session Title
     location: Breakout Three
@@ -305,7 +305,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 12:30 pm - 1:30 pm
     title: Lunch
     location: Break Area
@@ -321,7 +321,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 1:30 pm - 3:00 pm
     title: Session Title
     location: Breakout Two
@@ -333,7 +333,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 1:30 pm - 3:00 pm
     title: Session Title
     location: Breakout Three
@@ -345,7 +345,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 3:00 pm - 3:05 pm
     title: Switchover Time
     location: Break Area
@@ -361,7 +361,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 3:05 pm - 4:35 pm
     title: Session Title
     location: Breakout Two
@@ -373,7 +373,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 3:05 pm - 4:35 pm
     title: Session Title
     location: Breakout Three
@@ -385,7 +385,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 4:35 pm - 5:00 pm
     title: Coffee Break
     location: Break Area
@@ -401,7 +401,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 5:25 pm - 5:50 pm
     title: Session Title
     location: Main Stage
@@ -413,7 +413,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 5:50 pm - 6:20 pm
     title: Diversity Panel
     location: Main Stage
@@ -425,7 +425,7 @@ daytwo:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 6:20 pm - 6:30 pm
     title: Closing Remarks
     location: Main Stage
@@ -483,7 +483,7 @@ daythree:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 9:30 am - 9:55 am
     title: Keynote
     location: Main Stage
@@ -495,7 +495,7 @@ daythree:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 9:55 am - 10:20 am
     title: Keynote
     location: Main Stage
@@ -507,7 +507,7 @@ daythree:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 10:20 am - 10:50 am
     title: Session Title
     location: Main Stage
@@ -519,7 +519,7 @@ daythree:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 10:50 am - 11:15 am
     title: Coffee Break
     location: Break Area
@@ -535,7 +535,7 @@ daythree:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 11:15 am - 12:45 pm
     title: Session Title
     location: Breakout Two
@@ -547,7 +547,7 @@ daythree:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 11:15 am - 12:45 pm
     title: Session Title
     location: Breakout Three
@@ -559,7 +559,7 @@ daythree:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 12:45 pm - 2:00 pm
     title: Lunch
     location: Break Area
@@ -575,7 +575,7 @@ daythree:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 2:00 pm - 3:30 pm
     title: Session Title
     location: Breakout Two
@@ -587,7 +587,7 @@ daythree:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 2:00 pm - 3:30 pm
     title: API Clinic - Bring Your API Questions!
     location: Breakout Three
@@ -599,7 +599,7 @@ daythree:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 3:30 pm - 3:45 pm
     title: Coffee Break
     location: Break Area
@@ -615,7 +615,7 @@ daythree:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 4:10 pm - 4:40 pm
     title: Fireside Chat
     location: Main Stage
@@ -627,7 +627,7 @@ daythree:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 4:40 pm - 5:10 pm
     title: Panel
     location: Main Stage
@@ -639,7 +639,7 @@ daythree:
         detail: The detail page for the speaker
         title: The title of talk
         abstract: The abstract for the talk.
-        twitter: @twitterhandle
+        twitter: twitterhandle
   - time: 5:10 pm - 5:20 pm
     title: Closing Remarks
     location: Main Stage
