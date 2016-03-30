@@ -809,6 +809,15 @@ h2 + .btn-header {
     width: 100%;
     margin: 0 0 10px;
 }
+
+.speakers .name a{
+    display: table;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    width: 100%;
+    margin: 0 0 10px;
+}
 .speakers .name>span{
     display: table-cell;
     vertical-align: middle; text-align: center;
