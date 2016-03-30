@@ -21,6 +21,26 @@ BASE_PATH : http://boston2016.apistrat.com
 categories_path : /categories.html
 tags_path : /tags.html
 
+chairs:
+  - name: Steve Willmott
+    company: 3Scale
+    role: Event Chair
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
+    slug: steve-wilmott
+    twitter: njyx
+  - name: Lorinda Brandon
+    company: Capital One
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
+    slug: lorinda-brandon
+    twitter: lindybrandon
+    role: Program Chair
+  - name: Kin Lane
+    company: API Evangelist
+    image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+    slug: kin-lane
+    twitter: kinlane
+    role: Event Chair
+
 featured_speakers:
   - name: Steve Willmott
     company: 3Scale
@@ -93,7 +113,7 @@ committee:
     twitter: kristen_womack
   - name: Joyce Stack
     company: Mendeley <br />(Session Chair)
-    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/joyce-stack.jpg
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/joyce-stack.png
     slug: joyce-stack
     twitter: mendeleystack
   - name: Tony Blank
@@ -123,12 +143,12 @@ committee:
     twitter: switzerly
   - name: Seth Lachner
     company: Client Resources, Inc.
-    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/seth-lachner.jpg
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/seth-lachner.png
     slug: seth-lachner
     twitter: slestac
   - name: Brandee Shin
     company: Capital One
-    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/brandee-shin.jpg
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/brandee-shin.png
     slug: brandee-shin
     twitter: brandee_shin
   - name: Caroline Lewko
@@ -145,7 +165,7 @@ committee:
     company: Gartner
     image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/mark_oneill-cropped-white-bg.jpg
     slug: mark-oneill
-    twitter: themarkoneill    
+    twitter: themarkoneill
 
 dayone:
   - time: 12:00 pm - 5:00 pm

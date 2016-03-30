@@ -14,7 +14,7 @@ title: APIStrat Boston 2016
                 <div class="box">
                     <div class="box-inner">
                         <div style="text-align:center;">
-                          <span class="title">October 27-28th, 2016<br />Boston, MA</span>
+                          <span class="title">Late October 2016<br />Boston, MA</span>
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ title: APIStrat Boston 2016
 
 <div style="background-color: #FD7A23; width: 100%;">
   <div style="width: 100%; margin: 0 auto; padding: 8px; border: 1px solid #000; text-align: center; font-weight: bold; color: #FFF; font-size: 22px;">
-    <a href="https://www.youtube.com/user/apistrat/videos" style="color: #FFF; text-decoration:underline;">Watch Latest Videos From Austin 2016 on Youtube!</>
+    <a href="https://www.youtube.com/user/apistrat/videos" style="color: #FFF; text-decoration:underline;">Watch Latest Videos From Austin 2016 on Youtube!</a>
   </div>
 </div>
 <br />
@@ -37,24 +37,22 @@ title: APIStrat Boston 2016
     <p>Thanks for visiting, stay tuned for more information, and we look forward to seeing you in Boston this fall.</p>
 </div>
 
-<!-- SPEAKERS -->
 <div id="tile_speakers" class="container widget">
 
-  <h2>Speakers</h2>
+  <h2>Chairs</h2>
   <div class="speakers">
     <div class="carousel-inner">
        <div class="item active">
 
-         {% for speaker in site.featured_speakers %}
+         {% for chair in site.chairs %}
          <div class="speaker" style="margin: 5px 25px 5px 25px;">
             <a class="speaker-inner" href="#">
             <span class="photo">
-              <img width="200" height="200" src="{{ speaker.image }}" alt="" />
+              <img width="200" height="200" src="{{ chair.image }}" alt="" />
             </span>
             <span class="name">
-              {{ speaker.name }}<br />({{ speaker.company }})
+              {{ chair.name }}<br />({{ chair.company }})<br />({{ chair.role }})
             </span>
-            <span class="description" style="color: #FFF;"></span><br />
             </a>
          </div>
          {% endfor %}

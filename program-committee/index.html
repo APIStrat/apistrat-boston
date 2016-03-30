@@ -11,14 +11,15 @@ title: APIStrat Boston 2016 - Committee
 <div class="container">
   <div class="speakers">
 
-    <p>Here is the committee assembled to help build the schedule for APIStrat 2016 in Boston, this  October 27th & 28th.</p>
+    <p>Here is the committee assembled to help build the schedule for APIStrat 2016 in Boston, scheduled for late in October.</p>
     {% for committee in site.committee %}
       <div class="speaker">
-        <a href="#" class="speaker-inner">
+        <a href="#" onclick="return false;" class="speaker-inner">
           <span class="photo">
             <img width="154" height="212" src="{{ committee.image }}"  alt="{{ committee.slug }}" title="{{ committee.name }} {{ committee.company }}" />
           </span>
           <span class="name">{{ committee.name }}<br />{{ committee.company }}</span>
+          <br /><a href="https://twitter.com/{{ committee.twitter }}">@{{ committee.twitter }}</a>
         </a>
       </div>
     {% endfor %}
