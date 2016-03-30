@@ -848,6 +848,9 @@ h2 + .btn-header {
 .speakers .speaker .speaker-inner:hover {
     color: #35aadc;
 }
+.speakers .speaker .speaker-inner:hover a {
+    color: #35aadc;
+}
 .speakers .speaker.featured .speaker-inner:hover {
     color: #e83a56;
 }
