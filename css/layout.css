@@ -802,14 +802,13 @@ h2 + .btn-header {
     box-shadow: 0px 0px 0px 2px #9d1127;
 }
 .speakers .name {
-    display: table;
     font-size: 16px;
     font-weight: 300;
     color: #fff;
+    margin: 0 0 0 0;
 }
 
 .speakers .name a{
-    display: table;
     font-size: 16px;
     font-weight: 300;
     color: #fff;
