@@ -166,6 +166,11 @@ committee:
     image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/mark_oneill-cropped-white-bg.jpg
     slug: mark-oneill
     twitter: themarkoneill
+  - name: Kurt Collins
+    company: Built.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/kurt-collins.jpg
+    slug: kurt-collins
+    twitter: timesync
 
 dayone:
   - time: 12:00 pm - 5:00 pm
