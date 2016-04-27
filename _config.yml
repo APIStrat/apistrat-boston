@@ -7,7 +7,7 @@ author:
 markdown:     rdiscount
 permalink:    pretty
 pygments:     true
-highlighting: rouge
+highlighter: rouge
 
 permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
