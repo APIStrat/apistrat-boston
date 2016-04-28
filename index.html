@@ -37,32 +37,30 @@ title: APIStrat Boston 2016
     <p>Thanks for visiting, stay tuned for more information, and we look forward to seeing you in Boston this fall.</p>
 </div>
 
-<div id="tile_speakers" class="container widget">
-
-  <h2>Chairs</h2>
-  <div class="speakers">
-    <div class="carousel-inner">
-       <div class="item active">
-
-         {% for chair in site.chairs %}
-         <div class="speaker" style="margin: 5px 25px 5px 25px;">
-            <a class="speaker-inner" href="#">
-            <span class="photo">
-              <img width="200" height="200" src="{{ chair.image }}" alt="" />
-            </span>
-            <span class="name">
-              {{ chair.name }} - {{ chair.role }}<br />({{ chair.company }})
-            </span>
-            </a>
-         </div>
-         {% endfor %}
-
-        </div>
-    </div>
-
-  </div>
-
-</div>
+<div class="col-xs-12">
+	<div class="container">
+	<h2>Chairs<br/></h2>
+		<div class="col-md-4 chair">
+			<div class="chair-inner">
+				<img class="img-responsive" src="https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png"/>
+				<p>Steven Willmott - Event Chair<br/>3scale</p>
+			</div>
+		</div><!-- /col-md-4 -->
+		<div class="col-md-4 chair">
+			<div class="chair-inner">
+				<img class="img-responsive" src="https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg"/>
+				<p>Lorinda Brandon - Program Chair<br/>Capital One</p>
+			</div>
+		</div><!-- /col-md-4 -->
+		<div class="col-md-4 chair">
+			<div class="chair-inner">
+				<img class="img-responsive" src="https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg"/>
+				<p>Kin Lane - Event Chair<br/>API Evangelist</p>
+			</div>
+		</div> <!-- /col-md-4 -->
+	</div> <!-- /container -->
+	<div class="spacer-40"></div>
+</div> <!-- /col-xs-12 -->
 
 <div id="tile_sponsors" class="container widget">
 

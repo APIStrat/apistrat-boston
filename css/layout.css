@@ -1899,3 +1899,36 @@ MEDIA CUSTOMIZATION
     display: block;
 	font-size: 150px;
 }
+
+/* ========================================
+===== UPDATED STYLES FOR INDEX ============
+======================================== */
+.chair {
+	padding: 20px;
+	}
+	
+.chair-inner {
+	background: #0d6287;
+	min-height:320px;
+	padding:40px 12px 20px;
+	border-radius:4px;
+	text-align:center;
+	line-height:24px;
+	color: #fff;
+	}
+
+.chair img {
+	border-radius:50%;
+	max-width:200px;
+	box-shadow: 0px 0px 0px 2px #157eab;
+	margin: 0 auto 10px;
+	}
+	
+.spacer-40 {
+	margin: 20px 0;
+	}
+	
+.spacer-20 {
+	margin: 10px 0;
+	}		
+
