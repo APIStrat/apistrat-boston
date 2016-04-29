@@ -1932,3 +1932,41 @@ MEDIA CUSTOMIZATION
 	margin: 10px 0;
 	}		
 
+.index-hero {
+	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.0)), url('/images/boston-downtown.png');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+	padding:0px;
+	min-height:450px;
+	}
+
+.index-hero h1 {
+	text-align:center;
+	font-size:80px;
+	margin-top:120px;
+	}
+	
+.index-hero h3 {
+	color: #ffffff;
+	font-weight:300;
+	text-align:center;
+	margin-top:10px;
+	line-height:1.3em;
+	}		
+
+
+.banded {
+	margin-top:40px;
+	padding:20px 0px;
+	background-color:rgba(13,98,135, 0.7);
+	}
+
+
+.ribbon {
+	background-color: #f58220;
+	color: #ffffff;
+	border-top:1px solid #000;
+	text-align:center;
+	}
+	
