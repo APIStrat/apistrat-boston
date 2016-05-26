@@ -11,7 +11,7 @@
         padding: 0;
       }
       #map {
-        height: 100%;
+        height: 600px;
       }
     </style>
   </head>
@@ -51,10 +51,11 @@
 
 		var myLatLng = {lat: 42.359718, lng: -71.051801};
 
-		var marker = new google.maps.Marker({
-          position: myLatLng,
+		var image = '/images/map-marker.gif';
+		var customMarker = new google.maps.Marker({
+          position: {lat: 42.359718, lng: -71.051801},
           map: map,
-          title: 'Hello World!'
+          icon: image
         });
 		
         map.mapTypes.set(customMapTypeId, customMapType);
