@@ -2005,6 +2005,7 @@ h3.lighter {
 	border-radius:1px;
 	text-align:center;
 	line-height:24px;
+	color: #505050;
 	}
 
 .speak img {
@@ -2014,6 +2015,8 @@ h3.lighter {
 	margin: 0 auto 10px;
 	}
 
-
+.leftred {
+	border-left:2px solid #f52029;
+	}
 
 
