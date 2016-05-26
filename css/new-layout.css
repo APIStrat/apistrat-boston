@@ -2056,6 +2056,14 @@ h3.lighter {
     outline-offset: 0px;
     }
 
+.btn-knockout-wh {    
+    background-color: transparent;
+    text-indent: 0;
+    padding: 10px 35px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    outline-offset: 0px;
+    }
 
 .ocean {
 	background: #0d6287;
