@@ -1956,7 +1956,7 @@ MEDIA CUSTOMIZATION
 	background-position: center center;
 	color: #ffffff;
 	padding:0px;
-	min-height:450px;
+	min-height:500px;
 	}
 
 .index-hero h1 {
@@ -2065,3 +2065,23 @@ h3.lighter {
 .ocean h2 {
 	color: #ffffff;
 	}	
+	
+.embed-responsive iframe {    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+	}
+	
+.overlay { /* fixes scrollzoom issue with map embed*/
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:500px; 
+   top:500px;  
+   margin-top:-500px;
+   }
+		
