@@ -2074,6 +2074,13 @@ h3.lighter {
 .ocean h2 {
 	color: #ffffff;
 	}	
+
+.webbed {
+	background: url('/images/web-bg.gif');
+	background-size: cover;
+	background-position: center center;
+	padding:0px;
+	}
 	
 .embed-responsive {
 	padding-bottom:57%;
