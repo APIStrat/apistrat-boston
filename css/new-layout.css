@@ -1963,6 +1963,7 @@ MEDIA CUSTOMIZATION
 	text-align:center;
 	font-size:80px;
 	margin-top:120px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}
 	
 .index-hero h3 {
@@ -1971,6 +1972,7 @@ MEDIA CUSTOMIZATION
 	text-align:center;
 	margin-top:10px;
 	line-height:1.3em;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}		
 
 .banded {
