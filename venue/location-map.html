@@ -19,10 +19,17 @@
     <div id="map"></div>
     <script>
       function initMap() {
+      
+      var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'APIStrat Boston'
+        });
+        
         var customMapType = new google.maps.StyledMapType([
             {
               stylers: [
-                {hue: '#cccccc'},
+                {hue: '#00baee'},
                 {visibility: 'simplified'},
                 {gamma: 0.5},
                 {weight: 0.5}
@@ -39,25 +46,25 @@
 			{
 			  "featureType": "road",
 			  "elementType": "geometry.fill",
-			  "stylers": [{ "color": "#cccccc" }]
+			  "stylers": [{ "color": "#cccccc" },{ "hue": "#00baee" }]
 			},
 			{
 			  "elementType": "geometry.stroke",
-			  "stylers": [{ "color": "#b9b9b9" }]
+			  "stylers": [{ "color": "#b9b9b9" },{ "hue": "#00baee" }]
 			},
 			{
 			  "featureType": "poi",
-			  "stylers": [{ "visibility": "off" }]
+			  "stylers": [{ "visibility": "off" },{ "hue": "#00baee" }]
 			},
 			{
 			  "featureType": "road",
 			  "elementType": "labels.icon",
-			  "stylers": [{ "visibility": "off" }]
+			  "stylers": [{ "visibility": "off" },{ "hue": "#00baee" }]
 			},
 			{
 			  "featureType": "transit.station",
 			  "elementType": "labels.icon",
-			  "stylers": [{ "visibility": "off" }]
+			  "stylers": [{ "visibility": "off" },{ "hue": "#00baee" }]
 			},
 		  {
 			featureType: 'water',
