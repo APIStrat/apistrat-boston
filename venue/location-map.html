@@ -18,39 +18,31 @@
   <body>
     <div id="map"></div>
     <script>
-      function initMap() {
-      
-      	var marker = new google.maps.Marker({
-          position: myLatLng,
-          map: map,
-          title: 'APIStrat Boston'
-        });
-        
+    function initMap() {
         var customMapType = new google.maps.StyledMapType([
-         {
-        stylers: [
-          {hue: '#00baee'},
-          {visibility: 'simplified'},
-          {gamma: 0.5},
-          {weight: 0.5}
-        ]
-      },
-      {
-        elementType: 'labels',
-        stylers: [{visibility: 'off'}]
-      },
-      {
-        featureType: 'water',
-        stylers: [{color: '#00baee'}]
-      }
-    ], {
-      name: 'Custom Style'
-  });
+            {
+              stylers: [
+                {hue: '#00baee'},
+                {visibility: 'simplified'},
+                {gamma: 0.5},
+                {weight: 0.5}
+              ]
+            },
+            {
+              elementType: 'labels',
+              stylers: [{visibility: 'off'}]
+            },
+            {
+              featureType: 'water',
+              stylers: [{color: '#00baee'}]
+            }
+          ], {
+            name: 'Custom Style'
+        });
         var customMapTypeId = 'custom_style';
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17,
-          
+          zoom: 12,
           center: {lat: 42.359718, lng: -71.051801},  // Boston
           mapTypeControlOptions: {
             mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
