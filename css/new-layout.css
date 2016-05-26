@@ -1951,7 +1951,7 @@ MEDIA CUSTOMIZATION
 	}		
 
 .index-hero {
-	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.0)), url('/images/boston-downtown.gif');
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.1)), url('/images/boston-downtown.gif');
 	background-size: cover;
 	background-position: center center;
 	color: #ffffff;
@@ -2020,3 +2020,36 @@ h3.lighter {
 	}
 
 
+.btn {
+    display: inline-block;
+    padding: 5px 35px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    }
+    
+.btn-knockout-red {    
+    background-color: transparent;
+    text-indent: 0;
+    padding: 10px 35px;
+    color: #f52029;
+    border: 1px solid #f52029;
+    outline-offset: 0px;
+    }
