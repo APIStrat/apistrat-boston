@@ -313,7 +313,7 @@ header ul {
 }
 header ul li {
     display: inline-block;
-    font-size: 1em; font-weight: 500;
+    font-size: 1em; font-weight: 400;
     color: #5b5959;
     text-transform: uppercase;
 }
@@ -381,7 +381,7 @@ header.sticky #menu-primary {
     margin: 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     header {
         max-width: 1260px;
         width: 100%;
@@ -393,11 +393,13 @@ header.sticky #menu-primary {
         width: auto;
         float: left;
         margin: 18px 0 -18px;
+        padding-left:20px;
     }
     header #menu-primary {
         margin-top: 30px;
         position: absolute;
         right: 0;
+        padding-right:20px;
     }
 }
 
