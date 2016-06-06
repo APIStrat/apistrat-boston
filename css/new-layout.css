@@ -2012,6 +2012,10 @@ h3.lighter {
 	color: #505050;
 	}
 
+.speak-inner p {
+	font-size:13px;
+	}	
+
 .speak img {
 	border-radius:50%;
 	max-width:200px;
