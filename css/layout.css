@@ -86,7 +86,7 @@ a img.aligncenter {
  ---------------- */
 html, body {
     font-family: "Ubuntu", Helvetica, Arial, sans-serif;
-    font-size: 16px; font-weight: 400;
+    font-size: 16px;font-weight: 300;
     color: #242424;
     height: 100%;
 }
@@ -313,7 +313,7 @@ header ul {
 }
 header ul li {
     display: inline-block;
-    font-size: 1em; font-weight: 500;
+    font-size: 1em; font-weight: 400;
     color: #5b5959;
     text-transform: uppercase;
 }
@@ -381,7 +381,7 @@ header.sticky #menu-primary {
     margin: 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     header {
         max-width: 1260px;
         width: 100%;
@@ -393,11 +393,13 @@ header.sticky #menu-primary {
         width: auto;
         float: left;
         margin: 18px 0 -18px;
+        padding-left:20px;
     }
     header #menu-primary {
         margin-top: 30px;
         position: absolute;
         right: 0;
+        padding-right:20px;
     }
 }
 
@@ -1809,8 +1811,8 @@ form.contact-us textarea {
 footer {
     position: relative;
     z-index: 30;
-    margin-top: 2em;
-    border-top: 1px solid #d3d3d3;
+    margin-top: 0px;
+    border-top: 0px solid #d3d3d3;
     background: #393939;
     padding-top: 48px;
 }
@@ -1905,6 +1907,11 @@ MEDIA CUSTOMIZATION
 /* ========================================
 ===== UPDATED STYLES FOR INDEX ============
 ======================================== */
+
+.center {
+	text-align:center;
+	}
+
 .chair {
 	padding: 20px;
 	}
@@ -1932,29 +1939,33 @@ MEDIA CUSTOMIZATION
 	
 .spacer-60 {
 	margin: 30px 0;
+	display:table;
 	}
 
 .spacer-40 {
 	margin: 20px 0;
+	display:table;
 	}
 	
 .spacer-20 {
 	margin: 10px 0;
+	display:table;
 	}		
 
 .index-hero {
-	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.0)), url('/images/boston-downtown.gif');
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.1)), url('/images/boston-downtown.gif');
 	background-size: cover;
 	background-position: center center;
 	color: #ffffff;
 	padding:0px;
-	min-height:450px;
+	min-height:500px;
 	}
 
 .index-hero h1 {
 	text-align:center;
 	font-size:80px;
 	margin-top:120px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}
 	
 .index-hero h3 {
@@ -1963,6 +1974,7 @@ MEDIA CUSTOMIZATION
 	text-align:center;
 	margin-top:10px;
 	line-height:1.3em;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}		
 
 .banded {
@@ -1987,17 +1999,22 @@ h3.lighter {
 
 .speak {
 	padding: 20px;
+	color: #242424;
 	}
 	
 .speak-inner {
 	background: #ffffff;
 	min-height:320px;
 	padding:40px 12px 20px;
-	border-radius:4px;
+	border-radius:1px;
 	text-align:center;
 	line-height:24px;
-	color: #fff;
+	color: #505050;
 	}
+
+.speak-inner p {
+	font-size:13px;
+	}	
 
 .speak img {
 	border-radius:50%;
@@ -2006,6 +2023,91 @@ h3.lighter {
 	margin: 0 auto 10px;
 	}
 
+.leftred {
+	border-left:2px solid #f52029;
+	}
 
 
+.btn {
+    display: inline-block;
+    padding: 5px 35px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    }
+    
+.btn-knockout-red {    
+    background-color: transparent;
+    text-indent: 0;
+    padding: 10px 35px;
+    color: #f52029;
+    border: 1px solid #f52029;
+    outline-offset: 0px;
+    }
 
+.btn-knockout-wh {    
+    background-color: transparent;
+    text-indent: 0;
+    padding: 10px 35px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    outline-offset: 0px;
+    font-weight:400;
+    }
+
+.ocean {
+	background: #0d6287;
+	color:#ffffff;
+	}
+	
+.ocean h2 {
+	color: #ffffff;
+	}	
+
+.webbed {
+	background: url('/images/web-bg.gif');
+	background-size: cover;
+	background-position: center center;
+	padding:0px;
+	}
+	
+.embed-responsive {
+	padding-bottom:57%;
+	}
+		
+.embed-responsive iframe {    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+	}
+	
+.overlay { /* fixes scrollzoom issue with map embed*/
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:500px; 
+   top:500px;  
+   margin-top:-500px;
+   }
+		
