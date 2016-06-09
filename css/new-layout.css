@@ -2111,4 +2111,32 @@ h3.lighter {
    top:500px;  
    margin-top:-500px;
    }
+	
+	
+.reg-hero {
+	/* background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,.1)), url('/images/boston-downtown-darker.gif');*/
+	background: url('/images/drink-status.gif');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+	padding:0px;
+	min-height:500px;
+	}
+
+.reg-hero h1 {
+	text-align:left;
+	font-size:80px;
+	margin-top:120px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	}
+	
+.reg-hero h3 {
+	color: #ffffff;
+	font-weight:300;
+	text-align:left;
+	margin-top:40px;
+	line-height:1.4em;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	}		
+	
 		
