@@ -1953,7 +1953,8 @@ MEDIA CUSTOMIZATION
 	}		
 
 .index-hero {
-	background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.1)), url('/images/boston-downtown-darker.gif');
+	/* background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,.1)), url('/images/boston-downtown-darker.gif');*/
+	background: url('/images/boston-downtown-darker.gif');
 	background-size: cover;
 	background-position: center center;
 	color: #ffffff;
@@ -1962,7 +1963,7 @@ MEDIA CUSTOMIZATION
 	}
 
 .index-hero h1 {
-	text-align:center;
+	text-align:left;
 	font-size:80px;
 	margin-top:120px;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
@@ -1971,7 +1972,7 @@ MEDIA CUSTOMIZATION
 .index-hero h3 {
 	color: #ffffff;
 	font-weight:300;
-	text-align:center;
+	text-align:left;
 	margin-top:10px;
 	line-height:1.3em;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
