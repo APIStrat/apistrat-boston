@@ -2121,6 +2121,7 @@ h3.lighter {
 	color: #ffffff;
 	padding:0px;
 	min-height:400px;
+	display:flex;
 	}
 
 .reg-hero h1 {
