@@ -2071,8 +2071,20 @@ h3.lighter {
     border: 2px solid #ffffff;
     outline-offset: 0px;
     font-weight:400;
+    -webkit-transition: background-color 500ms ease-out .05s;
+    -moz-transition: background-color 500ms ease-out .05s;
+    -o-transition: background-color 500ms ease-out .05s;
+    transition: background-color 500ms ease-out .05s;
     }
 
+.btn-knockout-wh:hover {
+	background-color: #0d6287;
+	color: #ffffff;
+	border:1px solid #0d6287;
+	outline-offset:0px;
+	transform-delay: 0s;
+	} 
+  
 .ocean {
 	background: #0d6287;
 	color:#ffffff;
