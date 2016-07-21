@@ -2150,4 +2150,27 @@ h3.lighter {
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}		
 	
+.speaker-hero {
+	background: url('/images/hero-speaker.gif');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+	padding:0px;
+	min-height:400px;
+	display:flex;
+	}
+
+.speaker-hero h1 {
+	text-align:left;
+	font-size:60px;
+	}
+	
+.speaker-hero h3 {
+	color: #ffffff;
+	font-weight:300;
+	text-align:left;
+	margin-top:40px;
+	line-height:1.4em;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	}		
 		
