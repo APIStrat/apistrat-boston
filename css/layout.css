@@ -2174,10 +2174,12 @@ h3.lighter {
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}		
 	
-	
 .human {
 	background-color: #00baee;
 	color: #ffffff;
+	text-align:left;
+	min-height:300px;
+	display:flex;
 	}
 
 .human img {
