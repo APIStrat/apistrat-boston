@@ -2173,4 +2173,19 @@ h3.lighter {
 	line-height:1.4em;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}		
+	
+	
+.human {
+	background-color: #00baee;
+	color: #ffffff;
+	}
+
+.human img {
+	border-radius:50%;
+	max-width:200px;
+	box-shadow: 0px 0px 0px 2px #157eab;
+	margin: 0 auto 10px;
+	}	
+		
+	
 		
