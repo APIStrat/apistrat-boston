@@ -1980,6 +1980,8 @@ MEDIA CUSTOMIZATION
 	margin-top:30px;
 	line-height:1.4em;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	text-transform:uppercase;
+	font-family: "Open Sans", Arial, Sans-serif;
 	}		
 
 .hero-above {
