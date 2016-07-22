@@ -2181,6 +2181,10 @@ h3.lighter {
 	min-height:300px;
 	display:flex;
 	}
+	
+.human h3 {
+	color: #ffffff;
+	}	
 
 .human img {
 	border-radius:50%;
