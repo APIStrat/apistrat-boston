@@ -2201,4 +2201,14 @@ h3.lighter {
 	min-height:400px;
 	display:flex;
 	}	
+	
+h3.subhead {
+    font-size: 18px;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+    margin: 0.5em 0 1em;
+    color: #e73955;
+    text-align: left;
+	}	
+	
 		
