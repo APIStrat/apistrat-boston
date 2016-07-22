@@ -1961,6 +1961,7 @@ MEDIA CUSTOMIZATION
 	color: #ffffff;
 	padding:0px;
 	min-height:500px;
+	text-align:center;
 	}
 
 .index-hero h1 {
@@ -1981,7 +1982,7 @@ MEDIA CUSTOMIZATION
 
 .hero-above {
 	text-align:center;
-	margin-top: 120px;
+	margin-top: 90px;
 	}
 .hero-above hr{
 	width: 15%;
