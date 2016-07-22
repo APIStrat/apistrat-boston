@@ -85,8 +85,9 @@ a img.aligncenter {
 /* Generic styles
  ---------------- */
 html, body {
-    font-family: "Ubuntu", Helvetica, Arial, sans-serif;
-    font-size: 16px;font-weight: 300;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
     color: #242424;
     height: 100%;
 }
@@ -94,7 +95,7 @@ body.header-sticky {
     padding-top: 46px;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, .h1, .h2, {
     font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1 {
@@ -1991,6 +1992,11 @@ MEDIA CUSTOMIZATION
 	text-align:center;
 	}
 
+	
+.sponsorlogo {
+	padding: 10px;
+	}	
+
 h3.lighter {
 	font-weight:300;
 	color: #707070;
@@ -2071,8 +2077,20 @@ h3.lighter {
     border: 2px solid #ffffff;
     outline-offset: 0px;
     font-weight:400;
+    -webkit-transition: background-color 500ms ease-out .05s;
+    -moz-transition: background-color 500ms ease-out .05s;
+    -o-transition: background-color 500ms ease-out .05s;
+    transition: background-color 500ms ease-out .05s;
     }
 
+.btn-knockout-wh:hover {
+	background-color: #0d6287;
+	color: #ffffff;
+	border:1px solid #0d6287;
+	outline-offset:0px;
+	transform-delay: 0s;
+	} 
+  
 .ocean {
 	background: #0d6287;
 	color:#ffffff;
@@ -2138,6 +2156,65 @@ h3.lighter {
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}		
 	
-.sponsorlogo {
-	padding: 10px;
+.speaker-hero {
+	background: url('/images/hero-speaker.gif');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+	padding:0px;
+	min-height:400px;
+	display:flex;
+	}
+
+.speaker-hero h1 {
+	text-align:left;
+	font-size:60px;
+	}
+	
+.speaker-hero h3 {
+	color: #ffffff;
+	font-weight:300;
+	text-align:left;
+	margin-top:40px;
+	line-height:1.4em;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}		
+	
+.human {
+	background-color: #00baee;
+	color: #ffffff;
+	text-align:left;
+	min-height:300px;
+	}
+	
+.human h3 {
+	color: #ffffff;
+	}	
+
+.human img {
+	border-radius:50%;
+	max-width:200px;
+	box-shadow: 0px 0px 0px 2px #157eab;
+	margin: 0 auto 10px;
+	}	
+		
+.register-hero {
+	background: url('/images/registration-bg.gif');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+	padding:0px;
+	min-height:400px;
+	display:flex;
+	}	
+	
+h3.subhead {
+    font-size: 18px;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+    margin: 0.5em 0 1em;
+    color: #e73955;
+    text-align: left;
+	}	
+	
+		
