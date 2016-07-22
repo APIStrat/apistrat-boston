@@ -1964,9 +1964,9 @@ MEDIA CUSTOMIZATION
 	}
 
 .index-hero h1 {
-	text-align:left;
+	text-align:center;
 	font-size:80px;
-	margin-top:120px;
+	margin-top:20px;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}
 	
@@ -1978,6 +1978,28 @@ MEDIA CUSTOMIZATION
 	line-height:1.4em;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}		
+
+.hero-above {
+	text-align:center;
+	margin-top: 120px;
+	}
+.hero-above hr{
+	width: 15%;
+    border: 0;
+    border-top: 1px solid #FFF;
+    display: inline-block;
+    }
+
+.hero-above span {
+	display:inline-block;
+	font-size: 14pt;
+    font-weight: 300;
+    display: inline-block;
+    margin: 0 20px 0;
+    position: relative;
+    top: -26px;
+	}
+
 
 .banded {
 	margin-top:40px;
