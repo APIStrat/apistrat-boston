@@ -2192,5 +2192,13 @@ h3.lighter {
 	margin: 0 auto 10px;
 	}	
 		
-	
+.register-hero {
+	background: url('/images/registration-bg.gif');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+	padding:0px;
+	min-height:400px;
+	display:flex;
+	}	
 		
