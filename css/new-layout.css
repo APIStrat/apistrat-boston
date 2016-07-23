@@ -2067,7 +2067,7 @@ h3.lighter {
     padding: 5px 35px;
     margin-bottom: 0;
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: normal;
     line-height: 1.5em;
     text-align: center;
@@ -2090,7 +2090,7 @@ h3.lighter {
 .btn-knockout-red {    
     background-color: transparent;
     text-indent: 0;
-    padding: 10px 35px;
+    padding: 14px 40px;
     color: #f52029;
     border: 1px solid #f52029;
     outline-offset: 0px;
@@ -2099,11 +2099,11 @@ h3.lighter {
 .btn-knockout-wh {    
     background-color: transparent;
     text-indent: 0;
-    padding: 10px 35px;
+    padding: 14px 40px;
     color: #ffffff;
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
     outline-offset: 0px;
-    font-weight:400;
+    font-weight:300;
     -webkit-transition: background-color 500ms ease-out .05s;
     -moz-transition: background-color 500ms ease-out .05s;
     -o-transition: background-color 500ms ease-out .05s;

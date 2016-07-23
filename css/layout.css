@@ -85,8 +85,9 @@ a img.aligncenter {
 /* Generic styles
  ---------------- */
 html, body {
-    font-family: "Ubuntu", Helvetica, Arial, sans-serif;
-    font-size: 16px;font-weight: 300;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
     color: #242424;
     height: 100%;
 }
@@ -94,7 +95,7 @@ body.header-sticky {
     padding-top: 46px;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, .h1, .h2, {
     font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1 {
@@ -1960,23 +1961,50 @@ MEDIA CUSTOMIZATION
 	color: #ffffff;
 	padding:0px;
 	min-height:500px;
+	text-align:center;
 	}
 
 .index-hero h1 {
-	text-align:left;
-	font-size:80px;
-	margin-top:120px;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	text-align:center;
+	font-size:88px;
+	margin-top:5px;
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+	font-family: "Open Sans", Arial, Sans-serif;
+	font-weight:400;
 	}
 	
 .index-hero h3 {
 	color: #ffffff;
 	font-weight:300;
-	text-align:left;
-	margin-top:40px;
+	text-align:center;
+	margin-top:30px;
 	line-height:1.4em;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	text-transform:uppercase;
+	font-family: "Open Sans", Arial, Sans-serif;
 	}		
+
+.hero-above {
+	text-align:center;
+	margin-top: 90px;
+	}
+.hero-above hr{
+	width: 15%;
+    border: 0;
+    border-top: 1px solid #FFF;
+    display: inline-block;
+    }
+
+.hero-above span {
+	display:inline-block;
+	font-size: 14pt;
+    font-weight: 300;
+    display: inline-block;
+    margin: 0 20px 0;
+    position: relative;
+    top: -26px;
+	}
+
 
 .banded {
 	margin-top:40px;
@@ -2039,7 +2067,7 @@ h3.lighter {
     padding: 5px 35px;
     margin-bottom: 0;
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: normal;
     line-height: 1.5em;
     text-align: center;
@@ -2062,7 +2090,7 @@ h3.lighter {
 .btn-knockout-red {    
     background-color: transparent;
     text-indent: 0;
-    padding: 10px 35px;
+    padding: 14px 40px;
     color: #f52029;
     border: 1px solid #f52029;
     outline-offset: 0px;
@@ -2071,11 +2099,11 @@ h3.lighter {
 .btn-knockout-wh {    
     background-color: transparent;
     text-indent: 0;
-    padding: 10px 35px;
+    padding: 14px 40px;
     color: #ffffff;
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
     outline-offset: 0px;
-    font-weight:400;
+    font-weight:300;
     -webkit-transition: background-color 500ms ease-out .05s;
     -moz-transition: background-color 500ms ease-out .05s;
     -o-transition: background-color 500ms ease-out .05s;
