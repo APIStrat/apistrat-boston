@@ -2024,6 +2024,13 @@ MEDIA CUSTOMIZATION
 	padding: 10px;
 	}	
 
+
+h2.smaller {
+	font-size:24px;
+	text-transform:uppercase;
+	}
+
+
 h3.lighter {
 	font-weight:300;
 	color: #707070;
