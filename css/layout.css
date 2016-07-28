@@ -90,20 +90,18 @@ html, body {
     font-weight: 300;
     color: #242424;
     height: 100%;
-	}
-	
+}
 body.header-sticky {
     padding-top: 46px;
-	}
+}
 
 h1, h2, .h1, .h2, {
     font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	}
+}
 
 h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	}
-	
 
 h1 {
     font-size: 44px;
@@ -2032,6 +2030,13 @@ MEDIA CUSTOMIZATION
 	padding: 10px;
 	}	
 
+
+h2.smaller {
+	font-size:24px;
+	text-transform:uppercase;
+	}
+
+
 h3.lighter {
 	font-weight:300;
 	color: #707070;
@@ -2125,6 +2130,29 @@ h3.lighter {
 	outline-offset:0px;
 	transform-delay: 0s;
 	} 
+  
+.btn-red {    
+    background-color: #f52029;
+    text-indent: 0;
+    padding: 14px 40px;
+    color: #ffffff;
+    border: 0px solid #ffffff;
+    outline-offset: 0px;
+    font-weight:300;
+    -webkit-transition: background-color 500ms ease-out .05s;
+    -moz-transition: background-color 500ms ease-out .05s;
+    -o-transition: background-color 500ms ease-out .05s;
+    transition: background-color 500ms ease-out .05s;
+    }
+
+.btn-red:hover {
+	background-color: #ffffff;
+	color: #f52029;
+	border:0px solid #0d6287;
+	outline-offset:0px;
+	transform-delay: 0s;
+	}   
+  
   
 .ocean {
 	background: #0d6287;
