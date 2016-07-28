@@ -718,3 +718,6 @@ community:
     - name: TRIREST Raleigh
       image: /images/cp-tri-rest-logo.png
       link: http://www.meetup.com/TRI-REST/ 
+    - name: WriteTheDocs
+      image: /images/cp-wtd-logo.png
+      link: http://www.meetup.com/Write-the-Docs-BOS/ 
