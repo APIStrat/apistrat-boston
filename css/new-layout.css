@@ -1466,6 +1466,7 @@ h2 + .btn-header {
     padding: 16px 21px;
     background: #f1f1f1;
     border: none;
+    min-height:400px;
 }
 .articles.vertical article .post-content a {
     padding: 0;
