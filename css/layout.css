@@ -331,7 +331,7 @@ header ul li a {
     height: 46px;
 }
 header ul li.current-menu-item a, header ul li a:hover {
-    background: #35aadc;
+    background: #00baee;
     color: #fff;
     text-decoration: none;
 }
@@ -2280,4 +2280,51 @@ h3.subhead {
     text-align: left;
 	}	
 	
+
+.ticket {
+	padding: 20px;
+	text-align:center;
+	margin: 40px 0px;
+	}
+
+.ticket-inner {
+	border: 1px solid #ffffff;
+	margin: 10px 5px 0px;
+	padding: 20px;
+	background: rgba(13, 98, 135,0.3);
+	}	
+	
+p.price {
+	font-size: 70px;
+	font-weight:300;
+	color: #ffffff;
+	}
+		
+.buyticket {
+	background-color: #f1f1f1;
+	padding:20px;
+	margin: 0px 5px 30px;
+	}
+	
+.btn-red {    
+    background-color: #f52029;
+    text-indent: 0;
+    padding: 14px 40px;
+    color: #ffffff;
+    border: 0px solid #ffffff;
+    outline-offset: 0px;
+    font-weight:300;
+    -webkit-transition: background-color 500ms ease-out .05s;
+    -moz-transition: background-color 500ms ease-out .05s;
+    -o-transition: background-color 500ms ease-out .05s;
+    transition: background-color 500ms ease-out .05s;
+    }
+
+.btn-red:hover {
+	background-color: #ffffff;
+	color: #f52029;
+	border:0px solid #0d6287;
+	outline-offset:0px;
+	transform-delay: 0s;
+	}  
 		
