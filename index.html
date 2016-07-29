@@ -75,7 +75,7 @@ title: APIStrat Boston 2016
 <div class="col-xs-12" style="background-color:#00baee;">
 	<div class="container">
 	<div class="col-xs-12" style="padding: 30px 0px;"></div>
-	<h2 class="center" style="color:#ffffff;">Speakers<br/></h2>
+	<h2 class="center smaller" style="color:#ffffff;">Speakers<br/></h2>
 		<div class="col-md-4 speak">
 			<div class="speak-inner">
 				<img class="img-responsive" src="/images/sp-charles-ashley-3.png"/>
@@ -148,14 +148,12 @@ title: APIStrat Boston 2016
 		
 	<div class="col-xs-12" style="padding: 30px 0px;"></div>
 	<div class="col-md-10 col-md-offset-1 center">
-		<p style="color:#ffffff;">(More speakers coming soon!)</p>
+		<p style="color:#ffffff;"><a style="color: #ffffff; href="/speakers/">See all speakers &rsaquo;</a></p>
 	</div>
 
 	</div> <!-- /container -->
 	<div class="col-xs-12" style="padding: 30px 0px;"></div>
 </div> <!-- /col-xs-12 -->
-
-
 
 <!-- ========================================
 ===== COMMITTEE =============================
@@ -163,7 +161,7 @@ title: APIStrat Boston 2016
 <div class="col-xs-12 webbed">
 	<div class="container">
 	<div class="col-xs-12" style="padding: 30px 0px;"></div>
-	<h2 class="center">Event Committee<br/></h2>
+	<h2 class="center smaller">Event Committee<br/></h2>
 		<div class="col-md-4 chair">
 			<div class="chair-inner">
 				<img class="img-responsive" src="https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png"/>
@@ -188,12 +186,72 @@ title: APIStrat Boston 2016
 
 
 <!-- ========================================
+===== TICKEETS ==============================
+======================================== -->
+<div class="col-xs-12 ocean" style="background: url('/images/hero-tickets.gif') center center;">
+	<div class="col-xs-12" style="padding: 40px 0px;"></div>
+	<div class="container">
+		<div class="col-md-4 ticket">
+			<div class="ticket-inner">
+				<h2 class="smaller">Early Bird</h2>
+				<hr style="border-top:1px solid #ffffff; margin:10px;">
+				<p class="price">$499</p>
+				<p>Available through Aug 5, 2016</p>
+			</div>	
+		</div>
+		
+		<div class="col-md-4 ticket">
+			<div class="ticket-inner">
+				<h2 class="smaller">General Admission</h2>
+				<hr style="border-top:1px solid #ffffff; margin:10px;">
+				<p class="price">$599</p>
+				<p>Sales start August 6th</p>
+			</div>
+		</div>
+		
+		<div class="col-md-4 ticket">
+			<div class="ticket-inner">
+				<h2 class="smaller">Last Minute</h2>
+				<hr style="border-top:1px solid #ffffff; margin:10px;">
+				<p class="price">$749</p>
+				<p>Sales start October 28</p>
+			</div>
+		</div>
+		
+		<div class="center" style="padding: 30px 10px;">
+			<p><a href="http://boston2016.apistrat.com/registration/"><button class="btn btn-red">Get your ticket &rsaquo;</button></a></p>
+		</div>	
+	</div><!-- /container -->
+	<div class="col-xs-12" style="padding: 40px 0px;"></div>
+</div><!-- /col-xs-12 -->	
+
+
+
+
+<!-- ========================================
+===== COMMUNITY =============================
+======================================== -->
+<div class="col-xs-12 webbed" style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4;">
+	<div class="col-xs-12" style="padding: 30px 0px;"></div>
+	<div class="container">
+	<h3 class="sponsor center"><span>Community Partners</span></h3>
+			{% for partner in site.community %}
+				<div class="col-md-2 col-xs-6" style="padding-top:30px;">
+					<a href="{{partner.link}}" target="_blank"><img class="img-responsive" src="{{partner.image}}"></a>
+				</div>
+			{% endfor %}
+	</div>
+	<div class="col-xs-12" style="padding: 40px 0px;"></div>
+</div>  
+
+
+<!-- ========================================
 ===== LOCATION ==============================
 ======================================== -->
 
 <div class="col-xs-12 ocean">
 	<div class="container">
-		<h2 class="center" style="padding: 15px 0px 10px;">Location</h2>
+		<h2 class="center smaller" style="padding: 15px 0px 10px;">Location</h2>
 	</div>
 </div>
 <div class="col-xs-12" style="padding:0px;">
@@ -221,6 +279,11 @@ title: APIStrat Boston 2016
 		
 	</div>
 </div>
+
+
+<!-- ========================================
+===== ORGANIZERS ============================
+======================================== -->
 
 <div id="tile_sponsors" class="container widget">
 
@@ -262,14 +325,6 @@ title: APIStrat Boston 2016
       <tr>
         <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Another tremendous conference put on by <a href="https://twitter.com/kinlane">@kinlane</a> and Steve. Thank you guys for an amazing <a href="https://twitter.com/apistrat">@apistrat</a> 2014 <a href="https://twitter.com/hashtag/chicago?src=hash">#chicago</a></p>&mdash; Mike Stowe (@mikegstowe) <a href="https://twitter.com/mikegstowe/status/515639979742359552">September 26, 2014</a></blockquote></td>
         <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Back in London after an awesome <a href="https://twitter.com/apistrat">@apistrat</a>. Congrats and thank you to <a href="https://twitter.com/njyx">@njyx</a>, <a href="https://twitter.com/kinlane">@kinlane</a>, the <a href="https://twitter.com/3scale">@3scale</a> team and everyone who joined! <a href="https://twitter.com/hashtag/apistratAMS?src=hash">#apistratAMS</a></p>&mdash; Romain Huet (@romainhuet) <a href="https://twitter.com/romainhuet/status/450321112304730113">March 30, 2014</a></blockquote></td>
-      </tr>
-      <tr>
-        <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Great week at <a href="https://twitter.com/apistrat">@apistrat</a>, learned a lot and met very interesting people ! Thank you all :)</p>&mdash; Antoine Jackson (@willjcksn) <a href="https://twitter.com/willjcksn/status/449650529111904256">March 28, 2014</a></blockquote></td>
-        <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr"><a href="https://twitter.com/apistrat">@apistrat</a> <a href="https://twitter.com/kinlane">@kinlane</a> it was an awesome conference, so glad to attend! Thank you!</p>&mdash; Christina Green (@gueritaverde) <a href="https://twitter.com/gueritaverde/status/305081239407312896">February 22, 2013</a></blockquote></td>
-      </tr>
-      <tr>
-        <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Just back to SF! Had amazing days with smart people and awesome APIs at <a href="https://twitter.com/apistrat">@apistrat</a> - Thank you <a href="https://twitter.com/kinlane">@kinlane</a> &amp; <a href="https://twitter.com/njyx">@njyx</a> to make it happen.</p>&mdash; Augusto Marietti (@sinzone) <a href="https://twitter.com/sinzone/status/306248717726519296">February 26, 2013</a></blockquote></td>
-        <td><blockquote class="twitter-tweet" lang="en" style="display: inline;"><p lang="en" dir="ltr">Indeed, great content and speakers. RT <a href="https://twitter.com/gueritaverde">@gueritaverde</a>: <a href="https://twitter.com/apistrat">@apistrat</a> <a href="https://twitter.com/kinlane">@kinlane</a> it was an awesome conference, so glad to attend! Thank you!&quot;</p>&mdash; Dave Goldberg (@davidgoldberg) <a href="https://twitter.com/davidgoldberg/status/305285437428203520">February 23, 2013</a></blockquote></td>
       </tr>
     </table>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
