@@ -720,4 +720,7 @@ community:
       link: http://www.meetup.com/TRI-REST/ 
     - name: WriteTheDocs
       image: /images/cp-wtd-logo.png
-      link: http://www.meetup.com/Write-the-Docs-BOS/ 
+      link: http://www.meetup.com/Write-the-Docs-BOS/
+    - name: Boston New Tech
+      image: /images/cp-boston-newtech.png
+      link: http://www.meetup.com/Boston_New_Technology/ 
