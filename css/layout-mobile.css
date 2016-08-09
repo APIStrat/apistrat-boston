@@ -499,7 +499,7 @@
         margin: 16px 0 0 9px;
     }
     header #logo img, header.sticky #logo img {
-        max-height: 33px;
+        max-height: 65px;
     }
     header .navbar-header > * {
         padding: 11px 14px;
