@@ -1074,15 +1074,6 @@ allspeakers:
     image: sp-kayvan-alikhani.png
     talk-title: Who's on first for API security - User identity, Application Identity Or Device Identity? And how are they related?
     talk-abstract: <p>What role do standards such as OAUTH/OIDC play today/should play in the future for API security? Could properly implemented API security have prevented some of the recent breaches? With the explosive number of applications (especially mobile) we use everyday, many such apps access services using APIs. Therefore, streamlining API security protection is a critical matter. Standards such as OAUTH/OIDC are a key component of an interesting new paradigm in API security. In earlier implementations of API security, the "application''s identity" was verified by the back-end service and used by that service to determine whether to process a request. The application would establish the identity of the user and device, using separate methods, and information about the user and devices they used typically stayed in the application tier. Now, taking advantage of the latest open protocols and security standards, organizations are leveraging application architectures that allow for the flow of "user, device &amp; application identity" information to flow to back-end systems as part of the API requests that move up and down various layers of an organization''s services. It''s important to make sure that the "user identity" assurance and verification services leveraged by API calls are the same identity and access management services and infrastructure that is used for verifying the user's identity when they access services using non-API based solutions, such as web-based apps. In other words, It makes sense to avoid creating yet another silo, specific to API-based identity verification. The importance of combining user and application identity became evident in light of recent breaches, where hackers took advantage of inadequate API security. In many cases, the machine to machine protection was in place, the underlying transport was secure, and the applications used unique identities for identity verification. However, lack of adequate user identity assurance on top of the machine identity/application layer, knowing the API URL and impersonating a registered application, enabled hackers to take control of the solutions. The talk will delve deeper into the role OIDC/OAUTH play in improving API security.</p>
-  - name: Jarda Mooza Macha&#328;
-    company: <span>&#268;esk&#225; spo&#345;itelna - Erste Group Bank AG</span>
-    jobtitle: API Universal Soldier
-    bio: <p>For last two years, I've been fighting for the open API in one of the oldest Europe banks. I'm trying to move a dinosaur in a time. To introduce bank 3.0 to people.</p>
-    twitter: csas_devs
-    slug: jarda-machan
-    image: sp-jarda-machan.png
-    talk-title: Moving a dinosaur &ndash; OpenAPI in one of the largest financial services providers in Central and Eastern Europe
-    talk-abstract: <p>As the biggest Czech bank it is a real challenge to introduce, evangelize and communicate the open API platform (https://developers.csas.cz/html/devs/en.html) to the public audience and to the bank itself at the same time. We're developing our own WebAPI platform for last 2,5 years, trying to set the standard in a wide community of developers as well as in the banking ecosystem. We're focusing on the developer's experience, bootstrapping new technologies like blockchain, homomorphic encryption and other crucial nowadays technologies. In short we're trying to turn the old traditional bank to a modern trendsetter one.</p><p>What is it like to introduce agile development into the IT house where waterfall is standard for last decades? To communicate with community through twitter not newspapers? To release the first open-source internet banking in the world? We have many great stories behind our effort in making our bank an open, transparent public institution. We would really be happy to share it with you!</p>
   - name: Arnaud Lauret
     company: AXA Banque
     jobtitle: IT Architect
@@ -1128,7 +1119,16 @@ allspeakers:
     image: sp-devin-sevilla.png
     talk-title: How to be a courteous guest&#58; providing SDKs to developers
     talk-abstract: <p>Mobile developers are suspicious of including SDKs in their applications. Mobile devices are resource constrained and each application must be a good citizen. It''s easy for SDKs to cause crashes or simply use too many resources, leading to one-star reviews. SDK providers must earn trust and do what they can to protect it. This talk introduces methods to earn the trust of developers and how to manage the fallout from the inevitable bug in your SDK.</p>
-
+  - name: Jarda Mooza Macha&#328;
+    company: <span>&#268;esk&#225; spo&#345;itelna - Erste Group Bank AG</span>
+    jobtitle: API Universal Soldier
+    bio: <p>For last two years, I've been fighting for the open API in one of the oldest Europe banks. I'm trying to move a dinosaur in a time. To introduce bank 3.0 to people.</p>
+    twitter: csas_devs
+    slug: jarda-machan
+    image: sp-jarda-machan.png
+    talk-title: Moving a dinosaur &ndash; OpenAPI in one of the largest financial services providers in Central and Eastern Europe
+    talk-abstract: <p>As the biggest Czech bank it is a real challenge to introduce, evangelize and communicate the open API platform (https://developers.csas.cz/html/devs/en.html) to the public audience and to the bank itself at the same time. We're developing our own WebAPI platform for last 2,5 years, trying to set the standard in a wide community of developers as well as in the banking ecosystem. We're focusing on the developer's experience, bootstrapping new technologies like blockchain, homomorphic encryption and other crucial nowadays technologies. In short we're trying to turn the old traditional bank to a modern trendsetter one.</p><p>What is it like to introduce agile development into the IT house where waterfall is standard for last decades? To communicate with community through twitter not newspapers? To release the first open-source internet banking in the world? We have many great stories behind our effort in making our bank an open, transparent public institution. We would really be happy to share it with you!</p>
+ 
 
 community: 
     - name: Women Who Code Boston
