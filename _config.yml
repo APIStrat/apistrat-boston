@@ -775,6 +775,24 @@ keynotes:
     image: sp-rob-mccauley.png
     talk-title: Hacking on the Amazon Alexa with AWS Lambda and APIs
     talk-abstract: <p>Amazon has been an early pioneer in transforming legacy systems to a services-based API model. More recently, the Amazon Alexa team has refactored the Alexa Skills Kit reference architecture from one requiring server instances into a serverless model using AWS Lambda. Rob will provide an overview of the Alexa Skills Kit API endpoints, and discuss best practices and tools for building and consuming API services.</p>
+  - name: Susan Danziger
+    company: Ziggeo
+    jobtitle: Founder and CEO	
+    bio: <p>Susan Danziger is the founder and CEO of Ziggeo, the award-winning API for video recording/playback. She was named a Woman of Influence 2016, won the 2016 SmartCEO Brava Award, and appointed a Fellow to the Royal Society of Arts. Susan also founded DailyLit, a pioneer in digital serialization, and more recently, Video Hack Day, an annual hackathon that celebrates video innovation. She is a contributor to Forbes on entrepreneurship, speaks 4 languages and plays a mean game of ping-pong.</p>	
+    twitter: susandanziger	
+    slug: susan-danziger	
+    image: sp-susan-danziger.png	
+    talk-title: The Lost and Found of API Business Models	
+    talk-abstract: <p>Ever wonder what it’s like to launch an API &ndash; and then switch your business model mid-stream?  Learn from our journey to find the right model for Ziggeo’s video API business  -- and how we ultimately managed to launch a unique win-win solution.
+  - name: Jonathan Barton	
+    company: McGraw-Hill Education	
+    jobtitle: Lead Engineer	
+    bio: <p>Jonathan is a lead engineer at McGraw-Hill Education. He is a passionate full-stack web developer who spends some of his time building APIs that provide widespread access to online learning resources for schools across the US. In his spare time he is working to create an online platform for middle and high school students to build and launch high-altitude balloons.</p>
+    twitter: gomaketeam
+    slug: jonathan-barton	
+    image: sp-api-ninja.png
+    talk-title: Flying Dreams&#58; Real-Time Communication from the Edge of Space
+    talk-abstract: <p>Creating flexible, resilient access to real-time sensor data can be challenging &ndash; especially when your device targets can literally disappear off the face of the Earth! See how groups of students and instructors are using the goMake API to talk with high-altitude balloon telemetry as it skirts the edge of the stratosphere, and the design considerations involved in making this a scalable platform for project-based STEM learning that aims to instill a sense of wonder.</p>		
 
 allspeakers: 
   - name: Charles L. Ashley III
@@ -1128,7 +1146,25 @@ allspeakers:
     image: sp-jarda-machan.png
     talk-title: Moving a dinosaur &ndash; OpenAPI in one of the largest financial services providers in Central and Eastern Europe
     talk-abstract: <p>As the biggest Czech bank it is a real challenge to introduce, evangelize and communicate the open API platform (https://developers.csas.cz/html/devs/en.html) to the public audience and to the bank itself at the same time. We're developing our own WebAPI platform for last 2,5 years, trying to set the standard in a wide community of developers as well as in the banking ecosystem. We're focusing on the developer's experience, bootstrapping new technologies like blockchain, homomorphic encryption and other crucial nowadays technologies. In short we're trying to turn the old traditional bank to a modern trendsetter one.</p><p>What is it like to introduce agile development into the IT house where waterfall is standard for last decades? To communicate with community through twitter not newspapers? To release the first open-source internet banking in the world? We have many great stories behind our effort in making our bank an open, transparent public institution. We would really be happy to share it with you!</p>
- 
+  - name: Susan Danziger
+    company: Ziggeo
+    jobtitle: Founder and CEO	
+    bio: <p>Susan Danziger is the founder and CEO of Ziggeo, the award-winning API for video recording/playback. She was named a Woman of Influence 2016, won the 2016 SmartCEO Brava Award, and appointed a Fellow to the Royal Society of Arts. Susan also founded DailyLit, a pioneer in digital serialization, and more recently, Video Hack Day, an annual hackathon that celebrates video innovation. She is a contributor to Forbes on entrepreneurship, speaks 4 languages and plays a mean game of ping-pong.</p>	
+    twitter: susandanziger	
+    slug: susan-danziger	
+    image: sp-susan-danziger.png	
+    talk-title: The Lost and Found of API Business Models	
+    talk-abstract: <p>Ever wonder what it’s like to launch an API &ndash; and then switch your business model mid-stream?  Learn from our journey to find the right model for Ziggeo’s video API business  -- and how we ultimately managed to launch a unique win-win solution.
+  - name: Jonathan Barton	
+    company: McGraw-Hill Education	
+    jobtitle: Lead Engineer	
+    bio: <p>Jonathan is a lead engineer at McGraw-Hill Education. He is a passionate full-stack web developer who spends some of his time building APIs that provide widespread access to online learning resources for schools across the US. In his spare time he is working to create an online platform for middle and high school students to build and launch high-altitude balloons.</p>
+    twitter: gomaketeam
+    slug: jonathan-barton	
+    image: sp-api-ninja.png
+    talk-title: Flying Dreams&#58; Real-Time Communication from the Edge of Space
+    talk-abstract: <p>Creating flexible, resilient access to real-time sensor data can be challenging &ndash; especially when your device targets can literally disappear off the face of the Earth! See how groups of students and instructors are using the goMake API to talk with high-altitude balloon telemetry as it skirts the edge of the stratosphere, and the design considerations involved in making this a scalable platform for project-based STEM learning that aims to instill a sense of wonder.</p>		
+
 
 community: 
     - name: Women Who Code Boston
