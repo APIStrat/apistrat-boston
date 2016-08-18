@@ -72,6 +72,7 @@ goldsponsors:
 silversponsors:
 
 bronzesponsors:
+  -
 
 organizers:
   - name: 3Scale
@@ -693,22 +694,361 @@ daythree:
         image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
         slug: lorinda-brandon
 
-allspeakers:
-      - name: Steve Willmott
-        company: 3scale
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
-        slug: steve-wilmott
-        twitter: njyx
-      - name: Kin Lane
-        company: APIEvangelist.com
-        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
-        slug: kin-lane
-        twitter: kinlane
-      - name: Lorinda Brandon
-        company: Capital One
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
-        slug: lorinda-brandon
-        twitter: lindybrandon
+keynotes:
+  - name: Charles L. Ashley III
+    company: Cultivating Coders
+    jobtitle: President
+    bio: <p>Charles L. Ashley III was born in Chicago, Illinois and raised in Las Vegas, NV. He received his Bachelors in Science in Business Administration from Adams State University (Alamosa, Colorado). After graduation and a two year stint as a Senior Academic Counselor at the University of Nevada-Las Vegas, Charles relocated to Albuquerque where he was hired to create and manage the Bernalillo County Film Office where he served as the County's Film Liaison and Marketing Manager for 6 years. After his time at Bernalillo County, Charles spent 4 years as a Marketing & Strategy Consultant for Harmonix Technologies, VARA Wines and Devry University to name a few and a short stint as Manager of Marketing for CNM's STEMulus Center.</p><p>In 2015 Charles founded Cultivating Coders where he's currently serving as President.</p>
+    twitter: @cash_the_3rd
+    slug: charles-ashley-3
+    image: sp-charles-ashley-3.png
+    talk-title: A Problem Worth Solving
+    talk-abstract: <p>Empowering communities traditionally overlooked through code. We're heavily focused on the Native American communities in New Mexico (primarily the four corners area). Our mission for 2017 and beyond is to provide the same opportunities to areas like Yuma, AZ., Savannah, GA., El Centro, CA., and along with the various cities in NM that are suffering from high unemployment rates and lack of diversity in the technology job sector.</p>
+  - name: Mike Amundsen
+    company: CA Technologies
+    jobtitle: Director of API Architecture, API Academy
+    bio: <p>An internationally known author and speaker, Mike Amundsen travels the world consulting and talking about network architecture, Web development, and other subjects. As Director of Architecture for the API Academy, he works with companies to provide insight on how best to capitalize on the opportunities APIs present to both consumers and the enterprise.</p><p>Amundsen has authored numerous books and papers. His 2013 collaboration with Leonard Richardson "RESTful Web APIs" and his 2011 book, <em>Building Hypermedia APIs with HTML5 and Node</em>, are common references for building adaptable Web applications. He co-authored "Microservice Architecture" (June 2016) and is currently finishing "RESTful Web Clients" for release in summer 2016.</p>
+    twitter: @mamund
+    slug: mike-amundsen
+    image: sp-mike-amundsen.png
+    talk-title: Unleash the Chaos
+    talk-abstract: <p>Throughout the history dating back before the Middle Ages, Chaos has led to important technical and social innovations. And, it turns out, introducing a selected level of Chaos into your organization is a proven way to increase the rate and success of innovative problem solving and product designs. Why is this so? And how can you take advantage of this important "superpower" of consistently innovative companies?</p><p>Based on the work of Ori Brafman and others, this talk shows examples of three key traits of innovative cultures including "Whitespace", "The Unusual Suspects", and "Organized Serendipity" and provides guidance on how you can encourage these traits in your own team or company.</p>
+  - name: Erin McKean
+    company: Wordnik
+    jobtitle: Founder
+    bio: <p>Erin McKean is the founder of the newly-not-for-profit Wordnik.com, the world's biggest online dictionary. Before founding Wordnik, she was the editor-in-chief of American Dictionaries for Oxford University Press, and before Javascript, she dabbled in HyperCard, Perl, and Omnimark (if you have ever written anything in Omnimark, she will buy you a drink). She's the author of the Weird and Wonderful Words books, the best-selling novel The Secret Lives of Dresses, and (most recently) The Hundred Dresses, a field guide to dresses. She blogs at dressaday.com. When you meet her, please tell her your favorite word.</p>
+    twitter: @emckean
+    slug: erin-mckean
+    image: sp-erin-mckean.png
+    talk-title: How Low Can You Go? Reducing Costs and Development Time with AWS Lambda, API Gateway, Elastic Beanstalk, and 3Scale (and don''t forget Swagger!)
+    talk-abstract: <p>More than 18,000 developers have keys to the Wordnik API, which they use to build everything from edtech applications to word games to Twitterbots! Our original architecture has served more than 2bn calls since 2010, and has largely been a free service.</p><p>When Wordnik relaunched as a nonprofit in late 2014, we realized we had to monetize our API to create a sustainable foundation for future development, and in order to monetize, we needed to reduce our operating costs and introduce new features -- neither of which our previous architecture made simple.</p><p>Enter AWS Lambda+API Gateway! By breaking down our current API into tiny functions, we can take advantage of the current microservice craze with minimal ops headaches. And by using Elastic Beanstalk and 3Scale to manage a reverse proxy, handling routing between the old and new API calls and managing billing is much easier, too. Add a pretty Swagger interface on top and you''re good to go ... faster and cheaper!</p>
+  - name: John Sheehan
+    company: Runscope
+    jobtitle: Co-founder and CEO
+    bio: <p>John Sheehan is the co-founder and CEO of Runscope.</p>
+    twitter: @johnsheehan
+    slug: john-sheehan
+    image: sp-john-sheehan.png
+    talk-title: Panel moderator &ndash; Retrospective, APIs then and now&#58; looking back over 5 years of API Strat
+    talk-abstract: <p></p>
+  - name: Jeremiah Lee
+    company: Fitbit
+    jobtitle: Web API technical product owner
+    bio: <p>Jeremiah Lee is the Fitbit Web API technical product owner in San Francisco. He practices and advocates bringing user experience design methods to API engineering. When he's not helping make the world a healthier place through technology, he's usually hiking or biking somewhere that needs better LTE coverage.</p>
+    twitter: @jeremiahlee
+    slug: jeremiah-lee
+    image: sp-jeremiah-lee.png
+    talk-title: Scaling the Fitbit Web API
+    talk-abstract: <p>Fitbit launched its Web API in 2011. It's now used by millions of people through Fitbit�s apps and a vibrant third-party ecosystem. Jeremiah will share the product strategy, internal processes, and lessons learned from his experience managing the Fitbit Web API for three years.</p>
+  - name: Laura Heritage
+    company: Akana
+    jobtitle: Director of API Strategy
+    bio: <p>Laura Heritage is Director of API Strategy at Akana. In this role, she works with customer to establish API strategies and implement API platforms.
+    twitter: @heritagelaura
+    slug: laura-heritage
+    image: sp-laura-heritage.png
+    talk-title: Panel member &ndash; Retrospective, APIs then and now&#58; looking back over 5 years of API Strat
+    talk-abstract: <p></p>
+  - name: Mark O'Neill
+    company: Gartner
+    jobtitle: Research Director, Applications
+    bio: <p>Mark O'Neill is a Gartner analyst advising clients on strategy for API management, as part of an overall digital platform. His research includes API security, open banking, and the impact of APIs in the Connected Home. He is the author of the book <em>Web Services Security</em> and is a frequent speaker on API strategy and the API economy.</p><p>Prior to Gartner, Mark was co-founder and CTO of Vordel, an API Gateway pioneer, acquired in 2012. Originally from Ireland, Mark is based in Boston.</p>
+    twitter: @themarkoneill
+    slug: mark-oneill
+    image: sp-mark-oneill.png
+    talk-title: The Past, Present, and Future of the API Economy
+    talk-abstract: <p>Coming soon</p>
+  - name: Rob McCauley
+    company: Amazon
+    jobtitle: Alexa Solutions Architect
+    bio: <p>Robert helps developers build voice-enabled applications in his role as Alexa Solutions Architect. Rob's background is in data analytics and recently worked as data warehouse developer at Amazon Robotics in North Reading, MA, following technical roles at HP, Cognex, TJX, and Oracle. Follow Rob at @RobMcCauley and github.com/robm26.</p>
+    twitter: @RobMcCauley
+    slug: rob-mccauley
+    image: sp-rob-mccauley.png
+    talk-title: Hacking on the Amazon Alexa with AWS Lambda and APIs
+    talk-abstract: <p>Amazon has been an early pioneer in transforming legacy systems to a services-based API model. More recently, the Amazon Alexa team has refactored the Alexa Skills Kit reference architecture from one requiring server instances into a serverless model using AWS Lambda. Rob will provide an overview of the Alexa Skills Kit API endpoints, and discuss best practices and tools for building and consuming API services.</p>
+
+
+allspeakers: 
+  - name: Tyler Love
+    company: Bustle
+    jobtitle: CTO
+    bio: <p>Tyler Love is CTO of Bustle, where he leads the 25-person product team, protects their time and focus, and facilitates their ideas. And advocates for sponsorship of open-source projects, including backing of Ember's Fastboot and the creation of the open-source post editor Mobiledoc. He oversees a technical stack that serves hundreds of millions of page views a month to 45 million montly users, built on experience helping to scale Tumblr from 500 million to 15 billion monthly page views, after tackling similar problems in the early years of Bleacher Report.</p>
+    twitter: @tyleralove
+    slug: tyler-love
+    image: sp-tyler-love.png
+    talk-title: Panel member &ndash; Media Panel&#58; How APIs are causing a seachange
+    talk-abstract: <p></p>
+  - name: Gareth Jones
+    company: Microsoft
+    jobtitle: API Architect
+    bio: <p>Gareth Jones is an API architect for the Microsoft Graph &ndash; leading the technical strategy for Microsoft's most strategic API, a unified endpoint for accessing data and insights from across Microsoft's portfolio of cloud services. He drives the rationalization and integration of diverse enterprise and consumer workloads across Microsoft's divisions into a coherent, federated whole that developers find delightful and easy to consume.</p><p>Previously he was the architect and designer for the OneNote API and before that, an architect in the Visual Studio Application Lifecycle Management group, working on developer services and CodeLens. He is the inventor of T4 templating and co-creator of Microsoft DSL Tools.</p><p>In days past, he's worked on bespoke enterprise solutions, web services for small businesses before anyone actually used web services, and created the world's largest touch screen application to simulate a container ship's engine room.</p>
+    twitter: @garethj_msft
+    slug: gareth-jones
+    image: sp-gareth-jones.png
+    talk-title: Hypermedia vs Graphs&#58; Best buddies or the next API battleground?
+    talk-abstract: <p>We all wonder if this is the year that hypermedia becomes mainstream? But coming up on the rails, there is a new challenger&#58; Graph-shaped APIs that predefine a wide network of relationships promise some of the benefits of hypermedia APIs, but present a more familiar programming model. Will graphs push aside hypermedia before it's even had a chance, or will both styles play nicely? Is this trend a blocker to HATEOS nirvana or a stepping stone?</p><p>I'll challenge the audience to consider combining these two approaches to open the door to mainstream hypermedia use, enriching a fixed graph with dynamic data and behavior. Volatile data and logic can use hypermedia and more foundational data can use graph approaches. In this way we can add value and depth to our apps without the drastic rewrites we so often expect from the transition to hypermedia.</p>
+  - name: Irakli Nadareishvili
+    company: ReferWell
+    jobtitle: Chief Technology Officer
+    bio: <p>Fixing US healthcare one microservice at a time</p>
+    twitter: @inadarei
+    slug: irakli-nadareishvili
+    image: sp-irakli-nadareishvili.png
+    talk-title: Documenting Hypermedia APIs
+    talk-abstract: <p>Hypermedia API design style is one of the most exciting API design style currently practiced. Largely because it promises fundamentally valuable traits such as&#58; evolvability, brows-ability and long-term sustainability. All great, however for everybody who has developed public-facing Hypermedia APIs, there's one painfully vivid and well-kept secret&#58; documenting Hypermedia APIs is tough. There''s a lot of very mature tooling for documenting so-called "RESTful" APIs, at this point, some of them even being standardized but those tools don''t really match the style of Hypermedia well.</p><p>Based on speaker's experience building Hypermedia APIs at multiple organizations, including the current company, as well as previous consulting experience helping organizations design and build Hypermedia APIs, we will give a look at the current state of the art of documenting Hypermedia APIs&#58; best practices, worst practices and the prospect for the future.</p>
+  - name: Audrey Neveu
+    company: Streamdata.io
+    jobtitle: Developer Evangelist
+    bio: <p>Audrey is Developer Evangelist at Streamdata.io. She's a passion driven developer with experience in both web frontend and backend development, specialised in APIs and BigData. Heavily involved in the European wide Java Community, she�s part of Devoxx4Kids, a not-for-profit global initiative to get children coding.</p>
+    twitter: @Audrey_Neveu
+    slug: audrey-neveu
+    image: sp-audrey-neveu.png
+    talk-title: The end of polling&#58; why and how to transform a REST API into a Data Streaming API.
+    talk-abstract: <p>IoT & Mobile, User eXperience, Interactivity and RESTful APIs...those topics are big trends in development today. The last one brings fast adoption and reduced development costs but is in opposition with the three others needs. IoT & Mobile need low latency whereas UX and interactivity need real-time data to keep user interest alive. As a developer you need to poll APIs to provide these real-time information, with all the limitations that this involves. On the other side as an API provider, being massively polled can become an issue and you're probably looking for a more resilient solution to offer to your consumer. What if we can apply the "Hollywood principle" to REST APIs? Don't poll us, we will push you! And why not going further by reducing the amount of data to transfer? In this talk, we'll see together which technology you should opt for and how to implement them to turn your API into a Data Streaming API.</p>
+  - name: Taylor Barnett
+    company: Keen IO
+    jobtitle: Developer Evangelist
+    bio: <p>Taylor Barnett is an Austinite and developer that loves helping build inclusive communities. Taylor was introduced to developer communities while studying Computer Science at The University of Texas at Austin. She helped create an early student hackathon and focused on growing the student developer community at UT Austin and at other universities worldwide in an inclusive manner. She was also an early advocate and leader for adopting measures to help increase inclusivity in hackathons.</p><p>Today, she still mentors multiple student hacker organizations and their members. In 2013, she was one of the founding members of the Women Who Code Austin chapter, where she is currently an organizer and helps mentor members. Today at Keen IO, Taylor is on the Community team where she tries to be an empathic voice within Documentation and Support, builds fun projects, and helps developers through code, conversations, and high fives.</p>
+    twitter: @taylor_atx
+    slug: taylor-barnett
+    image: sp-taylor-barnett.png
+    talk-title: Creating a Great Developer Experience Through SDKs
+    talk-abstract: <p>Many of us know it can be difficult to maintain SDKs for an API; meanwhile, developers keep asking for them. So how do we ensure a great developer experience while working on decreasing the pains of maintaining SDKs? In this talk, we will explore how we can create a great developer experience through our SDKs with strategies like using data to make informed SDK decisions, defining community and product SDKs more clearly, determining when to treat SDKs as products, and much more. We will also look at examples of existing SDKs to learn documentation tips and tricks and what common pitfalls to avoid. The landscape of who is using our APIs is changing, and SDKs can be helpful for many new API users. So, let's learn how to use SDKs to maximize developer adoption while making sure they don't become a headache.</p>
+  - name: Ben Greenberg
+    company: Comcast
+    jobtitle: Architect
+    bio: <p>Ben has been writing software since he was in short pants. After obtaining his degree in Computer Engineering and beginning to wear long pants, he became an experienced full-stack web developer working with a variety of open source technologies.</p><p>After joining Comcast's Advanced Applications Engineering team, he began to focus on web and mobile backend platforms, especially APIs. As an Architect on the team, he designs and builds the systems that power the Xfinity TV apps for mobile, web, smart TVs, and media streaming devices.\nBen resides in Philadelphia with his wife, and too many cats.</p>
+    twitter: @bengreen
+    slug: ben-greenberg
+    image: sp-ben-greenberg.png
+    talk-title: Using Hypermedia APIs to Drive Interactive Mobile Applications
+    talk-abstract: <p>At Comcast, the backbone of cross-platform Xfinity TV experience is a hypermedia API supporting both XHTML and HAL as media types. It's given us several expected benefits&#58; self-documentation, loose coupling, and discoverability. At the same time, it also uncovered some limitations of hypermedia.</p><p>Hypermedia is designed so that the API works very similarly to a traditional web site&mdash;load a resource, follow a link, and then load the next resource. Modern, native mobile apps, on the other hand, try very hard to not present a page-oriented, wait and load experience. Users expect their apps to be responsive, fast, and not beholden to a page-like paradigm.</p><p>In this presentation, Benjamin will discuss the design of our hypermedia API and demonstrate some of the strategies we''ve come up with to address these concerns. We'll use different examples from our API to illustrate how we promoted parallel requests, improved cacheability, and minimized response sizes, all while staying true to the link- and form-driven spirit of hypermedia.</p>
+  - name: Brendan Cartledge
+    company: Booking.com
+    jobtitle: Partner API Product Owner
+    bio: <p>Brendan Cartledge is a Product Owner working with the partner API at Booking.com in Amsterdam. A former front-end developer, he spends his days working with the backlog, chasing developers to update the documentation and supporting partners large and small, from early startups to Trip Advisor and Google on getting the most out of the API integrations.</p>
+    twitter: @brentoe
+    slug: brendan-cartledge
+    image: sp-brendan-cartledge.png
+    talk-title: Why writing our own documentation framework and tools was a terrible idea and how to recover
+    talk-abstract: <p>Everyone knows that having good documentation for your API is vital, but what happens when you do it wrong the first time? This talk describes the rocky road of going from a manual, bespoke website for documentation, to an automated dream and everything we learned along the way.</p>
+  - name: Matt Bernier
+    company: SendGrid
+    jobtitle: Developer Experience Product Manager
+    bio: <p>Matt is a father, husband, gardener, and pretends to be a carpenter in his garage on the weekends. Matt spends his time at SendGrid trying to solve big problems for the SendGrid developer community, hopefully making jobs easier through Open Source, docs, and managing the SendGrid API.</p><p>Fun fact&#58; Matt once licked a 300yr old table and rode a rollercoaster off The Great Wall of China in the same week.</p>
+    twitter: @mbernier
+    slug: matt-bernier
+    image: sp-matt-bernier.png
+    talk-title: The Desire for Perfection vs. Reality
+    talk-abstract: <p>We all want perfectly intuitive and amazing APIs that people look at and know how to use, documentation that changes lives, and API libraries that write the code for our customers. We would also love to have that yesterday. The reality is that there�s never enough time, the team isn't big enough, some languages don't do [super sexy feature], and docs don't change lives. There have to be concessions. We found ways to innovate within reality and selectively chose our concessions in order to provide better features and functionality to our customers with a relatively small team.</p>
+  - name: Jon Spinney
+    company: Pitney Bowes
+    jobtitle: Director Product Management
+    bio: <p>Jon Spinney is Director of Product Management at Pitney Bowes Software. Jon brings approximately 20 years of industry experience in enterprise software, location intelligence, and mobility in Product Management, Marketing, Business Development, and Operations roles.</p><p>Prior to Pitney Bowes, Jon worked on advanced mobility strategy at AT&T, with focus on new SaaS and API offerings. Prior to AT&T, Jon worked on a variety of API and SDK offerings and Developer Programs at Location Labs, Sonim Technologies, Openwave, Esri, and SignalSoft. Jon holds a M.S. in Geographic Information Science from the University of London and a B.A. in Anthropology from St. Vincent College.</p>
+    twitter: @spinneyo
+    slug: jon-spinney
+    image: sp-jon-spinney.png
+    talk-title: API Product Management People, Price, and Product &ndash; In That Order 
+    talk-abstract: <p>When designing a new commercial API offering, People come first, Price comes second, and the Product third, and when approached this way it can inform your decisions for business support systems needed to support a self-service developer offering with variable pricing, unified currency, unified contracting, and unified billing.</p><p>This talk will share vital lessons learned from Pitney Bowes, a global technology company processing billions of transactions a day, both digital & physical, across the borderless world of commerce. You will learn about their implementation and gain valuable insight into defining target personas, pricing APIs, and designing business systems support infrastructure needed to scale and introduce new APIs rapidly.</p>
+  - name: David O'Neill
+    company: APImetrics
+    jobtitle: CEO
+    bio: <p>Paper making machines, nuclear submarines, aircraft, rockets, WAP, mobile devices &ndash; a long track record working in a range of interests. Now focused on the challenge of quality in the API Economy and the Internet of Things.</p>
+    twitter: @apimetricstats
+    slug: david-oneill
+    image: sp-david-oneill.png
+    talk-title: Measuring SLAs in a Cloud and API world
+    talk-abstract: <p>Almost nobody offers an SLA in the world of the cloud or APIs &ndash; why is that? This talk explores the challenges of what a Service Level Agreement means in the world of a global cloud</p><ul><li>how your choices in hosting and locations of customers impact performance</li><li>How measuring performance can be a very Heisenbergian concept, with the measurement you take affecting the results you get</li><li>How things are shifting and as more customers are paying for API access their requirements will go beyond just engineering performance and into how you can prove what you're getting</li></ul><p>We'll provide some real world data on issues encountered with major APIs, how trends change over time, how different clouds impact things and generally give an overview of the challenges of determining what is 'good' in the world of cloud APIs.</p>
+  - name: Sandeep Dinesh
+    company: Google Cloud
+    jobtitle: Developer Advocate
+    bio: <p>Sandeep started coding and creating websites when he was 12 and hasn't stopped. He is passionate about building easy-to-use products people love. Before Google, he founded an IoT startup in agriculture and developed educational HTML5 games.</p><p>At Google, Sandeep's goal is to make cloud easy and help developers create the next big thing. Sandeep loves video games, making music, and martial arts, and has Bachelors in Marketing and Computer Science.</p>
+    twitter: @sandeepdinesh
+    slug: sandeep-dinesh
+    image: sp-sandeep-dinesh.png
+    talk-title: Microservices&#58; gRPC or REST? Why not both?
+    talk-abstract: <p>Building APIs for microservices can be a challenge. They have to be well designed, easily understandable, and highly performant. The tried and true platform for modern APIs is JSON/REST, but the ridiculous demands that a microservices architecture places on the network and API stack has made many of us look to new open source technologies such as HTTP/2, Protobuf, and gRPC. With features like bi-directional streaming and binary compression, gRPC is an great choice for microservice deployments. However, migrating to new technologies can be a challenge, especially in a microservices world. They lack the robust tooling and ecosystems provided by JSON/REST, and the other microservices may depend on it, make moving to a pure gRPC implementation difficult.</p><p>In this talk, I'll show you how you can build a gRPC endpoint that can intelligently serve gRPC over HTTP/2 while simultaneously serving JSON/REST over HTTP/1.1 on the same port! Then, I'll walk through some benchmarks and best practices for deploying these microservices in a scalable way.</p>
+  - name: John Feminella
+    company: Pivotal
+    jobtitle: Advisor
+    bio: <p>John Feminella is an avid technologist, occasional public speaker, and curiosity advocate. At Pivotal he works on helping enterprises transform the way they write, operate, and deploy software. He's also the cofounder of a tiny analytics monitoring and reporting startup named UpHex.</p><p>John lives in Charlottesville, VA and likes meta-jokes, milkshakes, and referring to himself in the third person in speaker bios.</p>
+    twitter: @jxxf
+    slug: john-feminella
+    image: sp-john-feminella.png
+    talk-title: API Design for Microservice Architectures
+    talk-abstract: <p>Microservices are a much-vaunted architectural strategy for decomposing applications &ndash; there's a lot of value to be had when they're done right. But if they work so well, why do they often seem tough to pull off? In this talk, we'll explore the key aspects of microservice API design:</p><ul><li>Deciding if it's appropriate to move to microservices to begin with</li><li>Transitioning monolith APIs to microservices through structural decomposition</li><li>Strategies for deciding how to set up boundaries between microservices</li><li>Deciding when to combine multiple requests into one and when to split them apart</li><li>Microservice API antipatterns that are traps for the unwary</li></ul>
+  - name: Patrick Poulin
+    company: API Fortress
+    jobtitle: CEO
+    bio: <p>Patrick grew up doing construction, but dedicated his free time to learning about computers. He no longer wears a toolbelt, but still uses a hammer when frustrated. Now his focus is on making sure APIs are tested as thoroughly as we test websites and apps.</p>
+    twitter: @apifortress
+    slug: patrick-poulin
+    image: sp-patrick-poulin.png
+    talk-title: Why Aren't We Testing APIs? Seriously. It Is Every Company's Dirty Little Secret.
+    talk-abstract: <p>In 1991 desktop websites really blew up and 13 years later in 2004 an automated testing solution named Selenium was built. Mobile apps became huge with the iPhone in 2008, and only 4 years later in 2012 we had Appnium. APIs have been around for longer, but the tipping point was around 2009. Therefore, why is it six years later and there is no Selenium for APIs? Worse than that, why isn't this viewed as a bigger deal?!</p><p>I will discuss crazy stories from my life of API failures. Ever had an accounting team tell you there was no revenue for 24hrs, and that was because of a typo in the API? I have. Testing isn't fun but if you know the tools that are available, and know how significant an issue like an inaccurate API can be, then you will find the time to make it work. Let's laugh at some failures, realize how easy the fixes could be, and finally make API testing part of continuous integration testing.</p>
+  - name: Heidi Waterhouse
+    company: Waterhouse Consulting
+    jobtitle: Documentation Mercenary
+    bio: <p>Heidi is a documentation mercenary, roving the world in search of software products that need to be documented and made stronger. When she is not writing incisive instructions, she travels around giving talks on the painful lessons she has learned on her journey, such as what you''re going to regret leaving out of version 1 of your software, and how to get your developers to write anything. Her interests include security, usability, and collecting transit cards in different cities.</p>
+    twitter: @wiredferret
+    slug: heidi-waterhouse
+    image: sp-heidi-waterhouse.png
+    talk-title: The Death of Data
+    talk-abstract: <p>Hoarding is only really painful when we run out of space. In a world with very cheap data storage, it never occurs to us that we should be getting rid of data instead of just storing it in giant silos. I'll explain why we are storing increasingly dangerous poison in our databases, and why we ought to care about automated de-acquisition and deletion. Data gets senile. It forgets its links, it only wants to tell you about the old days. Wikis overgrow like the thorns around Sleeping Beauty's castle, and reference manuals accrete into sedimentary layers. APIs gather and leak data like municipal water systems Even with search, we can't find what we're looking for. Too much data is as bad or worse than no data. We are building giant predictive structures on big data, but we are not evaluating the age or value of that data. Have you ever been boggled by your credit report? We are building thousands of reports like that with no consideration for the quality of the data we are using. This talk is not about data in the abstract, it's about ergot poisoning and hoarding and konmari and bitrot. When and why to kill your precious data, why data is a double-edged sword.</p>
+  - name: Matthew Reinbold
+    company: Capital One
+    jobtitle: Lead, API Center of Excellence
+    bio: <p>Born of Dakota loam, roaming all too far from home. Since the experimental chiptune crunk didn't work out, here I am building distributed API governance programs for a Fortune 500 company. Wearer of red sneakers.</p>
+    twitter: @libel_vox
+    slug: matthew-reinbold
+    image: sp-matthew-reinbold.png
+    talk-title: The 3 Ways Melvin Conway Saved Our Enterprise API Governance
+    talk-abstract: <p>What happens when a company decides to API <em>everything</em>? Organizations may be quick to follow Netflix and Amazon in the pursuit of microservice and service orientated architecture (SOA). But without the application of Conway's Law, any governance effort (and, by extension, the API program) will fall short. Matthew has been instrumental in establishing and growing API governance programs at multiple enterprise companies.</p><p>In this talk he will discuss effective API governance and the challenges in achieving it.</p>
+  - name: Andrew Seward
+    company: Cronofy
+    jobtitle: Head of Product
+    bio: <p>Andrew Seward is Head of Product at Cronofy and organiser of Tech Nottingham and Hack24. He's been working in software in various capacities for 12 years and these days he tends to product manage APIs. He also runs, cycles and keeps bees.</p>
+    twitter: @MrAndrew
+    slug: andrew-seward
+    image: sp-andrew-seward.png
+    talk-title: How to talk about APIs
+    talk-abstract: <p>One of the more challenging aspects of working with APIs is that outside of your own little tech bubble, nobody actually knows what an API is &ndash; despite being hopelessly dependent on APIs for their day to day lives. So how do you talk about APIs to the masses of people who have no idea what they are? You're going to have to do it &ndash; you'll need to talk to your non-technical colleagues about it, many of whom you're entirely dependent upon to improve your API or get it out to the masses; there'll be potential customers out there for whom your API is the exact solution to the problem they're having and there's the people you meet who ask you what it is you do.</p><p>In this talk we'll discuss how overcome this huge challenge for all of us in the business of APIs, how to establish not just a clear ubiquitous language when talking about our APIs but clarity and consistency of content - making sure your developers, salespeople, support and marketing are all talking about your APIs in a way that is accessible, meaningful and useful to all concerned, and how that consistency of understanding can be the difference between the success or failure of your API.</p>
+  - name: Shelby Switzer
+    company: Healthify
+    jobtitle: Software Engineer
+    bio: <p>Software engineer, public speaker, and veteran nomad, Shelby has dedicated herself to community work and civic hacking across four continents. She is obsessed with APIs and hypermedia, and has led API design, development, and consumption projects in a variety of industries, from citizen engagement to the Internet of Things.</p><p>She currently builds web applications at Healthify, a software company bridging the gap between healthcare and community services.</p>
+    twitter: @switzerly
+    slug: shelby-switzer
+    image: sp-shelby-switzer.png
+    talk-title: APIs, Spreadsheets, and Drinking Fountains&#58; Using Open Data in Real Life
+    talk-abstract: <p>Governments across the globe are increasingly trying to make their data open to the public &ndash; particularly, to developers and social entrepreneurs. This data is ripe for the taking, but only if you''re willing to work for it. Drawing on stories from communities across the US and the world, this talk dives into what organizations are doing well, where they fall short, and what you can do about it. We will cover good design for open data APIs and portals as well as tools that help improve the open data user experience. From the perspective of API providers and consumers alike, this talk presents key techniques for taking open data to the next level&#58; making this data not only available, but usable.</p>
+  - name: Oliver Thamm
+    company: XapiX.io
+    jobtitle: Co Founder / CTO
+    bio: <p>Software Architect and senior Ruby on Rails Developer. I am an API, Hypermedia and Ruby enthusiast and believe in a future of Plug & Play API's to solve all kinds of problems with software in no time.</p>
+    twitter: @xapix_io
+    slug: oliver-thamm
+    image: sp-oliver-thamm.png
+    talk-title: API Accessibility - Key Concepts driving Developer Adoption
+    talk-abstract: <p>How do API access methods influence developer adoption? Provide a SDK, design a REST (Hypermedia) API, integrate with adapter frameworks? Making those decisions has a clearly underestimated effect on developer adoption. As well, learn about the influence of&#58; authentication methods, output formats, OSS standards, design, documentation, etc. Lowering entrance barriers to API data is key to drive internal and external innovation. An easily understandable API a.k.a. Developer Experience (DX) drives usage, reduces support costs for providers and developer costs for consumers.</p><p>Having co-founded XapiX.io, assisting corporate innovation programs and hackathons, I will show how we significantly increased sponsor API usage and reduced hackathon mockups by easing entrance barriers to developers. We will share lessons learned through analytics and direct developer feedback.</p>
+  - name: Steve Rice
+    company: PagerDuty
+    jobtitle: API Captain
+    bio: <p>Steve is a product-focused engineer who finds software an irresistible weapon for rattling the status quo. He currently leads the charge for PagerDuty platform greatness.</p>
+    twitter: @_steverice
+    slug: steve-rice
+    image: sp-steve-rice.png
+    talk-title: API, Re-invented&#58; How to Ship a Major New API Version Without Losing Your Mind (Or Your Developers)
+    talk-abstract: <p>The only thing harder than writing a new API is updating one that already exists. Learn about our real-world experience at PagerDuty designing, developing, releasing, and evangelizing a new version of our REST API with thousands of existing customers and a large developer community at stake. We'll cover what worked, what didn't, and what we learned about versioning, adoption, deprecation, documentation, developer experience, frameworks, tooling, customer impact, and more while bringing a 5-year-old, complex API at the core of our product up to date. No minds were lost (at least, not completely) in the making of this talk.</p> 
+  - name: Chris Busse
+    company: APIvista
+    jobtitle: CTO
+    bio: <p>With a passion for the ways in which technologists build solutions for people, Chris helps APIvista's clients find strategic success with their digital initiatives.\nHaving worked in the IT industry for 20+ years, he recently helped launch the first public API platform for a North American bank and previously built a digital agency that provided API integration & data services for its Fortune 500 clients.</p>
+    twitter: @busse
+    slug: chris-busse
+    image: sp-chris-busse.png
+    talk-title: Reverse Engineering Undocumented APIs with mitmproxy
+    talk-abstract: <p>mitmproxy (<a href="https://mitmproxy.org/">https://mitmproxy.org/</a>) is a popular tool for observing HTTP(S) traffic between client applications and their API services by acting as a "man in the middle". The resulting service calls and their payloads can then be extracted and used in other applications and scripts. It also enables savvy users to hold apps accountable for how they transmit a user's private data. Popular apps such as Snapchat have had their APIs reverse engineered in this way, enabling user behavior that is unexpected (and sometimes undesirable) for app publishers. Another example is the small but growing open source community focused on studying the Robinhood stock brokerage app and its undocumented API that, as of this writing, remains open &ndash; enabling developers to experiment with $0 commission stock trading scripts.</p><p>This presentation will show how to set up mitmproxy on a workstation, connect a second device, and log otherwise secure HTTPS traffic -- capturing the underlying API calls to understand the functioning of undocumented 3rd-party APIs. We will also explore what this means for API publishers, app developers, and users concerned about their digital security.</p>
+  - name: Phil Leggetter
+    company: Nexmo
+    jobtitle: Head of Developer Relations
+    bio: <p>Real-Time Communications Technology Advocate, Author, Blogger and Speaker. Empathy and Developer Experience.
+    twitter: @leggetter
+    slug: phil-leggetter
+    image: sp-phil-leggetter.png
+    talk-title: An Introduction to the AAARRRP Developer Relations Strategy Framework and How You Can Use It
+    talk-abstract: <p>Many companies are considering building a developer relations programme. But deciding how you go about building that programme can be difficult. What are the goals of the programme, how do they align with the company goals, what activities should the new Developer Relations team undertake, how do those activities help other departments within the company and how should the success of the team be measured? In this talk I''ll introduce the AAARRRP Developer Relations Strategy Framework and talk through a practical example of how it''s been applied when building a DevRel strategy at Nexmo. More details on the AAARRRP framework can be <a href="http://www.leggetter.co.uk/2016/02/03/defining-developer-relations.html">found here</a>.</p>
+  - name: Ken Wronkiewicz
+    company: Cisco
+    jobtitle: Technical Leader
+    bio: <p>Ken is a Technical Leader at Cisco working with cloud infrastructure. Previously, Ken managed the Rackspace Cloud AutoScale product. Before that he worked on monitoring and high-performance stock market data feeds.</p>
+    twitter: @wirehead
+    slug: ken-wronkiewicz
+    image: sp-ken-wronkiewicz.png
+    talk-title: Effortless microservices running in production with Kubernetes
+    talk-abstract: <p>With the Amazon API Gateway and Amazon Lambda, you can run a complete simple microservice in the cloud with no operations. But what if you are running a custom database or a sophisticated set of workflow services? Can you run that with as-close-to-NoOps-as-possible?</p><p>In this presentation, Ken Wronkiewicz will demonstrate how to run an entire stack (from database to load balancer) inside of Kubernetes using the newly merged Ingress resources as an API gateway, how persistent storage works and which database engines best fit into the Kubernetes environment, and how to go from nothing to a chaos-monkey-ready self-healing infrastructure in weeks.</p>
+  - name: Marc Cuva
+    company: ReadMe.io
+    jobtitle: Engineer
+    bio: <p>Marc dropped out of the University of Minnesota to help ReadMe.io build the future of documentation. He now lives happily in San Francisco with his two kittens.</p>
+    twitter: @marccuva
+    slug: marc-cuva
+    image: sp-marc-cuva.png
+    talk-title: Your Documentation Is Your UX
+    talk-abstract: <p>As APIs are becoming more widespread and used by an increasing number of people from non-technical backgrounds, documentation needs to evolve. When trying to use an API instead of consulting a long website with just paragraphs of text, documentation will need to be more tailored to the reader. How technical a user is, which technologies they are using to interact with an API, and how much they've used it in the past should all affect the documentation they are viewing. Being able to include API keys in code samples, adjust examples based on if a user is using Ruby, Node, etc. and showing relevant documentation after they encounter an error are all examples of how documentation can adapt to provide the most utility. Documentation is the user experience for the API, so it needs to be a first class citizen.</p>
+  - name: Pamela Dingle
+    company: Ping Identity
+    jobtitle: Principal Technical Architect
+    bio: <p>Pamela Dingle is a well-known contributor in the identity management world, with over 15 years of experience focusing on implementation and system architecture providing strategic direction in web access management solutions, provisioning and federation services. A Principal Technical Architect at Ping Identity in the office of the CTO, Pamela serves on the board of directors for the OpenID foundation, and focuses on architecture and implementation of new and existing identity standards.</p>
+    twitter: @pamelarosiedee
+    slug: pamela-dingle
+    image: sp-pamela-dingle.png
+    talk-title: Protecting Ourselves from Ourselves&#58; 3 Ways to see if an API Security Architecture is Working Properly
+    talk-abstract: <p>Coming soon</p>
+  - name: Kayvan Alikhani
+    company: RSA
+    jobtitle: Lead Technologist
+    bio: <p>Currently, Lead Technologist @ RSA; Identity assurance strategy; co-founder & CEO of PassBan (acquired by RSA), a company focused on mobile identity assurance. Earlier, Kayvan led strategy @ LiteScape (as CTO and later as CEO), creating security & mobile identity solutions for VOIP based networks. He was co-founder & CTO at BeNotified, a cloud mobile communication service provider.</p><p>Prior to that, Kayvan co-founded AVIRNEX, a cloud-based enhanced fixed & mobile communication service provider. Earlier, he was a software developer at Microsoft and Siemens. With 25 years of experience, Kayvan serves as a board advisor to multiple technology companies. Kayvan holds a BS degree in EE.</p>
+    twitter: @rsasecurity
+    slug: kayvan-alikhani
+    image: sp-kayvan-alikhani.png
+    talk-title: Who's on first for API security - User identity, Application Identity Or Device Identity? And how are they related?
+    talk-abstract: <p>What role do standards such as OAUTH/OIDC play today/should play in the future for API security? Could properly implemented API security have prevented some of the recent breaches? With the explosive number of applications (especially mobile) we use everyday, many such apps access services using APIs. Therefore, streamlining API security protection is a critical matter. Standards such as OAUTH/OIDC are a key component of an interesting new paradigm in API security. In earlier implementations of API security, the "application''s identity" was verified by the back-end service and used by that service to determine whether to process a request. The application would establish the identity of the user and device, using separate methods, and information about the user and devices they used typically stayed in the application tier. Now, taking advantage of the latest open protocols and security standards, organizations are leveraging application architectures that allow for the flow of "user, device &amp; application identity" information to flow to back-end systems as part of the API requests that move up and down various layers of an organization''s services. It''s important to make sure that the "user identity" assurance and verification services leveraged by API calls are the same identity and access management services and infrastructure that is used for verifying the user's identity when they access services using non-API based solutions, such as web-based apps. In other words, It makes sense to avoid creating yet another silo, specific to API-based identity verification. The importance of combining user and application identity became evident in light of recent breaches, where hackers took advantage of inadequate API security. In many cases, the machine to machine protection was in place, the underlying transport was secure, and the applications used unique identities for identity verification. However, lack of adequate user identity assurance on top of the machine identity/application layer, knowing the API URL and impersonating a registered application, enabled hackers to take control of the solutions. The talk will delve deeper into the role OIDC/OAUTH play in improving API security.</p>
+  - name: Jarda Mooza Macha&#328;
+    company: <span>&#268;esk&#225; spo&#345;itelna - Erste Group Bank AG</span>
+    jobtitle: API Universal Soldier
+    bio: <p>For last two years, I've been fighting for the open API in one of the oldest Europe banks. I'm trying to move a dinosaur in a time. To introduce bank 3.0 to people.</p>
+    twitter: @csas_devs
+    slug: jarda-machan
+    image: sp-jarda-machan.png
+    talk-title: Moving a dinosaur &ndash; OpenAPI in one of the largest financial services providers in Central and Eastern Europe
+    talk-abstract: <p>As the biggest Czech bank it is a real challenge to introduce, evangelize and communicate the open API platform (https://developers.csas.cz/html/devs/en.html) to the public audience and to the bank itself at the same time. We're developing our own WebAPI platform for last 2,5 years, trying to set the standard in a wide community of developers as well as in the banking ecosystem. We're focusing on the developer's experience, bootstrapping new technologies like blockchain, homomorphic encryption and other crucial nowadays technologies. In short we're trying to turn the old traditional bank to a modern trendsetter one.</p><p>What is it like to introduce agile development into the IT house where waterfall is standard for last decades? To communicate with community through twitter not newspapers? To release the first open-source internet banking in the world? We have many great stories behind our effort in making our bank an open, transparent public institution. We would really be happy to share it with you!</p>
+  - name: Arnaud Lauret
+    company: AXA Banque
+    jobtitle: IT Architect
+    bio: <p>Arnaud Lauret aka The API Handyman. IT Architect working on API design, documentation, software architecture, tools and governance at AXA Banque (french online bank subsidiary of the AXA insurance group). Strong supporter of the OpenAPI Specification. Documentation Continuous Delivery evangelist. Wearer of cool T-shirts and lightsaber.</p>
+    twitter: @apihandyman
+    slug: arnaud-lauret
+    image: sp-arnaud-lauret.png
+    talk-title: OpenAPI Trek Beyond API Documentation
+    talk-abstract: <p>OpenAPI offers many possibilities that span the full API lifecycle, yet it is seen purely as a solution for generating API documentation. This session will tell the story of AXA Banque's evolution from .doc and .pdf API documentation to the extensive use of OpenAPI Specification (formerly Swagger). Throughout the journey, we will identify the many advantages of API definition languages beyond simply generating API documentation, including design, testing, documentation continuous delivery, code generation, mocking, and prototyping new ideas.</p>
+  - name: Randy Westergren
+    company: XDA Developers
+    jobtitle: Senior software developer
+    bio: <p>I'm currently a Senior Software Developer at XDA Developers, based in Media, PA, where I'm involved in all things technical, including maintaining current software and engineering new concepts. Before entering the development world, I was a Systems Engineer specializing in bringing server virtualization to SMBs. When not at work, I'm usually doing security research, out for a run, or working on DIY projects around the house.</p>
+    twitter: @RandyWestergren
+    slug: randy-westergren
+    image: sp-randy-westergren.png
+    talk-title: Securing the Things&#58; APIs in the IoT Era
+    talk-abstract: <p>The explosion of IoT has brought numerous changes to the way we use technology. From massive enterprises to the individual consumer, improvements in convenience and automation of most aspects of our lives has seen dramatic progress &ndash; yet security continues to be an ongoing concern in the software and devices we've all grown to depend on. The talk will focus on examining the protocols used in popular IoT devices, including how each operates in the wild, the inherent security concerns during design, as well as real world examples of practical attacks against them.</p>
+  - name: Mandy Whaley
+    company: Cisco
+    jobtitle: Director of Developer Experience & Evangelism
+    bio: <p>Amanda Whaley is Director of Developer Experience and Developer Evangelism for Cisco DevNet. She spends most of her time thinking about how developers use Cisco APIs, and about how to make their job easier. She also leads a team of developer evangelists who work with Cisco partners and developers in many technology areas including IoT, Collaboration, and Software Defined Networking.</p><p>Amanda has a background in application development and engineering, and she is interested in all things that help developers build cool stuff, tools, APIs, docs, frameworks.</p>
+    twitter: @mandywhaley
+    slug: mandy-whaley
+    image: sp-mandy-whaley.png
+    talk-title: How to train your API&#58; Experiences from the wilderness and back again
+    talk-abstract: <p>How do you design APIs in the context of lots of smart, divergent ideas? How do you do this when hardware is involved? In this talk we will share some of the methods and practices we are using and some of the lessons learned from the from the battle tested Cisco DevNet team.</p>
+  - name: Alex Gurney
+    company: Comcast Cable
+    jobtitle: Principal Software Engineer
+    bio: <p>Alex works on API security and operations at Comcast, and maintains a keen interest in other areas of security, network engineering, and programming. He has a doctorate in the mathematical analysis of Internet routing, and is always looking to put theory and practice together in useful ways, with the aim of building systems which are simple, maintainable, and serve the needs of their users.</p>
+    twitter: @ajtgurney
+    slug: alex-gurney
+    image: sp-alex-gurney.png
+    talk-title: API reliability at scale with CodeBig
+    talk-abstract: <p>Comcast services are delivered with the aid of hundreds of APIs, connecting our set-top boxes, mobile apps, websites, and many backend systems. We've built a common gateway layer for traffic management and authentication&#58; CodeBig. We've learned many lessons about performance and scale on our way to supporting tens of millions of users and hundreds of millions of requests daily. We've also learned good ways to handle diversity in traffic patterns, transparency in operations, and self-service configuration for API owners. I'll show what we built, now a vital part of Comcast's technical platform, 18 months after taking its first production traffic.</p>
+  - name: Devin Sevilla
+    company: AdRoll
+    jobtitle: Partner API Technical Program Manager
+    bio: <p>Devin currently manages the developer program at AdRoll. Before being acquired by Pandora, he ran the developer program at Rdio and helped bring music to everything from consumer electronics to mobile apps. Outside of work you'll find him cycling, fixing things around the house, or running after his two kids.</p>
+    twitter: @devin_s
+    slug: devin-sevilla
+    image: sp-devin-sevilla.png
+    talk-title: How to be a courteous guest&#58; providing SDKs to developers
+    talk-abstract: <p>Mobile developers are suspicious of including SDKs in their applications. Mobile devices are resource constrained and each application must be a good citizen. It''s easy for SDKs to cause crashes or simply use too many resources, leading to one-star reviews. SDK providers must earn trust and do what they can to protect it. This talk introduces methods to earn the trust of developers and how to manage the fallout from the inevitable bug in your SDK.</p>
 
 
 community: 
