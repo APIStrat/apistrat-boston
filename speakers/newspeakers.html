@@ -18,7 +18,7 @@ title: APIStrat 2016 Boston - Speakers
 			{% for speaker in site.keynotes %}
 				<div class="col-md-4 speak">
 					<div class="speak-inner">
-						<img class="img-responsive" src="{{speaker.image}}">
+						<img class="img-responsive" src="/images/{{speaker.image}}">
 						<h3>{{speaker.name}}</h3>
 						<p>{{speaker.company}}<br/>
 						<a href="https://twitter.com/{{speaker.twitter}}" target="_blank">@{{speaker.twitter}}</a></p>
@@ -29,10 +29,10 @@ title: APIStrat 2016 Boston - Speakers
 			{% for speaker in site.allspeakers %}
 				<div class="col-md-4 speak">
 					<div class="speak-inner">
-						<img class="img-responsive" src="{{speaker.image}}">
+						<img class="img-responsive" src="/images/{{speaker.image}}">
 						<h3>{{speaker.name}}</h3>
 						<p>{{speaker.company}}<br/>
-						<a href="https://twitter.com/{{speaker.twitter}}" target="_blank">{{speaker.twitter}}</a></p>
+						<a href="https://twitter.com/{{speaker.twitter}}" target="_blank">@{{speaker.twitter}}</a></p>
 					</div>
 				</div><!-- /speak -->
 			{% endfor %}
