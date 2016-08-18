@@ -1,57 +1,9 @@
 ---
-layout: faster
+layout: page
 title: APIStrat Boston 2016
 ---
 <!-- <link rel='stylesheet' id='tyler-layout-css'  href='/css/new-layout.css?ver=4.9' type='text/css' media='all' /> -->
-<style>
-.ticket {
-	padding: 20px;
-	text-align:center;
-	margin: 40px 0px;
-	}
-
-.ticket-inner {
-	border: 1px solid #ffffff;
-	margin: 10px 5px 0px;
-	padding: 20px;
-	background: rgba(13, 98, 135,0.3);
-	}	
-	
-p.price {
-	font-size: 70px;
-	font-weight:300;
-	color: #ffffff;
-	}
-		
-.buyticket {
-	background-color: #f1f1f1;
-	padding:20px;
-	margin: 0px 5px 30px;
-	}
-	
-.btn-red {    
-    background-color: #f52029;
-    text-indent: 0;
-    padding: 14px 40px;
-    color: #ffffff;
-    border: 0px solid #ffffff;
-    outline-offset: 0px;
-    font-weight:300;
-    -webkit-transition: background-color 500ms ease-out .05s;
-    -moz-transition: background-color 500ms ease-out .05s;
-    -o-transition: background-color 500ms ease-out .05s;
-    transition: background-color 500ms ease-out .05s;
-    }
-
-.btn-red:hover {
-	background-color: #ffffff;
-	color: #f52029;
-	border:0px solid #0d6287;
-	outline-offset:0px;
-	transform-delay: 0s;
-	}   	
-	
-</style>
+<!--npadding-->
 <!--npadding-->
 <div class="col-xs-12 index-hero">
 	<div class="container">
@@ -124,79 +76,23 @@ p.price {
 	<div class="container">
 	<div class="col-xs-12" style="padding: 30px 0px;"></div>
 	<h2 class="center smaller" style="color:#ffffff;">Speakers<br/></h2>
-		<div class="col-md-4 speak">
-			<div class="speak-inner">
-				<img class="img-responsive" src="/images/sp-charles-ashley-3.png"/>
-				<h3>Charles L. Ashley III</h3>
-				<p>Cultivating Coders<br/>
-				<a href="https://twitter.com/cash_the3rd" target="_blank">@cash_the3rd</a></p>
-			</div>
-		</div><!-- /col-md-4 -->
-		
-		<div class="col-md-4 speak">
-			<div class="speak-inner">
-				<img class="img-responsive" src="/images/sp-erin-mckean.png"/>
-				<h3>Erin McKean</h3>
-				<p>Wordnik.com<br/>
-				<a href="https://twitter.com/emckean" target="_blank">@emckean</a></p>
-			</div>
-		</div><!-- /col-md-4 -->
-		
-		<div class="col-md-4 speak">
-			<div class="speak-inner">
-				<img class="img-responsive" src="/images/sp-john-sheehan.png"/>
-				<h3>John Sheehan</h3>
-				<p>Runscope<br/>
-				<a href="https://twitter.com/johnsheehan" target="_blank">@johnsheehan</a></p>
-			</div>
-		</div><!-- /col-md-4 -->
-		<div class="col-md-4 speak">
-			<div class="speak-inner">
-				<img class="img-responsive" src="/images/sp-jeremiah-lee.png"/>
-				<h3>Jeremiah Lee</h3>
-				<p>Fitbit<br/>
-				<a href="https://twitter.com/jeremiahlee" target="_blank">@jeremiahlee</a></p>
-			</div>
-		</div><!-- /col-md-4 -->
-		<div class="col-md-4 speak">
-			<div class="speak-inner">
-				<img class="img-responsive" src="/images/sp-laura-heritage.png"/>
-				<h3>Laura Heritage</h3>
-				<p>Akana<br/>
-				<a href="https://twitter.com/heritagelaura" target="_blank">@heritagelaura</a></p>
-			</div>
-		</div><!-- /col-md-4 -->
-			<div class="col-md-4 speak">
-			<div class="speak-inner">
-				<img class="img-responsive" src="/images/sp-mike-amundsen.jpg"/>
-				<h3>Mike Amundsen</h3>
-				<p>CA Technologies<br/>
-				<a href="https://twitter.com/mamundsen" target="_blank">@mamundsen</a></p>
-			</div>
-		</div><!-- /col-md-4 -->
-		<div class="col-md-4 speak">
-			<div class="speak-inner">
-				<img class="img-responsive" src="/images/sp-rob-mccauley.png"/>
-				<h3>Rob McCauley</h3>
-				<p>Amazon<br/>
-				<a href="https://twitter.com/RobMcCauley" target="_blank">@RobMcCauley</a></p>
-			</div>
-		</div><!-- /col-md-4 -->
-		<div class="col-md-4 speak">
-			<div class="speak-inner">
-				<img class="img-responsive" src="/images/sp-mark-oneill.png"/>
-				<h3>Mark O'Neill</h3>
-				<p>Gartner<br/>
-				<a href="https://twitter.com/TheMarkONeill" target="_blank">@TheMarkONeill</a></p>
-			</div>
-		</div><!-- /col-md-4 -->
-		
+		{% for speaker in site.keynotes %}
+				<div class="col-md-4 speak">
+					<div class="speak-inner">
+						<img class="img-responsive" src="/images/{{speaker.image}}">
+						<h3>{{speaker.name}}</h3>
+						<p>{{speaker.company}}<br/>
+						<a href="https://twitter.com/{{speaker.twitter}}" target="_blank">@{{speaker.twitter}}</a></p>
+					</div>
+				</div><!-- /speak -->
+			{% endfor %}
+
 		<div class="col-md-4">
 		</div>
 		
 	<div class="col-xs-12" style="padding: 30px 0px;"></div>
 	<div class="col-md-10 col-md-offset-1 center">
-		<p style="color:#ffffff;"><a style="color: #ffffff; href="/speakers/">See all speakers &rsaquo;</a></p>
+		<p style="color:#ffffff;"><a style="color: #ffffff;" href="/speakers/">See all speakers &rsaquo;</a></p>
 	</div>
 
 	</div> <!-- /container -->
@@ -234,17 +130,17 @@ p.price {
 
 
 <!-- ========================================
-===== TICKEETS ==============================
+===== TICKETS ===============================
 ======================================== -->
 <div class="col-xs-12 ocean" style="background: url('/images/hero-tickets.gif') center center;">
 	<div class="col-xs-12" style="padding: 40px 0px;"></div>
 	<div class="container">
 		<div class="col-md-4 ticket">
-			<div class="ticket-inner">
-				<h2 class="smaller">Early Bird</h2>
-				<hr style="border-top:1px solid #ffffff; margin:10px;">
-				<p class="price">$499</p>
-				<p>Available through Aug 5, 2016</p>
+			<div class="ticket-inner" style="border:1px solid #505050; color: #505050;">
+				<h2 class="smaller" style="color: #787878;">Early Bird</h2>
+				<hr style="border-top:1px solid #787878; margin:10px;">
+				<p class="price" style="color: #787878;">$499</p>
+				<p style="color: #f52029;">SOLD OUT!</p>
 			</div>	
 		</div>
 		
@@ -334,6 +230,7 @@ p.price {
 ======================================== -->
 
 <div id="tile_sponsors" class="container widget">
+<div class="col-xs-12" style="padding: 30px 0px;"></div>
 
   <h3 class="sponsor"><span>Organizers</span></h3>
   <div class="sponsors sponsors-lg">
