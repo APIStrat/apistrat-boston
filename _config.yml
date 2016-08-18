@@ -777,6 +777,78 @@ keynotes:
     talk-abstract: <p>Amazon has been an early pioneer in transforming legacy systems to a services-based API model. More recently, the Amazon Alexa team has refactored the Alexa Skills Kit reference architecture from one requiring server instances into a serverless model using AWS Lambda. Rob will provide an overview of the Alexa Skills Kit API endpoints, and discuss best practices and tools for building and consuming API services.</p>
 
 allspeakers: 
+  - name: Charles L. Ashley III
+    company: Cultivating Coders
+    jobtitle: President
+    bio: <p>Charles L. Ashley III was born in Chicago, Illinois and raised in Las Vegas, NV. He received his Bachelors in Science in Business Administration from Adams State University (Alamosa, Colorado). After graduation and a two year stint as a Senior Academic Counselor at the University of Nevada-Las Vegas, Charles relocated to Albuquerque where he was hired to create and manage the Bernalillo County Film Office where he served as the County's Film Liaison and Marketing Manager for 6 years. After his time at Bernalillo County, Charles spent 4 years as a Marketing & Strategy Consultant for Harmonix Technologies, VARA Wines and Devry University to name a few and a short stint as Manager of Marketing for CNM's STEMulus Center.</p><p>In 2015 Charles founded Cultivating Coders where he's currently serving as President.</p>
+    twitter: cash_the_3rd
+    slug: charles-ashley-3
+    image: sp-charles-ashley-3.png
+    talk-title: A Problem Worth Solving
+    talk-abstract: <p>Empowering communities traditionally overlooked through code. We're heavily focused on the Native American communities in New Mexico (primarily the four corners area). Our mission for 2017 and beyond is to provide the same opportunities to areas like Yuma, AZ., Savannah, GA., El Centro, CA., and along with the various cities in NM that are suffering from high unemployment rates and lack of diversity in the technology job sector.</p>
+  - name: Mike Amundsen
+    company: CA Technologies
+    jobtitle: Director of API Architecture, API Academy
+    bio: <p>An internationally known author and speaker, Mike Amundsen travels the world consulting and talking about network architecture, Web development, and other subjects. As Director of Architecture for the API Academy, he works with companies to provide insight on how best to capitalize on the opportunities APIs present to both consumers and the enterprise.</p><p>Amundsen has authored numerous books and papers. His 2013 collaboration with Leonard Richardson "RESTful Web APIs" and his 2011 book, <em>Building Hypermedia APIs with HTML5 and Node</em>, are common references for building adaptable Web applications. He co-authored "Microservice Architecture" (June 2016) and is currently finishing "RESTful Web Clients" for release in summer 2016.</p>
+    twitter: mamund
+    slug: mike-amundsen
+    image: sp-mike-amundsen.png
+    talk-title: Unleash the Chaos
+    talk-abstract: <p>Throughout the history dating back before the Middle Ages, Chaos has led to important technical and social innovations. And, it turns out, introducing a selected level of Chaos into your organization is a proven way to increase the rate and success of innovative problem solving and product designs. Why is this so? And how can you take advantage of this important "superpower" of consistently innovative companies?</p><p>Based on the work of Ori Brafman and others, this talk shows examples of three key traits of innovative cultures including "Whitespace", "The Unusual Suspects", and "Organized Serendipity" and provides guidance on how you can encourage these traits in your own team or company.</p>
+  - name: Erin McKean
+    company: Wordnik
+    jobtitle: Founder
+    bio: <p>Erin McKean is the founder of the newly-not-for-profit Wordnik.com, the world's biggest online dictionary. Before founding Wordnik, she was the editor-in-chief of American Dictionaries for Oxford University Press, and before Javascript, she dabbled in HyperCard, Perl, and Omnimark (if you have ever written anything in Omnimark, she will buy you a drink). She's the author of the Weird and Wonderful Words books, the best-selling novel The Secret Lives of Dresses, and (most recently) The Hundred Dresses, a field guide to dresses. She blogs at dressaday.com. When you meet her, please tell her your favorite word.</p>
+    twitter: emckean
+    slug: erin-mckean
+    image: sp-erin-mckean.png
+    talk-title: How Low Can You Go? Reducing Costs and Development Time with AWS Lambda, API Gateway, Elastic Beanstalk, and 3Scale (and don''t forget Swagger!)
+    talk-abstract: <p>More than 18,000 developers have keys to the Wordnik API, which they use to build everything from edtech applications to word games to Twitterbots! Our original architecture has served more than 2bn calls since 2010, and has largely been a free service.</p><p>When Wordnik relaunched as a nonprofit in late 2014, we realized we had to monetize our API to create a sustainable foundation for future development, and in order to monetize, we needed to reduce our operating costs and introduce new features -- neither of which our previous architecture made simple.</p><p>Enter AWS Lambda+API Gateway! By breaking down our current API into tiny functions, we can take advantage of the current microservice craze with minimal ops headaches. And by using Elastic Beanstalk and 3Scale to manage a reverse proxy, handling routing between the old and new API calls and managing billing is much easier, too. Add a pretty Swagger interface on top and you''re good to go ... faster and cheaper!</p>
+  - name: John Sheehan
+    company: Runscope
+    jobtitle: Co-founder and CEO
+    bio: <p>John Sheehan is the co-founder and CEO of Runscope.</p>
+    twitter: johnsheehan
+    slug: john-sheehan
+    image: sp-john-sheehan.png
+    talk-title: Panel moderator &ndash; Retrospective, APIs then and now&#58; looking back over 5 years of API Strat
+    talk-abstract: <p></p>
+  - name: Jeremiah Lee
+    company: Fitbit
+    jobtitle: Web API technical product owner
+    bio: <p>Jeremiah Lee is the Fitbit Web API technical product owner in San Francisco. He practices and advocates bringing user experience design methods to API engineering. When he's not helping make the world a healthier place through technology, he's usually hiking or biking somewhere that needs better LTE coverage.</p>
+    twitter: jeremiahlee
+    slug: jeremiah-lee
+    image: sp-jeremiah-lee.png
+    talk-title: Scaling the Fitbit Web API
+    talk-abstract: <p>Fitbit launched its Web API in 2011. It's now used by millions of people through Fitbit�s apps and a vibrant third-party ecosystem. Jeremiah will share the product strategy, internal processes, and lessons learned from his experience managing the Fitbit Web API for three years.</p>
+  - name: Laura Heritage
+    company: Akana
+    jobtitle: Director of API Strategy
+    bio: <p>Laura Heritage is Director of API Strategy at Akana. In this role, she works with customer to establish API strategies and implement API platforms.
+    twitter: heritagelaura
+    slug: laura-heritage
+    image: sp-laura-heritage.png
+    talk-title: Panel member &ndash; Retrospective, APIs then and now&#58; looking back over 5 years of API Strat
+    talk-abstract: <p></p>
+  - name: Mark O'Neill
+    company: Gartner
+    jobtitle: Research Director, Applications
+    bio: <p>Mark O'Neill is a Gartner analyst advising clients on strategy for API management, as part of an overall digital platform. His research includes API security, open banking, and the impact of APIs in the Connected Home. He is the author of the book <em>Web Services Security</em> and is a frequent speaker on API strategy and the API economy.</p><p>Prior to Gartner, Mark was co-founder and CTO of Vordel, an API Gateway pioneer, acquired in 2012. Originally from Ireland, Mark is based in Boston.</p>
+    twitter: themarkoneill
+    slug: mark-oneill
+    image: sp-mark-oneill.png
+    talk-title: The Past, Present, and Future of the API Economy
+    talk-abstract: <p>Coming soon</p>
+  - name: Rob McCauley
+    company: Amazon
+    jobtitle: Alexa Solutions Architect
+    bio: <p>Robert helps developers build voice-enabled applications in his role as Alexa Solutions Architect. Rob's background is in data analytics and recently worked as data warehouse developer at Amazon Robotics in North Reading, MA, following technical roles at HP, Cognex, TJX, and Oracle. Follow Rob at @RobMcCauley and github.com/robm26.</p>
+    twitter: RobMcCauley
+    slug: rob-mccauley
+    image: sp-rob-mccauley.png
+    talk-title: Hacking on the Amazon Alexa with AWS Lambda and APIs
+    talk-abstract: <p>Amazon has been an early pioneer in transforming legacy systems to a services-based API model. More recently, the Amazon Alexa team has refactored the Alexa Skills Kit reference architecture from one requiring server instances into a serverless model using AWS Lambda. Rob will provide an overview of the Alexa Skills Kit API endpoints, and discuss best practices and tools for building and consuming API services.</p>
   - name: Tyler Love
     company: Bustle
     jobtitle: CTO
