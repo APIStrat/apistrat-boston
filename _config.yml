@@ -776,7 +776,6 @@ keynotes:
     talk-title: Hacking on the Amazon Alexa with AWS Lambda and APIs
     talk-abstract: <p>Amazon has been an early pioneer in transforming legacy systems to a services-based API model. More recently, the Amazon Alexa team has refactored the Alexa Skills Kit reference architecture from one requiring server instances into a serverless model using AWS Lambda. Rob will provide an overview of the Alexa Skills Kit API endpoints, and discuss best practices and tools for building and consuming API services.</p>
 
-
 allspeakers: 
   - name: Tyler Love
     company: Bustle
