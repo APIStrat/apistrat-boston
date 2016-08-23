@@ -1087,8 +1087,8 @@ h2 + .btn-header {
 .sessions.list .time {
     display: block;
     float: left;
-    width: 20%;
-    padding-right: 7%;
+    width: 100%;
+    padding-right: 5%;
     color: #939393;
     font-size: 14px; font-weight: 300;
 }
