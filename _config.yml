@@ -1161,7 +1161,7 @@ allspeakers:
     bio: <p>Jonathan is a lead engineer at McGraw-Hill Education. He is a passionate full-stack web developer who spends some of his time building APIs that provide widespread access to online learning resources for schools across the US. In his spare time he is working to create an online platform for middle and high school students to build and launch high-altitude balloons.</p>
     twitter: gomaketeam
     slug: jonathan-barton	
-    image: sp-api-ninja.png
+    image: sp-jonathan-barton.png
     talk-title: Flying Dreams&#58; Real-Time Communication from the Edge of Space
     talk-abstract: <p>Creating flexible, resilient access to real-time sensor data can be challenging &ndash; especially when your device targets can literally disappear off the face of the Earth! See how groups of students and instructors are using the goMake API to talk with high-altitude balloon telemetry as it skirts the edge of the stratosphere, and the design considerations involved in making this a scalable platform for project-based STEM learning that aims to instill a sense of wonder.</p>		
 
