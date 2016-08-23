@@ -981,7 +981,7 @@ h2 + .btn-header {
 }
 .sessions .session .title {
     display: table;
-    color: #7a9e00;
+    color: #0d6287;
     font-size: 20px; font-weight: 500;
     line-height: 22px;
     margin-bottom: 10px;
@@ -1121,8 +1121,8 @@ h2 + .btn-header {
     display: block;
     float: left;
     height: 75px;
-    width: 33%;
-    margin: 6px 0;
+    width: 100%;
+    margin: 15px 0;
     padding: 0 16px 0 1px;
     color: #242424;
     font-size: 14px; font-weight: 500;
@@ -1134,7 +1134,7 @@ h2 + .btn-header {
 }
 .sessions.list .session .speaker .name {
     display: block;
-    margin: 10px 0 0 80px;
+    margin: 10px 0 0 85px;
     padding: 0;
     height: 100%;
 }
