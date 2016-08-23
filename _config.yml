@@ -279,78 +279,113 @@ daytwo:
     title: Keynote
     location: Main Stage
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
+      - name: Mark O'Neill
+        company: Gartner
+        image: sp-mark-oneill.png
+        slug: mark-oneill
         detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+        title: Trends in the API Industry
+        twitter: themarkoneill
   - time: 9:40 am - 10:05 am
     title: Keynote
     location: Main Stage
     speakers:
-      - name: Speaker Name
+      - name: Sarah Jeong
         company: Speaker Company
         image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
+        slug: sarah-jeong
         detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
+        title: Frontline at the Oracle vs Google Court Case
         twitter: twitterhandle
   - time: 10:05 am - 10:30 am
     title: Keynote
     location: Main Stage
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Rob McCauley
+        company: Amazon Alexa
+        image: sp-rob-mccauley.png
+        slug: rob-mccauley
+        title: Hacking on the Amazon Alexa with AWS Lambda and APIs
+        twitter: robmccauley
   - time: 10:30 am - 11:00 am
     title: Coffee Break
     location: Break Area
     speakers:
   - time: 11:00 am - 12:30 pm
-    title: Session Title
+    title: APIs for non-APIers
     location: Breakout One
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
+      - name: Andrew Seward
+        company: Cronofy
+        image: sp-andrew-seward.png
+        slug: andrew-seward
+        title: How to talk about APIs
+        twitter: MrAndrew
+      - name: Keran McKenzie
+        company: MYOB Technology
         image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+        slug: keran-mckenzie
+        title: <span>APIs &amp; Kids &ndash; your audience isn't who you think it is</span>
+        twitter: keranm
+      - name: Phillip J. Windley
+        company: Brigham Young University
+        image: sp-phillip-windley.png
+        slug: phillip-windley
+        title: Using Personal APIs in a University Setting
+        twitter: windley
+      - name: Mark Cuva
+        company: readme.io
+        image: sp-marc-cuva.png
+        slug: marc-cuva
+        title: Your Documentation Is Your UX
+        twitter: marccuva
+      - name: Mark Cuva
+        company: readme.io
+        image: sp-marc-cuva.png
+        slug: marc-cuva
+        title: Your Documentation Is Your UX
+        twitter: marccuva
+        
+        
   - time: 11:00 am - 12:30 pm
-    title: Session Title
+    title: <span>API Design &amp; Governance</span>
     location: Breakout Two
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Mike Amundsen
+        company: API Academy at CA Technologies
+        image: sp-mike-amundsen.png
+        slug: mike-amundsen
+        title: Taking Advantage of the Web API Design Maturity Model
+        twitter: mamund
+      - name: Matt Bernier
+        company: SendGrid
+        image: sp-matt-bernier.png
+        slug: matt-bernier
+        title: The Desire for Perfection vs Reality
+        twitter: mbernier
+      - name: Mandy Whaley
+        company: Cisco DevNet
+        image: sp-mandy-whaley.png
+        slug: mandy-whaley
+        title: How to train your API&#58; Experiences from the wilderness and back again
+        twitter: mandywhaley
+      - name: Matthew Reinbold
+        company: Capital One
+        image: sp-matthew-reinbold.png
+        slug: matthew-reinbold
+        title: The 3 Ways Melvin Conway Saved Our Enterprise API Governance
+        twitter: libel_vox
+        
   - time: 11:00 am - 12:30 pm
-    title: Session Title
+    title: Data Science
     location: Breakout Three
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Kurt Collins
+        company: Built.io
+        image: sp-kurt-collins.png
+        slug: kurt-collins
+        title: Mo' APIs, Mo' Data &ndash; Mo' Problems
+        twitter: timesync
   - time: 12:30 pm - 1:30 pm
     title: Lunch
     location: Break Area
