@@ -264,7 +264,7 @@ daytwo:
     location: Main Stage
     speakers:
       - name: Steve Willmott
-        company: 3Scale
+        company: 3scale
         image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
         slug: steve-wilmott
       - name: Kin Lane
@@ -276,29 +276,27 @@ daytwo:
         image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
         slug: lorinda-brandon
   - time: 9:15 am - 9:40 am
-    title: Keynote
+    title: Trends in the API Industry
     location: Main Stage
     speakers:
       - name: Mark O'Neill
         company: Gartner
         image: sp-mark-oneill.png
         slug: mark-oneill
-        detail: The detail page for the speaker
         title: Trends in the API Industry
         twitter: themarkoneill
   - time: 9:40 am - 10:05 am
-    title: Keynote
+    title: Frontline at the Oracle vs Google Court Case
     location: Main Stage
     speakers:
       - name: Sarah Jeong
         company: Speaker Company
         image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
         slug: sarah-jeong
-        detail: The detail page for the speaker
         title: Frontline at the Oracle vs Google Court Case
         twitter: twitterhandle
   - time: 10:05 am - 10:30 am
-    title: Keynote
+    title: Hacking on the Amazon Alexa with AWS Lambda and APIs
     location: Main Stage
     speakers:
       - name: Rob McCauley
