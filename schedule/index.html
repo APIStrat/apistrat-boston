@@ -37,7 +37,7 @@ title: APIStrat Austin 2015 - Schedule
                       <span class="speakers-thumbs">
                       {% for speaker in entry.speakers %}
                           <a class="speaker" href="#" onclick="return false;">
-                            <img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="{{ speaker.image }}" width="60">
+                            <img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="/images/{{ speaker.image }}" width="60">
                             <span class="name">
                               {{ speaker.name }}<br />{{ speaker.company }}
                             </span>
@@ -70,7 +70,7 @@ title: APIStrat Austin 2015 - Schedule
                       <span class="speakers-thumbs">
                       {% for speaker in entry.speakers %}
                           <a class="speaker" {% if speaker.detail != 'none' %}href="{{ speaker.detail }}"{% else %}href="#" onclick="return false;"{% endif %}>
-                            <img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="{{ speaker.image }}" width="60">
+                            <img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="/images/{{ speaker.image }}" width="60">
                             <span class="name">
                               {{ speaker.name }}<br />{{ speaker.company }}
                             </span>
@@ -103,7 +103,7 @@ title: APIStrat Austin 2015 - Schedule
                       <span class="speakers-thumbs">
                       {% for speaker in entry.speakers %}
                           <a class="speaker" {% if speaker.detail != 'none' %}href="{{ speaker.detail }}"{% else %}href="#" onclick="return false;"{% endif %}>
-                            <img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="{{ speaker.image }}" width="60">
+                            <img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="/images/{{ speaker.image }}" width="60">
                             <span class="name">
                               {{ speaker.name }}<br />{{ speaker.company }}
                             </span>
