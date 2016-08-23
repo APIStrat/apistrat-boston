@@ -380,149 +380,240 @@ daytwo:
         slug: kurt-collins
         title: Mo' APIs, Mo' Data &ndash; Mo' Problems
         twitter: timesync
+      - name: Audrey Neveu
+        company: Streamdata.io
+        image: sp-audrey-neveu.png
+        slug: audrey-neveu
+        title: The end of polling&#58; why and how to transform a REST API into a Data Streaming API
+        twitter: audrey_neveu
+      - name: Heidi Waterhouse
+        company: Waterhouse Consulting
+        image: sp-heidi-waterhouse.png
+        slug: heidi-waterhouse
+        title: The Death of Data
+        twitter: wiredferret
+  
+  
   - time: 12:30 pm - 1:30 pm
     title: Lunch
     location: Break Area
     speakers:
+  
   - time: 1:30 pm - 3:00 pm
-    title: Session Title
+    title: Product Management
     location: Breakout One
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Melissa Jurkoic
+        company: Newmarket, an Amadeus company
+        image: sp-melissa-jurkoic.png
+        slug: melissa-jurkoic
+        title: How I got the CTO to pay for Open APIs
+        twitter: melissa_jurkoic
+      - name: Richard Jones
+        company: Dun &amp; Bradstreet
+        image: sp-richard-jones.png
+        slug: richard-jones
+        title: Using APIs to create your own All-day breakfast
+        twitter: richiegjones
+      - name: Jon Spinney
+        company: Pitney Bowes
+        image: sp-jon-spinney.png
+        slug: jon-spinney
+        title: People, Price, and Product, in that order
+        twitter: pitneybowes
+      - name: Tyler Singletary
+        company: Lithium Technologies
+        image: sp-tyler-singletary.png
+        slug: tyler-singletary
+        title: How to kill your API program
+        twitter: harmophone
+      
   - time: 1:30 pm - 3:00 pm
-    title: Session Title
+    title: Security
     location: Breakout Two
-    speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+    speakers:  
+      - name: Pamela Dingle
+        company: Ping Identity
+        image: sp-pamela-dingle.png
+        slug: pamela-dingle
+        title: Protecting Ourselves from Ourselves&#58; 3 Ways to see if an API Security Architecture is Working Properly
+        twitter: pamelarosiedee
+      - name: Kayvan Alikhani
+        company: RSA Security
+        image: sp-kayvan-alikhani.png
+        slug: kayvan-alikhani
+        title: Who's on first for API security &ndash; User identity, Application Identity Or Device Identity? And how are they related?
+        twitter: rsasecurity            
+      - name: Randy Westergren
+        company: XDA Developers
+        image: sp-randy-westergren.png
+        slug: randy-westergren
+        title: Securing the things&#58; APIs in the IoT Era
+        twitter: randywestergren   
+      - name: Chris Busse
+        company: APIvista
+        image: sp-chris-busse.png
+        slug: chris-busse
+        title: Reverse Engineering Undocumented APIs with mitmproxy
+        twitter: busse            
   - time: 1:30 pm - 3:00 pm
-    title: Session Title
+    title: Hypermedia
     location: Breakout Three
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Pete Gamache
+        company: Appcues
+        image: sp-pete-gamache.png
+        slug: pete-gamache
+        title: Implementing cross-protocol hypermedia services
+        twitter: gamache
+      - name: Benjamin Greenberg
+        company: Comcast
+        image: sp-ben-greenberg.png
+        slug: ben-greenberg
+        title: Using Hypermedia APIs to drive interactive mobile applications
+        twitter: bengreen  
+      - name: Gareth Jones
+        company: Microsoft
+        image: sp-gareth-jones.png
+        slug: gareth-jones
+        title: Hypermedia vs Graphs&#58; Best buddies or the next API battleground?
+        twitter: garethj_msft   
+      - name: Irakli Nadareishvili
+        company: ReferWell Inc
+        image: sp-irakli-nadareishvili.png
+        slug: irakli-nadareishvili
+        title: Documenting Hypermedia APIs
+        twitter: inadarei 
   - time: 3:00 pm - 3:05 pm
     title: Switchover Time
     location: Break Area
     speakers:
   - time: 3:05 pm - 4:35 pm
-    title: Session Title
+    title: Enterprise
     location: Breakout One
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Darrel Miller
+        company: Microsoft
+        image: sp-darrel-miller.png
+        slug: darrel-miller
+        title: Breathing new life into legacy SOAP services
+        twitter: 
+      - name: Scott Feinberg
+        company: The New York Times Company
+        image: sp-scott-feinberg.png
+        slug: scott-feinberg
+        title: The <em>New</em> New York Times Developer Network&#58; A Path to Cheaper, Faster, Less Friction API Management with OpenAPI  
+        twitter: scottefein
+      - name: Amber Fallon
+        company: SmartBear Software
+        image: sp-amber-fallon.png
+        slug: amber-fallon
+        title: TBD
+        twitter: 
+      - name: Charlie Ozinga
+        company: Cloud Elements
+        image: sp-charlie-ozinga.png
+        slug: charlie-ozinga
+        title: OnPrem Support &ndash; That was so 1982
+        twitter: CharlieOzinga
+ 
+ 
   - time: 3:05 pm - 4:35 pm
-    title: Session Title
+    title: Developer Experience
     location: Breakout Two
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Brendan Cartledge
+        company: Booking.com
+        image: sp-brendan-cartledge.png
+        slug: brendan-cartledge
+        title: Why writing our own documentation framework and tools was a terrible idea and how to recover
+        twitter: brentoe
+      - name: Taylor Barnett
+        company: Keen IO
+        image: sp-taylor-barnett.png
+        slug: taylor-barnett
+        title: Creating a Great Developer Experience Through SDKs
+        twitter: taylor_atx
+      - name: Steve Rice
+        company: PagerDuty
+        image: sp-steve-rice.png
+        slug: steve-rice
+        title: API, Re-invented&#58; How to ship a major new API version without losing your mind (or your developers)
+        twitter: decadentwaste  
+        
   - time: 3:05 pm - 4:35 pm
-    title: Session Title
+    title: Microservices
     location: Breakout Three
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: John Feminella
+        company: Pivotal
+        image: sp-john-feminella.png
+        slug: john-feminella
+        title: API Design for Microservice Architectures
+        twitter: jxxf  
+      - name: Sandeep Dinesh
+        company: Google
+        image: sp-sandeep-dinesh.png
+        slug: sandeep-dinesh
+        title: Microservices&#58; gRPC or REST? Why not both?
+        twitter: sandeepdinesh
+      - name: Ken Wronkiewicz
+        company: Cisco
+        image: sp-ken-wronkiewicz.png
+        slug: ken-wronkiewicz
+        title: Effortless microservices running in production with Kubernetes
+        twitter: wirehead
   - time: 4:35 pm - 5:00 pm
     title: Coffee Break
     location: Break Area
     speakers:
   - time: 5:00 pm - 5:25 pm
-    title: Keynote
+    title: Scaling the Fitbit API
     location: Main Stage
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Jeremiah Lee
+        company: Fitbit
+        image: sp-jeremiah-lee.png
+        slug: jeremiah-lee
+        title: Scaling the Fitbit API
+        twitter: jeremiahlee
   - time: 5:25 pm - 5:50 pm
-    title: Session Title
+    title: The Lost and Found of API Business Models
     location: Main Stage
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Susan Danziger
+        company: Ziggeo Inc
+        image: sp-susan-danziger.png
+        slug: susan-danziger
+        title: The Lost and Found of API Business Models
+        twitter: susandanziger
   - time: 5:50 pm - 6:20 pm
-    title: Diversity Panel
+    title: Unleash the Chaos
     location: Main Stage
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
-  - time: 6:20 pm - 6:30 pm
+      - name: Mike Amundsen
+        company: Wordnik
+        image: sp-mike-amundsen.png
+        slug: mike-amundsen
+        title: Unleash the Chaos
+        twitter: mamund
+  - time: 6:20 pm - 6:40 pm
     title: Closing Remarks
     location: Main Stage
     speakers:
-      - name: Steve Willmott
-        company: 3Scale
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
-        slug: steve-wilmott
-      - name: Kin Lane
-        company: API Evangelist
-        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
-        slug: kin-lane
-      - name: Mark Boyd
-        company: Conference Chair
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-boyd.png
-        slug: mark-boyd
+      - name: Erin McKean
+        company: Wordnik
+        image: sp-erin-mckean.png
+        slug: erin-mckean
+        title: How Low Can You Go?
+        twitter: emckean
   - time: 6:45 pm - 7:45 pm
     title: Drinks Reception
     location: Break Area
     speakers:
   - time: 9:30 pm - 12:00 am
     title: Meetup Bar
-    location: Valhalla (710 Red River St - <a href="https://www.facebook.com/valhallatavern">facebook.com/valhallatavern)
+    location: TBD
     speakers:
 
 daythree:

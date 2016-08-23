@@ -7,6 +7,51 @@ title: APIStrat Austin 2015 - Schedule
         <h1>Schedule</h1>
     </div>
 </div>
+		
+<div class="container">
+
+    <div class="schedule">
+
+        <div class="sessions list">
+
+            <div class="followWrap" style="height: 60px;">
+                <div class="day-floating">
+                    <span>November 2nd, 2016 (Workshop Day)</span>
+                </div>
+            </div>
+
+            {% for entry in site.dayone %}
+              <div class="session">
+
+                  <span class="time">{{ entry.time }}</span>
+
+                  <div class="session-inner">
+
+                      <a class="title" href="#" onclick="return false;"><span>{{ entry.title }}</span></a>
+                      {% if entry.location == 'Breakout One' or entry.location == 'Breakout Two' or entry.location == 'Breakout Three' %}
+                        <a class="title" href="{{ entry.registration }}" style="color:#FF0000;">(REGISTER FOR WORKSHOP!)</a>
+                      {% endif %}
+                      <span class="location">{{ entry.abstract }}</span><br />
+                      <span class="location">{{ entry.location }}</span>
+
+                      <span class="speakers-thumbs">
+                      {% for speaker in entry.speakers %}
+                          <a class="speaker" href="#" onclick="return false;">
+                            <img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="/images/{{ speaker.image }}" width="60">
+                            <span class="name">
+                              {{ speaker.name }}<br />{{ speaker.company }}
+                            </span>
+                          </a>
+                      {% endfor %}
+                      </span>
+
+                      <!--<a class="more" href="">More info <i class="icon-angle-right"></i></a>-->
+
+                  </div>
+              </div>
+            {% endfor %}
+        </div><!-- /container -->
+        
 		<div class="col-xs-12 sessions">
 			<div class="container">
 				<div class="followWrap" style="height: 60px;">
@@ -51,61 +96,19 @@ title: APIStrat Austin 2015 - Schedule
 				{% endfor %}
 			</div><!-- /container -->
 		</div><!-- /col-xs-12 -->
-
-<div class="container">
-
-    <div class="schedule">
-
-        <div class="sessions list">
-
-            <div class="followWrap" style="height: 60px;">
-                <div class="day-floating">
-                    <span>November 2nd, 2016 (Workshop Day)</span>
-                </div>
-            </div>
-
-            {% for entry in site.dayone %}
-              <div class="session">
-
-                  <span class="time">{{ entry.time }}</span>
-
-                  <div class="session-inner">
-
-                      <a class="title" href="#" onclick="return false;"><span>{{ entry.title }}</span></a>
-                      {% if entry.location == 'Breakout One' or entry.location == 'Breakout Two' or entry.location == 'Breakout Three' %}
-                        <a class="title" href="{{ entry.registration }}" style="color:#FF0000;">(REGISTER FOR WORKSHOP!)</a>
-                      {% endif %}
-                      <span class="location">{{ entry.abstract }}</span><br />
-                      <span class="location">{{ entry.location }}</span>
-
-                      <span class="speakers-thumbs">
-                      {% for speaker in entry.speakers %}
-                          <a class="speaker" href="#" onclick="return false;">
-                            <img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="/images/{{ speaker.image }}" width="60">
-                            <span class="name">
-                              {{ speaker.name }}<br />{{ speaker.company }}
-                            </span>
-                          </a>
-                      {% endfor %}
-                      </span>
-
-                      <!--<a class="more" href="">More info <i class="icon-angle-right"></i></a>-->
-
-                  </div>
-              </div>
-            {% endfor %}
-		<div class="col-xs-12">
+		<div class="col-xs-12 sessions">
 			<div class="container">
 				<div class="followWrap" style="height: 60px;">
 					<div class="day-floating">
-						<span>November 3rd, 2016</span>
+						<span>November 4th, 2016</span>
 					</div>
 				</div>
 			</div><!-- /container -->
 		</div><!-- /col-xs-12 -->
+		
 		<div class="col-xs-12">
-			<div class="container">
-				{% for entry in site.daytwo %}
+			<div class="container sessions list">
+				{% for entry in site.daythree %}
 				<div class="session">
 					<div class="col-md-2 col-sm-3">
 						  <p>{{ entry.time }}</p>
@@ -115,16 +118,18 @@ title: APIStrat Austin 2015 - Schedule
 						  <div class="session-inner">
 
 							  <a class="title" {% if entry.detail == 'none' %} href="#"onclick="return false;"{% else %}href="{{ entry.detail }}"{% endif %}><span>{{ entry.title }}</span></a>
+							  <div class="clearfix"></div>
 							  <span class="location">{{ entry.location }}</span>
-
+								<div class="clearfix"></div>
+							  
 							  <span class="speakers-thumbs">
 							  {% for speaker in entry.speakers %}
-								  <a class="speaker" {% if speaker.detail != 'none' %}href="{{ speaker.detail }}"{% else %}href="#" onclick="return false;"{% endif %}>
+								  <div class="col-md-4 col-sm-6"> 
+								  	<a class="speaker" {% if speaker.detail != 'none' %}href="{{ speaker.detail }}"{% else %}href="#" onclick="return false;"{% endif %}>
 									<img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="/images/{{ speaker.image }}" width="60">
-									<span class="name">
-									  {{ speaker.name }}<br />{{ speaker.company }}
-									</span>
+									<span class="name">{{ speaker.name }}<br />{{ speaker.company }}</span>
 								  </a>
+								  </div><!-- /col-md-4 -->
 							  {% endfor %}
 							  </span>
 
@@ -136,6 +141,7 @@ title: APIStrat Austin 2015 - Schedule
 				{% endfor %}
 			</div><!-- /container -->
 		</div><!-- /col-xs-12 -->
+
             <div class="followWrap" style="height: 60px;">
                 <div class="day-floating">
                     <span>November 4th, 2016</span>
