@@ -1,6 +1,6 @@
 ---
 layout: page
-title: APIStrat Austin 2015 - Schedule
+title: APIStrat Boston 2016 - Schedule
 ---
 <div class="heading">
     <div class="container">
@@ -47,47 +47,49 @@ title: APIStrat Austin 2015 - Schedule
 	</div><!-- /container -->
 	  
 	<div class="col-xs-12 sessions">
-		<div class="container sessions list">
-			<div class="followWrap" style="height: 60px;">
-				<div class="day-floating">
-					<span>November 3rd, 2016</span>
+		<div class="container">
+			<div class="sessions list">
+				<div class="followWrap" style="height: 60px;">
+					<div class="day-floating">
+						<span>November 3rd, 2016</span>
+					</div>
 				</div>
-			</div>
-		</div><!-- /container -->
-	</div><!-- /col-xs-12 -->
-	<div class="col-xs-12">
-		<div class="container sessions list">
-			{% for entry in site.daytwo %}
-			<div class="session">
-				<div class="col-md-2 col-sm-3">
-					  <p>{{ entry.time }}</p>
-				</div>
+			</div><!-- /container -->
+		</div><!-- /col-xs-12 -->
+		<div class="col-xs-12">
+			<div class="container sessions list">
+				{% for entry in site.daytwo %}
+				<div class="session">
+					<div class="col-md-2 col-sm-3">
+						  <p>{{ entry.time }}</p>
+					</div>
 	  
-				<div class="col-md-10 col-sm-9">
-					  <div class="session-inner">
+					<div class="col-md-10 col-sm-9">
+						  <div class="session-inner">
 
-						  <a class="title" {% if entry.detail == 'none' %} href="#"onclick="return false;"{% else %}href="{{ entry.detail }}"{% endif %}><span>{{ entry.title }}</span></a>
-						  <div class="clearfix"></div>
-						  <span class="location">{{ entry.location }}</span>
-							<div class="clearfix"></div>
+							  <a class="title" {% if entry.detail == 'none' %} href="#"onclick="return false;"{% else %}href="{{ entry.detail }}"{% endif %}><span>{{ entry.title }}</span></a>
+							  <div class="clearfix"></div>
+							  <span class="location">{{ entry.location }}</span>
+								<div class="clearfix"></div>
 					
-						  <span class="speakers-thumbs">
-						  {% for speaker in entry.speakers %}
-							  <div class="col-md-4 col-sm-6"> 
-								<a class="speaker" {% if speaker.detail != 'none' %}href="{{ speaker.detail }}"{% else %}href="#" onclick="return false;"{% endif %}>
-								<img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="/images/{{ speaker.image }}" width="60">
-								<span class="name">{{ speaker.name }}<br />{{ speaker.company }}</span>
-							  </a>
-							  </div><!-- /col-md-4 -->
-						  {% endfor %}
-						  </span>
+							  <span class="speakers-thumbs">
+							  {% for speaker in entry.speakers %}
+								  <div class="col-md-4 col-sm-6"> 
+									<a class="speaker" {% if speaker.detail != 'none' %}href="{{ speaker.detail }}"{% else %}href="#" onclick="return false;"{% endif %}>
+									<img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="/images/{{ speaker.image }}" width="60">
+									<span class="name">{{ speaker.name }}<br />{{ speaker.company }}</span>
+								  </a>
+								  </div><!-- /col-md-4 -->
+							  {% endfor %}
+							  </span>
 
-						  <!--<a class="more" href="">More info <i class="icon-angle-right"></i></a>-->
+							  <!--<a class="more" href="">More info <i class="icon-angle-right"></i></a>-->
 
-					  </div><!-- /session-inner -->
-					</div><!-- /col-md-10 -->
-			  </div><!-- /session -->
-			{% endfor %}
+						  </div><!-- /session-inner -->
+						</div><!-- /col-md-10 -->
+				  </div><!-- /session -->
+				{% endfor %}
+			</div>	<!-- /sessions list -->
 		</div><!-- /container -->
 	</div><!-- /col-xs-12 -->
 	<div class="col-xs-12 sessions">
