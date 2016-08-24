@@ -639,7 +639,6 @@ daythree:
         company: Capital One
         image: sp-yvonne-cross.png
         slug: yvonne-cross
-
   - time: 9:30 am - 9:55 am
     title: goMake &#58;Balloons and APIs
     location: Main Stage
@@ -721,7 +720,7 @@ daythree:
   - time: 11:15 am - 12:45 pm
     title: IoT
     location: Breakout Three
-    speakers:
+    speakers: TBD
 
   - time: 12:45 pm - 2:00 pm
     title: Lunch
@@ -732,34 +731,63 @@ daythree:
     location: Breakout One
     speakers:
       - name: Arnaud Lauret
-        company: 
+        company: AXA Banque
         image: sp-arnaud-lauret.png
         slug: arnaud-lauret   
-      
+      - name: Arnaud Lauret
+        company: AXA Banque
+        image: sp-arnaud-lauret.png
+        slug: arnaud-lauret
+      - name: Jarda Mooza Macha&#328;
+        company: <span>&#268;esk&#225; spo&#345;itelna - Erste Group Bank AG</span>
+        slug: jarda-machan
+        image: sp-jarda-machan.png
+      - name: Abdelmonaim Remani
+        company: Capital One
+        slug: abdelmonaim-remani
+        image: sp-abdelmonaim-remani.png
+      - name: Steven Fonseca
+        company: Intuit
+        slug: steven-fonseca
+        image: sp-steven-fonseca.png
+   
   - time: 2:00 pm - 3:30 pm
-    title: Session Title
+    title: Consumption
     location: Breakout Two
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Devin Sevilla
+        company: Pandora
+        slug: devin-sevilla
+        image: sp-devin-sevilla.png
+      - name: Oliver Thamm
+        company: XapiX.io
+        slug: oliver-thamm
+        image: sp-oliver-thamm.png
+      - name: Shelby Switzer
+        company: Healthify
+        slug: shelby-switzer
+        image: sp-shelby-switzer.png
+      - name: Emmanuel Paraskakis
+        company: Apiary
+        slug: emmanuel-paraskakis
+        image: sp-emmanuel-paraskakis.png
+        
   - time: 2:00 pm - 3:30 pm
-    title: API Clinic - Bring Your API Questions!
+    title: Emerging Technologies
     location: Breakout Three
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Nicolas Greni&eacute;
+        company: 3scale
+        slug: nicolas-grenie
+        image: sp-nicolas-grenie.png
+      - name: Kirsten Hunter
+        company: Akamai
+        image: sp-kirsten-hunter.png
+        slug: kirsten-hunter
+      - name: Pavel Veller
+        company: EPAM Systems, Inc
+        image: sp-pavel-veller.png
+        slug: pavel-veller  
   - time: 3:30 pm - 3:45 pm
     title: Coffee Break
     location: Break Area
