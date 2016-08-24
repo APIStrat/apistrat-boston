@@ -821,9 +821,9 @@ daythree:
         image: sp-romain-huet.png
         slug: romain-huet
   - time: 5:10 pm - 5:40 pm
-    title: Keynote
+    title: Wrap-up panel
     location: Main Stage
-    speakers: Wrap-up Panel
+    speakers:
       - name: John Sheehan
         company: Runscope
         image: sp-john-sheehan.png
