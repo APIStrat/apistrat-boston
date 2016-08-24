@@ -1374,6 +1374,24 @@ allspeakers:
     image: sp-nicolas-grenie.png
     talk-title: The bot revolution and its consequences for APIs
     talk-abstract: <p>Chat bots are invading our daily life. For example, your company is using Slack for team collaboration, and have installed dedicated bot to automate scrum meetings. You can also directly request a Uber ride from Facebook Messenger talking to a robot.Most of the chat and messaging applications have now open APIs to build chat bots on their system. Slack itself just launched an “app directory” and have put $80M aside to invest in the bot business. Those applications come create new interface which imply new way of consuming API.How could you be part of the bot revolution as a company? How should you change your API to make it more bot-ready? Which tools you should use? In this talk we will cover the different aspects of bot building using APIs, the recommended tools as well as best practices for API designers.</p>
+  - name: Pavel Veller
+    company: EPAM Systems
+    jobtitle: CTO, Digital Engagement Practice
+    bio: <p>Web Developer and Technologist. I have been building things for the web since the late 90s using Java, C#, Ruby, JavaScript and everything in between. Digital architect and a CTO by day and an avid learner by night. My interests of late include deep learning and Elixir.</p>
+    twitter: pveller
+    slug: pavel-veller	
+    image: sp-pavel-veller.png
+    talk-title: Building Smarter Apps with Cognitive APIs
+    talk-abstract: <p>In a very short timeframe IBM, Microsoft, Google, and others have released a very comparable sets of Cognitive APIs: Vision, Speech, Language, Data Insights, Recommendations, and more. In this technical talk I will compare cognitive API offerings, highlight differences in implementation and capabilities, dive into the details of pre-trained APIs vs. trainable-models-as-a-service, and finally showcase using cognitive APIs to build a conversational e-Commerce product recommendation chat bot.</p>
+  - name: Justin Karneges
+    company: Fanout
+    jobtitle: Founder &amp; CEO
+    bio: <p>Justin has been working with realtime technologies for over a decade. He is the Founder & CEO of Fanout, former CTO of Livefyre, and creator of the Psi instant messaging application. He is a proponent of open source and open standards, and he was a major contributor to XMPP, through involvements with the IETF and XSF. For Justin, it's not enough to simply build something that works; it needs to play well with others, too.</p>
+    twitter: jkarneges
+    slug: justin-karneges	
+    image: sp-justin-karneges.png
+    talk-title: Standardizing realtime API design
+    talk-abstract: <p>Over the past few years, we've observed that realtime APIs are often difficult to consume due to the lack of client libraries. In fact, many API providers do not produce client libraries at all. This may be fine for conventional REST APIs, but it often presents a usability problem with APIs that push data. We think the consumption of realtime APIs ought to be made easier, on par with frameworks like Firebase or Meteor (or at least as close as we can get). In order to achieve this, we need to define baseline standards that make it possible to create common client libraries. This talk introduces LiveResource, an open protocol that API providers can use to make the content of RESTful resources synchronizable, and to make this capability discoverable.</p>
 
 
 community: 
