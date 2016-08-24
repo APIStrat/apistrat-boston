@@ -1382,7 +1382,7 @@ allspeakers:
     slug: pavel-veller	
     image: sp-pavel-veller.png
     talk-title: Building Smarter Apps with Cognitive APIs
-    talk-abstract: <p>In a very short timeframe IBM, Microsoft, Google, and others have released a very comparable sets of Cognitive APIs: Vision, Speech, Language, Data Insights, Recommendations, and more. In this technical talk I will compare cognitive API offerings, highlight differences in implementation and capabilities, dive into the details of pre-trained APIs vs. trainable-models-as-a-service, and finally showcase using cognitive APIs to build a conversational e-Commerce product recommendation chat bot.</p>
+    talk-abstract: <p>In a very short timeframe IBM, Microsoft, Google, and others have released a very comparable sets of Cognitive APIs&#58; Vision, Speech, Language, Data Insights, Recommendations, and more. In this technical talk I will compare cognitive API offerings, highlight differences in implementation and capabilities, dive into the details of pre-trained APIs vs. trainable-models-as-a-service, and finally showcase using cognitive APIs to build a conversational e-Commerce product recommendation chat bot.</p>
   - name: Justin Karneges
     company: Fanout
     jobtitle: Founder &amp; CEO
