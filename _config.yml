@@ -590,7 +590,7 @@ daytwo:
     location: Main Stage
     speakers:
       - name: Mike Amundsen
-        company: Wordnik
+        company: CA Technologies
         image: sp-mike-amundsen.png
         slug: mike-amundsen
         title: Unleash the Chaos
@@ -623,10 +623,6 @@ daythree:
     title: Opening Remarks
     location: Main Stage
     speakers:
-      - name: Steve Willmott
-        company: 3Scale
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
-        slug: steve-wilmott
       - name: Kin Lane
         company: API Evangelist
         image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
@@ -636,109 +632,110 @@ daythree:
         image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-boyd.png
         slug: mark-boyd
   - time: 9:05 am - 9:30 am
-    title: Keynote
+    title: Enterprise API Governance
     location: Main Stage
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+     - name: Yvonne Cross
+        company: 
+        image: sp-yvonne-cross.png
+        slug: yvonne-cross
+
   - time: 9:30 am - 9:55 am
-    title: Keynote
+    title: goMake &#58;Balloons and APIs
     location: Main Stage
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Jonathan Barton
+        company: goMake
+        image: sp-jonathan-barton.png
+        slug: jonathan-barton
+        
   - time: 9:55 am - 10:20 am
-    title: Keynote
+    title: A problem worth solving
     location: Main Stage
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Charles Asheley III
+        company: Cultivating Coders
+        image: sp-charles-ashley.png
+        slug: charles-ashley
   - time: 10:20 am - 10:50 am
-    title: Session Title
+    title: Media Panel
     location: Main Stage
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Scott Feinberg
+        company: The New York Times
+        image: sp-scott-feinberg.png
+        slug: scott-feinberg
+      - name: Christine Mitchell
+        company: Discovery
+        image: sp-christine-mitchell.png
+        slug: christine-mitchell     
+      - name: Tyler Love
+        company: Bustle
+        image: sp-tyler-love.png
+        slug: tyler-love
   - time: 10:50 am - 11:15 am
     title: Coffee Break
     location: Break Area
     speakers:
   - time: 11:15 am - 12:45 pm
-    title: Session Title
+    title: Marketing &amp; Evangelism
     location: Breakout One
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Phil Leggetter
+        company: Nexmo
+        image: sp-phil-leggetter.png
+        slug: phil-leggetter
+      - name: Brendan Cartledge
+        company: Booking.com
+        image: sp-brendan-cartledge.png
+        slug: brendan-cartledge
+      - name: Kirsten Hunter
+        company: Akamai
+        image: sp-kirsten-hunter.png
+        slug: kirsten-hunter
+      - name: Mike Stowe
+        company: Mulesoft
+        image: sp-mike-stowe.png
+        slug: mike-stowe
+            
   - time: 11:15 am - 12:45 pm
-    title: Session Title
+    title: Testing and Monitoring
     location: Breakout Two
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Alex Gurney
+        company: Comcast Cable
+        image: sp-alex-gurney.png
+        slug: alex-gurney
+      - name: Patrick Poulin
+        company: API Fortress
+        image: sp-patrick-poulin.png
+        slug: patrick-poulin
+      - name: David O'Neill
+        company: APImetrics
+        image: sp-david-oneill.png
+        slug: david-oneill   
+      - name: Ole Lensmar
+        company: SmartBear Software
+        image: sp-ole-lensmar.png
+        slug: ole-lensmar              
   - time: 11:15 am - 12:45 pm
-    title: Session Title
+    title: IoT
     location: Breakout Three
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+
   - time: 12:45 pm - 2:00 pm
     title: Lunch
     location: Break Area
     speakers:
   - time: 2:00 pm - 3:30 pm
-    title: Session Title
+    title: Fintech
     location: Breakout One
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Arnaud Lauret
+        company: 
+        image: sp-arnaud-lauret.png
+        slug: arnaud-lauret   
+      
   - time: 2:00 pm - 3:30 pm
     title: Session Title
     location: Breakout Two
@@ -1317,7 +1314,7 @@ allspeakers:
     slug: amber-fallon
     image: sp-amber-fallon.png
     talk-title: The Big Problem with the Big Picture
-    talk-abstract: <p>APIs are BIG. Bigger than many of us, even those of us in the industry, may realize – in fact, the total number of public APIs has exploded from under 7,500 in 2012 to over 15,000 in 2015. (source). Larger companies have larger API structures, with more dependencies and integrations than ever before, and that number is growing. Entire business models have formed around the APIs provided by some of the industry's heaviest hitters. Imagine app juggernauts like Uber or Waze functioning without Google Mapping technology, or the important relationship between Netflix and the underlying applications that power its video streaming &ndash; these applications are absolutely dependent on their underlying APIs. And, new applications dependent on public APIs crop up every single day.</p><p>With that scale come challenges like managing your public API in a way that will foster growth of dependent APIs, scaling up, maintaining your SLA, and allowing for the versatility of user created applications; your API may be used in ways you never envisioned. In this session, I’ll address challenges like sandboxing at scale, aiding in end user integrations, and managing the infinite number of dependencies larger APIs may encounter.</p>
+    talk-abstract: <p>APIs are BIG. Bigger than many of us, even those of us in the industry, may realize &ndash; in fact, the total number of public APIs has exploded from under 7,500 in 2012 to over 15,000 in 2015. Larger companies have larger API structures, with more dependencies and integrations than ever before, and that number is growing. Entire business models have formed around the APIs provided by some of the industry's heaviest hitters. Imagine app juggernauts like Uber or Waze functioning without Google Mapping technology, or the important relationship between Netflix and the underlying applications that power its video streaming &ndash; these applications are absolutely dependent on their underlying APIs. And, new applications dependent on public APIs crop up every single day.</p><p>With that scale come challenges like managing your public API in a way that will foster growth of dependent APIs, scaling up, maintaining your SLA, and allowing for the versatility of user created applications; your API may be used in ways you never envisioned. In this session, I’ll address challenges like sandboxing at scale, aiding in end user integrations, and managing the infinite number of dependencies larger APIs may encounter.</p>
   - name: Emmanuel Paraskakis
     company: Apiary
     jobtitle: VP of Product
@@ -1326,7 +1323,7 @@ allspeakers:
     slug: emmanuel-paraskakis
     image: sp-emmanuel-paraskakis.png
     talk-title: Markdown Syntax for Object Notation (MSON)
-    talk-abstract: <p>MSON is a plain-text, human and machine readable, description format for describing data structures in common markup formats such as JSON, XML or YAML. The aim of this description format is to facilitate the discussion (and thus validation) of data structures. The format, being agnostic to the common markup formats, is well suited for "resource & representations" and "content negotiation" scenarios. In addition, this format also offers (limited) serialization functionality. Similar to the original Markdown to HTML (markup) conversion, MSON enables conversion to other markup formats. This format is being developed by Apiary as a part of the API Blueprint syntax to provide a means for description and validation of HTTP payloads and DRY, media-type agnostic, resource descriptions and to simplify content-negotiation.</p>
+    talk-abstract: <p>MSON is a plain-text, human and machine readable, description format for describing data structures in common markup formats such as JSON, XML or YAML. The aim of this description format is to facilitate the discussion (and thus validation) of data structures. The format, being agnostic to the common markup formats, is well suited for "resource &amp; representations" and "content negotiation" scenarios. In addition, this format also offers (limited) serialization functionality. Similar to the original Markdown to HTML (markup) conversion, MSON enables conversion to other markup formats. This format is being developed by Apiary as a part of the API Blueprint syntax to provide a means for description and validation of HTTP payloads and DRY, media-type agnostic, resource descriptions and to simplify content-negotiation.</p>
   - name: Phil Windley
     company: Brigham Young University
     jobtitle: Enterprise Architect
