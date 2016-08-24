@@ -1282,7 +1282,60 @@ allspeakers:
     image: sp-jonathan-barton.png
     talk-title: Flying Dreams&#58; Real-Time Communication from the Edge of Space
     talk-abstract: <p>Creating flexible, resilient access to real-time sensor data can be challenging &ndash; especially when your device targets can literally disappear off the face of the Earth! See how groups of students and instructors are using the goMake API to talk with high-altitude balloon telemetry as it skirts the edge of the stratosphere, and the design considerations involved in making this a scalable platform for project-based STEM learning that aims to instill a sense of wonder.</p>		
-
+  - name: Darrel Miller
+    company: Microsoft
+    jobtitle: Software Developer
+    bio: <p>Darrel is a software developer at Microsoft working for the Azure API Management team.  He has been building distributed business applications on the Microsoft platform for more than 20 years. He is an active member of the .NET community and OSS contributor.  He is a member of the OAI TDC, working on the next version of the OpenAPI specification and recently joined the Microsoft OneAPI Council, who are responsible for providing API design guidelines within Microsoft and to the Microsoft ecosystem.  He co-authored the O'Reilly book, Designing Evolvable Web APIs with ASP.NET.</p>
+    twitter: darrel_miller
+    slug: darrel-miller
+    image: sp-darrel-miller.png
+    talk-title: Breathing new life into legacy SOAP services
+    talk-abstract: <p>The reality is that SOAP services are no longer cool.  Developers today want to integrate with APIs that are labelled REST.  They want descriptive URLs, JSON payloads and familiar HTTP status codes.  But many enterprises spent 10 years building SOAP services and many of those services are working just fine today.  Rewriting them would be a huge effort with the risk of minimal gain. The good news is that it is possible to give developers what they are looking for without a re-write.  You can take advantage of HTTP's layered architecture to put a façade in front of your SOAP services, re-use all your existing code, breathe new life into your service and still support the existing client applications that are happily sending SOAP messages.This talk will explore the process of transforming native HTTP requests into SOAP messages and back into native HTTP responses.  We will discuss which parts of the façading process can be automated and which parts require design decisions.  Finally we will explore what capabilities we gain with this new style of API, and what we lose, so that you can make an informed decision on the future of your SOAP services.</p>
+  - name: Abdelmonaim Remani
+    company: Capital One
+    jobtitle: Engineering Tech Lead
+    bio: <p>A technology enthusiast at heart and by profession. Particularly interested in distributed systems and scalable architectures. Experienced in building Java Enterprise Applications and a wide range of related technologies. Founder of a number of organizations namely The NorCal Java User Group, The Silicon Valley Dart Meetup, and The Silicon Valley Spring User Group. Abdel is a JavaOne RockStar and a frequent speaker at a number of developer conferences including JavaOne, JAX Conf, OsCon, OREDEV, 33rd Degree, Devoxx, NFJS, UberConf, JavaZone, and many user groups and community events.</p>
+    twitter: PolymathicCoder
+    slug: abdelmonaim-remani
+    image: sp-abdelmonaim-remani.png
+    talk-title: RESTing on the Shoulders of a Giant&#58; How Capital One Builds Its APIs
+    talk-abstract:<p>Since it was first introduced, the REST architectural style was plagued with a high degree of vagueness and a lot of ambiguity. The absence of a concrete reference implementation early on left it up to the most popular web APIs to establish themselves as the gold standard. To win the hearts and minds of every last web developer, the leading tech companies invested greatly in building RESTful APIs, and put tremendous resources behind evangelizing their own individual flavors of REST. Capital One is no exception to the rule. As counter-intuitive as it may seem to be for a financial institution of its caliber, and as challenging as it is being a player in an industry locked into archaic technology and restrained by regulations, Capital One is fully engaged in a company wide initiative to expose financial services through internal and public-facing APIs implemented in the latest and greatest open source technologies. This talk is about how Capital One does REST, where the stakes are much higher and the risks are well beyond giving customers the wrong turn-by-turn directions.</p>
+  - name: James Higginbotham
+    company: LaunchAny
+    jobtitle: API Architect
+    bio: <p>James Higginbotham is an API consultant and instructor with experience in architecting, building, and deploying APIs. James has published several titles, including his latest book, <em>A Practical Approach to API Design</em>.</p>
+    twitter: launchany
+    slug: james-higginbotham
+    image: sp-james-higginbotham.png
+    talk-title: Moving Toward a Modular Enterprise
+    talk-abstract: <p>APIs are leading the way for today's mobile initiatives and generating new business models as a result of the API economy. This talk examines the recent move by enterprises toward unbundling business and technical capabilities into small, reusable microservices that can be used to compose new user experiences across a variety of devices. We will then look at how leading enterprises are transitioning from today's service-oriented architecture to move toward a more modular, composable enterprise. Finally, we will look at how the convergence of APIs, mobile, IoT, microservices, chatbots, and voice will fundamentally change the way we build software in the next 5-10 years.</p>
+  - name: Amber Fallon
+    company: SmartBear Software
+    jobtitle: Technical Sales Engineer
+    bio: <p>Technical sales engineer. Software perfectionist. API Superhero.</p>
+    twitter: smartbearamber
+    slug: amber-fallon
+    image: sp-amber-fallon.png
+    talk-title: The Big Problem with the Big Picture
+    talk-abstract: <p>APIs are BIG. Bigger than many of us, even those of us in the industry, may realize – in fact, the total number of public APIs has exploded from under 7,500 in 2012 to over 15,000 in 2015. (source). Larger companies have larger API structures, with more dependencies and integrations than ever before, and that number is growing. Entire business models have formed around the APIs provided by some of the industry's heaviest hitters. Imagine app juggernauts like Uber or Waze functioning without Google Mapping technology, or the important relationship between Netflix and the underlying applications that power its video streaming &ndash; these applications are absolutely dependent on their underlying APIs. And, new applications dependent on public APIs crop up every single day.</p><p>With that scale come challenges like managing your public API in a way that will foster growth of dependent APIs, scaling up, maintaining your SLA, and allowing for the versatility of user created applications; your API may be used in ways you never envisioned. In this session, I’ll address challenges like sandboxing at scale, aiding in end user integrations, and managing the infinite number of dependencies larger APIs may encounter.</p>
+  - name: Emmanuel Paraskakis
+    company: Apiary
+    jobtitle: VP of Product
+    bio: <p>I've been developing APIs the past 8 years. First as a Product Manager at API Providers and more recently have been creating API Design, Testing and Collaboration tools at Apiary, the company that came up with both the "API Design" and "API Workflow" concepts!</p>
+    twitter: manp
+    slug: emmanuel-paraskakis
+    image: sp-emmanuel-paraskakis.png
+    talk-title: Markdown Syntax for Object Notation (MSON)
+    talk-abstract: <p>MSON is a plain-text, human and machine readable, description format for describing data structures in common markup formats such as JSON, XML or YAML. The aim of this description format is to facilitate the discussion (and thus validation) of data structures. The format, being agnostic to the common markup formats, is well suited for "resource & representations" and "content negotiation" scenarios. In addition, this format also offers (limited) serialization functionality. Similar to the original Markdown to HTML (markup) conversion, MSON enables conversion to other markup formats. This format is being developed by Apiary as a part of the API Blueprint syntax to provide a means for description and validation of HTTP payloads and DRY, media-type agnostic, resource descriptions and to simplify content-negotiation.</p>
+  - name: Phil Windley
+    company: Brigham Young University
+    jobtitle: Enterprise Architect
+    bio: <p>Phil Windley is an Enterprise Architect in the Office of the CIO at Brigham Young University. A passionate tech educator, he is the co-founder and organizer of the Internet Identity Workshop, serves as an Adjunct Professor of Computer Science at BYU, writes the popular Technometria blog, and is the author of the books The Live Web published by Course Technology in 2011 and Digital Identity published by O'Reilly Media in 2005. Phil serves on the Boards of Directors and Advisory Boards for several high-tech companies.</p><p>Phil has been a professor of Computer Science at Brigham Young University (twice) and the University of Idaho. In addition, Phil was the Founder and Chief Technology Officer of Kynetx, the company behind the open-source connected-car product, Fuse. He also spent two years as the Chief Information Officer (CIO) for the State of Utah in 2001-2002, serving on Governor Mike Leavitt's Cabinet and as a member of his Senior Staff. Before entering public service, Phil was Vice President for Product Development and Operations at Excite@Home. He was the Founder and Chief Technology Officer (CTO) of iMALL, Inc. an early creator of ecommerce tools. Phil received his Ph.D. in Computer Science from Univ. of California, Davis in 1990.</p>
+    twitter: windley
+    slug: phil-windley
+    image: sp-phil-windley.png
+    talk-title: Using Personal APIs in a University Setting
+    talk-abstract: <p>The API economy is in full swing and numerous commercial entities are engaged in producing APIs as a way of extending their reach. But as more and more of life is intermediated by computers, individuals also benefit from providing a personal API that can be used by applications on equal footing with other APIs.</p><p>Brigham Young University is teaching students about digital autonomy so that they are better prepared to be lifelong learners. In addition to a Domain of One's Own project, we have also embarked on a program of giving each student a personal API. By making students responsible for their own data, we teach them that they can be active participants in the digital realm. In addition to profile information, the API is also a means of accessing the studentâ€™s personal learning record system (LRS). Students grant university and other systems access to the resources in their API. The personal API provides the same features that other APIs have including API management and authorization. The personal API works in concert with BYU's University API to create a rich, permissioned data ecosystem for application developers inside and outside the university. This talk will discuss design principles, implementation decisions, initial projects, and our experience to date.</p>
 
 community: 
     - name: Women Who Code Boston
