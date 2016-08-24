@@ -788,52 +788,56 @@ daythree:
         company: EPAM Systems, Inc
         image: sp-pavel-veller.png
         slug: pavel-veller  
+      - name: Justin Karneges
+        company: Fanout.io
+        image: sp-justin-karneges.png
+        slug: justin-karneges
   - time: 3:30 pm - 3:45 pm
     title: Coffee Break
     location: Break Area
     speakers:
   - time: 3:45 pm - 4:10 pm
-    title: Keynote
+    title: Fireside Chat
     location: Main Stage
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Christine Mitchell
+        company: Discovery
+        image: sp-christine-mitchell.png
+        slug: christine-mitchell
   - time: 4:10 pm - 4:40 pm
     title: Fireside Chat
     location: Main Stage
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
+      - name: Mark Little
+        company: Red Hat
+        image: sp-mark-little.png
+        slug: mark-little
   - time: 4:40 pm - 5:10 pm
-    title: Panel
+    title: Keynote
     location: Main Stage
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: speaker-name
-        detail: The detail page for the speaker
-        title: The title of talk
-        abstract: The abstract for the talk.
-        twitter: twitterhandle
-  - time: 5:10 pm - 5:20 pm
+      - name: Romain Huet
+        company: 
+        image: sp-romain-huet.png
+        slug: romain-huet
+  - time: 5:10 pm - 5:40 pm
+    title: Keynote
+    location: Main Stage
+    speakers: Wrap-up Panel
+      - name: John Sheehan
+        company: Runscope
+        image: sp-john-sheehan.png
+        slug: john-sheehan   
+      - name: Laura Heritage
+        company: Akana
+        image: sp-laura-heritage.png
+        slug: laura-heritage         
+  - time: 5:40 pm - 5:50 pm
     title: Closing Remarks
     location: Main Stage
     speakers:
       - name: Steve Willmott
-        company: 3Scale
+        company: 3scale
         image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
         slug: steve-wilmott
       - name: Kin Lane
@@ -1342,7 +1346,7 @@ allspeakers:
     slug: amber-fallon
     image: sp-amber-fallon.png
     talk-title: The Big Problem with the Big Picture
-    talk-abstract: <p>APIs are BIG. Bigger than many of us, even those of us in the industry, may realize &ndash; in fact, the total number of public APIs has exploded from under 7,500 in 2012 to over 15,000 in 2015. Larger companies have larger API structures, with more dependencies and integrations than ever before, and that number is growing. Entire business models have formed around the APIs provided by some of the industry's heaviest hitters. Imagine app juggernauts like Uber or Waze functioning without Google Mapping technology, or the important relationship between Netflix and the underlying applications that power its video streaming &ndash; these applications are absolutely dependent on their underlying APIs. And, new applications dependent on public APIs crop up every single day.</p><p>With that scale come challenges like managing your public API in a way that will foster growth of dependent APIs, scaling up, maintaining your SLA, and allowing for the versatility of user created applications; your API may be used in ways you never envisioned. In this session, I’ll address challenges like sandboxing at scale, aiding in end user integrations, and managing the infinite number of dependencies larger APIs may encounter.</p>
+    talk-abstract: <p>APIs are BIG. Bigger than many of us, even those of us in the industry, may realize &ndash; in fact, the total number of public APIs has exploded from under 7,500 in 2012 to over 15,000 in 2015. Larger companies have larger API structures, with more dependencies and integrations than ever before, and that number is growing. Entire business models have formed around the APIs provided by some of the industry's heaviest hitters. Imagine app juggernauts like Uber or Waze functioning without Google Mapping technology, or the important relationship between Netflix and the underlying applications that power its video streaming &ndash; these applications are absolutely dependent on their underlying APIs. And, new applications dependent on public APIs crop up every single day.</p><p>With that scale come challenges like managing your public API in a way that will foster growth of dependent APIs, scaling up, maintaining your SLA, and allowing for the versatility of user created applications; your API may be used in ways you never envisioned. In this session, I'll address challenges like sandboxing at scale, aiding in end user integrations, and managing the infinite number of dependencies larger APIs may encounter.</p>
   - name: Emmanuel Paraskakis
     company: Apiary
     jobtitle: VP of Product
@@ -1351,7 +1355,7 @@ allspeakers:
     slug: emmanuel-paraskakis
     image: sp-emmanuel-paraskakis.png
     talk-title: Markdown Syntax for Object Notation (MSON)
-    talk-abstract: <p>MSON is a plain-text, human and machine readable, description format for describing data structures in common markup formats such as JSON, XML or YAML. The aim of this description format is to facilitate the discussion (and thus validation) of data structures. The format, being agnostic to the common markup formats, is well suited for "resource &amp; representations" and "content negotiation" scenarios. In addition, this format also offers (limited) serialization functionality. Similar to the original Markdown to HTML (markup) conversion, MSON enables conversion to other markup formats. This format is being developed by Apiary as a part of the API Blueprint syntax to provide a means for description and validation of HTTP payloads and DRY, media-type agnostic, resource descriptions and to simplify content-negotiation.</p>
+    talk-abstract: <p>MSON is a plain-text, human and machine readable, description format for describing data structures in common markup formats such as JSON, XML or YAML. The aim of this description format is to facilitate the discussion (and thus validation) of data structures. The format, being agnostic to the common markup formats, is well suited for resource &amp; representations and content negotiation scenarios. In addition, this format also offers (limited) serialization functionality. Similar to the original Markdown to HTML (markup) conversion, MSON enables conversion to other markup formats. This format is being developed by Apiary as a part of the API Blueprint syntax to provide a means for description and validation of HTTP payloads and DRY, media-type agnostic, resource descriptions and to simplify content-negotiation.</p>
   - name: Phil Windley
     company: Brigham Young University
     jobtitle: Enterprise Architect
