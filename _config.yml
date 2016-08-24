@@ -1365,6 +1365,16 @@ allspeakers:
     image: sp-phil-windley.png
     talk-title: Using Personal APIs in a University Setting
     talk-abstract: <p>The API economy is in full swing and numerous commercial entities are engaged in producing APIs as a way of extending their reach. But as more and more of life is intermediated by computers, individuals also benefit from providing a personal API that can be used by applications on equal footing with other APIs.</p><p>Brigham Young University is teaching students about digital autonomy so that they are better prepared to be lifelong learners. In addition to a Domain of One's Own project, we have also embarked on a program of giving each student a personal API. By making students responsible for their own data, we teach them that they can be active participants in the digital realm. In addition to profile information, the API is also a means of accessing the student's personal learning record system (LRS). Students grant university and other systems access to the resources in their API. The personal API provides the same features that other APIs have including API management and authorization. The personal API works in concert with BYU's University API to create a rich, permissioned data ecosystem for application developers inside and outside the university. This talk will discuss design principles, implementation decisions, initial projects, and our experience to date.</p>
+  - name: Nicolas Greni&eacute;
+    company: 3scale
+    jobtitle: Hacker-in-Residence
+    bio: <p>Nicolas is a Hacker in Residence at 3scale living between Barcelona and San Francisco. Nicolas built his first website in 2000 using Microsoft Word, and since them did not stop learning about programming. This "API freak" likes to try new languages and APIs all the time. He has built many integrations for Slack or Amazon Echo. He runs many meetups in Barcelona around APIs, Meteor and Entrepreneurship.</p><p>When not working you have a good chance to find him hacking on side projects or enjoying a good craft beer. And of course, as he is French, frog and snails are part of his daily diet!</p>
+    twitter: picsoung
+    slug: nicolas-grenie
+    image: sp-nicolas-grenie.png
+    talk-title: The bot revolution and its consequences for APIs
+    talk-abstract: <p>Chat bots are invading our daily life. For example, your company is using Slack for team collaboration, and have installed dedicated bot to automate scrum meetings. You can also directly request a Uber ride from Facebook Messenger talking to a robot.Most of the chat and messaging applications have now open APIs to build chat bots on their system. Slack itself just launched an “app directory” and have put $80M aside to invest in the bot business. Those applications come create new interface which imply new way of consuming API.How could you be part of the bot revolution as a company? How should you change your API to make it more bot-ready? Which tools you should use? In this talk we will cover the different aspects of bot building using APIs, the recommended tools as well as best practices for API designers.</p>
+
 
 community: 
     - name: Women Who Code Boston
