@@ -635,7 +635,7 @@ daythree:
     title: Enterprise API Governance
     location: Main Stage
     speakers:
-     - name: Yvonne Cross
+      - name: Yvonne Cross
         company: Capital One
         image: sp-yvonne-cross.png
         slug: yvonne-cross
