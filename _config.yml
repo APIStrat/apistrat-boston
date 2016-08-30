@@ -327,8 +327,8 @@ daytwo:
         twitter: keranm
       - name: Phillip J. Windley
         company: Brigham Young University
-        image: sp-phillip-windley.png
-        slug: phillip-windley
+        image: sp-phil-windley.png
+        slug: phil-windley
         title: Using Personal APIs in a University Setting
         twitter: windley
       - name: Mark Cuva
@@ -652,9 +652,9 @@ daythree:
     title: A problem worth solving
     location: Main Stage
     speakers:
-      - name: Charles Asheley III
+      - name: Charles Ashley III
         company: Cultivating Coders
-        image: sp-charles-ashley.png
+        image: sp-charles-ashley-3.png
         slug: charles-ashley
   - time: 10:20 am - 10:50 am
     title: Media Panel
