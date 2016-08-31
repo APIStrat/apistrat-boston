@@ -1417,7 +1417,7 @@ allspeakers:
     twitter: synedra
     slug: kirsten-hunter
     image: sp-kirsten-hunter.png
-    talk-title: Delighting Developers: Lessons Learned for Successful API Workshops
+    talk-title: Delighting Developers&#58; Lessons Learned for Successful API Workshops
     talk-abstract: <p>One of the major facets of API Evangelism is teaching users how to use APIs, whether specific to a company or as a general class. Unfortunately, when giving these workshops it's frequently difficult to create a consistent experience across different systems and platforms, especially when working with developers who have systems locked down by their IT departments. I've developed several different strategies for making disparate systems work smoothly so the workshop isn't bogged down with deployment issues. Strategies covered will include:</p><ul><li>Providing workshop code in multiple different languages, clear and simple goals</li><li>Deploying via a Docker container</li><li>Remote login to a system which can run Docker</li><li>Support from web resources such as the developer portal or a workshop guide</li> </ul><p>Making assumptions about what technology will work for your attendees can easily lead to a frustrating experience for your attendees. Come learn from my experiences and create excellent experiences for your students!</p>
   - name: Melissa Jurkoic
     company: Amadeus Hospitality
