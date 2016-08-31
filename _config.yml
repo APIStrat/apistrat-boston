@@ -1392,7 +1392,60 @@ allspeakers:
     image: sp-justin-karneges.png
     talk-title: Standardizing realtime API design
     talk-abstract: <p>Over the past few years, we've observed that realtime APIs are often difficult to consume due to the lack of client libraries. In fact, many API providers do not produce client libraries at all. This may be fine for conventional REST APIs, but it often presents a usability problem with APIs that push data. We think the consumption of realtime APIs ought to be made easier, on par with frameworks like Firebase or Meteor (or at least as close as we can get). In order to achieve this, we need to define baseline standards that make it possible to create common client libraries. This talk introduces LiveResource, an open protocol that API providers can use to make the content of RESTful resources synchronizable, and to make this capability discoverable.</p>
-
+  - name: Ole Lensmar
+    company: SmartBear Software
+    jobtitle: CTO
+    bio: <p>Worked with APIs 20+ years - created SoapUI far too many years ago - currently CTO at SmartBear working with Swagger and API Testing tools, and also chairman of the OAI guiding the evolution of the Swagger specification.</p>
+    twitter: olensmar
+    slug: ole-lensmar
+    image: sp-ole-lensmar.png
+    talk-title: Testing your APIs with Cucumber
+    talk-abstract: <p>BDD with Cucumber is gaining in popularity as it allows the expression of requirements using a custom domain-specific language that can be executed as tests to validate actual implementations. APIs in particular seem to have a lot to gain from this approach as they are often technical in nature; it seems that a correctly performed Cucumber implementation should allow increasingly non-technical stakeholders to participate in defining the requirements for an APIs behaviour and functionality.</p><p>But how "non-technical" can cucumber vocabularies be made to describe something as inherently technical as APIs? When does it make sense to use imperative vs declarative approaches? How do you translate simple language to complex payloads and validations? How does the usage of Cucumber scale as the complexity of an API increases? And how can standards like Swagger make cucumber testing even more intuitive? I know you're dying to find out - so don't miss this opportunity to adopt the path of API Gherkin Nirvana!</p>
+  - name: Tyler Singletary
+    company: Lithium Technologies
+    jobtitle: VP &amp; GM Klout and Consumer Data
+    bio: <p>Tyler Singletary is the VP &amp; GM of Klout and Consumer Data for Lithium. He is responsible for the operation, health, and direction of Klout's product, integrations, and data assets, such as Klout.com, the Klout API, and partnerships with Twitter, and others. Tyler has 18+ years of experience across technology, from law firms to startups. Prior to joining Lithium, he led Data Strategy &amp; Developer Relations at Klout. He is a board member of the Big Boulder Initiative, a social data trade organization, and is a recognized writer and speaker on data & API ethics and strategy. On Twitter, he’s @harmophone.</p>
+    twitter: harmophone
+    slug: tyler-singletary
+    image: sp-tyler-singletary.png
+    talk-title: How To Kill Your API Program
+    talk-abstract: <p>In this talk we'll walk through the simple steps to kill your API program, and, without as much irony, discuss the reasons you might actually want to do just that.</p><ul><li>Don't treat your API like a product with a lifecycle</li><li>lean on sales tactics too early</li><li>don't lean on sales tactics</li><li>don't build sample code</li><li>market only to developers</li><li>don't do account management and evangelism</li></ul>
+  - name: Kirsten Hunter
+    company: Akamai
+    jobtitle: API Evangelist
+    bio: <p></p>
+    twitter: synedra
+    slug: kirsten-hunter
+    image: sp-kirsten-hunter.png
+    talk-title: Delighting Developers: Lessons Learned for Successful API Workshops
+    talk-abstract: <p>One of the major facets of API Evangelism is teaching users how to use APIs, whether specific to a company or as a general class. Unfortunately, when giving these workshops it's frequently difficult to create a consistent experience across different systems and platforms, especially when working with developers who have systems locked down by their IT departments. I've developed several different strategies for making disparate systems work smoothly so the workshop isn't bogged down with deployment issues. Strategies covered will include:</p><ul><li>Providing workshop code in multiple different languages, clear and simple goals</li><li>Deploying via a Docker container</li><li>Remote login to a system which can run Docker</li><li>Support from web resources such as the developer portal or a workshop guide</li> </ul><p>Making assumptions about what technology will work for your attendees can easily lead to a frustrating experience for your attendees. Come learn from my experiences and create excellent experiences for your students!</p>
+  - name: Melissa Jurkoic
+    company: Amadeus Hospitality
+    jobtitle: Product Strategist, Services Platform
+    bio: <p>Melissa Jurkoic is currently the Product Strategist for the Amadeus Hospitality Web Services platform at Amadeus Hospitality.  Focused on the launch of their cloud and API strategy, she defines the vision and roadmap.</p><p>With over two decades’ experience as a technologist, her mix of technical savvy and business strategy is unique for a former software engineer.  Melissa’s fusion of technology and conversational techniques connect with both technical and business audiences to lead strategic initiatives to the best outcomes.</p><p>Melissa earned her BS CS from the University of New Hampshire.  She also holds an Executive Certificate in Management and Leadership from the MIT Sloan School of Management.  Extremely passionate about the decline of women in STEM, she volunteers with a NH Higher Technical Council committee to educate and encourage women and girls to pursue careers in technology.  Melissa has always lived in the Northeast and now makes her home in Newmarket, New Hampshire with her family.</p>
+    twitter: melissa_jurkoic
+    slug: melissa-jurkoic
+    image: sp-melissa-jurkoic.png
+    talk-title: How I got the CTO to pay for Open APIs
+    talk-abstract: <p>Companies have been integrating their systems internally and externally via APIs for many years. APIs are not new, but the idea of them being openly accessible and available to be discovered by someone without your permission is indeed new for companies. Our company had dealt with integrating with partners for over 20 years, but these were necessary due to customer demand, not seen as an opportunity to increase our reach or revenue for that matter.</p><p>In order to convince C-level executives that there is an opportunity worth investing in, it is sometimes necessary to charge forward and create the outcome you need them to see. Using the experiences through this journey from integration to opportunity, this talk will explain how we achieved justification for an entire development team to be dedicated to deliver our future API strategy.</p>
+  - name: Pete Gamache
+    company: Appcues
+    jobtitle: Head of Engineering
+    bio: <p>Writing software since the DJ's name came first.</p>
+    twitter: gamache
+    slug: pete-gamache
+    image: sp-pete-gamache.png
+    talk-title: Implementing Cross-protocol Hypermedia Services
+    talk-abstract: <p>While network services continue to diversify away from the dominant HTTP protocol, formats and implementations of hypermedia APIs have been slow to catch up. This talk explores the issues and decisions around unifying multiple protocols in the same API and consuming a cross-protocol service, ultimately demonstrating an example client and server.</p>
+  - name: Steven Fonseca
+    company: Intuit
+    jobtitle: Principal Services Architect
+    bio: <p></p>
+    twitter: stevenpfonseca
+    slug: steven-fonseca
+    image: sp-steven-fonseca.png
+    talk-title: Full Lifecycle Tool Support for APIs
+    talk-abstract: <p>The focus of the talk is showcase an internal Intuit tool called API Lifecycle Manager, a web app and set of APIs that enables the IT organization to produce APIs efficiently across their lifecycle from conception to retirement. The audience will be provided a glimpse into how Intuit IT coordinates the build out of a strategic portfolio of APIs including their functional allocation and service ownership, comprehensive contract documentation with innovations not found in current industry modeling languages, documentation generation and delivery. Examples of API Lifecycle Manager will be shown in the context of a story of how IT is enabling Intuit product to deliver delightful customer experience, particularly in the areas of subscription-based billing and commerce.</p>            
 
 community: 
     - name: Women Who Code Boston
