@@ -439,7 +439,7 @@ daytwo:
         twitter: melissa_jurkoic
       - name: Richard Jones
         company: Dun &amp; Bradstreet
-        image: sp-richard-jones.png
+        image: sp-api-ninja.png
         slug: richard-jones
         title: Using APIs to create your own All-day breakfast
         twitter: richiegjones
@@ -526,12 +526,6 @@ daytwo:
         slug: darrel-miller
         title: Breathing new life into legacy SOAP services
         twitter: 
-      - name: Scott Feinberg
-        company: The New York Times Company
-        image: sp-scott-feinberg.png
-        slug: scott-feinberg
-        title: The <em>New</em> New York Times Developer Network&#58; A Path to Cheaper, Faster, Less Friction API Management with OpenAPI  
-        twitter: scottefein
       - name: Amber Fallon
         company: SmartBear Software
         image: sp-amber-fallon.png
@@ -540,7 +534,7 @@ daytwo:
         twitter: 
       - name: Charlie Ozinga
         company: Cloud Elements
-        image: sp-charlie-ozinga.png
+        image: sp-api-ninja.png
         slug: charlie-ozinga
         title: OnPrem Support &ndash; That was so 1982
         twitter: CharlieOzinga
@@ -665,10 +659,10 @@ daythree:
     title: Enterprise API Governance
     location: Main Stage
     speakers:
-      - name: Yvonne Cross
-        company: Capital One
-        image: sp-yvonne-cross.png
-        slug: yvonne-cross
+      - name: Coming Soon
+        company: 
+        image: sp-api-ninja.png
+        slug: 
   - time: 9:30 am - 9:55 am
     title: goMake &#58;Balloons and APIs
     location: Main Stage
@@ -690,13 +684,13 @@ daythree:
     title: Media Panel
     location: Main Stage
     speakers:
-      - name: Scott Feinberg
-        company: The New York Times
-        image: sp-scott-feinberg.png
-        slug: scott-feinberg
+      - name: David Berlind
+        company: Programmable Web
+        image: sp-david-berlind.png
+        slug: david-berlind
       - name: Christine Mitchell
         company: Discovery
-        image: sp-christine-mitchell.png
+        image: sp-api-ninja.png
         slug: christine-mitchell     
       - name: Tyler Love
         company: Bustle
@@ -970,6 +964,25 @@ keynotes:
     image: sp-jonathan-barton.png
     talk-title: Flying Dreams&#58; Real-Time Communication from the Edge of Space
     talk-abstract: <p>Creating flexible, resilient access to real-time sensor data can be challenging &ndash; especially when your device targets can literally disappear off the face of the Earth! See how groups of students and instructors are using the goMake API to talk with high-altitude balloon telemetry as it skirts the edge of the stratosphere, and the design considerations involved in making this a scalable platform for project-based STEM learning that aims to instill a sense of wonder.</p>		
+  - name: David Berlind	
+    company: Programmable Web	
+    jobtitle: Editor in Chief
+    bio: <p>David Berlind is an award-winning journalist whose career spans 25 years dating back to 1991 when he started reviewing technology for PC Week. He was the editor-in-chief at Windows Sources, the editorial director at Computer Shopper, and executive editor at CNET.com. In 2008, David joined UBM Tech Media as a part of that company's acquisition of Mass Events Labs &ndash; a conference production company he founded in 2006 that among other events, produced the API and developer focused event Mashup Camp. There at UBM, he served as the company's Chief Content Officer until 2013 when he returned to the API economy and joined ProgrammableWeb as its editor-in-chief.</p><p>David oversees all aspects of the site's evolution and writes regularly about matters concerning both API providers and software developers who consume APIs in their wares. David has appeared on international media such as CNN, CNBC, the Charlie Rose Show, NPR, the BBC, the Economist, and FOX. For a hearing held in 2016, David was called upon by the Office of the National Coordinator within the US Federal Government's Department of Health and Human Services to testify on the realities of API security.</p>
+    twitter: dberlind
+    slug: david-berlind	
+    image: sp-david-berlind.png
+    talk-title: Panel member &ndash; Media Panel&#58; How APIs are causing a seachange
+    talk-abstract: <p></p>    
+  - name: Tyler Love
+    company: Bustle
+    jobtitle: CTO
+    bio: <p>Tyler Love is CTO of Bustle, where he leads the 25-person product team, protects their time and focus, and facilitates their ideas. And advocates for sponsorship of open-source projects, including backing of Ember's Fastboot and the creation of the open-source post editor Mobiledoc. He oversees a technical stack that serves hundreds of millions of page views a month to 45 million montly users, built on experience helping to scale Tumblr from 500 million to 15 billion monthly page views, after tackling similar problems in the early years of Bleacher Report.</p>
+    twitter: tyleralove
+    slug: tyler-love
+    image: sp-tyler-love.png
+    talk-title: Panel member &ndash; Media Panel&#58; How APIs are causing a seachange
+    talk-abstract: <p></p>    
+
 
 allspeakers: 
   - name: Charles L. Ashley III
@@ -1476,6 +1489,24 @@ allspeakers:
     image: sp-steven-fonseca.png
     talk-title: Full Lifecycle Tool Support for APIs
     talk-abstract: <p>The focus of the talk is showcase an internal Intuit tool called API Lifecycle Manager, a web app and set of APIs that enables the IT organization to produce APIs efficiently across their lifecycle from conception to retirement. The audience will be provided a glimpse into how Intuit IT coordinates the build out of a strategic portfolio of APIs including their functional allocation and service ownership, comprehensive contract documentation with innovations not found in current industry modeling languages, documentation generation and delivery. Examples of API Lifecycle Manager will be shown in the context of a story of how IT is enabling Intuit product to deliver delightful customer experience, particularly in the areas of subscription-based billing and commerce.</p>            
+  - name: Kurt Collins
+    company: Built.io	
+    jobtitle: Director of Technology Evangelism &amp; Partnerships
+    bio: <p>Coming soon</p>
+    twitter: timesync
+    slug: kurt-collins	
+    image: sp-kurt-collins.png
+    talk-title: Mo' APIs, Mo' Data &ndash; Mo' Problems
+    talk-abstract: <p>New APIs are springing up every day and each delivers new data which must be handled by developers and operators alike. The sheer amount of data floating around the Internet right now is staggering in its volume. The next wave of this revolution is about manipulating and analyzing that data.</p><p>While some believe it's all about BIG data analysis, the truth for most organizations is closer to SMALL data analysis across specific volumes of data. Having data in the cloud is valuable, but gathering actionable intelligence on that data is vital. Even more important is being able to initiate processes in real-time based off of any intelligence learned. This talk will explore the different ways to build intelligent systems from all the data in an enterprise.</p>
+  - name: David Berlind	
+    company: Programmable Web	
+    jobtitle: Editor in Chief
+    bio: <p>David Berlind is an award-winning journalist whose career spans 25 years dating back to 1991 when he started reviewing technology for PC Week. He was the editor-in-chief at Windows Sources, the editorial director at Computer Shopper, and executive editor at CNET.com. In 2008, David joined UBM Tech Media as a part of that company's acquisition of Mass Events Labs &ndash; a conference production company he founded in 2006 that among other events, produced the API and developer focused event Mashup Camp. There at UBM, he served as the company's Chief Content Officer until 2013 when he returned to the API economy and joined ProgrammableWeb as its editor-in-chief.</p><p>David oversees all aspects of the site's evolution and writes regularly about matters concerning both API providers and software developers who consume APIs in their wares. David has appeared on international media such as CNN, CNBC, the Charlie Rose Show, NPR, the BBC, the Economist, and FOX. For a hearing held in 2016, David was called upon by the Office of the National Coordinator within the US Federal Government's Department of Health and Human Services to testify on the realities of API security.</p>
+    twitter: dberlind
+    slug: david-berlind	
+    image: sp-david-berlind.png
+    talk-title: 
+    talk-abstract:
 
 community: 
     - name: Women Who Code Boston
