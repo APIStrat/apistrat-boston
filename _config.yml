@@ -60,10 +60,31 @@ featured_speakers:
     twitter: kinlane
 
 sponsors:
-  - name: 3Scale
+  - name: 3scale
     link: http://www.3scale.net/
     logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/3scale-logo-new.png
-
+  - name: Cloud Elements
+    link: http://cloud-elements.com/
+    logo: /images/sponsor-logo-cloudelements.png
+  - name: Nexmo
+    link: https://www.nexmo.com/
+    logo: /images/sponsor-logo-nexmo.png
+  - name: SmartBear
+    link: https://smartbear.com/
+    logo: /images/sponsor-logo-smartbear.png
+  - name: CapitalOne
+    link: http://developer.capitalone.com/
+    logo: /images/sponsor-logo-capitalone.png  
+  - name: NGINX
+    link: http://nginx.com
+    logo: /images/sponsor-logo-nginx.png
+  - name: Swagger
+    link: http://swagger.io/
+    logo: /images/sponsor-logo-swagger.png    
+  - name: Microsoft
+    link: http://aka.ms/apimrocks
+    logo: /images/sponsor-logo-microsoft.png 
+    
 goldsponsors:
   - name: 3scale
     link: http://www.3scale.net/
@@ -76,11 +97,26 @@ silversponsors:
   - name: Nexmo
     link: https://www.nexmo.com/
     logo: /images/sponsor-logo-nexmo.png
+  - name: SmartBear
+    link: https://smartbear.com/
+    logo: /images/sponsor-logo-smartbear.png
+  - name: CapitalOne
+    link: http://developer.capitalone.com/
+    logo: /images/sponsor-logo-capitalone.png        
     
 bronzesponsors:
   - name: NGINX
     link: http://nginx.com
     logo: /images/sponsor-logo-nginx.png
+  - name: Swagger
+    link: http://swagger.io/
+    logo: /images/sponsor-logo-swagger.png    
+  - name: Microsoft
+    link: http://aka.ms/apimrocks
+    logo: /images/sponsor-logo-microsoft.png    
+
+othersponsors:
+
 
 organizers:
   - name: 3scale

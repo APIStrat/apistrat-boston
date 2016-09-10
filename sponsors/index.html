@@ -19,17 +19,19 @@ title: APIStrat Austin 2015 - Sponsors
     <h3 class="sponsor"><span>Gold Sponsors</span></h3>
     <div class="sponsors sponsors-lg">
 
-      <div class="item active">
+		<div class="col-md-6">
+			<div class="item active">
 
-        {% for oranizer in site.goldsponsors %}
-            <div class="sponsor">
-              <a href="{{ oranizer.link }}" title="{{ oranizer.name }}" target="_blank">
-                <img align="center" src="{{ oranizer.logo }}" alt="{{ oranizer.name }}" />
-              </a>
-            </div>
-        {% endfor %}
+			{% for sponsor in site.goldsponsors %}
+				<div class="sponsor">
+				  <a href="{{ sponsor.link }}" title="{{ sponsor.name }}" target="_blank">
+					<img align="center" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+				  </a>
+				</div>
+			{% endfor %}
 
-      </div>
+		  </div><!-- /item active -- >
+		</div><!-- /col-md-6 -->
     </div>
 
     <h3 class="sponsor"><span>Silver Sponsors</span></h3>
@@ -37,10 +39,10 @@ title: APIStrat Austin 2015 - Sponsors
 
       <div class="item active">
 
-        {% for oranizer in site.silversponsors %}
+        {% for sponsor in site.silversponsors %}
             <div class="sponsor">
-              <a href="{{ oranizer.link }}" title="{{ oranizer.name }}" target="_blank">
-                <img align="center" src="{{ oranizer.logo }}" alt="{{ oranizer.name }}" />
+              <a href="{{ sponsor.link }}" title="{{ sponsor.name }}" target="_blank">
+                <img align="center" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
               </a>
             </div>
         {% endfor %}
@@ -53,10 +55,10 @@ title: APIStrat Austin 2015 - Sponsors
 
       <div class="item active">
 
-        {% for oranizer in site.bronzesponsors %}
+        {% for sponsor in site.bronzesponsors %}
             <div class="sponsor">
-              <a href="{{ oranizer.link }}" title="{{ oranizer.name }}" target="_blank">
-                <img align="center" src="{{ oranizer.logo }}" alt="{{ oranizer.name }}" />
+              <a href="{{ sponsor.link }}" title="{{ sponsor.name }}" target="_blank">
+                <img align="center" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
               </a>
             </div>
         {% endfor %}
