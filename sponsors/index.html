@@ -17,21 +17,15 @@ title: APIStrat Austin 2015 - Sponsors
     <br/>
 
     <h3 class="sponsor"><span>Gold Sponsors</span></h3>
-    <div class="sponsors sponsors-lg">
-
-		<div class="col-md-6">
-			<div class="item active">
+    <div class="sponsors">
 
 			{% for sponsor in site.goldsponsors %}
-				<div class="sponsor">
+				<div class="col-md-6">
 				  <a href="{{ sponsor.link }}" title="{{ sponsor.name }}" target="_blank">
 					<img align="center" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
 				  </a>
-				</div>
+				</div><!-- /col-md-6 -->
 			{% endfor %}
-
-		  </div><!-- /item active -- >
-		</div><!-- /col-md-6 -->
     </div>
 
     <h3 class="sponsor"><span>Silver Sponsors</span></h3>
