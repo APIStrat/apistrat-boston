@@ -62,7 +62,7 @@ featured_speakers:
 sponsors:
   - name: 3scale
     link: http://www.3scale.net/
-    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/3scale-logo-new.png
+    logo: /images/sponsor-logo-3scale.png
   - name: Cloud Elements
     link: http://cloud-elements.com/
     logo: /images/sponsor-logo-cloudelements.png
@@ -88,7 +88,7 @@ sponsors:
 goldsponsors:
   - name: 3scale
     link: http://www.3scale.net/
-    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/3scale-logo-new.png
+    logo: /images/sponsor-logo-3scale.png
   - name: Cloud Elements
     link: http://cloud-elements.com/
     logo: /images/sponsor-logo-cloudelements.png
@@ -121,7 +121,7 @@ othersponsors:
 organizers:
   - name: 3scale
     link: http://www.3scale.net/
-    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/3scale-logo-new.png
+    logo: /images/sponsor-logo-3scale.png
   - name: API Evangelist
     link: http://apievangelist.com/
     logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/api-evangelist-logo1.png
@@ -355,12 +355,6 @@ daytwo:
         slug: andrew-seward
         title: How to talk about APIs
         twitter: MrAndrew
-      - name: Keran McKenzie
-        company: MYOB Technology
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
-        slug: keran-mckenzie
-        title: <span>APIs &amp; Kids &ndash; your audience isn't who you think it is</span>
-        twitter: keranm
       - name: Phillip J. Windley
         company: Brigham Young University
         image: sp-phil-windley.png
@@ -973,7 +967,7 @@ keynotes:
     bio: <p>Jonathan is a lead engineer at McGraw-Hill Education. He is a passionate full-stack web developer who spends some of his time building APIs that provide widespread access to online learning resources for schools across the US. In his spare time he is working to create an online platform for middle and high school students to build and launch high-altitude balloons.</p>
     twitter: gomaketeam
     slug: jonathan-barton	
-    image: sp-api-ninja.png
+    image: sp-jonathan-barton.png
     talk-title: Flying Dreams&#58; Real-Time Communication from the Edge of Space
     talk-abstract: <p>Creating flexible, resilient access to real-time sensor data can be challenging &ndash; especially when your device targets can literally disappear off the face of the Earth! See how groups of students and instructors are using the goMake API to talk with high-altitude balloon telemetry as it skirts the edge of the stratosphere, and the design considerations involved in making this a scalable platform for project-based STEM learning that aims to instill a sense of wonder.</p>		
 
