@@ -2,23 +2,24 @@
 layout: page
 title: APIStrat Austin 2015 - Sponsors
 ---
-<div class="heading">
-    <div class="container">
-        <h1>Sponsors</h1>
-    </div>
-</div>
+<div class="col-xs-12 speaker-hero">
+	<div class="container" style="display:flex; align-items:center;">
+			<h1>Speakers</h1>
+	</div> <!-- /container -->
+	<div class="spacer-40"></div>
+</div> <!-- /col-xs-12 -->
 
-<div class="container">
+<div class="col-xs-12">
+	<div class="container">
 
-  <!-- SPONSORS -->
-  <div id="tile_sponsors" class="container widget">
+	  <!-- SPONSORS -->
+	  <div id="tile_sponsors" class="container widget">
 
-    <h3>Thank you to our kind sponsors!</h3>
-    <br/>
+		<h3>Thank you to our kind sponsors!</h3>
+		<br/>
 
-    <h3 class="sponsor"><span>Gold Sponsors</span></h3>
-    <div class="sponsors">
-
+		<h3 class="sponsor"><span>Gold Sponsors</span></h3>
+		<div class="sponsors">
 			{% for sponsor in site.goldsponsors %}
 				<div class="col-md-6">
 				  <a href="{{ sponsor.link }}" title="{{ sponsor.name }}" target="_blank">
@@ -26,40 +27,34 @@ title: APIStrat Austin 2015 - Sponsors
 				  </a>
 				</div><!-- /col-md-6 -->
 			{% endfor %}
-    </div>
+		</div>
 
-    <h3 class="sponsor"><span>Silver Sponsors</span></h3>
-    <div class="sponsors sponsors-md">
+		<h3 class="sponsor"><span>Silver Sponsors</span></h3>
+		<div class="sponsors">
+			{% for sponsor in site.silversponsors %}
+				<div class="col-md-4">
+				  <a href="{{ sponsor.link }}" title="{{ sponsor.name }}" target="_blank">
+					<img align="center" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+				  </a>
+				</div><!-- /col-md-4 -->
+			{% endfor %}
 
-      <div class="item active">
+		</div>
 
-        {% for sponsor in site.silversponsors %}
-            <div class="sponsor">
-              <a href="{{ sponsor.link }}" title="{{ sponsor.name }}" target="_blank">
-                <img align="center" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
-              </a>
-            </div>
-        {% endfor %}
+		<h3 class="sponsor"><span>Bronze Sponsors</span></h3>
+		 <div class="sponsors">
+			{% for sponsor in site.bronzesponsors %}
+				<div class="col-md-3">
+				  <a href="{{ sponsor.link }}" title="{{ sponsor.name }}" target="_blank">
+					<img align="center" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+				  </a>
+				</div><!-- /col-md-4 -->
+			{% endfor %}
 
-      </div>
-    </div>
+		  </div>
 
-    <h3 class="sponsor"><span>Bronze Sponsors</span></h3>
-    <div class="sponsors sponsors-sm">
+	  </div>
 
-      <div class="item active">
+	</div><!-- /container -->
+</div><!-- /col-xs-12 -->
 
-        {% for sponsor in site.bronzesponsors %}
-            <div class="sponsor">
-              <a href="{{ sponsor.link }}" title="{{ sponsor.name }}" target="_blank">
-                <img align="center" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
-              </a>
-            </div>
-        {% endfor %}
-
-      </div>
-    </div>
-
-  </div>
-
-</div>

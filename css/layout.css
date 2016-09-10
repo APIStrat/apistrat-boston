@@ -2344,4 +2344,10 @@ p.price {
 	outline-offset:0px;
 	transform-delay: 0s;
 	}  
+	
+.sponsors .col-md-6,
+.sponsors .col-md-4,
+.sponsors .col-md-3 {
+	padding: 10px 35px;
+	}
 		
