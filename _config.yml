@@ -26,18 +26,18 @@ chairs:
   - name: Steve Willmott
     company: 3Scale
     role: Event Chair
-    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
+    image: sp-steve-willmott.png
     slug: steve-wilmott
     twitter: njyx
   - name: Lorinda Brandon
     company: Capital One
-    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
+    image: sp-lorinda-brandon.png
     slug: lorinda-brandon
     twitter: lindybrandon
     role: Program Chair
   - name: Kin Lane
     company: API Evangelist
-    image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+    image: sp-kin-lane.png
     slug: kin-lane
     twitter: kinlane
     role: Event Chair
@@ -45,17 +45,17 @@ chairs:
 featured_speakers:
   - name: Steve Willmott
     company: 3Scale
-    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
+    image: sp-steve-willmott.png
     slug: steve-wilmott
     twitter: njyx
   - name: Lorinda Brandon
     company: Capital One
-    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
+    image: sp-lorinda-brandon.png
     slug: lorinda-brandon
     twitter: lindybrandon
   - name: Kin Lane
     company: API Evangelist
-    image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+    image: sp-kin-lane.png
     slug: kin-lane
     twitter: kinlane
 
@@ -129,17 +129,17 @@ organizers:
 committee:
   - name: Steve Willmott
     company: 3scale
-    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
+    image: sp-steve-willmott.png
     slug: steve-wilmott
     twitter: njyx
   - name: Kin Lane
     company: API Evangelist
-    image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+    image: sp-kin-lane.png
     slug: kin-lane
     twitter: kinlane
   - name: Lorinda Brandon
     company: Capital One
-    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
+    image: sp-lorinda-brandon.png
     slug: lorinda-brandon
     twitter: lindybrandon
   - name: Leah Bannon
@@ -301,15 +301,15 @@ daytwo:
     speakers:
       - name: Steve Willmott
         company: 3scale
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
+        image: sp-steve-willmott.png
         slug: steve-wilmott
       - name: Kin Lane
         company: API Evangelist
-        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        image: sp-kin-lane.png
         slug: kin-lane
       - name: Lorinda Brandon
         company: Capital One
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
+        image: sp-lorinda-brandon.png
         slug: lorinda-brandon
   - time: 9:15 am - 9:40 am
     title: Trends in the API Industry
@@ -649,7 +649,7 @@ daythree:
     speakers:
       - name: Kin Lane
         company: API Evangelist
-        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        image: sp-kin-lane.png
         slug: kin-lane
       - name: Mark Boyd
         company: Conference Chair
@@ -862,15 +862,15 @@ daythree:
     speakers:
       - name: Steve Willmott
         company: 3scale
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
+        image: sp-steve-willmott.png
         slug: steve-wilmott
       - name: Kin Lane
         company: API Evangelist
-        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        image: sp-kin-lane.png
         slug: kin-lane
       - name: Lorinda Brandon
         company: Capital One
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
+        image: sp-lorinda-brandon.png
         slug: lorinda-brandon
 
 keynotes:
