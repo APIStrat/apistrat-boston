@@ -98,7 +98,7 @@ title: APIStrat Boston 2016 - Schedule
 							  <span class="speakers-thumbs">
 							  {% for speaker in entry.speakers %}
 								  <div class="col-md-4 col-sm-6"> 
-									<a class="speaker" {% if speaker.detail != 'none' %}href="{{ speaker.detail }}"{% else %}href="#" onclick="return false;"{% endif %}>
+									<a class="speaker" href="/speakers/{{ speaker.slug }}">
 									<img alt="{{ speaker.name }} {{ speaker.company }}" height="54" src="/images/{{ speaker.image }}" width="60">
 									<span class="name">{{ speaker.name }}<br />{{ speaker.company }}</span>
 								  </a>
