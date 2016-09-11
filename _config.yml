@@ -231,7 +231,7 @@ dayone:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
+        image: sp-api-ninja.png
         slug: speaker-name
   - time: 1:30 pm - 3:00 pm
     title: Workshop Title
@@ -241,7 +241,7 @@ dayone:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
+        image: sp-api-ninja.png
         slug: speaker-name
   - time: 3:00 pm - 3:30 pm
     title: Coffee Break
@@ -255,7 +255,7 @@ dayone:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
+        image: sp-api-ninja.png
         slug: speaker-name
   - time: 3:30 pm - 5:00 pm
     title: Workshop Title
@@ -265,7 +265,7 @@ dayone:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
+        image: sp-api-ninja.png
         slug: speaker-name
   - time: 3:30 pm - 5:00 pm
     title: Workshop Title
@@ -275,7 +275,7 @@ dayone:
     speakers:
       - name: Speaker Name
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
+        image: sp-api-ninja.png
         slug: speaker-name
   - time: 5:30 pm - 7:00 pm
     title: Birds of a Feather
@@ -327,7 +327,7 @@ daytwo:
     speakers:
       - name: Sarah Jeong
         company: Speaker Company
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/apistrat-icon.png
+        image: sp-api-ninja.png
         slug: sarah-jeong
         title: Frontline at the Oracle vs Google Court Case
         twitter: twitterhandle
@@ -653,7 +653,7 @@ daythree:
         slug: kin-lane
       - name: Mark Boyd
         company: Conference Chair
-        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-boyd.png
+        image: sp-mark-boyd.png
         slug: mark-boyd
   - time: 9:05 am - 9:30 am
     title: Enterprise API Governance
