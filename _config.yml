@@ -239,32 +239,22 @@ dayone:
     speakers:
   - time: 1:30 pm - 3:00 pm
     title: Amazon Alexa - Part 1
-    abstract: coming soon
-    registration: http://boston2016.apistrat.com/workshops/slug.html
+    abstract:
+    registration:
     location: Breakout One
     speakers: 
       - name: Rob McCauley
         company: Amazon
         image: sp-rob-mccauley.png
         slug: rob-mccauley
-  - time: 1:30 pm - 3:00 pm
-    title: Workshop Title
-    abstract: Workshop Abstract
-    registration: http://boston2016.apistrat.com/workshops/slug.html
-    location: Breakout Two
-    speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: sp-api-ninja.png
-        slug: speaker-name
   - time: 3:00 pm - 3:30 pm
     title: Coffee Break
     location: Break Area
     speakers:
   - time: 3:30 pm - 5:00 pm
     title: Amazon Alexa - Part 2
-    abstract: coming soon
-    registration: http://boston2016.apistrat.com/workshops/focus-on-api-workflow-workshop.html
+    abstract:
+    registration:
     location: Breakout One
     speakers:
       - name: Rob McCauley
@@ -277,8 +267,8 @@ dayone:
     location: New England Aquarium
     speakers:
   - time: 9:30 pm - 12:00 am
-    title: Meetup Bar
-    location: Location of Meetup Bar
+    title: Attendee Meetup
+    location: TBA
     speakers:
 
 daytwo:
