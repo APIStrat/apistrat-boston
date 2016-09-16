@@ -723,7 +723,7 @@ daythree:
         image: sp-ole-lensmar.png
         slug: ole-lensmar              
   - time: 11:15 am - 12:45 pm
-    title: IoT
+    title: IoT Panel hosted by Read Write Web
     location: Breakout Three
     speakers:
       - name: TBD
@@ -807,24 +807,24 @@ daythree:
     speakers:
       - name: Christine Mitchell
         company: Discovery
-        image: sp-christine-mitchell.png
-        slug: christine-mitchell
+        image: sp-api-ninja.png
+        slug: 
   - time: 4:10 pm - 4:40 pm
     title: Fireside Chat
     location: Main Stage
     speakers:
-      - name: Mark Little
-        company: Red Hat
-        image: sp-mark-little.png
-        slug: mark-little
+      - name: TBD
+        company: 
+        image: sp-api-ninja.png
+        slug: 
   - time: 4:40 pm - 5:10 pm
     title: Keynote
     location: Main Stage
     speakers:
       - name: Romain Huet
         company: 
-        image: sp-romain-huet.png
-        slug: romain-huet
+        image: sp-api-ninja.png
+        slug: 
   - time: 5:10 pm - 5:40 pm
     title: Wrap-up panel
     location: Main Stage
