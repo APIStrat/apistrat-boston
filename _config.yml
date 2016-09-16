@@ -725,7 +725,11 @@ daythree:
   - time: 11:15 am - 12:45 pm
     title: IoT
     location: Breakout Three
-    speakers: TBD
+    speakers:
+      - name: TBD
+        company: 
+        image: sp-api-ninja.png
+        slug: 
 
   - time: 12:45 pm - 2:00 pm
     title: Lunch
@@ -735,10 +739,6 @@ daythree:
     title: Fintech
     location: Breakout One
     speakers:
-      - name: Arnaud Lauret
-        company: AXA Banque
-        image: sp-arnaud-lauret.png
-        slug: arnaud-lauret   
       - name: Arnaud Lauret
         company: AXA Banque
         image: sp-arnaud-lauret.png
