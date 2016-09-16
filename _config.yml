@@ -271,33 +271,10 @@ dayone:
         company: Amazon
         image: sp-rob-mccauley.png
         slug: rob-mccauley
-  - time: 3:30 pm - 5:00 pm
-    title: Workshop Title
-    abstract: Workshop Abstract
-    registration: http://boston2016.apistrat.com/workshops/crash-course-practical-api-management-workshop.html
-    location: Breakout Two
-    speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: sp-api-ninja.png
-        slug: speaker-name
-  - time: 3:30 pm - 5:00 pm
-    title: Workshop Title
-    abstract: Workshop Abstract
-    registration: http://boston2016.apistrat.com/workshops/simple-api-supervision.html
-    location: Breakout Three
-    speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: sp-api-ninja.png
-        slug: speaker-name
-  - time: 5:30 pm - 7:00 pm
-    title: Birds of a Feather
-    location: Loaction of Birds of a Feather
-    speakers:
-  - time: 7:30 pm - 9:00 pm
-    title: Speakers Dinner
-    location: Location of Speakers Dinner
+
+  - time: 7:00 pm - 9:00 pm
+    title: Speaker and Sponsor Dinner
+    location: New England Aquarium
     speakers:
   - time: 9:30 pm - 12:00 am
     title: Meetup Bar
