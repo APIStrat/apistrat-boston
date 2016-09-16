@@ -84,6 +84,13 @@ sponsors:
   - name: Microsoft
     link: http://aka.ms/apimrocks
     logo: /images/sponsor-logo-microsoft.png 
+  - name: Vistaprint
+    link: http://www.vistaprint.com/
+    logo: /images/sponsor-logo-vistaprint.png 
+  - name: Shippo
+    link: https://goshippo.com/
+    logo: /images/sponsor-logo-shippo.png 
+  
     
 goldsponsors:
   - name: 3scale
@@ -114,6 +121,13 @@ bronzesponsors:
   - name: Microsoft
     link: http://aka.ms/apimrocks
     logo: /images/sponsor-logo-microsoft.png    
+  - name: Vistaprint
+    link: http://www.vistaprint.com/
+    logo: /images/sponsor-logo-vistaprint.png 
+  - name: Shippo
+    link: https://goshippo.com/
+    logo: /images/sponsor-logo-shippo.png 
+  
 
 othersponsors:
 
@@ -219,20 +233,20 @@ committee:
     twitter: timesync
 
 dayone:
-  - time: 12:00 pm - 5:00 pm
+  - time: 1:00 pm - 5:00 pm
     title: Registration
     location: Break Area
     speakers:
   - time: 1:30 pm - 3:00 pm
-    title: Workshop Title
-    abstract: Workshop Abstract
+    title: Amazon Alexa - Part 1
+    abstract: coming soon
     registration: http://boston2016.apistrat.com/workshops/slug.html
     location: Breakout One
-    speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: sp-api-ninja.png
-        slug: speaker-name
+    speakers: 
+      - name: Rob McCauley
+        company: Amazon
+        image: sp-rob-mccauley.png
+        slug: rob-mccauley
   - time: 1:30 pm - 3:00 pm
     title: Workshop Title
     abstract: Workshop Abstract
@@ -248,15 +262,15 @@ dayone:
     location: Break Area
     speakers:
   - time: 3:30 pm - 5:00 pm
-    title: Workshop Title
-    abstract: Workshop Abstract
+    title: Amazon Alexa - Part 2
+    abstract: coming soon
     registration: http://boston2016.apistrat.com/workshops/focus-on-api-workflow-workshop.html
     location: Breakout One
     speakers:
-      - name: Speaker Name
-        company: Speaker Company
-        image: sp-api-ninja.png
-        slug: speaker-name
+      - name: Rob McCauley
+        company: Amazon
+        image: sp-rob-mccauley.png
+        slug: rob-mccauley
   - time: 3:30 pm - 5:00 pm
     title: Workshop Title
     abstract: Workshop Abstract
