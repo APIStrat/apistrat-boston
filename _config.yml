@@ -303,15 +303,16 @@ daytwo:
         title: Trends in the API Industry
         twitter: themarkoneill
   - time: 9:40 am - 10:05 am
-    title: Frontline at the Oracle vs Google Court Case
+    title: The Lost and Found of API Business Models
     location: Main Stage
     speakers:
-      - name: Sarah Jeong
-        company: Speaker Company
-        image: sp-api-ninja.png
-        slug: sarah-jeong
-        title: Frontline at the Oracle vs Google Court Case
-        twitter: twitterhandle
+      - name: Susan Danziger
+        company: Ziggeo Inc
+        image: sp-susan-danziger.png
+        slug: susan-danziger
+        title: The Lost and Found of API Business Models
+        twitter: susandanziger
+
   - time: 10:05 am - 10:30 am
     title: Hacking on the Amazon Alexa with AWS Lambda and APIs
     location: Main Stage
@@ -348,6 +349,15 @@ daytwo:
         slug: marc-cuva
         title: Your Documentation Is Your UX
         twitter: marccuva
+      - name: Mark Geene
+        company: Cloud Elements
+        jobtitle: CEO and Co-Founder
+        image: sp-mark-geene.png
+        slug: mark-geene
+      - name: Vineet Joshi
+        company: Cloud Elements
+        image: sp-vineet-joshi.png
+        slug: vineet-joshi
         
         
   - time: 11:00 am - 12:30 pm
@@ -519,6 +529,11 @@ daytwo:
         slug: charlie-ozinga
         title: OnPrem Support &ndash; That was so 1982
         twitter: CharlieOzinga
+      - name: James Higginbotham
+        company: LaunchAny
+        image: sp-james-higginbotham.png
+        slug: james-higginbotham
+
  
  
   - time: 3:05 pm - 4:35 pm
@@ -581,15 +596,15 @@ daytwo:
         title: Scaling the Fitbit API
         twitter: jeremiahlee
   - time: 5:25 pm - 5:50 pm
-    title: The Lost and Found of API Business Models
+    title: Frontline at the Oracle vs Google Court Case
     location: Main Stage
     speakers:
-      - name: Susan Danziger
-        company: Ziggeo Inc
-        image: sp-susan-danziger.png
-        slug: susan-danziger
-        title: The Lost and Found of API Business Models
-        twitter: susandanziger
+      - name: Sarah Jeong
+        company: Speaker Company
+        image: sp-api-ninja.png
+        slug: sarah-jeong
+        title: Frontline at the Oracle vs Google Court Case
+
   - time: 5:50 pm - 6:20 pm
     title: Unleash the Chaos
     location: Main Stage
@@ -601,15 +616,10 @@ daytwo:
         title: Unleash the Chaos
         twitter: mamund
   - time: 6:20 pm - 6:40 pm
-    title: Closing Remarks &ndash; How low can you go?
+    title: Closing Remarks
     location: Main Stage
     speakers:
-      - name: Erin McKean
-        company: Wordnik
-        image: sp-erin-mckean.png
-        slug: erin-mckean
-        title: How Low Can You Go?
-        twitter: emckean
+      
   - time: 6:45 pm - 7:45 pm
     title: Drinks Reception
     location: Break Area
@@ -637,13 +647,15 @@ daythree:
         image: sp-mark-boyd.png
         slug: mark-boyd
   - time: 9:05 am - 9:30 am
-    title: Enterprise API Governance
+    title: How Low Can You Go? Reducing Costs and Development Time with AWS Lambda, API Gateway, Elastic Beanstalk, and 3scale (and don't forget Swagger!)
     location: Main Stage
     speakers:
-      - name: Coming Soon
-        company: 
-        image: sp-api-ninja.png
-        slug: 
+      - name: Erin McKean
+        company: Wordnik
+        image: sp-erin-mckean.png
+        slug: erin-mckean
+        title: How Low Can You Go?
+        twitter: emckean
   - time: 9:30 am - 9:55 am
     title: goMake &#58;Balloons and APIs
     location: Main Stage
@@ -813,20 +825,20 @@ daythree:
     title: Fireside Chat
     location: Main Stage
     speakers:
-      - name: TBD
-        company: 
+      - name: Mike Piech
+        company: RedHat
         image: sp-api-ninja.png
-        slug: 
+        slug: mike-piech
   - time: 4:40 pm - 5:10 pm
-    title: Keynote
+    title: Building for the builders
     location: Main Stage
     speakers:
       - name: Romain Huet
-        company: 
-        image: sp-api-ninja.png
-        slug: 
+        company: Stripe
+        image: sp-romain-huet.png
+        slug: romain-huet
   - time: 5:10 pm - 5:40 pm
-    title: Wrap-up panel
+    title: Panel &ndash; APIs Retrospective
     location: Main Stage
     speakers:
       - name: John Sheehan
@@ -836,7 +848,16 @@ daythree:
       - name: Laura Heritage
         company: Akana
         image: sp-laura-heritage.png
-        slug: laura-heritage         
+        slug: laura-heritage    
+      - name: Lorinda Brandon
+        company: Capital One
+        image: sp-lorinda-brandon.png
+        slug: lorinda-brandon
+      - name: Steve Willmott
+        company: 3scale
+        image: sp-steve-willmott.png
+        slug: steve-wilmott
+         
   - time: 5:40 pm - 5:50 pm
     title: Closing Remarks
     location: Main Stage
@@ -1488,6 +1509,43 @@ allspeakers:
     image: sp-david-berlind.png
     talk-title: 
     talk-abstract:
+  - name: Romain Huet
+    company: Stripe
+    jobtitle: Global Developer Relations Lead
+    bio: <p>Romain leads global developer relations at Stripe. He joined Stripe from Twitter, where he was a Senior Developer Advocate and the first member of Twitter’s developer relations team outside the US. In 2014, Romain helped launch Fabric, Twitter's mobile development platform, and Digits, a way for people to securely sign in to apps with their phone number rather than a password. Romain's worldwide developer tour has led him to meet thousands of developers at events and conferences in dozens of cities across the US, Europe and Asia.</p><p>Prior to Twitter, Romain was co-founder and CTO Jolicloud, whose free operating system was designed to work on low cost computers and connect them to the cloud. Joli OS was the first operating system based on Linux, Chromium, HTML5 and Open Web technologies, paving the way towards a new generation of browser-based platforms like Chrome OS.</p><p>Romain has an M.S. in Computer Science from Institut National des Sciences Appliqu&eacute;es de Rennes, France.</p>
+    twitter: romainhuet
+    slug: romain-huet
+    image: sp-romain-huet.png
+    talk-title: Building for the builders
+    talk-abstract: <p>In their roles shaping the technology that the world increasingly runs on, software developers have had an outsized impact on our economy. Yet even major tech companies haven’t always kept pace with developers’ needs. Join Romain Huet as he discusses what’s truly critical for providing a great developer experience, including SDKs, personalized API reference documentation, non-breaking API changes, and how better tools can help increase the leverage of developers around the world.</p>      
+  - name: Charlie Ozinga
+    company: Cloud Elements
+    jobtitle: Senior Software Engineer
+    bio: <p></p>
+    twitter: CharlieOzinga
+    image: sp-charlie-ozinga.png
+    slug: charlie-ozinga
+    talk-title: OnPrem Support &ndash; That was so 1982
+    talk-abstract: <p></p>
+  - name: Mark Geene
+    company: Cloud Elements
+    jobtitle: CEO and Co-Founder
+    bio: <p></p>
+    twitter: mgeene
+    image: sp-mark-geene.png
+    slug: mark-geene
+    talk-title: Stop Publishing APIs. Start Consuming.
+    talk-abstract:  <p>It's no surprise that we're sitting in a big pile of un-used, un-discovered APIs. Over the past few years, developers have gotten really (REALLY) good at producing APIs, leading to some of the greatest technologies of our generation. But the trend of putting your API out there for the public to find and use, is dying. (It might even be dead). Why? Because over 70% of integration work will happen outside of IT Development, by average business users, like marketers or accountants. We need to start thinking about consumption.</p><p>Consumption from the average business users' perspective. How can app developers start to fully embrace integration into their product strategy? Based on the experience of integrating to hundreds of APIs, Mark and Vineet will provide a perspective on best practices for optimizing published APIs for consumption in integration use cases. Practical examples will include&#58; embracing customization through APIs, the impact of richer metadata, improving the coverage of webhooks and the impact of limiters on the consumers of APIs.</p><p>Technology leaders ready to enhance their API strategies will join this thought-provoking session and leave with a new perspective on API consumption use cases.</p>    
+  - name: Vineet Joshi
+    company: Cloud Elements
+    jobtitle: CTO and Co-Founder
+    bio: <p>Vineet is an experienced CTO and application development leader with experience building large scale applications.</p>
+    twitter: cloudevineet
+    image: sp-vineet-joshi.png
+    slug: vineet-joshi
+    talk-title: Stop Publishing APIs. Start Consuming.
+    talk-abstract:  <p>It's no surprise that we're sitting in a big pile of un-used, un-discovered APIs. Over the past few years, developers have gotten really (REALLY) good at producing APIs, leading to some of the greatest technologies of our generation. But the trend of putting your API out there for the public to find and use, is dying. (It might even be dead). Why? Because over 70% of integration work will happen outside of IT Development, by average business users, like marketers or accountants. We need to start thinking about consumption.</p><p>Consumption from the average business users' perspective. How can app developers start to fully embrace integration into their product strategy? Based on the experience of integrating to hundreds of APIs, Mark and Vineet will provide a perspective on best practices for optimizing published APIs for consumption in integration use cases. Practical examples will include&#58; embracing customization through APIs, the impact of richer metadata, improving the coverage of webhooks and the impact of limiters on the consumers of APIs.</p><p>Technology leaders ready to enhance their API strategies will join this thought-provoking session and leave with a new perspective on API consumption use cases.</p>    
+
 
 community: 
   - name: Women Who Code Boston
