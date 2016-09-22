@@ -1069,11 +1069,12 @@ h2 + .btn-header {
 .sessions.list .day-floating > span {
     display: block;
     clear: both;
-    border-top: 4px solid #35aadc;
-    padding: 14px 0;
-    max-height: 60px;
-    background: #fff;
-    border-bottom: 2px solid #d2d2d2;
+    color: #ffffff;
+    border-top: 0px solid #35aadc;
+    padding: 15px;
+    max-height: 70px;
+    background: #0d6287;
+    border-bottom: 0px solid #d2d2d2;
 }
 .sessions.list .day-floating.fixed {
     position: fixed;

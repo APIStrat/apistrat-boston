@@ -51,7 +51,7 @@ title: APIStrat Boston 2016 - Schedule
 								  </a>
 								  </div><!-- /col-md-4 -->
 								  <div class="col-md-8 col-sm-6">
-								  	<p style="margin-top:20px"><a style="color:#f52029;" href="{{ entry.registration }}">Learn more and register &rsaquo;</a></p>
+								  	<p style="margin-top:40px"><a style="color:#f52029;" href="{{ entry.registration }}">| Learn more and register &rsaquo;</a></p>
 								  </div>
 							  {% endfor %}
 							  </span>
@@ -95,7 +95,7 @@ title: APIStrat Boston 2016 - Schedule
 
 							  <a class="title" {% if entry.detail == 'none' %} href="#"onclick="return false;"{% else %}href="{{ entry.detail }}"{% endif %}><span>{{ entry.title }}</span></a>
 							  <div class="clearfix"></div>
-							  <span class="location">{{ entry.location }}</span>
+							  <span class="location">| {{ entry.location }}</span>
 								<div class="clearfix"></div>
 					
 							  <span class="speakers-thumbs">
@@ -147,7 +147,7 @@ title: APIStrat Boston 2016 - Schedule
 
 							  <a class="title" {% if entry.detail == 'none' %} href="#"onclick="return false;"{% else %}href="{{ entry.detail }}"{% endif %}><span>{{ entry.title }}</span></a>
 							  <div class="clearfix"></div>
-							  <span class="location">{{ entry.location }}</span>
+							  <span class="location">| {{ entry.location }}</span>
 								<div class="clearfix"></div>
 					
 							  <span class="speakers-thumbs">
