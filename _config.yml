@@ -244,8 +244,8 @@ dayone:
     speakers:
   - time: 1:30 pm - 3:00 pm
     title: Amazon Alexa - Part 1
-    abstract:
-    registration:
+    abstract: <p>At this skill building bootcamp, Rob McCauley, Solutions Architect from the Alexa Skills Kit team will be onsite to help you add your own capabilities (skills) to Alexa.</p>
+    registration: http://boston2016.apistrat.com/workshops/hacking-on-amazon-alexa
     location: Breakout One
     speakers: 
       - name: Rob McCauley
@@ -258,8 +258,8 @@ dayone:
     speakers:
   - time: 3:30 pm - 5:00 pm
     title: Amazon Alexa - Part 2
-    abstract:
-    registration:
+    abstract: <p>At this skill building bootcamp, Rob McCauley, Solutions Architect from the Alexa Skills Kit team will be onsite to help you add your own capabilities (skills) to Alexa.</p>
+    registration: http://boston2016.apistrat.com/workshops/hacking-on-amazon-alexa
     location: Breakout One
     speakers:
       - name: Rob McCauley
@@ -694,6 +694,10 @@ daythree:
         company: Bustle
         image: sp-tyler-love.png
         slug: tyler-love
+      - name: Chris Caen
+        company: ReadWriteWeb
+        image: sp-api-ninja.png
+        slug:   
   - time: 10:50 am - 11:15 am
     title: Coffee Break
     location: Break Area

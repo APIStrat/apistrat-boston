@@ -1059,12 +1059,12 @@ h2 + .btn-header {
 }
 .sessions.list .day-floating {
     position: relative;
-    color: #3f3f3f;
+    color: #ffffff;
     font-size: 21px; font-weight: 500;
     z-index: 40;
     margin-top:-2px;
     /*height: 60px;*/
-    background: #fff;
+    background: #0d6287;
 }
 .sessions.list .day-floating > span {
     display: block;
@@ -1143,6 +1143,7 @@ h2 + .btn-header {
     margin: 10px 0 0 85px;
     padding: 0;
     height: 100%;
+    color: #0d6287;
 }
 .sessions.list .session .speaker .name>span {
     display: table-cell;
