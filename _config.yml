@@ -630,7 +630,7 @@ daytwo:
         title: Frontline at the Oracle vs Google Court Case
 
   - time: 5:50 pm - 6:20 pm
-    title: 
+    title: Red Hat Middleware
     location: Main Stage
     speakers:
       - name: Mike Piech
@@ -648,10 +648,7 @@ daytwo:
         slug: mike-amundsen
         title: Unleash the Chaos
         twitter: mamund
-  - time: 6:20 pm - 6:40 pm
-    title: Closing Remarks
-    location: Main Stage
-    speakers:
+
       
   - time: 6:45 pm - 7:45 pm
     title: Drinks Reception
