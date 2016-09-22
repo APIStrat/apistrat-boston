@@ -666,7 +666,7 @@ daythree:
   - time: 9:00 am - 9:05 am
     title: Opening Remarks
     location: Main Stage
-     speakers:
+    speakers:
       - name: Steve Willmott
         company: 3scale
         image: sp-steve-willmott.png
