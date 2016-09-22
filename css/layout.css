@@ -150,6 +150,8 @@ h3.sponsor span {
     display: inline-block;
     background: #fff;
 }
+
+
 h5 {
     font-size: 18px; font-weight: 400;
     color: #919191;
@@ -219,6 +221,10 @@ img {
 .border-primary {
     border-color: #35aadc;
 }
+
+li {
+	line-height: 1.8em;
+	}
 
 /* widget */
 .widget {
