@@ -648,7 +648,6 @@ daytwo:
         slug: mike-amundsen
         title: Unleash the Chaos
         twitter: mamund
-
       
   - time: 6:45 pm - 7:45 pm
     title: Drinks Reception
@@ -680,6 +679,7 @@ daythree:
         company: Capital One
         image: sp-lorinda-brandon.png
         slug: lorinda-brandon
+        
   - time: 9:05 am - 9:30 am
     title: How Low Can You Go? Reducing Costs and Development Time with AWS Lambda, API Gateway, Elastic Beanstalk, and 3scale (and don't forget Swagger!)
     location: Main Stage
