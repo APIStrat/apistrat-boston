@@ -1134,7 +1134,7 @@ h2 + .btn-header {
 .sessions.list .session .speaker {
     display: block;
     float: left;
-    height: 75px;
+    height: 100px;
     width: 100%;
     margin: 15px 0;
     padding: 0 16px 0 1px;
@@ -1144,11 +1144,11 @@ h2 + .btn-header {
 }
 .sessions.list .session .speaker img {
     float: left;
-    width: 75px;
+    width: 100px;
 }
 .sessions.list .session .speaker .name {
     display: block;
-    margin: 10px 0 0 85px;
+    margin: 20px 0 0 115px;
     padding: 0;
     height: 100%;
     color: #0d6287;

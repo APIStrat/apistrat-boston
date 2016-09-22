@@ -530,7 +530,7 @@ daytwo:
         twitter: 
       - name: Charlie Ozinga
         company: Cloud Elements
-        image: sp-api-ninja.png
+        image: sp-charlie-ozinga.png
         slug: charlie-ozinga
         title: OnPrem Support &ndash; That was so 1982
         twitter: CharlieOzinga
@@ -606,7 +606,7 @@ daytwo:
     speakers:
       - name: Sarah Jeong
         company: Speaker Company
-        image: sp-api-ninja.png
+        image: sp-sarah-jeong.png
         slug: sarah-jeong
         title: Frontline at the Oracle vs Google Court Case
 
