@@ -90,7 +90,9 @@ sponsors:
   - name: Shippo
     link: https://goshippo.com/
     logo: /images/sponsor-logo-shippo.png 
-  
+  - name: Amazon Alexa
+    link: https://developer.amazon.com/alexa
+    logo: /images/sponsor-logo-amazon.png
     
 goldsponsors:
   - name: 3scale
@@ -130,6 +132,9 @@ bronzesponsors:
   
 
 othersponsors:
+  - name: Amazon Alexa
+    link: https://developer.amazon.com/alexa
+    logo: /images/sponsor-logo-amazon.png
 
 
 organizers:
