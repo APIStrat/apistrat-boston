@@ -836,7 +836,7 @@ daythree:
     speakers:
       - name: Mike Piech
         company: RedHat
-        image: sp-api-ninja.png
+        image: sp-mike-piech.png
         slug: mike-piech
   - time: 4:40 pm - 5:10 pm
     title: Building for the builders
