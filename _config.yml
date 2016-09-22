@@ -611,6 +611,15 @@ daytwo:
         title: Frontline at the Oracle vs Google Court Case
 
   - time: 5:50 pm - 6:20 pm
+    title: 
+    location: Main Stage
+    speakers:
+      - name: Mike Piech
+        company: RedHat
+        image: sp-mike-piech.png
+        slug: mike-piech
+    
+  - time: 6:20 pm - 6:45 pm
     title: Unleash the Chaos
     location: Main Stage
     speakers:
@@ -642,15 +651,19 @@ daythree:
   - time: 9:00 am - 9:05 am
     title: Opening Remarks
     location: Main Stage
-    speakers:
+     speakers:
+      - name: Steve Willmott
+        company: 3scale
+        image: sp-steve-willmott.png
+        slug: steve-wilmott
       - name: Kin Lane
         company: API Evangelist
         image: sp-kin-lane.png
         slug: kin-lane
-      - name: Mark Boyd
-        company: Conference Chair
-        image: sp-mark-boyd.png
-        slug: mark-boyd
+      - name: Lorinda Brandon
+        company: Capital One
+        image: sp-lorinda-brandon.png
+        slug: lorinda-brandon
   - time: 9:05 am - 9:30 am
     title: How Low Can You Go? Reducing Costs and Development Time with AWS Lambda, API Gateway, Elastic Beanstalk, and 3scale (and don't forget Swagger!)
     location: Main Stage
@@ -834,10 +847,10 @@ daythree:
     title: Fireside Chat
     location: Main Stage
     speakers:
-      - name: Mike Piech
-        company: RedHat
-        image: sp-mike-piech.png
-        slug: mike-piech
+      - name: TBA
+        company: 
+        image: sp-api-ninja.png
+        slug: 
   - time: 4:40 pm - 5:10 pm
     title: Building for the builders
     location: Main Stage
