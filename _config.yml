@@ -30,7 +30,7 @@ chairs:
     slug: steve-wilmott
     twitter: njyx
   - name: Lorinda Brandon
-    company: Capital One
+    company: Capital One DevExchange
     image: sp-lorinda-brandon.png
     slug: lorinda-brandon
     twitter: lindybrandon
@@ -49,7 +49,7 @@ featured_speakers:
     slug: steve-wilmott
     twitter: njyx
   - name: Lorinda Brandon
-    company: Capital One
+    company: Capital One DevExchange
     image: sp-lorinda-brandon.png
     slug: lorinda-brandon
     twitter: lindybrandon
@@ -157,7 +157,7 @@ committee:
     slug: kin-lane
     twitter: kinlane
   - name: Lorinda Brandon
-    company: Capital One
+    company: Capital One DevExchange
     image: sp-lorinda-brandon.png
     slug: lorinda-brandon
     twitter: lindybrandon
@@ -212,7 +212,7 @@ committee:
     slug: seth-lachner
     twitter: slestac
   - name: Brandee Shin
-    company: Capital One
+    company: Capital One DevExchange
     image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/brandee-shin.png
     slug: brandee-shin
     twitter: brandee_shin
@@ -313,7 +313,7 @@ daytwo:
         image: sp-kin-lane.png
         slug: kin-lane
       - name: Lorinda Brandon
-        company: Capital One
+        company: Capital One DevExchange
         image: sp-lorinda-brandon.png
         slug: lorinda-brandon
   - time: 9:15 am - 9:40 am
@@ -407,7 +407,7 @@ daytwo:
         title: How to train your API&#58; Experiences from the wilderness and back again
         twitter: mandywhaley
       - name: Matthew Reinbold
-        company: Capital One
+        company: Capital One DevExchange
         image: sp-matthew-reinbold.png
         slug: matthew-reinbold
         title: The 3 Ways Melvin Conway Saved Our Enterprise API Governance
@@ -521,12 +521,7 @@ daytwo:
         slug: gareth-jones
         title: Hypermedia vs Graphs&#58; Best buddies or the next API battleground?
         twitter: garethj_msft   
-      - name: Irakli Nadareishvili
-        company: ReferWell Inc
-        image: sp-irakli-nadareishvili.png
-        slug: irakli-nadareishvili
-        title: Documenting Hypermedia APIs
-        twitter: inadarei 
+
   - time: 3:00 pm - 3:05 pm
     title: Switchover Time
     location: Break Area
@@ -605,6 +600,12 @@ daytwo:
         slug: ken-wronkiewicz
         title: Effortless microservices running in production with Kubernetes
         twitter: wirehead
+      - name: Irakli Nadareishvili
+        company: ReferWell Inc
+        image: sp-irakli-nadareishvili.png
+        slug: irakli-nadareishvili
+        title: Documenting Hypermedia APIs
+        twitter: inadarei   
   - time: 4:35 pm - 5:00 pm
     title: Coffee Break
     location: Break Area
@@ -676,7 +677,7 @@ daythree:
         image: sp-kin-lane.png
         slug: kin-lane
       - name: Lorinda Brandon
-        company: Capital One
+        company: Capital One DevExchange
         image: sp-lorinda-brandon.png
         slug: lorinda-brandon
         
@@ -798,7 +799,7 @@ daythree:
         slug: jarda-machan
         image: sp-jarda-machan.png
       - name: Abdelmonaim Remani
-        company: Capital One
+        company: Capital One DevExchange
         slug: abdelmonaim-remani
         image: sp-abdelmonaim-remani.png
       - name: Steven Fonseca
@@ -888,7 +889,7 @@ daythree:
         image: sp-laura-heritage.png
         slug: laura-heritage    
       - name: Lorinda Brandon
-        company: Capital One
+        company: Capital One DevExchange
         image: sp-lorinda-brandon.png
         slug: lorinda-brandon
       - name: Steve Willmott
@@ -909,7 +910,7 @@ daythree:
         image: sp-kin-lane.png
         slug: kin-lane
       - name: Lorinda Brandon
-        company: Capital One
+        company: Capital One DevExchange
         image: sp-lorinda-brandon.png
         slug: lorinda-brandon
 
@@ -1241,7 +1242,7 @@ allspeakers:
     talk-title: The Death of Data
     talk-abstract: <p>Hoarding is only really painful when we run out of space. In a world with very cheap data storage, it never occurs to us that we should be getting rid of data instead of just storing it in giant silos. I'll explain why we are storing increasingly dangerous poison in our databases, and why we ought to care about automated de-acquisition and deletion. Data gets senile. It forgets its links, it only wants to tell you about the old days. Wikis overgrow like the thorns around Sleeping Beauty's castle, and reference manuals accrete into sedimentary layers. APIs gather and leak data like municipal water systems Even with search, we can't find what we're looking for. Too much data is as bad or worse than no data. We are building giant predictive structures on big data, but we are not evaluating the age or value of that data. Have you ever been boggled by your credit report? We are building thousands of reports like that with no consideration for the quality of the data we are using. This talk is not about data in the abstract, it's about ergot poisoning and hoarding and konmari and bitrot. When and why to kill your precious data, why data is a double-edged sword.</p>
   - name: Matthew Reinbold
-    company: Capital One
+    company: Capital One DevExchange
     jobtitle: Lead, API Center of Excellence
     bio: <p>Born of Dakota loam, roaming all too far from home. Since the experimental chiptune crunk didn't work out, here I am building distributed API governance programs for a Fortune 500 company. Wearer of red sneakers.</p>
     twitter: libel_vox
@@ -1421,7 +1422,7 @@ allspeakers:
     talk-title: Breathing new life into legacy SOAP services
     talk-abstract: <p>The reality is that SOAP services are no longer cool.  Developers today want to integrate with APIs that are labelled REST.  They want descriptive URLs, JSON payloads and familiar HTTP status codes.  But many enterprises spent 10 years building SOAP services and many of those services are working just fine today.  Rewriting them would be a huge effort with the risk of minimal gain. The good news is that it is possible to give developers what they are looking for without a re-write.  You can take advantage of HTTP's layered architecture to put a façade in front of your SOAP services, re-use all your existing code, breathe new life into your service and still support the existing client applications that are happily sending SOAP messages.This talk will explore the process of transforming native HTTP requests into SOAP messages and back into native HTTP responses.  We will discuss which parts of the façading process can be automated and which parts require design decisions.  Finally we will explore what capabilities we gain with this new style of API, and what we lose, so that you can make an informed decision on the future of your SOAP services.</p>
   - name: Abdelmonaim Remani
-    company: Capital One
+    company: Capital One DevExchange
     jobtitle: Engineering Tech Lead
     bio: <p>A technology enthusiast at heart and by profession. Particularly interested in distributed systems and scalable architectures. Experienced in building Java Enterprise Applications and a wide range of related technologies. Founder of a number of organizations namely The NorCal Java User Group, The Silicon Valley Dart Meetup, and The Silicon Valley Spring User Group. Abdel is a JavaOne RockStar and a frequent speaker at a number of developer conferences including JavaOne, JAX Conf, OsCon, OREDEV, 33rd Degree, Devoxx, NFJS, UberConf, JavaZone, and many user groups and community events.</p>
     twitter: PolymathicCoder
