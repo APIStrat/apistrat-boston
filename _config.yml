@@ -270,7 +270,7 @@ dayone:
   
   - time: 3:30 pm - 5:00 pm
     title: Managing APIs with Azure API Management
-    abstract: 
+    abstract: <p>Learn how to abstract, control, and analyze APIs using Azure API Management.</p>
     registration: http://boston2016.apistrat.com/workshops/managing-apis-azure
     location: Breakout Two
     speakers: 
