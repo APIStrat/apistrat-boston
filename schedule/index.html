@@ -39,9 +39,6 @@ title: APIStrat Boston 2016 - Schedule
 						  <div class="session-inner">
 							 <!-- <a class="title" {% if entry.detail == 'none' %} href="#"onclick="return false;"{% else %}href="{{ entry.detail }}"{% endif %}><span>{{ entry.title }}</span></a> -->
 							 <p><a class="title" href="{{ entry.registration }}" onclick="return false;"><span>{{ entry.title }}</span></a> | <span class="location">{{ entry.location }}</span>
-							  {% if entry.location == 'Breakout One' or entry.location == 'Breakout Two' or entry.location == 'Breakout Three' %}
-							 <a class="title" href="{{ entry.registration }}" style="color:#FF0000;">(REGISTER FOR WORKSHOP!)</a>
-							  {% endif %}
 						  	  <span class="abstract">{{ entry.abstract }}</span><br />
 						  	  <!-- <span class="location">{{ entry.location }}</span> -->
 							  <span class="speakers-thumbs">
@@ -54,7 +51,9 @@ title: APIStrat Boston 2016 - Schedule
 								  </div><!-- /col-md-4 -->
 							  {% endfor %}
 							  
-							  <p style="margin-top:20px"><a style="color:#f52029;" href="{{ entry.registration }}">Learn more and register &rsaquo;</a></p>
+							  {% if entry.location == 'Breakout One' or entry.location == 'Breakout Two' or entry.location == 'Breakout Three' %}
+							  	<p style="margin-top:20px"><a style="color:#f52029;" href="{{ entry.registration }}">Learn more and register &rsaquo;</a></p>
+							   {% endif %}
 							  </span>
 
 							  <!--<a class="more" href="">More info <i class="icon-angle-right"></i></a>-->
