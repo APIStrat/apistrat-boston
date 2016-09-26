@@ -258,11 +258,24 @@ dayone:
         company: Amazon
         image: sp-rob-mccauley.png
         slug: rob-mccauley
+
+  - time: 1:30 pm - 3:00 pm
+    title: Open API Specification Crash Course (Part I)
+    abstract: <p>This workshop will provide an introduction to the new Open API Format for specifying APIs. The format is the core specification of the Linux Foundation's Open API Initiative and is the most widely used API definition formation.</p>
+    registration: http://boston2016.apistrat.com/workshops/open-api-spec-workshop
+    location: Breakout Two
+    speakers: 
+      - name: Coming soon
+        company: Open API Initiative
+        image: sp-api-ninja.png
+        slug: 
+
         
   - time: 3:00 pm - 3:30 pm
     title: Coffee Break
     location: Break Area
     speakers:
+
   - time: 3:30 pm - 5:00 pm
     title: Hacking on the Amazon Alexa
     abstract: <p>At this skill building bootcamp, Rob McCauley, Solutions Architect from the Alexa Skills Kit team will be onsite to help you add your own capabilities (Skills) to Alexa.</p>
@@ -273,12 +286,23 @@ dayone:
         company: Amazon
         image: sp-rob-mccauley.png
         slug: rob-mccauley
+
+  - time: 3:30 pm - 5:00 pm
+    title: Open API Specification Crash Course (Part II)
+    abstract: <p>This workshop will provide an introduction to the new Open API Format for specifying APIs. The format is the core specification of the Linux Foundation's Open API Initiative and is the most widely used API definition formation.</p>
+    registration: http://boston2016.apistrat.com/workshops/open-api-spec-workshop
+    location: Breakout Two
+    speakers: 
+      - name: Coming soon
+        company: Open API Initiative
+        image: sp-api-ninja.png
+        slug: 
   
   - time: 3:30 pm - 5:00 pm
     title: Managing APIs with Azure API Management
     abstract: <p>Learn how to abstract, control, and analyze APIs using Azure API Management.</p>
     registration: http://boston2016.apistrat.com/workshops/managing-apis-azure
-    location: Breakout Two
+    location: Breakout Three
     speakers: 
       - name: Vladimir Vinogradsky
         company: Microsoft
