@@ -93,6 +93,10 @@ sponsors:
   - name: Amazon Alexa
     link: https://developer.amazon.com/alexa
     logo: /images/sponsor-logo-amazon.png
+  - name: Open API Initiative
+    link: https://openapis.org/
+    logo: /images/sponsor-logo-oai.png
+
     
 goldsponsors:
   - name: 3scale
@@ -135,6 +139,9 @@ othersponsors:
   - name: Amazon Alexa
     link: https://developer.amazon.com/alexa
     logo: /images/sponsor-logo-amazon.png
+  - name: Open API Initiative
+    link: https://openapis.org/
+    logo: /images/sponsor-logo-oai.png
 
 
 organizers:
