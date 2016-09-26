@@ -1577,12 +1577,12 @@ allspeakers:
   - name: Charlie Ozinga
     company: Cloud Elements
     jobtitle: Senior Software Engineer
-    bio: <p></p>
+    bio: <p>Charlie has been navigating the benefits and pitfalls of APIs, security, and service integration with Cloud Elements for years, and enjoys seeing the technology that emerges in these fast-paced fields.</p>
     twitter: CharlieOzinga
     image: sp-charlie-ozinga.png
     slug: charlie-ozinga
     talk-title: OnPrem Support &ndash; That was so 1982
-    talk-abstract: <p></p>
+    talk-abstract: <p>A large population of businesses and major enterprises continue to use on-premise services for a variety of reasons, from Public sector compliance to security concerns, to just plain old, archaic systems that cost too much to do anything about. That doesn't mean we have to continue to support these services like we did back in the 1980s.</p><p>The challenge we will face in 2016&#58; how do you make those on-prem services work in the new and emerging API Economy? We will dig into on-prem connector proxies, what one needs to do to consume an API architecture in an on-prem environment and how to support an app when things go down.</p>
   - name: Mark Geene
     company: Cloud Elements
     jobtitle: CEO and Co-Founder
