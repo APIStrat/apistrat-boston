@@ -96,6 +96,9 @@ sponsors:
   - name: Open API Initiative
     link: https://openapis.org/
     logo: /images/sponsor-logo-oai.png
+  - name: IBM API Connect
+    link: https://developer.ibm.com/apiconnect/
+    logo: /images/sponsor-logo-ibm-apiconnect.png   
 
     
 goldsponsors:
@@ -142,6 +145,9 @@ othersponsors:
   - name: Amazon Alexa
     link: https://developer.amazon.com/alexa
     logo: /images/sponsor-logo-amazon.png
+  - name: IBM API Connect
+    link: https://developer.ibm.com/apiconnect/
+    logo: /images/sponsor-logo-ibm-apiconnect.png   
 
 organizers:
   - name: 3scale
