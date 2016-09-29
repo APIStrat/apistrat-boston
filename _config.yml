@@ -490,7 +490,7 @@ daytwo:
         twitter: melissa_jurkoic
       - name: Richard Jones
         company: Dun &amp; Bradstreet
-        image: sp-api-ninja.png
+        image: sp-richie-jones.png
         slug: richard-jones
         title: Using APIs to create your own All-day breakfast
         twitter: richiegjones
@@ -848,7 +848,7 @@ daythree:
     location: Breakout Two
     speakers:
       - name: Devin Sevilla
-        company: Pandora
+        company: AdRoll
         slug: devin-sevilla
         image: sp-devin-sevilla.png
       - name: Oliver Thamm
