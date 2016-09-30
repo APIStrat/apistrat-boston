@@ -1675,7 +1675,7 @@ program:
   - name: Shelby Switzer
     company: Healthify
     twitter: switzerly
-    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/shelby-switzer.jpeg
+    image: https://boston2016.apistrat.com/images/sp-shelby-switzer.png
   - name: Brandee Shin
     company: Capital One DevExchange
     twitter: brandee_shin
