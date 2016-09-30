@@ -1647,6 +1647,74 @@ allspeakers:
     talk-title: You Wouldn't Reimplement An API
     talk-abstract: <p>Sarah Jeong covered the 2016 Oracle v. Google trial from start to finish. In this talk, she discusses the highlights, as well as the practical implications of the case for developers and the future of software.</p>  
 
+program: 
+  - name: Steven Willmott
+    company: 3scale
+    twitter: njyx
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
+  - name: Kin Lane
+    company: API Evangelist
+    twitter: kinlane
+    image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+  - name: Lorinda Brandon
+    company: Capital One DevExchange
+    twitter: lindybrandon
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
+  - name: Adam DuVander
+    company: CenturyLink Cloud
+    twitter: adamd
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/adam-duvander.jpg
+  - name: Joyce Stack
+    company: Elsevier
+    twitter: joyce_stack
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/joyce-stack.png
+  - name: Manfred Bortenschlager
+    company: 3scale
+    twitter: manfredbo
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/manfred-bortenschlager.jpg
+  - name: Shelby Switzer
+    company: Healthify
+    twitter: switzerly
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/shelby-switzer.jpeg
+  - name: Brandee Shin
+    company: Capital One DevExchange
+    twitter: brandee_shin
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/brandee-shin.png
+  - name: Caroline Lewko
+    company: WIP Factory
+    twitter: carolinewip
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/caroline-lewko.jpg
+  - name: Kurt Collins
+    company: Built.io
+    twitter: timesync
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-boston-2016/kurt-collins.jpg
+  - name: Kirsten Hunter
+    company: Akamai
+    twitter: synedra
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/kirsten-hunter.jpg
+  - name: James Higginbotham
+    company: LaunchAny
+    twitter: launchany
+    image: https://boston2016.apistrat.com/images/sp-james-higginbotham.png
+  - name: John Sheehan
+    company: Runscope
+    twitter: johnsheehan
+    image: https://boston2016.apistrat.com/images/sp-john-sheehan.png
+  - name: Mark O'Neill
+    company: Gartner
+    twitter: themarkoneill
+    image: https://boston2016.apistrat.com/images/sp-mark-oneill.png    
+  - name: Laura Heritage
+    company: Akana
+    twitter: heritagelaura
+    image: https://boston2016.apistrat.com/images/sp-laura-heritage.png
+  - name: Gordon Wintrob
+    company: LinkedIn
+    twitter: gwintrob
+    image: https://boston2016.apistrat.com/images/sp-gordon-wintrob.png        
+
+
+
 
 community: 
   - name: Women Who Code Boston

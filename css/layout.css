@@ -2275,6 +2275,30 @@ h3.lighter {
 	line-height:1.4em;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}		
+
+.program-hero {
+	background: url('/images/hero-program.gif');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+	padding:0px;
+	min-height:400px;
+	display:flex;
+	}
+
+.program-hero h1 {
+	text-align:left;
+	font-size:60px;
+	}
+	
+.program-hero h3 {
+	color: #ffffff;
+	font-weight:300;
+	text-align:left;
+	margin-top:40px;
+	line-height:1.4em;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	}
 	
 .human {
 	background-color: #00baee;
