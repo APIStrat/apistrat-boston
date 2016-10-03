@@ -450,27 +450,33 @@ daytwo:
         twitter: libel_vox
         
   - time: 11:00 am - 12:30 pm
-    title: Data Science
+    title: Microservices
     location: Breakout Three
     speakers:
-      - name: Kurt Collins
-        company: Built.io
-        image: sp-kurt-collins.png
-        slug: kurt-collins
-        title: Mo' APIs, Mo' Data &ndash; Mo' Problems
-        twitter: timesync
-      - name: Audrey Neveu
-        company: Streamdata.io
-        image: sp-audrey-neveu.png
-        slug: audrey-neveu
-        title: The end of polling&#58; why and how to transform a REST API into a Data Streaming API
-        twitter: audrey_neveu
-      - name: Heidi Waterhouse
-        company: Waterhouse Consulting
-        image: sp-heidi-waterhouse.png
-        slug: heidi-waterhouse
-        title: The Death of Data
-        twitter: wiredferret
+      - name: John Feminella
+        company: Pivotal
+        image: sp-john-feminella.png
+        slug: john-feminella
+        title: API Design for Microservice Architectures
+        twitter: jxxf  
+      - name: Sandeep Dinesh
+        company: Google
+        image: sp-sandeep-dinesh.png
+        slug: sandeep-dinesh
+        title: Microservices&#58; gRPC or REST? Why not both?
+        twitter: sandeepdinesh
+      - name: Ken Wronkiewicz
+        company: Cisco
+        image: sp-ken-wronkiewicz.png
+        slug: ken-wronkiewicz
+        title: Effortless microservices running in production with Kubernetes
+        twitter: wirehead
+      - name: Irakli Nadareishvili
+        company: ReferWell Inc
+        image: sp-irakli-nadareishvili.png
+        slug: irakli-nadareishvili
+        title: Documenting Hypermedia APIs
+        twitter: inadarei  
   
   
   - time: 12:30 pm - 1:30 pm
@@ -613,35 +619,31 @@ daytwo:
         slug: steve-rice
         title: API, Re-invented&#58; How to ship a major new API version without losing your mind (or your developers)
         twitter: decadentwaste  
-        
+  
   - time: 3:05 pm - 4:35 pm
-    title: Microservices
+    title: Data Science
     location: Breakout Three
     speakers:
-      - name: John Feminella
-        company: Pivotal
-        image: sp-john-feminella.png
-        slug: john-feminella
-        title: API Design for Microservice Architectures
-        twitter: jxxf  
-      - name: Sandeep Dinesh
-        company: Google
-        image: sp-sandeep-dinesh.png
-        slug: sandeep-dinesh
-        title: Microservices&#58; gRPC or REST? Why not both?
-        twitter: sandeepdinesh
-      - name: Ken Wronkiewicz
-        company: Cisco
-        image: sp-ken-wronkiewicz.png
-        slug: ken-wronkiewicz
-        title: Effortless microservices running in production with Kubernetes
-        twitter: wirehead
-      - name: Irakli Nadareishvili
-        company: ReferWell Inc
-        image: sp-irakli-nadareishvili.png
-        slug: irakli-nadareishvili
-        title: Documenting Hypermedia APIs
-        twitter: inadarei   
+      - name: Kurt Collins
+        company: Built.io
+        image: sp-kurt-collins.png
+        slug: kurt-collins
+        title: Mo' APIs, Mo' Data &ndash; Mo' Problems
+        twitter: timesync
+      - name: Audrey Neveu
+        company: Streamdata.io
+        image: sp-audrey-neveu.png
+        slug: audrey-neveu
+        title: The end of polling&#58; why and how to transform a REST API into a Data Streaming API
+        twitter: audrey_neveu
+      - name: Heidi Waterhouse
+        company: Waterhouse Consulting
+        image: sp-heidi-waterhouse.png
+        slug: heidi-waterhouse
+        title: The Death of Data
+        twitter: wiredferret      
+  
+ 
   - time: 4:35 pm - 5:00 pm
     title: Coffee Break
     location: Break Area
