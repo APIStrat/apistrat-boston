@@ -737,6 +737,11 @@ daythree:
         company: goMake
         image: sp-jonathan-barton.png
         slug: jonathan-barton
+      - name: Neha Abrol
+        company: McGraw-Hill Education
+        image: sp-neha-abrol.png
+        slug: neha-abrol        
+        
         
   - time: 9:55 am - 10:20 am
     title: A problem worth solving
@@ -1648,6 +1653,26 @@ allspeakers:
     image: sp-sarah-jeong.png
     talk-title: You Wouldn't Reimplement An API
     talk-abstract: <p>Sarah Jeong covered the 2016 Oracle v. Google trial from start to finish. In this talk, she discusses the highlights, as well as the practical implications of the case for developers and the future of software.</p>  
+  - name: Neha Abrol	
+    company: McGraw-Hill Education	
+    jobtitle: Software Engineer	
+    bio: <p>Neha is a software engineer at McGraw-Hill Education. She likes to call herself a Javascript-o-holic and is currently honing her REST API building skills both at work and on a side project that teaches students to build and launch high-altitude balloons. She also facilitates web development and Android courses at Boston University, where she got her Master's degree.</p>
+    twitter: 
+    slug: neha-abrol	
+    image: sp-neha-abrol.png
+    talk-title: Flying Dreams&#58; Real-Time Communication from the Edge of Space
+    talk-abstract: <p>Creating flexible, resilient access to real-time sensor data can be challenging &ndash; especially when your device targets can literally disappear off the face of the Earth! See how groups of students and instructors are using the goMake API to talk with high-altitude balloon telemetry as it skirts the edge of the stratosphere, and the design considerations involved in making this a scalable platform for project-based STEM learning that aims to instill a sense of wonder.</p>		
+  - name: Richard Jones	
+    company: D&amp;B	
+    jobtitle: Technical Product Manager
+    bio: <p>Richard is an experienced Technology Product Manager specialising in delivery of APIs.</p>
+    twitter: richiegjones
+    slug: richard-jones	
+    image: sp-richie-jones.png
+    talk-title: Using APIs to create your own all-day breakfast
+    talk-abstract: <p>In Quarter 3 2015 McDonalds made a significant change, after years of requests it made its Breakfast menu available all day. This talks about how using APIs allows companies to innovate on already market tested products and allow them move it into an entirely new market segments to drive innovation and growth.</p><p>The talk will highlight the business logic of why McDonalds approach and some of the pitfalls to this model. We will then apply this business logic to APIs giving a model for companies to follow. This talk fits with the Strategic nature APIs have now within the organisations, it would also allow me to use Egg McMuffin multiple times in a talk on APIs.</p>
+
+
 
 program: 
   - name: Steven Willmott
