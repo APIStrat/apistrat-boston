@@ -99,6 +99,16 @@ sponsors:
   - name: IBM API Connect
     link: https://developer.ibm.com/apiconnect/
     logo: /images/sponsor-logo-ibm-apiconnect.png   
+  - name: MuleSoft
+    link: https://www.mulesoft.com/
+    logo: /images/sponsor-logo-mulesoft.png    
+  - name: Apiary
+    link: https://apiary.io/
+    logo: /images/sponsor-logo-apiary.png    
+  - name: APIMatic
+    link: https://apimatic.io/
+    logo: /images/sponsor-logo-apimatic.png    
+
 
     
 goldsponsors:
@@ -122,6 +132,12 @@ silversponsors:
   - name: Open API Initiative
     link: https://openapis.org/
     logo: /images/sponsor-logo-oai.png
+  - name: MuleSoft
+    link: https://www.mulesoft.com/
+    logo: /images/sponsor-logo-mulesoft.png    
+  - name: Apiary
+    link: https://apiary.io/
+    logo: /images/sponsor-logo-apiary.png    
           
     
 bronzesponsors:
@@ -140,6 +156,10 @@ bronzesponsors:
   - name: Shippo
     link: https://goshippo.com/
     logo: /images/sponsor-logo-shippo.png 
+  - name: APIMatic
+    link: https://apimatic.io/
+    logo: /images/sponsor-logo-apimatic.png    
+
   
 othersponsors:
   - name: Amazon Alexa
