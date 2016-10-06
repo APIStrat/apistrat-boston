@@ -508,7 +508,7 @@ daytwo:
     location: Breakout One
     speakers:
       - name: Melissa Jurkoic
-        company: Newmarket, an Amadeus company
+        company: Amadeus Hospitality
         image: sp-melissa-jurkoic.png
         slug: melissa-jurkoic
         title: How I got the CTO to pay for Open APIs
@@ -898,10 +898,6 @@ daythree:
         company: 3scale
         slug: nicolas-grenie
         image: sp-nicolas-grenie.png
-      - name: Kirsten Hunter
-        company: Akamai
-        image: sp-kirsten-hunter.png
-        slug: kirsten-hunter
       - name: Pavel Veller
         company: EPAM Systems, Inc
         image: sp-pavel-veller.png
