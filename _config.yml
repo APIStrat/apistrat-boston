@@ -60,6 +60,9 @@ featured_speakers:
     twitter: kinlane
 
 sponsors:
+  - name: IBM
+    link: http://www-03.ibm.com/software/products/en/api-connect/
+    logo: /images/sponsor-logo-ibm.png
   - name: 3scale
     link: http://www.3scale.net/
     logo: /images/sponsor-logo-3scale.png
@@ -97,7 +100,7 @@ sponsors:
     link: https://openapis.org/
     logo: /images/sponsor-logo-oai.png
   - name: IBM API Connect
-    link: https://developer.ibm.com/apiconnect/
+    link: http://www-03.ibm.com/software/products/en/api-connect/
     logo: /images/sponsor-logo-ibm-apiconnect.png   
   - name: MuleSoft
     link: https://www.mulesoft.com/
@@ -165,7 +168,7 @@ othersponsors:
     link: https://developer.amazon.com/alexa
     logo: /images/sponsor-logo-amazon.png
   - name: IBM API Connect
-    link: https://developer.ibm.com/apiconnect/
+    link: http://www-03.ibm.com/software/products/en/api-connect/
     logo: /images/sponsor-logo-ibm-apiconnect.png   
 
 organizers:
@@ -293,6 +296,17 @@ dayone:
       - name: Coming soon
         company: Open API Initiative
         image: sp-api-ninja.png
+        slug: 
+   
+   - time: 1:30 pm - 3:00 pm
+    title: From Zero to Awesome &ndash; API-driven apps in just a few easy steps
+    abstract: <p>With the power of API Connect, you can create an API layer in moments, but its how you make it awesome that counts.</p>
+    registration: http://boston2016.apistrat.com/workshops/zero-to-awesome-ibm.html
+    location: Breakout Three
+    speakers: 
+      - name: Joe Sepi
+        company: Strongloop/IBM
+        image: sp-joe-sepi.png
         slug: 
 
         
