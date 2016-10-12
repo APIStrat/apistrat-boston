@@ -286,7 +286,6 @@ dayone:
         company: Amazon
         image: sp-rob-mccauley.png
         slug: rob-mccauley
-
   - time: 1:30 pm - 3:00 pm
     title: Open API Specification Crash Course (Part I)
     abstract: <p>This workshop will provide an introduction to the new Open API Format for specifying APIs. The format is the core specification of the Linux Foundation's Open API Initiative and is the most widely used API definition formation.</p>
@@ -297,8 +296,7 @@ dayone:
         company: Open API Initiative
         image: sp-api-ninja.png
         slug: 
-   
-   - time: 1:30 pm - 3:00 pm
+  - time: 1:30 pm - 3:00 pm
     title: From Zero to Awesome &ndash; API-driven apps in just a few easy steps
     abstract: <p>With the power of API Connect, you can create an API layer in moments, but its how you make it awesome that counts.</p>
     registration: http://boston2016.apistrat.com/workshops/zero-to-awesome-ibm.html
