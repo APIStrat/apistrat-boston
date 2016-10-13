@@ -694,7 +694,7 @@ daytwo:
     location: Main Stage
     speakers:
       - name: Sarah Jeong
-        company: Speaker Company
+        company: Vice Motherboard
         image: sp-sarah-jeong.png
         slug: sarah-jeong
         title: Frontline at the Oracle vs Google Court Case
