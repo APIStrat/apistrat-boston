@@ -296,10 +296,11 @@ dayone:
         company: Open API Initiative
         image: sp-api-ninja.png
         slug: 
+        
   - time: 1:30 pm - 3:00 pm
     title: From Zero to Awesome &ndash; API-driven apps in just a few easy steps
     abstract: <p>With the power of API Connect, you can create an API layer in moments, but its how you make it awesome that counts.</p>
-    registration: http://boston2016.apistrat.com/workshops/zero-to-awesome-ibm.html
+    registration: http://boston2016.apistrat.com/workshops/zero-to-awesome-ibm
     location: Breakout Three
     speakers: 
       - name: Joe Sepi
