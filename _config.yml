@@ -111,7 +111,9 @@ sponsors:
   - name: APIMatic
     link: https://apimatic.io/
     logo: /images/sponsor-logo-apimatic.png    
-
+  - name: Keen.io
+    link: https://keen.io/
+    logo: /images/sponsor-logo-keen.png  
 
     
 goldsponsors:
@@ -170,6 +172,10 @@ othersponsors:
   - name: IBM API Connect
     link: http://www-03.ibm.com/software/products/en/api-connect/
     logo: /images/sponsor-logo-ibm-apiconnect.png   
+  - name: Keen.io
+    link: https://keen.io/
+    logo: /images/sponsor-logo-keen.png  
+
 
 organizers:
   - name: 3scale
