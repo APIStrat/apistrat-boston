@@ -115,6 +115,11 @@ sponsors:
     link: https://keen.io/
     logo: /images/sponsor-logo-keen.png  
 
+
+platinumsponsors: 
+  - name: IBM
+    link: http://www-03.ibm.com/software/products/en/api-connect/
+    logo: /images/sponsor-logo-ibm.png
     
 goldsponsors:
   - name: 3scale
@@ -1705,6 +1710,15 @@ allspeakers:
     image: sp-richie-jones.png
     talk-title: Using APIs to create your own all-day breakfast
     talk-abstract: <p>In Quarter 3 2015 McDonalds made a significant change, after years of requests it made its Breakfast menu available all day. This talks about how using APIs allows companies to innovate on already market tested products and allow them move it into an entirely new market segments to drive innovation and growth.</p><p>The talk will highlight the business logic of why McDonalds approach and some of the pitfalls to this model. We will then apply this business logic to APIs giving a model for companies to follow. This talk fits with the Strategic nature APIs have now within the organisations, it would also allow me to use Egg McMuffin multiple times in a talk on APIs.</p>
+  - name: Ashley Roach
+    company: Cisco
+    jobtitle: API and Cloud Evangelist
+    bio: <p>Ashley Roach is the API and Cloud Evangelist for Cisco's developer relations team, DevNet.  Prior to DevNet, he was a Product Manager in Cloud Collaboration working on APIs and XMPP technologies.  Before Cisco, he was Product Manager at NewsGator Technologies, where he initiated the Social Sites product, the leading social software integration with SharePoint at the time.  Before NewsGator, he joined Jabber, Inc. in 2003 where he was the Product Manager for the Jabber XCP server and launched the JabberNow appliance. Ashley holds an MBA from the University of Colorado Leeds School of Business and Undergraduate degree in History from the University of Pennsylvania. When not hacking on APIs, he enjoys playing guitar at blues jams around Denver, snowboarding, and camping.</p>
+    twitter: <br/>
+    slug: ashley-roach
+    image: sp-ashley-roach.png
+    talk-title: How to train your API&#58; Experiences from the wilderness and back again
+    talk-abstract: <p>How do you design APIs in the context of lots of smart, divergent ideas? How do you do this when hardware is involved? In this talk we will share some of the methods and practices we are using and some of the lessons learned from the from the battle tested Cisco DevNet team.</p>
 
 
 
