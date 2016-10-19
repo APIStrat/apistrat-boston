@@ -491,6 +491,12 @@ daytwo:
         slug: mandy-whaley
         title: How to train your API&#58; Experiences from the wilderness and back again
         twitter: mandywhaley
+      - name: Ashley Roach
+        company: Cisco DevNet
+        jobtitle: API and Cloud Evangelist
+        slug: ashley-roach
+        image: sp-ashley-roach.png
+        title: How to train your API&#58; Experiences from the wilderness and back again
       - name: Matthew Reinbold
         company: Capital One DevExchange
         image: sp-matthew-reinbold.png
