@@ -114,12 +114,18 @@ sponsors:
   - name: Keen.io
     link: https://keen.io/
     logo: /images/sponsor-logo-keen.png  
+  - name: Red Hat
+    link: https://www.redhat.com/en/technologies/jboss-middleware
+    logo: /images/sponsor-logo-redhat.png  
 
 
 platinumsponsors: 
   - name: IBM
     link: http://www-03.ibm.com/software/products/en/api-connect/
     logo: /images/sponsor-logo-ibm.png
+  - name: Red Hat
+    link: https://www.redhat.com/en/technologies/jboss-middleware
+    logo: /images/sponsor-logo-redhat.png  
     
 goldsponsors:
   - name: 3scale
@@ -1810,3 +1816,6 @@ community:
   - name: Frenchtechhub
     image: /images/cp-logo-frenchtech.png
     link: http://frenchtechhub.com/    
+  - name: Platformable
+    image: /images/cp-logo-platformable.png
+    link: http://mgboyd.com/      
