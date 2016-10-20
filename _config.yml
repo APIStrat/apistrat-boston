@@ -371,7 +371,7 @@ dayone:
         company: Microsoft
         image: sp-miao-jiang.png
         slug:        
-  - time: 7:00 pm - 9:00 pm
+  - time: 6:00 pm - 10:00 pm
     title: Speaker and Sponsor Dinner
     location: New England Aquarium
     speakers:
@@ -747,9 +747,9 @@ daytwo:
     title: Drinks Reception
     location: Break Area
     speakers:
-  - time: 9:30 pm - 12:00 am
-    title: Meetup Bar
-    location: TBD
+  - time: 7:30 pm - 10:00 pm
+    title: <a href="https://www.meetup.com/API-Craft-Boston/events/234674029/">APICraft Meetup&#58; After Hours with APIStrat Friends</a>
+    location: Hill Holiday, 53 State St, Boston, MA
     speakers:
 
 daythree:
