@@ -879,7 +879,31 @@ daythree:
         company: 
         image: sp-api-ninja.png
         slug: 
-
+      - name: Omer Trajman
+        company: Rocana
+        slug: omer-trajman
+        image: sp-omer-trajman.png
+      - name: Christopher Caen
+        company: ReadWrite
+        slug: chris-caen
+        image: sp-chris-caen.png
+      - name: Travis Thompson
+        company: MuleSoft
+        slug: travis-thompson
+        image: sp-travis-thompson.png
+      - name: Rich Morrow
+        company: GigaOm
+        slug: rich-morrow
+        image: sp-api-ninja.png
+      - name: Marie Huwe
+        company: Docusign
+        slug: marie-huwe
+        image: sp-api-ninja.png
+      - name: David Berlind
+        company: Programmable Web
+        image: sp-david-berlind.png
+        slug: david-berlind
+        
   - time: 12:45 pm - 2:00 pm
     title: Lunch
     location: Break Area
@@ -1731,7 +1755,51 @@ allspeakers:
     image: sp-ashley-roach.png
     talk-title: How to train your API&#58; Experiences from the wilderness and back again
     talk-abstract: <p>How do you design APIs in the context of lots of smart, divergent ideas? How do you do this when hardware is involved? In this talk we will share some of the methods and practices we are using and some of the lessons learned from the from the battle tested Cisco DevNet team.</p>
-
+  - name: Omer Trajman
+    company: Rocana
+    jobtitle: CEO and Co-founder
+    bio: <p></p>
+    twitter: <br/>
+    slug: 
+    image: sp-omer-trajman.png
+    talk-title: Panel member - IoT Panel
+    talk-abstract: <p></p>
+  - name: Christopher Caen
+    company: ReadWrite
+    jobtitle: Publisher
+    bio: <p>Christopher has been involved in Silicon Valley for over two decades. He has worked with startups, Fortune 500 technology companies, and marketing agencies. His teams have launched innovative new products in data mining, virtual reality, and gaming In addition, he has covered the tech industry and more for publications such as TWICE, The San Francisco Examiner, San Francisco Magazine, The Huffington Post, The Atlantic, and The New York Times Sunday Magazine. Christopher was the founding editor for AWARE Magazine, a publication dedicated to the world of philanthropy, working with writers from around the country, and building the local magazine into a national presence.</p>
+    twitter: citizencaen
+    slug: chris-caen
+    image: sp-chris-caen.png
+    talk-title: Panel member - IoT Panel
+    talk-abstract: <p></p>
+  - name: Travis Thompson
+    company: MuleSoft
+    jobtitle: Application Network Architect
+    bio: <p>Designer and builder of software systems for 16 years. Passion for APIs, integration, DDD, and learning. Currently defining, designing and building application networks for MuleSoft and their customers.</p>
+    twitter: _twt
+    slug: travis-thompson
+    image: sp-travis-thompson.png
+    talk-title: Panel member - IoT Panel
+    talk-abstract: <p></p>
+  - name: Rich Morrow
+    company: GigaOm
+    jobtitle: Analyst
+    bio: <p></p>
+    twitter: <br/>
+    slug: 
+    image: sp-api-ninja.png
+    talk-title: Panel member - IoT Panel
+    talk-abstract: <p></p>
+  - name: Marie Huwe
+    company: Docusign
+    jobtitle: VP of Developer Marketing
+    bio: <p></p>
+    twitter: <br/>
+    slug: 
+    image: sp-api-ninja.png
+    talk-title: Panel member - IoT Panel
+    talk-abstract: <p></p>
 
 
 program: 
