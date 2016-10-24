@@ -371,6 +371,18 @@ dayone:
         company: Microsoft
         image: sp-miao-jiang.png
         slug:        
+  
+  - time: 3:30 pm - 5:00 pm
+    title: How to craft a successful API Strategy
+    abstract: <p>Learn how to abstract, control, and analyze APIs using Azure API Management.</p>
+    registration: http://boston2016.apistrat.com/workshops/successful-api-strategy
+    location: Breakout Four
+    speakers: 
+      - name: Manfred Bortenschlager
+        company: 3scale by Red Hat
+        image: sp-manfred-bortenschlager.png
+        slug:
+
   - time: 6:00 pm - 10:00 pm
     title: Speaker and Sponsor Dinner
     location: New England Aquarium
