@@ -1770,8 +1770,8 @@ allspeakers:
   - name: Omer Trajman
     company: Rocana
     jobtitle: CEO and Co-founder
-    bio: <p></p>
-    twitter: <br/>
+    bio: <p>Omer Trajman is a proponent of total operational visibility as the cornerstone of digital transformation, inspiring CIOs to realize new ways of delivering value to their organizations. He has led teams responsible for some of today's largest modern data management deployments, and worked with customers and partners to identify where Big Data technology solutions address business needs and drive Digital Transformation. His fifteen years of front-line business and technical experience guide his vision as CEO of Rocana.</p><p>Omer's previous experience includes responsibilities as Vice President of Technology Solutions at Cloudera, focusing on technology strategy and communication. Prior to this role, Omer served as Vice President of Customer Solutions at Cloudera, which included responsibility for Cloudera University, Cloudera's Architectural Services and Cloudera's Partner Engineering team. Before joining Cloudera, Omer was responsible for the Cloud Computing, Hadoop and Virtualization initiatives at Vertica. He received his Bachelor's degree in Computer Engineering from Tufts University and was a visiting scholar at Oxford University reading in Computation and Electrical Engineering with a focus on large scale distributed systems.</p>
+    twitter: OTrajman
     slug: 
     image: sp-omer-trajman.png
     talk-title: Panel member - IoT Panel
@@ -1812,6 +1812,15 @@ allspeakers:
     image: sp-api-ninja.png
     talk-title: Panel member - IoT Panel
     talk-abstract: <p></p>
+  - name: Mike Stowe
+    company: MuleSoft
+    jobtitle: Developer Relations
+    bio: <p></p>
+    twitter: mikegstowe
+    slug: mike-stowe
+    image: sp-mike-stowe.png
+    talk-title: Why Developer Experience Matters, and How to Improve It
+    talk-abstract: <p>For many APIs, user experience is still an afterthought. The product has been developed, documentation is what it is, and developers are expected just to use your API. But the reality is, unless user (ie developer) experience is interwoven into every stage of your API's lifecycle, you're setting your users, and your API up for failure... while setting up your competitors (including future ones) for success. Join this session to learn how easy it is to be user first, while also learning how you can eliminate redundancies, save money, and build an experience your developers will love.</p>
 
 
 program: 
