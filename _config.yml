@@ -836,7 +836,7 @@ daythree:
         slug: tyler-love
       - name: Chris Caen
         company: ReadWriteWeb
-        image: sp-api-ninja.png
+        image: sp-chris-caen.png
         slug:   
   - time: 10:50 am - 11:15 am
     title: Coffee Break
@@ -860,7 +860,7 @@ daythree:
         slug: kirsten-hunter
       - name: Mike Stowe
         company: Mulesoft
-        image: sp-api-ninja.png
+        image: sp-mike-stowe.png
         slug: mike-stowe
             
   - time: 11:15 am - 12:45 pm
