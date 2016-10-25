@@ -324,6 +324,17 @@ dayone:
         company: Strongloop/IBM
         image: sp-joe-sepi.png
         slug: 
+  
+  - time: 1:30 pm - 3:00 pm
+    title: REST API Workshop
+    abstract: <p>Building a REST API is easy, but building an API that is designed to last &ndash; well that's another story. Mike Stowe from Mulesoft leads this lecture-style workshop.</p>
+    registration: http://boston2016.apistrat.com/workshops/rest-api-mulesoft
+    location: Breakout Four
+    speakers: 
+      - name: Mike Stowe
+        company: Mulesoft
+        image: sp-mike-stowe.png
+        slug: 
 
         
   - time: 3:00 pm - 3:30 pm
