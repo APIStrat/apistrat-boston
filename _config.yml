@@ -887,10 +887,6 @@ daythree:
     title: IoT Panel hosted by Read Write Web
     location: Breakout Three
     speakers:
-      - name: TBD
-        company: 
-        image: sp-api-ninja.png
-        slug: 
       - name: Omer Trajman
         company: Rocana
         slug: omer-trajman
