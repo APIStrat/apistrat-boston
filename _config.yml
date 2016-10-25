@@ -448,42 +448,11 @@ daytwo:
     title: Coffee Break
     location: Break Area
     speakers:
-  - time: 11:00 am - 12:30 pm
-    title: APIs for non-APIers
-    location: Breakout One
-    speakers:
-      - name: Andrew Seward
-        company: Cronofy
-        image: sp-andrew-seward.png
-        slug: andrew-seward
-        title: How to talk about APIs
-        twitter: MrAndrew
-      - name: Phillip J. Windley
-        company: Brigham Young University
-        image: sp-phil-windley.png
-        slug: phil-windley
-        title: Using Personal APIs in a University Setting
-        twitter: windley
-      - name: Marc Cuva
-        company: readme.io
-        image: sp-marc-cuva.png
-        slug: marc-cuva
-        title: Your Documentation Is Your UX
-        twitter: marccuva
-      - name: Mark Geene
-        company: Cloud Elements
-        jobtitle: CEO and Co-Founder
-        image: sp-mark-geene.png
-        slug: mark-geene
-      - name: Vineet Joshi
-        company: Cloud Elements
-        image: sp-vineet-joshi.png
-        slug: vineet-joshi
-        
-        
+  
+  
   - time: 11:00 am - 12:30 pm
     title: <span>API Design &amp; Governance</span>
-    location: Breakout Two
+    location: Breakout One
     speakers:
       - name: Mike Amundsen
         company: API Academy at CA Technologies
@@ -518,7 +487,7 @@ daytwo:
         
   - time: 11:00 am - 12:30 pm
     title: Microservices
-    location: Breakout Three
+    location: Breakout Two
     speakers:
       - name: John Feminella
         company: Pivotal
@@ -545,15 +514,76 @@ daytwo:
         title: Documenting Hypermedia APIs
         twitter: inadarei  
   
+  - time: 11:00 am - 12:30 pm
+    title: APIs for non-APIers
+    location: Breakout Three
+    speakers:
+      - name: Andrew Seward
+        company: Cronofy
+        image: sp-andrew-seward.png
+        slug: andrew-seward
+        title: How to talk about APIs
+        twitter: MrAndrew
+      - name: Phillip J. Windley
+        company: Brigham Young University
+        image: sp-phil-windley.png
+        slug: phil-windley
+        title: Using Personal APIs in a University Setting
+        twitter: windley
+      - name: Marc Cuva
+        company: readme.io
+        image: sp-marc-cuva.png
+        slug: marc-cuva
+        title: Your Documentation Is Your UX
+        twitter: marccuva
+      - name: Mark Geene
+        company: Cloud Elements
+        jobtitle: CEO and Co-Founder
+        image: sp-mark-geene.png
+        slug: mark-geene
+      - name: Vineet Joshi
+        company: Cloud Elements
+        image: sp-vineet-joshi.png
+        slug: vineet-joshi
+ 
   
   - time: 12:30 pm - 1:30 pm
     title: Lunch
     location: Break Area
     speakers:
-  
+    
+  - time: 1:30 pm - 3:00 pm
+    title: Security
+    location: Breakout One
+    speakers:  
+      - name: Pamela Dingle
+        company: Ping Identity
+        image: sp-pamela-dingle.png
+        slug: pamela-dingle
+        title: Protecting Ourselves from Ourselves&#58; 3 Ways to see if an API Security Architecture is Working Properly
+        twitter: pamelarosiedee
+      - name: Kayvan Alikhani
+        company: RSA Security
+        image: sp-kayvan-alikhani.png
+        slug: kayvan-alikhani
+        title: Who's on first for API security &ndash; User identity, Application Identity Or Device Identity? And how are they related?
+        twitter: rsasecurity            
+      - name: Randy Westergren
+        company: XDA Developers
+        image: sp-randy-westergren.png
+        slug: randy-westergren
+        title: Securing the things&#58; APIs in the IoT Era
+        twitter: randywestergren   
+      - name: Chris Busse
+        company: APIvista
+        image: sp-chris-busse.png
+        slug: chris-busse
+        title: Reverse Engineering Undocumented APIs with mitmproxy
+        twitter: busse            
+
   - time: 1:30 pm - 3:00 pm
     title: Product Management
-    location: Breakout One
+    location: Breakout Two
     speakers:
       - name: Melissa Jurkoic
         company: Amadeus Hospitality
@@ -581,34 +611,6 @@ daytwo:
         twitter: harmophone
       
   - time: 1:30 pm - 3:00 pm
-    title: Security
-    location: Breakout Two
-    speakers:  
-      - name: Pamela Dingle
-        company: Ping Identity
-        image: sp-pamela-dingle.png
-        slug: pamela-dingle
-        title: Protecting Ourselves from Ourselves&#58; 3 Ways to see if an API Security Architecture is Working Properly
-        twitter: pamelarosiedee
-      - name: Kayvan Alikhani
-        company: RSA Security
-        image: sp-kayvan-alikhani.png
-        slug: kayvan-alikhani
-        title: Who's on first for API security &ndash; User identity, Application Identity Or Device Identity? And how are they related?
-        twitter: rsasecurity            
-      - name: Randy Westergren
-        company: XDA Developers
-        image: sp-randy-westergren.png
-        slug: randy-westergren
-        title: Securing the things&#58; APIs in the IoT Era
-        twitter: randywestergren   
-      - name: Chris Busse
-        company: APIvista
-        image: sp-chris-busse.png
-        slug: chris-busse
-        title: Reverse Engineering Undocumented APIs with mitmproxy
-        twitter: busse            
-  - time: 1:30 pm - 3:00 pm
     title: Hypermedia
     location: Breakout Three
     speakers:
@@ -635,9 +637,33 @@ daytwo:
     title: Switchover Time
     location: Break Area
     speakers:
+  
+  - time: 3:05 pm - 4:35 pm
+    title: Developer Experience
+    location: Breakout One
+    speakers:
+      - name: Brendan Cartledge
+        company: Booking.com
+        image: sp-brendan-cartledge.png
+        slug: brendan-cartledge
+        title: Why writing our own documentation framework and tools was a terrible idea and how to recover
+        twitter: brentoe
+      - name: Taylor Barnett
+        company: Keen IO
+        image: sp-taylor-barnett.png
+        slug: taylor-barnett
+        title: Creating a Great Developer Experience Through SDKs
+        twitter: taylor_atx
+      - name: Steve Rice
+        company: PagerDuty
+        image: sp-steve-rice.png
+        slug: steve-rice
+        title: API, Re-invented&#58; How to ship a major new API version without losing your mind (or your developers)
+        twitter: decadentwaste  
+  
   - time: 3:05 pm - 4:35 pm
     title: Enterprise
-    location: Breakout One
+    location: Breakout Two
     speakers:
       - name: Darrel Miller
         company: Microsoft
@@ -661,31 +687,6 @@ daytwo:
         company: LaunchAny
         image: sp-james-higginbotham.png
         slug: james-higginbotham
-
- 
- 
-  - time: 3:05 pm - 4:35 pm
-    title: Developer Experience
-    location: Breakout Two
-    speakers:
-      - name: Brendan Cartledge
-        company: Booking.com
-        image: sp-brendan-cartledge.png
-        slug: brendan-cartledge
-        title: Why writing our own documentation framework and tools was a terrible idea and how to recover
-        twitter: brentoe
-      - name: Taylor Barnett
-        company: Keen IO
-        image: sp-taylor-barnett.png
-        slug: taylor-barnett
-        title: Creating a Great Developer Experience Through SDKs
-        twitter: taylor_atx
-      - name: Steve Rice
-        company: PagerDuty
-        image: sp-steve-rice.png
-        slug: steve-rice
-        title: API, Re-invented&#58; How to ship a major new API version without losing your mind (or your developers)
-        twitter: decadentwaste  
   
   - time: 3:05 pm - 4:35 pm
     title: Data Science
@@ -825,23 +826,21 @@ daythree:
       - name: David Berlind
         company: Programmable Web
         image: sp-david-berlind.png
-        slug: david-berlind
-      - name: Christine Mitchell
-        company: Discovery
-        image: sp-api-ninja.png
-        slug: christine-mitchell     
+        slug: david-berlind   
       - name: Tyler Love
         company: Bustle
         image: sp-tyler-love.png
         slug: tyler-love
-      - name: Chris Caen
-        company: ReadWriteWeb
+      - name: Christopher Caen
+        company: ReadWrite
         image: sp-chris-caen.png
         slug:   
+  
   - time: 10:50 am - 11:15 am
     title: Coffee Break
     location: Break Area
     speakers:
+  
   - time: 11:15 am - 12:45 pm
     title: Marketing &amp; Evangelism
     location: Breakout One
@@ -883,8 +882,9 @@ daythree:
         company: SmartBear Software
         image: sp-ole-lensmar.png
         slug: ole-lensmar              
+  
   - time: 11:15 am - 12:45 pm
-    title: IoT Panel hosted by Read Write Web
+    title: IoT Panel hosted by ReadWrite
     location: Breakout Three
     speakers:
       - name: Omer Trajman
@@ -974,27 +974,20 @@ daythree:
         company: Fanout.io
         image: sp-justin-karneges.png
         slug: justin-karneges
-  - time: 3:30 pm - 3:45 pm
+  - time: 3:30 pm - 4:00 pm
     title: Coffee Break
     location: Break Area
     speakers:
-  - time: 3:45 pm - 4:10 pm
-    title: Fireside Chat
+
+  - time: 4:00 pm - 4:30 pm
+    title: Drone Recovery
     location: Main Stage
     speakers:
-      - name: Christine Mitchell
-        company: Discovery
-        image: sp-api-ninja.png
+      - name: Kin Lane
+        company: APIEvangelist.com
+        image: sp-kin-lane.png
         slug: 
-  - time: 4:10 pm - 4:40 pm
-    title: Fireside Chat
-    location: Main Stage
-    speakers:
-      - name: TBA
-        company: 
-        image: sp-api-ninja.png
-        slug: 
-  - time: 4:40 pm - 5:10 pm
+  - time: 4:30 pm - 5:00 pm
     title: Building for the builders
     location: Main Stage
     speakers:
@@ -1002,7 +995,7 @@ daythree:
         company: Stripe
         image: sp-romain-huet.png
         slug: romain-huet
-  - time: 5:10 pm - 5:40 pm
+  - time: 5:00 pm - 5:30 pm
     title: Panel &ndash; APIs Retrospective
     location: Main Stage
     speakers:
@@ -1023,7 +1016,7 @@ daythree:
         image: sp-steve-willmott.png
         slug: steve-wilmott
          
-  - time: 5:40 pm - 5:50 pm
+  - time: 5:30 pm - 5:45 pm
     title: Closing Remarks
     location: Main Stage
     speakers:
