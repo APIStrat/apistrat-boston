@@ -385,7 +385,7 @@ dayone:
   
   - time: 3:30 pm - 5:00 pm
     title: How to craft a successful API Strategy
-    abstract: <p>Learn how to abstract, control, and analyze APIs using Azure API Management.</p>
+    abstract: <p>This workshop will discuss a general intro to API Economy and winning API strategies in this economy.</p>
     registration: http://boston2016.apistrat.com/workshops/successful-api-strategy
     location: Breakout Four
     speakers: 
