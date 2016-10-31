@@ -1015,7 +1015,7 @@ daythree:
         image: sp-john-sheehan.png
         slug: john-sheehan   
       - name: Laura Heritage
-        company: Akana
+        company: Axway
         image: sp-laura-heritage.png
         slug: laura-heritage    
       - name: Lorinda Brandon
@@ -1091,9 +1091,9 @@ keynotes:
     talk-title: Scaling the Fitbit Web API
     talk-abstract: <p>Fitbit launched its Web API in 2011. It's now used by millions of people through Fitbit's apps and a vibrant third-party ecosystem. Jeremiah will share the product strategy, internal processes, and lessons learned from his experience managing the Fitbit Web API for three years.</p>
   - name: Laura Heritage
-    company: Akana
-    jobtitle: Director of API Strategy
-    bio: <p>Laura Heritage is Director of API Strategy at Akana. In this role, she works with customer to establish API strategies and implement API platforms.
+    company: Axway
+    jobtitle: 
+    bio: <p>In her role at Axway, she works with customer to establish API strategies and implement API platforms.
     twitter: heritagelaura
     slug: laura-heritage
     image: sp-laura-heritage.png
@@ -1881,7 +1881,7 @@ program:
     twitter: themarkoneill
     image: https://boston2016.apistrat.com/images/sp-mark-oneill.png    
   - name: Laura Heritage
-    company: Akana
+    company: Axway
     twitter: heritagelaura
     image: https://boston2016.apistrat.com/images/sp-laura-heritage.png
   - name: Gordon Wintrob
