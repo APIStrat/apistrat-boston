@@ -552,10 +552,6 @@ daytwo:
         jobtitle: CEO and Co-Founder
         image: sp-mark-geene.png
         slug: mark-geene
-      - name: Vineet Joshi
-        company: Cloud Elements
-        image: sp-vineet-joshi.png
-        slug: vineet-joshi
  
   
   - time: 12:30 pm - 1:30 pm
@@ -1720,15 +1716,6 @@ allspeakers:
     twitter: mgeene
     image: sp-mark-geene.png
     slug: mark-geene
-    talk-title: Stop Publishing APIs. Start Consuming.
-    talk-abstract: <p>It's no surprise that we're sitting in a big pile of un-used, un-discovered APIs. Over the past few years, developers have gotten really (REALLY) good at producing APIs, leading to some of the greatest technologies of our generation. But the trend of putting your API out there for the public to find and use, is dying. (It might even be dead). Why? Because over 70% of integration work will happen outside of IT Development, by average business users, like marketers or accountants. We need to start thinking about consumption.</p><p>Consumption from the average business users' perspective. How can app developers start to fully embrace integration into their product strategy? Based on the experience of integrating to hundreds of APIs, Mark and Vineet will provide a perspective on best practices for optimizing published APIs for consumption in integration use cases. Practical examples will include&#58; embracing customization through APIs, the impact of richer metadata, improving the coverage of webhooks and the impact of limiters on the consumers of APIs.</p><p>Technology leaders ready to enhance their API strategies will join this thought-provoking session and leave with a new perspective on API consumption use cases.</p>    
-  - name: Vineet Joshi
-    company: Cloud Elements
-    jobtitle: CTO and Co-Founder
-    bio: <p>Vineet is an experienced CTO and application development leader with experience building large scale applications.</p>
-    twitter: cloudevineet
-    image: sp-vineet-joshi.png
-    slug: vineet-joshi
     talk-title: Stop Publishing APIs. Start Consuming.
     talk-abstract: <p>It's no surprise that we're sitting in a big pile of un-used, un-discovered APIs. Over the past few years, developers have gotten really (REALLY) good at producing APIs, leading to some of the greatest technologies of our generation. But the trend of putting your API out there for the public to find and use, is dying. (It might even be dead). Why? Because over 70% of integration work will happen outside of IT Development, by average business users, like marketers or accountants. We need to start thinking about consumption.</p><p>Consumption from the average business users' perspective. How can app developers start to fully embrace integration into their product strategy? Based on the experience of integrating to hundreds of APIs, Mark and Vineet will provide a perspective on best practices for optimizing published APIs for consumption in integration use cases. Practical examples will include&#58; embracing customization through APIs, the impact of richer metadata, improving the coverage of webhooks and the impact of limiters on the consumers of APIs.</p><p>Technology leaders ready to enhance their API strategies will join this thought-provoking session and leave with a new perspective on API consumption use cases.</p>    
   - name: Sarah Jeong
