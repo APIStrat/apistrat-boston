@@ -404,7 +404,7 @@ dayone:
     speakers:
 
 daytwo:
-  - time: 8:15 am - 9:00 am
+  - time: 8:15 am - 6:00 pm
     title: Registration and Coffee
     location: Break Area
     speakers:
@@ -611,7 +611,7 @@ daytwo:
         title: People, Price, and Product, in that order
         twitter: pitneybowes
       - name: Tyler Singletary
-        company: Lithium Technologies
+        company:
         image: sp-tyler-singletary.png
         slug: tyler-singletary
         title: How to kill your API program
@@ -719,11 +719,11 @@ daytwo:
         twitter: wiredferret      
   
  
-  - time: 4:35 pm - 5:00 pm
+  - time: 4:35 pm - 5:05 pm
     title: Coffee Break
     location: Break Area
     speakers:
-  - time: 5:00 pm - 5:25 pm
+  - time: 5:05 pm - 5:30 pm
     title: Scaling the Fitbit API
     location: Main Stage
     speakers:
@@ -733,7 +733,7 @@ daytwo:
         slug: jeremiah-lee
         title: Scaling the Fitbit API
         twitter: jeremiahlee
-  - time: 5:25 pm - 5:50 pm
+  - time: 5:30 pm - 5:55 pm
     title: Frontline at the Oracle vs Google Court Case
     location: Main Stage
     speakers:
@@ -743,12 +743,12 @@ daytwo:
         slug: sarah-jeong
         title: Frontline at the Oracle vs Google Court Case
 
-  - time: 5:50 pm - 6:20 pm
-    title: Red Hat Middleware
+  - time: 5:55 pm - 6:20 pm
+    title: Fireside Chat on APIs and Middleware
     location: Main Stage
     speakers:
       - name: Mike Piech
-        company: RedHat
+        company: Red Hat Middleware
         image: sp-mike-piech.png
         slug: mike-piech
     
@@ -773,7 +773,7 @@ daytwo:
     speakers:
 
 daythree:
-  - time: 8:15 am - 9:00 am
+  - time: 8:15 am - 3:00 pm
     title: Registration and Coffee
     location: Break Area
     speakers:
@@ -843,12 +843,12 @@ daythree:
         image: sp-chris-caen.png
         slug:   
   
-  - time: 10:50 am - 11:15 am
+  - time: 10:50 am - 11:20 am
     title: Coffee Break
     location: Break Area
     speakers:
   
-  - time: 11:15 am - 12:45 pm
+  - time: 11:20 am - 12:50 pm
     title: Marketing &amp; Evangelism
     location: Breakout One
     speakers:
@@ -869,7 +869,7 @@ daythree:
         image: sp-mike-stowe.png
         slug: mike-stowe
             
-  - time: 11:15 am - 12:45 pm
+  - time: 11:20 am - 12:50 pm
     title: Testing and Monitoring
     location: Breakout Two
     speakers:
@@ -890,7 +890,7 @@ daythree:
         image: sp-ole-lensmar.png
         slug: ole-lensmar              
   
-  - time: 11:15 am - 12:45 pm
+  - time: 11:20 am - 12:50 pm
     title: IoT Panel hosted by ReadWrite
     location: Breakout Three
     speakers:
@@ -919,7 +919,7 @@ daythree:
         image: sp-david-berlind.png
         slug: david-berlind
         
-  - time: 12:45 pm - 2:00 pm
+  - time: 12:50 pm - 2:00 pm
     title: Lunch
     location: Break Area
     speakers:
@@ -1045,7 +1045,7 @@ keynotes:
     company: Cultivating Coders
     jobtitle: President
     bio: <p>Charles L. Ashley III was born in Chicago, Illinois and raised in Las Vegas, NV. He received his Bachelors in Science in Business Administration from Adams State University (Alamosa, Colorado).</p><p>After graduation and a two year stint as a Senior Academic Counselor at the University of Nevada-Las Vegas, Charles relocated to Albuquerque where he was hired to create and manage the Bernalillo County Film Office where he served as the County's Film Liaison and Marketing Manager for 6 years. After his time at Bernalillo County, Charles spent 4 years as a Marketing & Strategy Consultant for Harmonix Technologies, VARA Wines and Devry University to name a few and a short stint as Manager of Marketing for CNM's STEMulus Center.</p><p>In 2015 Charles founded Cultivating Coders where he's currently serving as President.</p>
-    twitter: cash_the_3rd
+    twitter: cash_the3rd
     slug: charles-ashley
     image: sp-charles-ashley-3.png
     talk-title: A Problem Worth Solving
@@ -1173,7 +1173,7 @@ allspeakers:
     company: Cultivating Coders
     jobtitle: President
     bio: <p>Charles L. Ashley III was born in Chicago, Illinois and raised in Las Vegas, NV. He received his Bachelors in Science in Business Administration from Adams State University (Alamosa, Colorado).</p><p>After graduation and a two year stint as a Senior Academic Counselor at the University of Nevada-Las Vegas, Charles relocated to Albuquerque where he was hired to create and manage the Bernalillo County Film Office where he served as the County's Film Liaison and Marketing Manager for 6 years. After his time at Bernalillo County, Charles spent 4 years as a Marketing & Strategy Consultant for Harmonix Technologies, VARA Wines and Devry University to name a few and a short stint as Manager of Marketing for CNM's STEMulus Center.</p><p>In 2015 Charles founded Cultivating Coders where he's currently serving as President.</p>
-    twitter: cash_the_3rd
+    twitter: cash_the3rd
     slug: charles-ashley
     image: sp-charles-ashley-3.png
     talk-title: A Problem Worth Solving
