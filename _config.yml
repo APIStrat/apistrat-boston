@@ -77,22 +77,22 @@ sponsors:
     logo: /images/sponsor-logo-smartbear.png
   - name: CapitalOne
     link: http://developer.capitalone.com/
-    logo: /images/sponsor-logo-capitalone.png  
+    logo: /images/sponsor-logo-capitalone.png
   - name: NGINX
     link: http://nginx.com
     logo: /images/sponsor-logo-nginx.png
   - name: Swagger
     link: http://swagger.io/
-    logo: /images/sponsor-logo-swagger.png    
+    logo: /images/sponsor-logo-swagger.png
   - name: Microsoft
     link: http://aka.ms/apimrocks
-    logo: /images/sponsor-logo-microsoft.png 
+    logo: /images/sponsor-logo-microsoft.png
   - name: Vistaprint
     link: http://www.vistaprint.com/
-    logo: /images/sponsor-logo-vistaprint.png 
+    logo: /images/sponsor-logo-vistaprint.png
   - name: Shippo
     link: https://goshippo.com/
-    logo: /images/sponsor-logo-shippo.png 
+    logo: /images/sponsor-logo-shippo.png
   - name: Amazon Alexa
     link: https://developer.amazon.com/alexa
     logo: /images/sponsor-logo-amazon.png
@@ -101,32 +101,32 @@ sponsors:
     logo: /images/sponsor-logo-oai.png
   - name: IBM API Connect
     link: http://www-03.ibm.com/software/products/en/api-connect/
-    logo: /images/sponsor-logo-ibm-apiconnect.png   
+    logo: /images/sponsor-logo-ibm-apiconnect.png
   - name: MuleSoft
     link: https://www.mulesoft.com/
-    logo: /images/sponsor-logo-mulesoft.png    
+    logo: /images/sponsor-logo-mulesoft.png
   - name: Apiary
     link: https://apiary.io/
-    logo: /images/sponsor-logo-apiary.png    
+    logo: /images/sponsor-logo-apiary.png
   - name: APIMatic
     link: https://apimatic.io/
-    logo: /images/sponsor-logo-apimatic.png    
+    logo: /images/sponsor-logo-apimatic.png
   - name: Keen.io
     link: https://keen.io/
-    logo: /images/sponsor-logo-keen.png  
+    logo: /images/sponsor-logo-keen.png
   - name: Red Hat
     link: https://www.redhat.com/en/technologies/jboss-middleware
-    logo: /images/sponsor-logo-redhat.png  
+    logo: /images/sponsor-logo-redhat.png
 
 
-platinumsponsors: 
+platinumsponsors:
   - name: IBM
     link: http://www-03.ibm.com/software/products/en/api-connect/
     logo: /images/sponsor-logo-ibm.png
   - name: Red Hat
     link: https://www.redhat.com/en/technologies/jboss-middleware
-    logo: /images/sponsor-logo-redhat.png  
-    
+    logo: /images/sponsor-logo-redhat.png
+
 goldsponsors:
   - name: 3scale
     link: http://www.3scale.net/
@@ -150,42 +150,42 @@ silversponsors:
     logo: /images/sponsor-logo-oai.png
   - name: MuleSoft
     link: https://www.mulesoft.com/
-    logo: /images/sponsor-logo-mulesoft.png    
+    logo: /images/sponsor-logo-mulesoft.png
   - name: Apiary
     link: https://apiary.io/
-    logo: /images/sponsor-logo-apiary.png    
-          
+    logo: /images/sponsor-logo-apiary.png
+
 bronzesponsors:
   - name: NGINX
     link: http://nginx.com
     logo: /images/sponsor-logo-nginx.png
   - name: Swagger
     link: http://swagger.io/
-    logo: /images/sponsor-logo-swagger.png    
+    logo: /images/sponsor-logo-swagger.png
   - name: Microsoft
     link: http://aka.ms/apimrocks
-    logo: /images/sponsor-logo-microsoft.png    
+    logo: /images/sponsor-logo-microsoft.png
   - name: Vistaprint
     link: http://www.vistaprint.com/
-    logo: /images/sponsor-logo-vistaprint.png 
+    logo: /images/sponsor-logo-vistaprint.png
   - name: Shippo
     link: https://goshippo.com/
-    logo: /images/sponsor-logo-shippo.png 
+    logo: /images/sponsor-logo-shippo.png
   - name: APIMatic
     link: https://apimatic.io/
-    logo: /images/sponsor-logo-apimatic.png    
+    logo: /images/sponsor-logo-apimatic.png
 
-  
+
 othersponsors:
   - name: Amazon Alexa
     link: https://developer.amazon.com/alexa
     logo: /images/sponsor-logo-amazon.png
   - name: IBM API Connect
     link: http://www-03.ibm.com/software/products/en/api-connect/
-    logo: /images/sponsor-logo-ibm-apiconnect.png   
+    logo: /images/sponsor-logo-ibm-apiconnect.png
   - name: Keen.io
     link: https://keen.io/
-    logo: /images/sponsor-logo-keen.png  
+    logo: /images/sponsor-logo-keen.png
 
 
 organizers:
@@ -298,7 +298,7 @@ dayone:
     abstract: <p>At this skill building bootcamp, Rob McCauley, Solutions Architect from the Alexa Skills Kit team will be onsite to help you add your own capabilities (Skills) to Alexa.</p>
     registration: http://boston2016.apistrat.com/workshops/hacking-on-amazon-alexa
     location: Breakout One
-    speakers: 
+    speakers:
       - name: Rob McCauley
         company: Amazon
         image: sp-rob-mccauley.png
@@ -308,35 +308,35 @@ dayone:
     abstract: <p>This workshop will provide an introduction to the new Open API Format for specifying APIs. The format is the core specification of the Linux Foundation's Open API Initiative and is the most widely used API definition formation.</p>
     registration: http://boston2016.apistrat.com/workshops/open-api-spec-workshop
     location: Breakout Two
-    speakers: 
+    speakers:
       - name: Coming soon
         company: Open API Initiative
         image: sp-api-ninja.png
-        slug: 
-        
+        slug:
+
   - time: 1:30 pm - 3:00 pm
     title: From Zero to Awesome &ndash; API-driven apps in just a few easy steps
     abstract: <p>With the power of API Connect, you can create an API layer in moments, but its how you make it awesome that counts.</p>
     registration: http://boston2016.apistrat.com/workshops/zero-to-awesome-ibm
     location: Breakout Three
-    speakers: 
+    speakers:
       - name: Joe Sepi
         company: Strongloop/IBM
         image: sp-joe-sepi.png
-        slug: 
-  
+        slug:
+
   - time: 1:30 pm - 3:00 pm
     title: REST API Workshop
     abstract: <p>Building a REST API is easy, but building an API that is designed to last &ndash; well that's another story. Mike Stowe from Mulesoft leads this lecture-style workshop.</p>
     registration: http://boston2016.apistrat.com/workshops/rest-api-mulesoft
     location: Breakout Four
-    speakers: 
+    speakers:
       - name: Mike Stowe
         company: Mulesoft
         image: sp-mike-stowe.png
-        slug: 
+        slug:
 
-        
+
   - time: 3:00 pm - 3:30 pm
     title: Coffee Break
     location: Break Area
@@ -358,18 +358,18 @@ dayone:
     abstract: <p>This workshop will provide an introduction to the new Open API Format for specifying APIs. The format is the core specification of the Linux Foundation's Open API Initiative and is the most widely used API definition formation.</p>
     registration: http://boston2016.apistrat.com/workshops/open-api-spec-workshop
     location: Breakout Two
-    speakers: 
+    speakers:
       - name: Coming soon
         company: Open API Initiative
         image: sp-api-ninja.png
-        slug: 
-  
+        slug:
+
   - time: 3:30 pm - 5:00 pm
     title: Managing APIs with Azure API Management
     abstract: <p>Learn how to abstract, control, and analyze APIs using Azure API Management.</p>
     registration: http://boston2016.apistrat.com/workshops/managing-apis-azure
     location: Breakout Three
-    speakers: 
+    speakers:
       - name: Vladimir Vinogradsky
         company: Microsoft
         image: sp-vladimir-vinogradsky.png
@@ -381,14 +381,14 @@ dayone:
       - name: Miao Jiang
         company: Microsoft
         image: sp-miao-jiang.png
-        slug:        
-  
+        slug:
+
   - time: 3:30 pm - 5:00 pm
     title: How to craft a successful API Strategy
     abstract: <p>This workshop will discuss a general intro to API Economy and winning API strategies in this economy.</p>
     registration: http://boston2016.apistrat.com/workshops/successful-api-strategy
     location: Breakout Four
-    speakers: 
+    speakers:
       - name: Manfred Bortenschlager
         company: 3scale by Red Hat
         image: sp-manfred-bortenschlager.png
@@ -459,8 +459,8 @@ daytwo:
     title: Coffee Break
     location: Break Area
     speakers:
-  
-  
+
+
   - time: 11:00 am - 12:30 pm
     title: <span>API Design &amp; Governance</span>
     location: Breakout One
@@ -495,7 +495,7 @@ daytwo:
         slug: matthew-reinbold
         title: The 3 Ways Melvin Conway Saved Our Enterprise API Governance
         twitter: libel_vox
-        
+
   - time: 11:00 am - 12:30 pm
     title: Microservices
     location: Breakout Two
@@ -505,7 +505,7 @@ daytwo:
         image: sp-john-feminella.png
         slug: john-feminella
         title: API Design for Microservice Architectures
-        twitter: jxxf  
+        twitter: jxxf
       - name: Sandeep Dinesh
         company: Google
         image: sp-sandeep-dinesh.png
@@ -523,8 +523,8 @@ daytwo:
         image: sp-irakli-nadareishvili.png
         slug: irakli-nadareishvili
         title: Documenting Hypermedia APIs
-        twitter: inadarei  
-  
+        twitter: inadarei
+
   - time: 11:00 am - 12:30 pm
     title: APIs for non-APIers
     location: Breakout Three
@@ -552,17 +552,17 @@ daytwo:
         jobtitle: CEO and Co-Founder
         image: sp-mark-geene.png
         slug: mark-geene
- 
-  
+
+
   - time: 12:30 pm - 1:30 pm
     title: Lunch
     location: Break Area
     speakers:
-    
+
   - time: 1:30 pm - 3:00 pm
     title: Security
     location: Breakout One
-    speakers:  
+    speakers:
       - name: Pamela Dingle
         company: Ping Identity
         image: sp-pamela-dingle.png
@@ -574,19 +574,19 @@ daytwo:
         image: sp-kayvan-alikhani.png
         slug: kayvan-alikhani
         title: Who's on first for API security &ndash; User identity, Application Identity Or Device Identity? And how are they related?
-        twitter: rsasecurity            
+        twitter: rsasecurity
       - name: Randy Westergren
         company: XDA Developers
         image: sp-randy-westergren.png
         slug: randy-westergren
         title: Securing the things&#58; APIs in the IoT Era
-        twitter: randywestergren   
+        twitter: randywestergren
       - name: Chris Busse
         company: APIvista
         image: sp-chris-busse.png
         slug: chris-busse
         title: Reverse Engineering Undocumented APIs with mitmproxy
-        twitter: busse            
+        twitter: busse
 
   - time: 1:30 pm - 3:00 pm
     title: Product Management
@@ -616,7 +616,7 @@ daytwo:
         slug: tyler-singletary
         title: How to kill your API program
         twitter: harmophone
-      
+
   - time: 1:30 pm - 3:00 pm
     title: Hypermedia
     location: Breakout Three
@@ -632,19 +632,19 @@ daytwo:
         image: sp-ben-greenberg.png
         slug: ben-greenberg
         title: Using Hypermedia APIs to drive interactive mobile applications
-        twitter: bengreen  
+        twitter: bengreen
       - name: Gareth Jones
         company: Microsoft
         image: sp-gareth-jones.png
         slug: gareth-jones
         title: Hypermedia vs Graphs&#58; Best buddies or the next API battleground?
-        twitter: garethj_msft   
+        twitter: garethj_msft
 
   - time: 3:00 pm - 3:05 pm
     title: Switchover Time
     location: Break Area
     speakers:
-  
+
   - time: 3:05 pm - 4:35 pm
     title: Developer Experience
     location: Breakout One
@@ -666,8 +666,8 @@ daytwo:
         image: sp-steve-rice.png
         slug: steve-rice
         title: API, Re-invented&#58; How to ship a major new API version without losing your mind (or your developers)
-        twitter: decadentwaste  
-  
+        twitter: decadentwaste
+
   - time: 3:05 pm - 4:35 pm
     title: Enterprise
     location: Breakout Two
@@ -677,13 +677,13 @@ daytwo:
         image: sp-darrel-miller.png
         slug: darrel-miller
         title: Breathing new life into legacy SOAP services
-        twitter: 
+        twitter:
       - name: Amber Fallon
         company: SmartBear Software
         image: sp-amber-fallon.png
         slug: amber-fallon
         title: TBD
-        twitter: 
+        twitter:
       - name: Charlie Ozinga
         company: Cloud Elements
         image: sp-charlie-ozinga.png
@@ -694,7 +694,7 @@ daytwo:
         company: LaunchAny
         image: sp-james-higginbotham.png
         slug: james-higginbotham
-  
+
   - time: 3:05 pm - 4:35 pm
     title: Data Science
     location: Breakout Three
@@ -716,9 +716,9 @@ daytwo:
         image: sp-heidi-waterhouse.png
         slug: heidi-waterhouse
         title: The Death of Data
-        twitter: wiredferret      
-  
- 
+        twitter: wiredferret
+
+
   - time: 4:35 pm - 5:05 pm
     title: Coffee Break
     location: Break Area
@@ -751,7 +751,7 @@ daytwo:
         company: Red Hat Middleware
         image: sp-mike-piech.png
         slug: mike-piech
-    
+
   - time: 6:20 pm - 6:45 pm
     title: Unleash the Chaos
     location: Main Stage
@@ -762,7 +762,7 @@ daytwo:
         slug: mike-amundsen
         title: Unleash the Chaos
         twitter: mamund
-      
+
   - time: 6:45 pm - 7:45 pm
     title: Drinks Reception
     location: Break Area
@@ -793,7 +793,7 @@ daythree:
         company: Capital One DevExchange
         image: sp-lorinda-brandon.png
         slug: lorinda-brandon
-        
+
   - time: 9:05 am - 9:30 am
     title: How Low Can You Go? Reducing Costs and Development Time with AWS Lambda, API Gateway, Elastic Beanstalk, and 3scale (and don't forget Swagger!)
     location: Main Stage
@@ -815,9 +815,9 @@ daythree:
       - name: Neha Abrol
         company: McGraw-Hill Education
         image: sp-neha-abrol.png
-        slug: neha-abrol        
-        
-        
+        slug: neha-abrol
+
+
   - time: 9:55 am - 10:20 am
     title: A problem worth solving
     location: Main Stage
@@ -833,7 +833,7 @@ daythree:
       - name: David Berlind
         company: Programmable Web
         image: sp-david-berlind.png
-        slug: david-berlind   
+        slug: david-berlind
       - name: Tyler Love
         company: Bustle
         image: sp-tyler-love.png
@@ -841,13 +841,13 @@ daythree:
       - name: Christopher Caen
         company: ReadWrite
         image: sp-chris-caen.png
-        slug:   
-  
+        slug:
+
   - time: 10:50 am - 11:20 am
     title: Coffee Break
     location: Break Area
     speakers:
-  
+
   - time: 11:20 am - 12:50 pm
     title: Marketing &amp; Evangelism
     location: Breakout One
@@ -868,7 +868,7 @@ daythree:
         company: Mulesoft
         image: sp-mike-stowe.png
         slug: mike-stowe
-            
+
   - time: 11:20 am - 12:50 pm
     title: Testing and Monitoring
     location: Breakout Two
@@ -884,12 +884,12 @@ daythree:
       - name: David O'Neill
         company: APImetrics
         image: sp-david-oneill.png
-        slug: david-oneill   
+        slug: david-oneill
       - name: Ole Lensmar
         company: SmartBear Software
         image: sp-ole-lensmar.png
-        slug: ole-lensmar              
-  
+        slug: ole-lensmar
+
   - time: 11:20 am - 12:50 pm
     title: IoT Panel hosted by ReadWrite
     location: Breakout Three
@@ -918,7 +918,7 @@ daythree:
         company: Programmable Web
         image: sp-david-berlind.png
         slug: david-berlind
-        
+
   - time: 12:50 pm - 2:00 pm
     title: Lunch
     location: Break Area
@@ -943,7 +943,7 @@ daythree:
         company: Intuit
         slug: steven-fonseca
         image: sp-steven-fonseca.png
-   
+
   - time: 2:00 pm - 3:30 pm
     title: Consumption
     location: Breakout Two
@@ -964,7 +964,7 @@ daythree:
         company: Apiary
         slug: emmanuel-paraskakis
         image: sp-emmanuel-paraskakis.png
-        
+
   - time: 2:00 pm - 3:30 pm
     title: Emerging Technologies
     location: Breakout Three
@@ -976,7 +976,7 @@ daythree:
       - name: Pavel Veller
         company: EPAM Systems, Inc
         image: sp-pavel-veller.png
-        slug: pavel-veller  
+        slug: pavel-veller
       - name: Justin Karneges
         company: Fanout.io
         image: sp-justin-karneges.png
@@ -993,7 +993,7 @@ daythree:
       - name: Kin Lane
         company: APIEvangelist.com
         image: sp-kin-lane.png
-        slug: 
+        slug:
   - time: 4:30 pm - 5:00 pm
     title: Building for the builders
     location: Main Stage
@@ -1009,11 +1009,11 @@ daythree:
       - name: John Sheehan
         company: Runscope
         image: sp-john-sheehan.png
-        slug: john-sheehan   
+        slug: john-sheehan
       - name: Laura Heritage
         company: Axway
         image: sp-laura-heritage.png
-        slug: laura-heritage    
+        slug: laura-heritage
       - name: Lorinda Brandon
         company: Capital One DevExchange
         image: sp-lorinda-brandon.png
@@ -1022,7 +1022,7 @@ daythree:
         company: 3scale
         image: sp-steve-willmott.png
         slug: steve-wilmott
-         
+
   - time: 5:30 pm - 5:45 pm
     title: Closing Remarks
     location: Main Stage
@@ -1088,7 +1088,7 @@ keynotes:
     talk-abstract: <p>Fitbit launched its Web API in 2011. It's now used by millions of people through Fitbit's apps and a vibrant third-party ecosystem. Jeremiah will share the product strategy, internal processes, and lessons learned from his experience managing the Fitbit Web API for three years.</p>
   - name: Laura Heritage
     company: Axway
-    jobtitle: 
+    jobtitle:
     bio: <p>In her role at Axway, she works with customer to establish API strategies and implement API platforms.
     twitter: heritagelaura
     slug: laura-heritage
@@ -1115,31 +1115,31 @@ keynotes:
     talk-abstract: <p>Amazon has been an early pioneer in transforming legacy systems to a services-based API model. More recently, the Amazon Alexa team has refactored the Alexa Skills Kit reference architecture from one requiring server instances into a serverless model using AWS Lambda. Rob will provide an overview of the Alexa Skills Kit API endpoints, and discuss best practices and tools for building and consuming API services.</p>
   - name: Susan Danziger
     company: Ziggeo
-    jobtitle: Founder and CEO	
-    bio: <p>Susan Danziger is the founder and CEO of Ziggeo, the award-winning API for video recording/playback. She was named a Woman of Influence 2016, won the 2016 SmartCEO Brava Award, and appointed a Fellow to the Royal Society of Arts. Susan also founded DailyLit, a pioneer in digital serialization, and more recently, Video Hack Day, an annual hackathon that celebrates video innovation. She is a contributor to Forbes on entrepreneurship, speaks 4 languages and plays a mean game of ping-pong.</p>	
-    twitter: susandanziger	
-    slug: susan-danziger	
-    image: sp-susan-danziger.png	
-    talk-title: The Lost and Found of API Business Models	
+    jobtitle: Founder and CEO
+    bio: <p>Susan Danziger is the founder and CEO of Ziggeo, the award-winning API for video recording/playback. She was named a Woman of Influence 2016, won the 2016 SmartCEO Brava Award, and appointed a Fellow to the Royal Society of Arts. Susan also founded DailyLit, a pioneer in digital serialization, and more recently, Video Hack Day, an annual hackathon that celebrates video innovation. She is a contributor to Forbes on entrepreneurship, speaks 4 languages and plays a mean game of ping-pong.</p>
+    twitter: susandanziger
+    slug: susan-danziger
+    image: sp-susan-danziger.png
+    talk-title: The Lost and Found of API Business Models
     talk-abstract: <p>Ever wonder what it’s like to launch an API &ndash; and then switch your business model mid-stream?  Learn from our journey to find the right model for Ziggeo’s video API business  -- and how we ultimately managed to launch a unique win-win solution.
-  - name: Jonathan Barton	
-    company: McGraw-Hill Education	
-    jobtitle: Lead Engineer	
+  - name: Jonathan Barton
+    company: McGraw-Hill Education
+    jobtitle: Lead Engineer
     bio: <p>Jonathan is a lead engineer at McGraw-Hill Education. He is a passionate full-stack web developer who spends some of his time building APIs that provide widespread access to online learning resources for schools across the US. In his spare time he is working to create an online platform for middle and high school students to build and launch high-altitude balloons.</p>
     twitter: gomaketeam
-    slug: jonathan-barton	
+    slug: jonathan-barton
     image: sp-jonathan-barton.png
     talk-title: Flying Dreams&#58; Real-Time Communication from the Edge of Space
-    talk-abstract: <p>Creating flexible, resilient access to real-time sensor data can be challenging &ndash; especially when your device targets can literally disappear off the face of the Earth! See how groups of students and instructors are using the goMake API to talk with high-altitude balloon telemetry as it skirts the edge of the stratosphere, and the design considerations involved in making this a scalable platform for project-based STEM learning that aims to instill a sense of wonder.</p>		
-  - name: David Berlind	
-    company: Programmable Web	
+    talk-abstract: <p>Creating flexible, resilient access to real-time sensor data can be challenging &ndash; especially when your device targets can literally disappear off the face of the Earth! See how groups of students and instructors are using the goMake API to talk with high-altitude balloon telemetry as it skirts the edge of the stratosphere, and the design considerations involved in making this a scalable platform for project-based STEM learning that aims to instill a sense of wonder.</p>
+  - name: David Berlind
+    company: Programmable Web
     jobtitle: Editor in Chief
     bio: <p>David Berlind is an award-winning journalist whose career spans 25 years dating back to 1991 when he started reviewing technology for PC Week. He was the editor-in-chief at Windows Sources, the editorial director at Computer Shopper, and executive editor at CNET.com. In 2008, David joined UBM Tech Media as a part of that company's acquisition of Mass Events Labs &ndash; a conference production company he founded in 2006 that among other events, produced the API and developer focused event Mashup Camp. There at UBM, he served as the company's Chief Content Officer until 2013 when he returned to the API economy and joined ProgrammableWeb as its editor-in-chief.</p><p>David oversees all aspects of the site's evolution and writes regularly about matters concerning both API providers and software developers who consume APIs in their wares. David has appeared on international media such as CNN, CNBC, the Charlie Rose Show, NPR, the BBC, the Economist, and FOX. For a hearing held in 2016, David was called upon by the Office of the National Coordinator within the US Federal Government's Department of Health and Human Services to testify on the realities of API security.</p>
     twitter: dberlind
-    slug: david-berlind	
+    slug: david-berlind
     image: sp-david-berlind.png
     talk-title: Panel member &ndash; Media Panel&#58; How APIs are causing a seachange
-    talk-abstract: <p></p>    
+    talk-abstract: <p></p>
   - name: Tyler Love
     company: Bustle
     jobtitle: CTO
@@ -1148,7 +1148,7 @@ keynotes:
     slug: tyler-love
     image: sp-tyler-love.png
     talk-title: Panel member &ndash; Media Panel&#58; How APIs are causing a seachange
-    talk-abstract: <p></p>    
+    talk-abstract: <p></p>
   - name: Sarah Jeong
     company: Vice Motherboard
     jobtitle: Contributing Editor
@@ -1157,18 +1157,18 @@ keynotes:
     slug: sarah-jeong
     image: sp-sarah-jeong.png
     talk-title: You Wouldn't Reimplement An API
-    talk-abstract: <p>Sarah Jeong covered the 2016 Oracle v. Google trial from start to finish. In this talk, she discusses the highlights, as well as the practical implications of the case for developers and the future of software.</p>  
+    talk-abstract: <p>Sarah Jeong covered the 2016 Oracle v. Google trial from start to finish. In this talk, she discusses the highlights, as well as the practical implications of the case for developers and the future of software.</p>
   - name: Mike Piech
     company: RedHat
     jobtitle: Vice President &amp; General Manager, Middleware
     bio: <p></p>
     twitter: mpiech
-    slug: 
+    slug:
     image: sp-mike-piech.png
-    talk-title: 
-    talk-abstract: 
+    talk-title:
+    talk-abstract:
 
-allspeakers: 
+allspeakers:
   - name: Charles L. Ashley III
     company: Cultivating Coders
     jobtitle: President
@@ -1181,12 +1181,12 @@ allspeakers:
   - name: Mike Amundsen
     company: CA Technologies
     jobtitle: Director of API Architecture, API Academy
-    bio: <p>An internationally known author and speaker, Mike Amundsen travels the world consulting and talking about network architecture, Web development, and other subjects. As Director of Architecture for the API Academy, he works with companies to provide insight on how best to capitalize on the opportunities APIs present to both consumers and the enterprise.</p><p>Amundsen has authored numerous books and papers. His 2013 collaboration with Leonard Richardson "RESTful Web APIs" and his 2011 book, <em>Building Hypermedia APIs with HTML5 and Node</em>, are common references for building adaptable Web applications. He co-authored "Microservice Architecture" (June 2016) and is currently finishing "RESTful Web Clients" for release in summer 2016.</p>
+    bio: <p>An internationally known author and speaker, Mike Amundsen travels the world consulting and talking about network architecture, Web development, and other subjects. As Director of Architecture for the API Academy, he works with companies to provide insight on how best to capitalize on the opportunities APIs present to both consumers and the enterprise.</p><p>Amundsen has authored numerous books and papers. His 2013 collaboration with Leonard Richardson "RESTful Web APIs&quot; and his 2011 book, <em>Building Hypermedia APIs with HTML5 and Node</em>, are common references for building adaptable Web applications. He co-authored &quot;Microservice Architecture&quot; (June 2016) and is currently finishing &quot;RESTful Web Clients&quot; for release in summer 2016.</p>
     twitter: mamund
     slug: mike-amundsen
     image: sp-mike-amundsen.png
     talk-title: Unleash the Chaos
-    talk-abstract: <p>Throughout the history dating back before the Middle Ages, Chaos has led to important technical and social innovations. And, it turns out, introducing a selected level of Chaos into your organization is a proven way to increase the rate and success of innovative problem solving and product designs. Why is this so? And how can you take advantage of this important "superpower" of consistently innovative companies?</p><p>Based on the work of Ori Brafman and others, this talk shows examples of three key traits of innovative cultures including "Whitespace", "The Unusual Suspects", and "Organized Serendipity" and provides guidance on how you can encourage these traits in your own team or company.</p>
+    talk-abstract: <p>Throughout the history dating back before the Middle Ages, Chaos has led to important technical and social innovations. And, it turns out, introducing a selected level of Chaos into your organization is a proven way to increase the rate and success of innovative problem solving and product designs. Why is this so? And how can you take advantage of this important &quot;superpower&quot; of consistently innovative companies?</p><p>Based on the work of Ori Brafman and others, this talk shows examples of three key traits of innovative cultures including &quot;Whitespace&quot;, &quot;The Unusual Suspects&quot;, and &quot;Organized Serendipity&quot; and provides guidance on how you can encourage these traits in your own team or company.</p>
   - name: Erin McKean
     company: Wordnik
     jobtitle: Founder
@@ -1267,7 +1267,7 @@ allspeakers:
     slug: irakli-nadareishvili
     image: sp-irakli-nadareishvili.png
     talk-title: When and Who Is Microservice Architecture Appropriate For?
-    talk-abstract: <p>Microservice Architecture has been the hottest topic in software design, for the past couple of years. Thus far the mainstream guidance has been that it is only cost-effective for large enterprises. Many even go so far as to suggest that you should "always start with a monolith". And yet, there are enough stories of Microservices success at startups to question whether this guidance is evidence-based or not.</p><p>In this talk Irakli Nadareishvili, CTO and Co-founder of a NYC-based healthcare startup ReferWell, will present a dissenting opinion that Microservices are not for just large organizations. Irakli is currently leading build-out of a successful Microservices ecosystem at ReferWell and has advised some of the largest global brands on their Microservices strategy, before joining ReferWell. He is a co-author of the book Microservice Architecture, recently published by O'Reilly.</p>
+    talk-abstract: <p>Microservice Architecture has been the hottest topic in software design, for the past couple of years. Thus far the mainstream guidance has been that it is only cost-effective for large enterprises. Many even go so far as to suggest that you should &quot;always start with a monolith&quot;. And yet, there are enough stories of Microservices success at startups to question whether this guidance is evidence-based or not.</p><p>In this talk Irakli Nadareishvili, CTO and Co-founder of a NYC-based healthcare startup ReferWell, will present a dissenting opinion that Microservices are not for just large organizations. Irakli is currently leading build-out of a successful Microservices ecosystem at ReferWell and has advised some of the largest global brands on their Microservices strategy, before joining ReferWell. He is a co-author of the book Microservice Architecture, recently published by O'Reilly.</p>
   - name: Audrey Neveu
     company: Streamdata.io
     jobtitle: Developer Evangelist
@@ -1276,7 +1276,7 @@ allspeakers:
     slug: audrey-neveu
     image: sp-audrey-neveu.png
     talk-title: The end of polling&#58; why and how to transform a REST API into a Data Streaming API.
-    talk-abstract: <p>IoT & Mobile, User eXperience, Interactivity and RESTful APIs...those topics are big trends in development today. The last one brings fast adoption and reduced development costs but is in opposition with the three others needs. IoT & Mobile need low latency whereas UX and interactivity need real-time data to keep user interest alive. As a developer you need to poll APIs to provide these real-time information, with all the limitations that this involves. On the other side as an API provider, being massively polled can become an issue and you're probably looking for a more resilient solution to offer to your consumer. What if we can apply the "Hollywood principle" to REST APIs? Don't poll us, we will push you! And why not going further by reducing the amount of data to transfer? In this talk, we'll see together which technology you should opt for and how to implement them to turn your API into a Data Streaming API.</p>
+    talk-abstract: <p>IoT & Mobile, User eXperience, Interactivity and RESTful APIs...those topics are big trends in development today. The last one brings fast adoption and reduced development costs but is in opposition with the three others needs. IoT & Mobile need low latency whereas UX and interactivity need real-time data to keep user interest alive. As a developer you need to poll APIs to provide these real-time information, with all the limitations that this involves. On the other side as an API provider, being massively polled can become an issue and you're probably looking for a more resilient solution to offer to your consumer. What if we can apply the &quot;Hollywood principle&quot; to REST APIs? Don't poll us, we will push you! And why not going further by reducing the amount of data to transfer? In this talk, we'll see together which technology you should opt for and how to implement them to turn your API into a Data Streaming API.</p>
   - name: Taylor Barnett
     company: Keen IO
     jobtitle: Developer Evangelist
@@ -1320,7 +1320,7 @@ allspeakers:
     twitter: spinneyo
     slug: jon-spinney
     image: sp-jon-spinney.png
-    talk-title: API Product Management People, Price, and Product &ndash; In That Order 
+    talk-title: API Product Management People, Price, and Product &ndash; In That Order
     talk-abstract: <p>When designing a new commercial API offering, People come first, Price comes second, and the Product third, and when approached this way it can inform your decisions for business support systems needed to support a self-service developer offering with variable pricing, unified currency, unified contracting, and unified billing.</p><p>This talk will share vital lessons learned from Pitney Bowes, a global technology company processing billions of transactions a day, both digital & physical, across the borderless world of commerce. You will learn about their implementation and gain valuable insight into defining target personas, pricing APIs, and designing business systems support infrastructure needed to scale and introduce new APIs rapidly.</p>
   - name: David O'Neill
     company: APImetrics
@@ -1411,7 +1411,7 @@ allspeakers:
     slug: steve-rice
     image: sp-steve-rice.png
     talk-title: API, Re-invented&#58; How to Ship a Major New API Version Without Losing Your Mind (Or Your Developers)
-    talk-abstract: <p>The only thing harder than writing a new API is updating one that already exists. Learn about our real-world experience at PagerDuty designing, developing, releasing, and evangelizing a new version of our REST API with thousands of existing customers and a large developer community at stake. We'll cover what worked, what didn't, and what we learned about versioning, adoption, deprecation, documentation, developer experience, frameworks, tooling, customer impact, and more while bringing a 5-year-old, complex API at the core of our product up to date. No minds were lost (at least, not completely) in the making of this talk.</p> 
+    talk-abstract: <p>The only thing harder than writing a new API is updating one that already exists. Learn about our real-world experience at PagerDuty designing, developing, releasing, and evangelizing a new version of our REST API with thousands of existing customers and a large developer community at stake. We'll cover what worked, what didn't, and what we learned about versioning, adoption, deprecation, documentation, developer experience, frameworks, tooling, customer impact, and more while bringing a 5-year-old, complex API at the core of our product up to date. No minds were lost (at least, not completely) in the making of this talk.</p>
   - name: Chris Busse
     company: APIvista
     jobtitle: CTO
@@ -1518,26 +1518,26 @@ allspeakers:
     twitter: csas_devs
     slug: jarda-machan
     image: sp-jarda-machan.png
-    talk-title: Moving a dinosaur &ndash; OpenAPI in one of the largest financial services providers in Central and Eastern Europe 
+    talk-title: Moving a dinosaur &ndash; OpenAPI in one of the largest financial services providers in Central and Eastern Europe
     talk-abstract: <p>As the biggest Czech bank it is a real challenge to introduce, evangelize and communicate the open API platform (https://developers.csas.cz/html/devs/en.html) to the public audience and to the bank itself at the same time. We're developing our own WebAPI platform for last 2,5 years, trying to set the standard in a wide community of developers as well as in the banking ecosystem. We're focusing on the developer's experience, bootstrapping new technologies like blockchain, homomorphic encryption and other crucial nowadays technologies. In short we're trying to turn the old traditional bank to a modern trendsetter one.</p><p>What is it like to introduce agile development into the IT house where waterfall is standard for last decades? To communicate with community through twitter not newspapers? To release the first open-source internet banking in the world? We have many great stories behind our effort in making our bank an open, transparent public institution. We would really be happy to share it with you!</p>
   - name: Susan Danziger
     company: Ziggeo
-    jobtitle: Founder and CEO	
-    bio: <p>Susan Danziger is the founder and CEO of Ziggeo, the award-winning API for video recording/playback. She was named a Woman of Influence 2016, won the 2016 SmartCEO Brava Award, and appointed a Fellow to the Royal Society of Arts. Susan also founded DailyLit, a pioneer in digital serialization, and more recently, Video Hack Day, an annual hackathon that celebrates video innovation. She is a contributor to Forbes on entrepreneurship, speaks 4 languages and plays a mean game of ping-pong.</p>	
-    twitter: susandanziger	
-    slug: susan-danziger	
-    image: sp-susan-danziger.png	
-    talk-title: The Lost and Found of API Business Models	
+    jobtitle: Founder and CEO
+    bio: <p>Susan Danziger is the founder and CEO of Ziggeo, the award-winning API for video recording/playback. She was named a Woman of Influence 2016, won the 2016 SmartCEO Brava Award, and appointed a Fellow to the Royal Society of Arts. Susan also founded DailyLit, a pioneer in digital serialization, and more recently, Video Hack Day, an annual hackathon that celebrates video innovation. She is a contributor to Forbes on entrepreneurship, speaks 4 languages and plays a mean game of ping-pong.</p>
+    twitter: susandanziger
+    slug: susan-danziger
+    image: sp-susan-danziger.png
+    talk-title: The Lost and Found of API Business Models
     talk-abstract: <p>Ever wonder what it’s like to launch an API &ndash; and then switch your business model mid-stream?  Learn from our journey to find the right model for Ziggeo’s video API business  -- and how we ultimately managed to launch a unique win-win solution.
-  - name: Jonathan Barton	
-    company: McGraw-Hill Education	
-    jobtitle: Lead Engineer	
+  - name: Jonathan Barton
+    company: McGraw-Hill Education
+    jobtitle: Lead Engineer
     bio: <p>Jonathan is a lead engineer at McGraw-Hill Education. He is a passionate full-stack web developer who spends some of his time building APIs that provide widespread access to online learning resources for schools across the US. In his spare time he is working to create an online platform for middle and high school students to build and launch high-altitude balloons.</p>
     twitter: gomaketeam
-    slug: jonathan-barton	
+    slug: jonathan-barton
     image: sp-jonathan-barton.png
     talk-title: Flying Dreams&#58; Real-Time Communication from the Edge of Space
-    talk-abstract: <p>Creating flexible, resilient access to real-time sensor data can be challenging &ndash; especially when your device targets can literally disappear off the face of the Earth! See how groups of students and instructors are using the goMake API to talk with high-altitude balloon telemetry as it skirts the edge of the stratosphere, and the design considerations involved in making this a scalable platform for project-based STEM learning that aims to instill a sense of wonder.</p>		
+    talk-abstract: <p>Creating flexible, resilient access to real-time sensor data can be challenging &ndash; especially when your device targets can literally disappear off the face of the Earth! See how groups of students and instructors are using the goMake API to talk with high-altitude balloon telemetry as it skirts the edge of the stratosphere, and the design considerations involved in making this a scalable platform for project-based STEM learning that aims to instill a sense of wonder.</p>
   - name: Darrel Miller
     company: Microsoft
     jobtitle: Software Developer
@@ -1606,7 +1606,7 @@ allspeakers:
     jobtitle: CTO, Digital Engagement Practice
     bio: <p>Web Developer and Technologist. I have been building things for the web since the late 90s using Java, C#, Ruby, JavaScript and everything in between. Digital architect and a CTO by day and an avid learner by night. My interests of late include deep learning and Elixir.</p>
     twitter: pveller
-    slug: pavel-veller	
+    slug: pavel-veller
     image: sp-pavel-veller.png
     talk-title: Building Smarter Apps with Cognitive APIs
     talk-abstract: <p>In a very short timeframe IBM, Microsoft, Google, and others have released a very comparable sets of Cognitive APIs&#58; Vision, Speech, Language, Data Insights, Recommendations, and more. In this technical talk I will compare cognitive API offerings, highlight differences in implementation and capabilities, dive into the details of pre-trained APIs vs. trainable-models-as-a-service, and finally showcase using cognitive APIs to build a conversational e-Commerce product recommendation chat bot.</p>
@@ -1615,7 +1615,7 @@ allspeakers:
     jobtitle: Founder &amp; CEO
     bio: <p>Justin has been working with realtime technologies for over a decade. He is the Founder & CEO of Fanout, former CTO of Livefyre, and creator of the Psi instant messaging application. He is a proponent of open source and open standards, and he was a major contributor to XMPP, through involvements with the IETF and XSF. For Justin, it's not enough to simply build something that works; it needs to play well with others, too.</p>
     twitter: jkarneges
-    slug: justin-karneges	
+    slug: justin-karneges
     image: sp-justin-karneges.png
     talk-title: Standardizing realtime API design
     talk-abstract: <p>Over the past few years, we've observed that realtime APIs are often difficult to consume due to the lack of client libraries. In fact, many API providers do not produce client libraries at all. This may be fine for conventional REST APIs, but it often presents a usability problem with APIs that push data. We think the consumption of realtime APIs ought to be made easier, on par with frameworks like Firebase or Meteor (or at least as close as we can get). In order to achieve this, we need to define baseline standards that make it possible to create common client libraries. This talk introduces LiveResource, an open protocol that API providers can use to make the content of RESTful resources synchronizable, and to make this capability discoverable.</p>
@@ -1629,7 +1629,7 @@ allspeakers:
     talk-title: Testing your APIs with Cucumber
     talk-abstract: <p>BDD with Cucumber is gaining in popularity as it allows the expression of requirements using a custom domain-specific language that can be executed as tests to validate actual implementations. APIs in particular seem to have a lot to gain from this approach as they are often technical in nature; it seems that a correctly performed Cucumber implementation should allow increasingly non-technical stakeholders to participate in defining the requirements for an APIs behaviour and functionality.</p><p>But how "non-technical" can cucumber vocabularies be made to describe something as inherently technical as APIs? When does it make sense to use imperative vs declarative approaches? How do you translate simple language to complex payloads and validations? How does the usage of Cucumber scale as the complexity of an API increases? And how can standards like Swagger make cucumber testing even more intuitive? I know you're dying to find out - so don't miss this opportunity to adopt the path of API Gherkin Nirvana!</p>
   - name: Tyler Singletary
-    company: 
+    company:
     jobtitle: Platform and API Contrarian
     bio: <p>Tyler has 18+ years of experience across technology, from law firms to startups. Prior to joining Lithium, he led Data Strategy &amp; Developer Relations at Klout. He is a board member of the Big Boulder Initiative, a social data trade organization, and is a recognized writer and speaker on data & API ethics and strategy. On Twitter, he’s @harmophone.</p>
     twitter: harmophone
@@ -1672,24 +1672,24 @@ allspeakers:
     slug: steven-fonseca
     image: sp-steven-fonseca.png
     talk-title: Full Lifecycle Tool Support for APIs
-    talk-abstract: <p>The focus of the talk is showcase an internal Intuit tool called API Lifecycle Manager, a web app and set of APIs that enables the IT organization to produce APIs efficiently across their lifecycle from conception to retirement. The audience will be provided a glimpse into how Intuit IT coordinates the build out of a strategic portfolio of APIs including their functional allocation and service ownership, comprehensive contract documentation with innovations not found in current industry modeling languages, documentation generation and delivery. Examples of API Lifecycle Manager will be shown in the context of a story of how IT is enabling Intuit product to deliver delightful customer experience, particularly in the areas of subscription-based billing and commerce.</p>            
+    talk-abstract: <p>The focus of the talk is showcase an internal Intuit tool called API Lifecycle Manager, a web app and set of APIs that enables the IT organization to produce APIs efficiently across their lifecycle from conception to retirement. The audience will be provided a glimpse into how Intuit IT coordinates the build out of a strategic portfolio of APIs including their functional allocation and service ownership, comprehensive contract documentation with innovations not found in current industry modeling languages, documentation generation and delivery. Examples of API Lifecycle Manager will be shown in the context of a story of how IT is enabling Intuit product to deliver delightful customer experience, particularly in the areas of subscription-based billing and commerce.</p>
   - name: Kurt Collins
-    company: Built.io	
+    company: Built.io
     jobtitle: Director of Technology Evangelism &amp; Partnerships
     bio: <p>Coming soon</p>
     twitter: timesync
-    slug: kurt-collins	
+    slug: kurt-collins
     image: sp-kurt-collins.png
     talk-title: Mo' APIs, Mo' Data &ndash; Mo' Problems
     talk-abstract: <p>New APIs are springing up every day and each delivers new data which must be handled by developers and operators alike. The sheer amount of data floating around the Internet right now is staggering in its volume. The next wave of this revolution is about manipulating and analyzing that data.</p><p>While some believe it's all about BIG data analysis, the truth for most organizations is closer to SMALL data analysis across specific volumes of data. Having data in the cloud is valuable, but gathering actionable intelligence on that data is vital. Even more important is being able to initiate processes in real-time based off of any intelligence learned. This talk will explore the different ways to build intelligent systems from all the data in an enterprise.</p>
-  - name: David Berlind	
-    company: Programmable Web	
+  - name: David Berlind
+    company: Programmable Web
     jobtitle: Editor in Chief
     bio: <p>David Berlind is an award-winning journalist whose career spans 25 years dating back to 1991 when he started reviewing technology for PC Week. He was the editor-in-chief at Windows Sources, the editorial director at Computer Shopper, and executive editor at CNET.com. In 2008, David joined UBM Tech Media as a part of that company's acquisition of Mass Events Labs &ndash; a conference production company he founded in 2006 that among other events, produced the API and developer focused event Mashup Camp. There at UBM, he served as the company's Chief Content Officer until 2013 when he returned to the API economy and joined ProgrammableWeb as its editor-in-chief.</p><p>David oversees all aspects of the site's evolution and writes regularly about matters concerning both API providers and software developers who consume APIs in their wares. David has appeared on international media such as CNN, CNBC, the Charlie Rose Show, NPR, the BBC, the Economist, and FOX. For a hearing held in 2016, David was called upon by the Office of the National Coordinator within the US Federal Government's Department of Health and Human Services to testify on the realities of API security.</p>
     twitter: dberlind
-    slug: david-berlind	
+    slug: david-berlind
     image: sp-david-berlind.png
-    talk-title: 
+    talk-title:
     talk-abstract:
   - name: Romain Huet
     company: Stripe
@@ -1699,7 +1699,7 @@ allspeakers:
     slug: romain-huet
     image: sp-romain-huet.png
     talk-title: Building for the builders
-    talk-abstract: <p>In their roles shaping the technology that the world increasingly runs on, software developers have had an outsized impact on our economy. Yet even major tech companies haven’t always kept pace with developers’ needs. Join Romain Huet as he discusses what’s truly critical for providing a great developer experience, including SDKs, personalized API reference documentation, non-breaking API changes, and how better tools can help increase the leverage of developers around the world.</p>      
+    talk-abstract: <p>In their roles shaping the technology that the world increasingly runs on, software developers have had an outsized impact on our economy. Yet even major tech companies haven’t always kept pace with developers’ needs. Join Romain Huet as he discusses what’s truly critical for providing a great developer experience, including SDKs, personalized API reference documentation, non-breaking API changes, and how better tools can help increase the leverage of developers around the world.</p>
   - name: Charlie Ozinga
     company: Cloud Elements
     jobtitle: Senior Software Engineer
@@ -1717,7 +1717,7 @@ allspeakers:
     image: sp-mark-geene.png
     slug: mark-geene
     talk-title: Stop Publishing APIs. Start Consuming.
-    talk-abstract: <p>It's no surprise that we're sitting in a big pile of un-used, un-discovered APIs. Over the past few years, developers have gotten really (REALLY) good at producing APIs, leading to some of the greatest technologies of our generation. But the trend of putting your API out there for the public to find and use, is dying. (It might even be dead). Why? Because over 70% of integration work will happen outside of IT Development, by average business users, like marketers or accountants. We need to start thinking about consumption.</p><p>Consumption from the average business users' perspective. How can app developers start to fully embrace integration into their product strategy? Based on the experience of integrating to hundreds of APIs, Mark and Vineet will provide a perspective on best practices for optimizing published APIs for consumption in integration use cases. Practical examples will include&#58; embracing customization through APIs, the impact of richer metadata, improving the coverage of webhooks and the impact of limiters on the consumers of APIs.</p><p>Technology leaders ready to enhance their API strategies will join this thought-provoking session and leave with a new perspective on API consumption use cases.</p>    
+    talk-abstract: <p>It's no surprise that we're sitting in a big pile of un-used, un-discovered APIs. Over the past few years, developers have gotten really (REALLY) good at producing APIs, leading to some of the greatest technologies of our generation. But the trend of putting your API out there for the public to find and use, is dying. (It might even be dead). Why? Because over 70% of integration work will happen outside of IT Development, by average business users, like marketers or accountants. We need to start thinking about consumption.</p><p>Consumption from the average business users' perspective. How can app developers start to fully embrace integration into their product strategy? Based on the experience of integrating to hundreds of APIs, Mark and Vineet will provide a perspective on best practices for optimizing published APIs for consumption in integration use cases. Practical examples will include&#58; embracing customization through APIs, the impact of richer metadata, improving the coverage of webhooks and the impact of limiters on the consumers of APIs.</p><p>Technology leaders ready to enhance their API strategies will join this thought-provoking session and leave with a new perspective on API consumption use cases.</p>
   - name: Sarah Jeong
     company: Vice Motherboard
     jobtitle: Contributing Editor
@@ -1726,22 +1726,22 @@ allspeakers:
     slug: sarah-jeong
     image: sp-sarah-jeong.png
     talk-title: You Wouldn't Reimplement An API
-    talk-abstract: <p>Sarah Jeong covered the 2016 Oracle v. Google trial from start to finish. In this talk, she discusses the highlights, as well as the practical implications of the case for developers and the future of software.</p>  
-  - name: Neha Abrol	
-    company: McGraw-Hill Education	
-    jobtitle: Software Engineer	
+    talk-abstract: <p>Sarah Jeong covered the 2016 Oracle v. Google trial from start to finish. In this talk, she discusses the highlights, as well as the practical implications of the case for developers and the future of software.</p>
+  - name: Neha Abrol
+    company: McGraw-Hill Education
+    jobtitle: Software Engineer
     bio: <p>Neha is a software engineer at McGraw-Hill Education. She likes to call herself a Javascript-o-holic and is currently honing her REST API building skills both at work and on a side project that teaches students to build and launch high-altitude balloons. She also facilitates web development and Android courses at Boston University, where she got her Master's degree.</p>
     twitter: goMaketeam
-    slug: neha-abrol	
+    slug: neha-abrol
     image: sp-neha-abrol.png
     talk-title: Flying Dreams&#58; Real-Time Communication from the Edge of Space
-    talk-abstract: <p>Creating flexible, resilient access to real-time sensor data can be challenging &ndash; especially when your device targets can literally disappear off the face of the Earth! See how groups of students and instructors are using the goMake API to talk with high-altitude balloon telemetry as it skirts the edge of the stratosphere, and the design considerations involved in making this a scalable platform for project-based STEM learning that aims to instill a sense of wonder.</p>		
-  - name: Richard Jones	
-    company: D&amp;B	
+    talk-abstract: <p>Creating flexible, resilient access to real-time sensor data can be challenging &ndash; especially when your device targets can literally disappear off the face of the Earth! See how groups of students and instructors are using the goMake API to talk with high-altitude balloon telemetry as it skirts the edge of the stratosphere, and the design considerations involved in making this a scalable platform for project-based STEM learning that aims to instill a sense of wonder.</p>
+  - name: Richard Jones
+    company: D&amp;B
     jobtitle: Technical Product Manager
     bio: <p>Richard is an experienced Technology Product Manager specialising in delivery of APIs.</p>
     twitter: richiegjones
-    slug: richard-jones	
+    slug: richard-jones
     image: sp-richie-jones.png
     talk-title: Using APIs to create your own all-day breakfast
     talk-abstract: <p>In Quarter 3 2015 McDonalds made a significant change, after years of requests it made its Breakfast menu available all day. This talks about how using APIs allows companies to innovate on already market tested products and allow them move it into an entirely new market segments to drive innovation and growth.</p><p>The talk will highlight the business logic of why McDonalds approach and some of the pitfalls to this model. We will then apply this business logic to APIs giving a model for companies to follow. This talk fits with the Strategic nature APIs have now within the organisations, it would also allow me to use Egg McMuffin multiple times in a talk on APIs.</p>
@@ -1759,7 +1759,7 @@ allspeakers:
     jobtitle: CEO and Co-founder
     bio: <p>Omer Trajman is a proponent of total operational visibility as the cornerstone of digital transformation, inspiring CIOs to realize new ways of delivering value to their organizations. He has led teams responsible for some of today's largest modern data management deployments, and worked with customers and partners to identify where Big Data technology solutions address business needs and drive Digital Transformation. His fifteen years of front-line business and technical experience guide his vision as CEO of Rocana.</p><p>Omer's previous experience includes responsibilities as Vice President of Technology Solutions at Cloudera, focusing on technology strategy and communication. Prior to this role, Omer served as Vice President of Customer Solutions at Cloudera, which included responsibility for Cloudera University, Cloudera's Architectural Services and Cloudera's Partner Engineering team. Before joining Cloudera, Omer was responsible for the Cloud Computing, Hadoop and Virtualization initiatives at Vertica. He received his Bachelor's degree in Computer Engineering from Tufts University and was a visiting scholar at Oxford University reading in Computation and Electrical Engineering with a focus on large scale distributed systems.</p>
     twitter: OTrajman
-    slug: 
+    slug:
     image: sp-omer-trajman.png
     talk-title: Panel member - IoT Panel
     talk-abstract: <p></p>
@@ -1786,7 +1786,7 @@ allspeakers:
     jobtitle: Analyst
     bio: <p></p>
     twitter: <br/>
-    slug: 
+    slug:
     image: sp-api-ninja.png
     talk-title: Panel member - IoT Panel
     talk-abstract: <p></p>
@@ -1795,7 +1795,7 @@ allspeakers:
     jobtitle: VP of Developer Marketing
     bio: <p></p>
     twitter: <br/>
-    slug: 
+    slug:
     image: sp-api-ninja.png
     talk-title: Panel member - IoT Panel
     talk-abstract: <p></p>
@@ -1810,7 +1810,7 @@ allspeakers:
     talk-abstract: <p>For many APIs, user experience is still an afterthought. The product has been developed, documentation is what it is, and developers are expected just to use your API. But the reality is, unless user (ie developer) experience is interwoven into every stage of your API's lifecycle, you're setting your users, and your API up for failure... while setting up your competitors (including future ones) for success. Join this session to learn how easy it is to be user first, while also learning how you can eliminate redundancies, save money, and build an experience your developers will love.</p>
 
 
-program: 
+program:
   - name: Steven Willmott
     company: 3scale
     twitter: njyx
@@ -1866,7 +1866,7 @@ program:
   - name: Mark O'Neill
     company: Gartner
     twitter: themarkoneill
-    image: https://boston2016.apistrat.com/images/sp-mark-oneill.png    
+    image: https://boston2016.apistrat.com/images/sp-mark-oneill.png
   - name: Laura Heritage
     company: Axway
     twitter: heritagelaura
@@ -1874,30 +1874,30 @@ program:
   - name: Gordon Wintrob
     company: LinkedIn
     twitter: gwintrob
-    image: https://boston2016.apistrat.com/images/sp-gordon-wintrob.png        
+    image: https://boston2016.apistrat.com/images/sp-gordon-wintrob.png
 
 
 
 
-community: 
+community:
   - name: Women Who Code Boston
     image: /images/cp-wwc-boston.png
     link: http://www.meetup.com/Women-Who-Code-Boston/
   - name: TRIREST Raleigh
     image: /images/cp-tri-rest-logo.png
-    link: http://www.meetup.com/TRI-REST/ 
+    link: http://www.meetup.com/TRI-REST/
   - name: WriteTheDocs
     image: /images/cp-wtd-logo.png
     link: http://www.meetup.com/Write-the-Docs-BOS/
   - name: Boston New Tech
     image: /images/cp-boston-newtech.png
-    link: http://www.meetup.com/Boston_New_Technology/ 
+    link: http://www.meetup.com/Boston_New_Technology/
   - name: WeWork
     image: /images/cp-logo-wework.png
     link: https://www.wework.com/locations/boston
   - name: Frenchtechhub
     image: /images/cp-logo-frenchtech.png
-    link: http://frenchtechhub.com/    
+    link: http://frenchtechhub.com/
   - name: Platformable
     image: /images/cp-logo-platformable.png
-    link: http://mgboyd.com/      
+    link: http://mgboyd.com/
