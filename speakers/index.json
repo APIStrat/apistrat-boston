@@ -2,8 +2,7 @@
 layout: none
 ---
 [
-{% for speaker in site.allspeakers limit:1000 %}
-{
+{% for speaker in site.allspeakers limit:1000 %}{
   "name": "{{ speaker.name }}",
   "company": "{{ speaker.company | strip_html }}",
   "jobtitle": "{{ speaker.jobtitle | strip_html }}",
