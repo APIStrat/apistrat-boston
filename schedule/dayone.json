@@ -6,7 +6,7 @@ layout: none
   {
     "time": "{{ session.time }}",
     "title": "{{ session.title }}",
-    "location": "{{ session.location }}",
+    "location": "{{ session.location| strip_html }}",
     "speakers": [
       {% for speakers in session.speakers limit:15 %}
         {
