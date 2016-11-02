@@ -5,7 +5,7 @@ layout: none
 {% for session in site.daythree limit:1000 %}
 {
   "time": "{{ session.time }}",
-  "title": "{{ session.title }}",
+  "title": "{{ session.title | strip_html }}",
   "location": "{{ session.location | strip_html }}",
   "speakers": [
     {% for speakers in session.speakers limit:15 %}
