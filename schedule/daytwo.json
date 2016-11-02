@@ -11,15 +11,15 @@ layout: none
       {% for speakers in session.speakers limit:15 %}
         {
         "name": "{{ speakers.name }}",
-        "company": "{{ speakers.company }}",
+        "company": "{{ speakers.company | strip_html }}",
         "url": "{{ speakers.url }}",
         "twitter": "{{ speakers.twitter }}",
         "image": "{{ speakers.image }}",
         "slug": "{{ speakers.slug }}",
-        "detail": "{{ speakers.detail }}",
-        "title": "{{ speakers.title }}",
-        "abstract": "{{ speakers.abstract }}",
-        "bio": "{{ speakers.bio }}"
+        "detail": "{{ speakers.detail | strip_html }}",
+        "title": "{{ speakers.title | strip_html }}",
+        "abstract": "{{ speakers.abstract | strip_html }}",
+        "bio": "{{ speakers.bio | strip_html }}"
         }{% if forloop.last %}{% else %},{% endif %}
       {% endfor %}
     ]
