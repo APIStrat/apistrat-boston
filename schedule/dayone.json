@@ -3,26 +3,26 @@ layout: none
 ---
 [
 {% for session in site.dayone limit:1000 %}
-  {
-    "time": "{{ session.time }}",
-    "title": "{{ session.title }}",
-    "location": "{{ session.location }}",
-    "speakers": [
-      {% for speakers in session.speakers limit:15 %}
-        {
-        "name": "{{ speakers.name }}",
-        "company": "{{ speakers.company }}",
-        "url": "{{ speakers.url }}",
-        "twitter": "{{ speakers.twitter }}",
-        "image": "{{ speakers.image }}",
-        "slug": "{{ speakers.slug }}",
-        "detail": "{{ speakers.detail }}",
-        "title": "{{ speakers.title }}",
-        "abstract": "{{ speakers.abstract }}",
-        "bio": "{{ speakers.bio }}"
-        }{% if forloop.last %}{% else %},{% endif %}
-      {% endfor %}
-    ]
+{
+  "time": "{{ session.time }}",
+  "title": "{{ session.title | strip_html }}",
+  "location": "{{ session.location | strip_html }}",
+  "speakers": [
+    {% for speakers in session.speakers limit:15 %}
+      {
+      "name": "{{ speakers.name }}",
+      "company": "{{ speakers.company | strip_html }}",
+      "url": "{{ speakers.url }}",
+      "twitter": "{{ speakers.twitter }}",
+      "image": "{{ speakers.image }}",
+      "slug": "{{ speakers.slug }}",
+      "detail": "{{ speakers.detail | strip_html }}",
+      "title": "{{ speakers.title | strip_html }}",
+      "abstract": "{{ speakers.abstract | strip_html }}",
+      "bio": "{{ speakers.bio | strip_html }}"
+      }{% if forloop.last %}{% else %},{% endif %}
+    {% endfor %}
+  ]
   }{% if forloop.last %}{% else %},{% endif %}
 {% endfor %}
 ]

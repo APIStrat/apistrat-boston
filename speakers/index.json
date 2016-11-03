@@ -1,0 +1,17 @@
+---
+layout: none
+---
+[
+{% for speaker in site.allspeakers limit:1000 %}{
+  "name": "{{ speaker.name }}",
+  "company": "{{ speaker.company | strip_html }}",
+  "jobtitle": "{{ speaker.jobtitle | strip_html }}",
+  "bio": "{{ speaker.bio | strip_html }}",
+  "twitter": "{{ speaker.twitter | strip_html }}",
+  "slug": "{{ speaker.slug | strip_html }}",
+  "image": "{{ speaker.image | strip_html }}",
+  "talk-title": "{{ speaker.talk-title | strip_html }}",
+  "talk-abstract": "{{ speaker.talk-abstract | strip_html }}"
+  }{% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+]
