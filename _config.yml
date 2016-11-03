@@ -297,7 +297,7 @@ dayone:
     title: Hacking on the Amazon Alexa
     abstract: <p>At this skill building bootcamp, Rob McCauley, Solutions Architect from the Alexa Skills Kit team will be onsite to help you add your own capabilities (Skills) to Alexa.</p>
     registration: http://boston2016.apistrat.com/workshops/hacking-on-amazon-alexa
-    location: Breakout One
+    location: Room A
     speakers:
       - name: Rob McCauley
         company: Amazon
@@ -307,7 +307,7 @@ dayone:
     title: Open API Specification Crash Course (Part I)
     abstract: <p>This workshop will provide an introduction to the new Open API Format for specifying APIs. The format is the core specification of the Linux Foundation's Open API Initiative and is the most widely used API definition formation.</p>
     registration: http://boston2016.apistrat.com/workshops/open-api-spec-workshop
-    location: Breakout Two
+    location: Room B
     speakers:
       - name: Coming soon
         company: Open API Initiative
@@ -318,7 +318,7 @@ dayone:
     title: From Zero to Awesome &ndash; API-driven apps in just a few easy steps
     abstract: <p>With the power of API Connect, you can create an API layer in moments, but its how you make it awesome that counts.</p>
     registration: http://boston2016.apistrat.com/workshops/zero-to-awesome-ibm
-    location: Breakout Three
+    location: Room C
     speakers:
       - name: Joe Sepi
         company: Strongloop/IBM
@@ -346,7 +346,7 @@ dayone:
     title: Hacking on the Amazon Alexa
     abstract: <p>At this skill building bootcamp, Rob McCauley, Solutions Architect from the Alexa Skills Kit team will be onsite to help you add your own capabilities (Skills) to Alexa.</p>
     registration: http://boston2016.apistrat.com/workshops/hacking-on-amazon-alexa
-    location: Breakout One
+    location: Room A
     speakers:
       - name: Rob McCauley
         company: Amazon
@@ -357,7 +357,7 @@ dayone:
     title: Open API Specification Crash Course (Part II)
     abstract: <p>This workshop will provide an introduction to the new Open API Format for specifying APIs. The format is the core specification of the Linux Foundation's Open API Initiative and is the most widely used API definition formation.</p>
     registration: http://boston2016.apistrat.com/workshops/open-api-spec-workshop
-    location: Breakout Two
+    location: Room B
     speakers:
       - name: Coming soon
         company: Open API Initiative
@@ -368,7 +368,7 @@ dayone:
     title: Managing APIs with Azure API Management
     abstract: <p>Learn how to abstract, control, and analyze APIs using Azure API Management.</p>
     registration: http://boston2016.apistrat.com/workshops/managing-apis-azure
-    location: Breakout Three
+    location: Room C
     speakers:
       - name: Vladimir Vinogradsky
         company: Microsoft
@@ -463,7 +463,7 @@ daytwo:
 
   - time: 11:00 am - 12:30 pm
     title: <span>API Design &amp; Governance</span>
-    location: Breakout One
+    location: Room A
     speakers:
       - name: Mike Amundsen
         company: API Academy at CA Technologies
@@ -498,7 +498,7 @@ daytwo:
 
   - time: 11:00 am - 12:30 pm
     title: Microservices
-    location: Breakout Two
+    location: Room B
     speakers:
       - name: John Feminella
         company: Pivotal
@@ -527,7 +527,7 @@ daytwo:
 
   - time: 11:00 am - 12:30 pm
     title: APIs for non-APIers
-    location: Breakout Three
+    location: Room C
     speakers:
       - name: Andrew Seward
         company: Cronofy
@@ -561,7 +561,7 @@ daytwo:
 
   - time: 1:30 pm - 3:00 pm
     title: Security
-    location: Breakout One
+    location: Room A
     speakers:
       - name: Pamela Dingle
         company: Ping Identity
@@ -590,7 +590,7 @@ daytwo:
 
   - time: 1:30 pm - 3:00 pm
     title: Product Management
-    location: Breakout Two
+    location: Room B
     speakers:
       - name: Melissa Jurkoic
         company: Amadeus Hospitality
@@ -619,7 +619,7 @@ daytwo:
 
   - time: 1:30 pm - 3:00 pm
     title: Hypermedia
-    location: Breakout Three
+    location: Room C
     speakers:
       - name: Pete Gamache
         company: Appcues
@@ -647,7 +647,7 @@ daytwo:
 
   - time: 3:05 pm - 4:35 pm
     title: Developer Experience
-    location: Breakout One
+    location: Room A
     speakers:
       - name: Brendan Cartledge
         company: Booking.com
@@ -670,7 +670,7 @@ daytwo:
 
   - time: 3:05 pm - 4:35 pm
     title: Enterprise
-    location: Breakout Two
+    location: Room B
     speakers:
       - name: Darrel Miller
         company: Microsoft
@@ -697,7 +697,7 @@ daytwo:
 
   - time: 3:05 pm - 4:35 pm
     title: Data Science
-    location: Breakout Three
+    location: Room C
     speakers:
       - name: Kurt Collins
         company: Built.io
@@ -850,7 +850,7 @@ daythree:
 
   - time: 11:20 am - 12:50 pm
     title: Marketing &amp; Evangelism
-    location: Breakout One
+    location: Room A
     speakers:
       - name: Phil Leggetter
         company: Nexmo
@@ -871,7 +871,7 @@ daythree:
 
   - time: 11:20 am - 12:50 pm
     title: Testing and Monitoring
-    location: Breakout Two
+    location: Room B
     speakers:
       - name: Alex Gurney
         company: Comcast Cable
@@ -892,7 +892,7 @@ daythree:
 
   - time: 11:20 am - 12:50 pm
     title: IoT Panel hosted by ReadWrite
-    location: Breakout Three
+    location: Room C
     speakers:
       - name: Omer Trajman
         company: Rocana
@@ -925,7 +925,7 @@ daythree:
     speakers:
   - time: 2:00 pm - 3:30 pm
     title: Fintech
-    location: Breakout One
+    location: Room A
     speakers:
       - name: Arnaud Lauret
         company: AXA Banque
@@ -946,7 +946,7 @@ daythree:
 
   - time: 2:00 pm - 3:30 pm
     title: Consumption
-    location: Breakout Two
+    location: Room B
     speakers:
       - name: Devin Sevilla
         company: AdRoll
@@ -967,7 +967,7 @@ daythree:
 
   - time: 2:00 pm - 3:30 pm
     title: Emerging Technologies
-    location: Breakout Three
+    location: Room C
     speakers:
       - name: Nicolas Greni&eacute;
         company: 3scale
@@ -1518,13 +1518,8 @@ allspeakers:
     twitter: csas_devs
     slug: jarda-machan
     image: sp-jarda-machan.png
-<<<<<<< HEAD
     talk-title: Moving a dinosaur &ndash; OpenAPI in one of the largest financial services providers in Central and Eastern Europe 
     talk-abstract: <p>As the biggest Czech bank it is a real challenge to introduce, evangelize and communicate the open API platform (https://developers.csas.cz/) to the public audience and to the bank itself at the same time. We're developing our own WebAPI platform for last 2,5 years, trying to set the standard in a wide community of developers as well as in the banking ecosystem. We're focusing on the developer's experience, bootstrapping new technologies like blockchain, homomorphic encryption and other crucial nowadays technologies. In short we're trying to turn the old traditional bank to a modern trendsetter one.</p><p>What is it like to introduce agile development into the IT house where waterfall is standard for last decades? To communicate with community through twitter not newspapers? To release the first open-source internet banking in the world? We have many great stories behind our effort in making our bank an open, transparent public institution. We would really be happy to share it with you!</p>
-=======
-    talk-title: Moving a dinosaur &ndash; OpenAPI in one of the largest financial services providers in Central and Eastern Europe
-    talk-abstract: <p>As the biggest Czech bank it is a real challenge to introduce, evangelize and communicate the open API platform (https://developers.csas.cz/html/devs/en.html) to the public audience and to the bank itself at the same time. We're developing our own WebAPI platform for last 2,5 years, trying to set the standard in a wide community of developers as well as in the banking ecosystem. We're focusing on the developer's experience, bootstrapping new technologies like blockchain, homomorphic encryption and other crucial nowadays technologies. In short we're trying to turn the old traditional bank to a modern trendsetter one.</p><p>What is it like to introduce agile development into the IT house where waterfall is standard for last decades? To communicate with community through twitter not newspapers? To release the first open-source internet banking in the world? We have many great stories behind our effort in making our bank an open, transparent public institution. We would really be happy to share it with you!</p>
->>>>>>> origin/gh-pages
   - name: Susan Danziger
     company: Ziggeo
     jobtitle: Founder and CEO
